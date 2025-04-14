@@ -24,7 +24,7 @@ export default function GameDevelopmentPage() {
   ]
 
   return (
-    <div className="pt-14">
+    <div className="">
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
  
