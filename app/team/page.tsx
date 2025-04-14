@@ -3,7 +3,20 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import "./team.css"; // Optional, if needed for global styles
 import { usePathname } from "next/navigation";
+import Banner from "@/components/banner"
 
+const bannerSlides = [
+    {
+      image: "/placeholder.svg?height=1080&width=1920",
+      title: "About Our Company",
+      description: "Learn more about our journey, mission, and the team behind our success.",
+    },
+    {
+      image: "/placeholder.svg?height=1080&width=1920",
+      title: "About Our Company",
+      description: "Learn more about our journey, mission, and the team behind our success.",
+    },
+  ]
 function Team({ limit }: { limit: number }) {
   const Baseurl = "/image/team/";
   const router = useRouter();
@@ -223,6 +236,8 @@ function Team({ limit }: { limit: number }) {
     ));
 
   return (
+    <>
+          {/* <Banner slides={bannerSlides} /> */}
     <div className="max-w-7xl mx-auto px-4 py-10">
       <div className="flex  gap-1 mb-16 justify-center">
         {renderTeam(limit ? ownerTeams.slice(0, limit) : ownerTeams)}
@@ -231,7 +246,7 @@ function Team({ limit }: { limit: number }) {
       {limit && pathname === "/" ? (
         <div className="text-center">
           <button
-            onClick={() => router.push("/team-member")}
+            onClick={() => router.push("/team")}
             className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
           >
             More Team
@@ -264,6 +279,7 @@ function Team({ limit }: { limit: number }) {
         </>
       )}
     </div>
+    </>
   );
 }
 

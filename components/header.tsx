@@ -55,9 +55,10 @@ export default function Header() {
         "sticky top-0 z-50 w-full transition-all duration-300",
         scrolled ? "bg-white/90 backdrop-blur-md shadow-md dark:bg-gray-900/90" : "bg-white dark:bg-gray-900",
       )}
+      style={{zIndex:"9999"}}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-16 items-center">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
              <img src="./image/logo.png" alt="Logo"  width={50}/>
@@ -65,7 +66,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-1">
+          <nav className="hidden md:flex items-center space-x-1 mx-auto">
             {navItems.map((item) => {
               if (item.dropdown) {
                 return (
