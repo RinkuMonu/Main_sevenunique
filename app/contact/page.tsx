@@ -87,12 +87,12 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold mb-1">Email Us</h3>
-                    <p className="text-gray-600 dark:text-gray-400">info@company.com</p>
-                    <p className="text-gray-600 dark:text-gray-400">support@company.com</p>
+                    <p className="text-gray-600 dark:text-gray-400">support@7unique.in</p>
+                    <p className="text-gray-600 dark:text-gray-400">info@7unique.in</p>
                   </div>
                 </div>
 
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400 mr-4 flex-shrink-0">
                     <Phone className="h-5 w-5" />
                   </div>
@@ -101,7 +101,7 @@ export default function ContactPage() {
                     <p className="text-gray-600 dark:text-gray-400">+1 (123) 456-7890</p>
                     <p className="text-gray-600 dark:text-gray-400">+1 (987) 654-3210</p>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start">
                   <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400 mr-4 flex-shrink-0">
@@ -109,8 +109,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold mb-1">Visit Us</h3>
-                    <p className="text-gray-600 dark:text-gray-400">123 Business Avenue</p>
-                    <p className="text-gray-600 dark:text-gray-400">Tech Park, City, Country</p>
+                    <p className="text-gray-600 dark:text-gray-400">Plot No 97, Dakshinpuri - I, Shrikishan, Sanganer, Jagatpura,</p>
+                    <p className="text-gray-600 dark:text-gray-400">Jaipur Rajasthan, India, 302017</p>
                   </div>
                 </div>
               </div>
@@ -118,8 +118,8 @@ export default function ContactPage() {
               <div className="mt-12">
                 <h3 className="text-xl font-bold mb-4">Office Hours</h3>
                 <div className="space-y-2 text-gray-600 dark:text-gray-400">
-                  <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p>Saturday: 10:00 AM - 4:00 PM</p>
+                  <p>Monday - Friday: 9:30 AM - 6:30 PM</p>
+                  <p>Saturday: 09:30 AM - 6:30 PM(2nd and 4th saturday close)</p>
                   <p>Sunday: Closed</p>
                 </div>
               </div>
@@ -148,7 +148,7 @@ export default function ContactPage() {
                         name="name"
                         value={formState.name}
                         onChange={handleChange}
-                        placeholder="John Doe"
+                        placeholder="Enter Your Name"
                         required
                       />
                     </div>
@@ -162,7 +162,7 @@ export default function ContactPage() {
                         type="email"
                         value={formState.email}
                         onChange={handleChange}
-                        placeholder="john@example.com"
+                        placeholder="example@example.com"
                         required
                       />
                     </div>
@@ -175,7 +175,7 @@ export default function ContactPage() {
                         name="phone"
                         value={formState.phone}
                         onChange={handleChange}
-                        placeholder="+1 (123) 456-7890"
+                        placeholder="+91-9876543201"
                       />
                     </div>
                     <div>
@@ -187,11 +187,14 @@ export default function ContactPage() {
                           <SelectValue placeholder="Select a subject" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="general">General Inquiry</SelectItem>
-                          <SelectItem value="support">Technical Support</SelectItem>
-                          <SelectItem value="sales">Sales</SelectItem>
-                          <SelectItem value="partnership">Partnership</SelectItem>
-                          <SelectItem value="other">Other</SelectItem>
+                        <SelectItem value="ui-ux-design">UI/UX Design</SelectItem>
+                  <SelectItem value="app-development">App Development</SelectItem>
+                  <SelectItem value="web-development">Web Development</SelectItem>
+                  <SelectItem value="game-development">Game Development</SelectItem>
+                  <SelectItem value="software-development">Software Development</SelectItem>
+                  <SelectItem value="digital-marketing">Digital Marketing</SelectItem>
+                  <SelectItem value="bbps">BBPS Services</SelectItem>
+                  <SelectItem value="other">Other</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -262,19 +265,18 @@ export default function ContactPage() {
           />
 
           <div className="mt-12 bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
-            <div className="aspect-[16/9] relative">
-              <Image
-                src="/placeholder.svg?height=600&width=1200"
-                alt="Office Location Map"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">
-                  <h3 className="font-bold">Our Office</h3>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">123 Business Avenue, Tech Park</p>
-                </div>
-              </div>
+            <div className="aspect-[16/9] relative h-[400px] w-full">
+            <iframe
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3561.264701407029!2d75.869785!3d26.799699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDQ3JzU4LjkiTiA3NcKwNTInMTEuMiJF!5e0!3m2!1sen!2sin!4v1724749044503!5m2!1sen!2sin"
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="Company Location"
+      ></iframe>
+             
             </div>
           </div>
         </div>

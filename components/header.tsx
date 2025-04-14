@@ -16,7 +16,7 @@ const navItems = [
     name: "Services",
     href: "/services",
     dropdown: [
-      { name: "UI/UX Design", href: "/services/ui-ux" },
+      { name: "UI/UX Design", href: "/services/ui-ux-design" },
       { name: "App Development", href: "/services/app-development" },
       { name: "Game Development", href: "/services/game-development" },
       { name: "Web Development", href: "/services/web-development" },
