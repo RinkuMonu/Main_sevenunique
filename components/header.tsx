@@ -3,27 +3,67 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { Menu, X, ChevronDown } from "lucide-react"
-import { motion, AnimatePresence } from "framer-motion"
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  navigationMenuTriggerStyle,
+} from "@/components/ui/navigation-menu"
+import { cn } from "@/lib/utils"
+import { Menu, X } from "lucide-react"
+
+const services = [
+  { name: "UI/UX Design", href: "/services/ui-ux-design" },
+  { name: "App Development", href: "/services/app-development" },
+  { name: "Game Development", href: "/services/game-development" },
+  { name: "Web Development", href: "/services/web-development" },
+  { name: "Software Development", href: "/services/software-development" },
+  { name: "Digital Marketing", href: "/services/digital-marketing" },
+  { name: "BBPS Services", href: "/services/bbps" },
+  { name: "Cab Booking Software", href: "/services/cab-booking-software" },
+  { name: "Food Delivery Software", href: "/services/food-delivery-software" },
+  { name: "Grocery Software", href: "/services/grocery-software" },
+  { name: "Home Service Software", href: "/services/home-service-software" },
+  { name: "Fantasy Sport Software", href: "/services/fantasy-sport-software" },
+  { name: "Sport Betting Software", href: "/services/sport-betting-software" },
+  { name: "School Management Software", href: "/services/school-management-software" },
+  { name: "CRM Software", href: "/services/crm-software" },
+  { name: "HRMS Software", href: "/services/hrms-software" },
+  { name: "Employ Tracking Software", href: "/services/employ-tracking-software" },
+  { name: "E-Commerce Portal", href: "/services/e-commerce-portal" },
+  { name: "Loan Module Software", href: "/services/loan-module-software" },
+  { name: "Reseller Software", href: "/services/reseller-software" },
+  { name: "Travel Booking Software", href: "/services/travel-booking-software" },
+  { name: "Fintech Software", href: "/services/fintech-software" },
+]
+
+const softwareItems = [
+  { name: "Recharge Software", href: "/services/recharge-software" },
+  { name: "BBPS Software", href: "/services/bbps-software" },
+  { name: "UTI (Pancard) Software", href: "/services/uti-pancard-software" },
+  { name: "Travel Software", href: "/services/travel-booking-software" },
+]
+
+const apiItems = [
+  { name: "Recharge", href: "/services/api-recharge" },
+  { name: "BBPS", href: "/services/api-bbps" },
+  { name: "AEPS", href: "/services/api-aeps" },
+  { name: "DMT", href: "/services/api-dmt" },
+  { name: "Bus Booking", href: "/services/api-bus-booking" },
+  { name: "Pancard Verification", href: "/services/api-pancard-verification" },
+  { name: "Aadhar Verification", href: "/services/api-aadhar-verification" },
+  { name: "Hotel Booking", href: "/services/api-hotel-booking" },
+  { name: "Flight Booking", href: "/services/api-flight-booking" },
+  { name: "Cibil Score", href: "/services/api-cibil-score" },
+]
 
 const navItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  {
-    name: "Services",
-    href: "/services",
-    dropdown: [
-      { name: "UI/UX Design", href: "/services/ui-ux-design" },
-      { name: "App Development", href: "/services/app-development" },
-      { name: "Game Development", href: "/services/game-development" },
-      { name: "Web Development", href: "/services/web-development" },
-      { name: "Software Development", href: "/services/software-development" },
-      { name: "Digital Marketing", href: "/services/digital-marketing" },
-    ],
-  },
   { name: "Gallery", href: "/gallery" },
   { name: "Blog", href: "/blog" },
   { name: "Career", href: "/career" },
@@ -45,7 +85,6 @@ export default function Header() {
   }, [])
 
   useEffect(() => {
-    // Close mobile menu when route changes
     setIsOpen(false)
   }, [pathname])
 
@@ -53,141 +92,219 @@ export default function Header() {
     <header
       className={cn(
         "sticky top-0 z-50 w-full transition-all duration-300",
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-md dark:bg-gray-900/90" : "bg-white dark:bg-gray-900",
+        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm dark:bg-teal-dark/90" : "bg-white dark:bg-teal-dark",
       )}
-      style={{zIndex:"9999"}}
+      style={{ zIndex: "9999" }}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center">
-          <div className="flex items-center">
-            <Link href="/" className="flex items-center">
-             <img src="./image/logo.png" alt="Logo"  width={50}/>
-            </Link>
-          </div>
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex items-center justify-between">
+          <Link href="/" className="flex items-center">
+            <img src="./image/logo.png" alt="Logo" width={50} height={50} className="h-auto" />
+          </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-1 mx-auto">
-            {navItems.map((item) => {
-              if (item.dropdown) {
-                return (
-                  <DropdownMenu key={item.name}>
-                    <DropdownMenuTrigger asChild>
-                      <Button
-                        variant="ghost"
-                        className={cn(
-                          "flex items-center px-3 py-2 text-sm font-medium transition-colors",
-                          pathname.startsWith(item.href)
-                            ? "text-purple-600 dark:text-purple-400"
-                            : "text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-400",
-                        )}
+          <nav className="hidden lg:flex">
+            <NavigationMenu>
+              <NavigationMenuList>
+                {navItems.map((item) => (
+                  <NavigationMenuItem key={item.name}>
+                    <Link href={item.href} legacyBehavior passHref>
+                      <NavigationMenuLink 
+                        className={navigationMenuTriggerStyle()} 
+                        active={pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))}
                       >
                         {item.name}
-                        <ChevronDown className="ml-1 h-4 w-4" />
-                      </Button>
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent align="end" className="w-48">
-                      {item.dropdown.map((dropdownItem) => (
-                        <DropdownMenuItem key={dropdownItem.name} asChild>
-                          <Link href={dropdownItem.href} className="w-full cursor-pointer">
-                            {dropdownItem.name}
-                          </Link>
-                        </DropdownMenuItem>
+                      </NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                ))}
+                
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>Services</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                      {services.map((service) => (
+                        <li key={service.href}>
+                          <NavigationMenuLink asChild>
+                            <Link
+                              href={service.href}
+                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-purple-600/10 hover:text-purple-600 focus:bg-accent focus:text-accent-foreground"
+                            >
+                              <div className="text-sm font-medium leading-none hover:text-purple-600 transition-all duration-200 hover:underline">
+                                {service.name}
+                              </div>
+                            </Link>
+                          </NavigationMenuLink>
+                        </li>
                       ))}
-                    </DropdownMenuContent>
-                  </DropdownMenu>
-                )
-              }
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
 
-              return (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={cn(
-                    "px-3 py-2 text-sm font-medium transition-colors",
-                    pathname === item.href
-                      ? "text-purple-600 dark:text-purple-400"
-                      : "text-gray-700 hover:text-purple-600 dark:text-gray-200 dark:hover:text-purple-400",
-                  )}
-                >
-                  {item.name}
-                </Link>
-              )
-            })}
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>Software</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                      {softwareItems.map((item) => (
+                        <li key={item.href}>
+                          <NavigationMenuLink asChild>
+                            <Link
+                              href={item.href}
+                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-purple-600/10 hover:text-purple-600 focus:bg-accent focus:text-accent-foreground"
+                            >
+                              <div className="text-sm font-medium leading-none hover:text-purple-600 transition-all duration-200 hover:underline">
+                                {item.name}
+                              </div>
+                            </Link>
+                          </NavigationMenuLink>
+                        </li>
+                      ))}
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>API's</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+                      {apiItems.map((item) => (
+                        <li key={item.href}>
+                          <NavigationMenuLink asChild>
+                            <Link
+                              href={item.href}
+                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-purple-600/10 hover:text-purple-600 focus:bg-accent focus:text-accent-foreground"
+                            >
+                              <div className="text-sm font-medium leading-none hover:text-purple-600 transition-all duration-200 hover:underline">
+                                {item.name}
+                              </div>
+                            </Link>
+                          </NavigationMenuLink>
+                        </li>
+                      ))}
+                    </ul>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
           </nav>
 
-          {/* Mobile menu button */}
-          <div className="flex md:hidden">
-            <Button variant="ghost" size="icon" aria-label="Toggle Menu" onClick={() => setIsOpen(!isOpen)}>
+          {/* Mobile Navigation Toggle */}
+          <div className="lg:hidden">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              onClick={() => setIsOpen(!isOpen)} 
+              aria-label="Toggle Menu"
+              className="focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
+            >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
           </div>
         </div>
-      </div>
 
-      {/* Mobile Navigation */}
-      <AnimatePresence>
+        {/* Mobile Navigation Menu */}
         {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3 }}
-            className="md:hidden overflow-hidden bg-white dark:bg-gray-900 border-t dark:border-gray-800"
-          >
-            <div className="container mx-auto px-4 py-3 space-y-1">
-              {navItems.map((item) => {
-                if (item.dropdown) {
-                  return (
-                    <div key={item.name} className="py-2">
-                      <div
+          <div className="mt-4 lg:hidden  sm:overflow-auto sm:h-[900px]">
+            <div className="flex flex-col space-y-2 pb-4">
+              {navItems.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={cn(
+                    "px-4 py-3 text-base font-medium rounded-md transition-colors",
+                    pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))
+                      ? "bg-purple-600 text-white"
+                      : "hover:bg-purple-600/10 hover:text-purple-600",
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ))}
+
+              <div className="border-t border-gray-200 pt-2">
+                <details className="group">
+                  <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
+                    <span>Services</span>
+                    <svg className="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                    </svg>
+                  </summary>
+                  <div className="pl-4 pt-1 space-y-1">
+                    {services.map((service) => (
+                      <Link
+                        key={service.href}
+                        href={service.href}
                         className={cn(
-                          "flex items-center justify-between px-3 py-2 text-sm font-medium rounded-md",
-                          pathname.startsWith(item.href)
-                            ? "text-purple-600 bg-purple-50 dark:text-purple-400 dark:bg-gray-800"
-                            : "text-gray-700 dark:text-gray-200",
+                          "block px-4 py-2 text-sm rounded-md transition-colors",
+                          pathname === service.href
+                            ? "bg-purple-600 text-white"
+                            : "hover:bg-purple-600/10 hover:text-purple-600",
                         )}
                       >
-                        <Link href={item.href}>{item.name}</Link>
-                      </div>
-                      <div className="mt-1 pl-4 border-l-2 border-gray-200 dark:border-gray-700 space-y-1">
-                        {item.dropdown.map((dropdownItem) => (
-                          <Link
-                            key={dropdownItem.name}
-                            href={dropdownItem.href}
-                            className={cn(
-                              "block px-3 py-2 text-sm font-medium rounded-md",
-                              pathname === dropdownItem.href
-                                ? "text-purple-600 bg-purple-50 dark:text-purple-400 dark:bg-gray-800"
-                                : "text-gray-600 hover:text-purple-600 hover:bg-purple-50 dark:text-gray-300 dark:hover:text-purple-400 dark:hover:bg-gray-800",
-                            )}
-                          >
-                            {dropdownItem.name}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  )
-                }
+                        {service.name}
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              </div>
 
-                return (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className={cn(
-                      "block px-3 py-2 text-sm font-medium rounded-md",
-                      pathname === item.href
-                        ? "text-purple-600 bg-purple-50 dark:text-purple-400 dark:bg-gray-800"
-                        : "text-gray-700 hover:text-purple-600 hover:bg-purple-50 dark:text-gray-200 dark:hover:text-purple-400 dark:hover:bg-gray-800",
-                    )}
-                  >
-                    {item.name}
-                  </Link>
-                )
-              })}
+              <div className="border-t border-gray-200 pt-2">
+                <details className="group">
+                  <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
+                    <span>Software</span>
+                    <svg className="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                    </svg>
+                  </summary>
+                  <div className="pl-4 pt-1 space-y-1">
+                    {softwareItems.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className={cn(
+                          "block px-4 py-2 text-sm rounded-md transition-colors",
+                          pathname === item.href
+                            ? "bg-purple-600 text-white"
+                            : "hover:bg-purple-600/10 hover:text-purple-600",
+                        )}
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              </div>
+
+              <div className="border-t border-gray-200 pt-2">
+                <details className="group">
+                  <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
+                    <span>API's</span>
+                    <svg className="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                    </svg>
+                  </summary>
+                  <div className="pl-4 pt-1 space-y-1">
+                    {apiItems.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className={cn(
+                          "block px-4 py-2 text-sm rounded-md transition-colors",
+                          pathname === item.href
+                            ? "bg-purple-600 text-white"
+                            : "hover:bg-purple-600/10 hover:text-purple-600",
+                        )}
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
+                  </div>
+                </details>
+              </div>
             </div>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
+      </div>
     </header>
   )
 }
