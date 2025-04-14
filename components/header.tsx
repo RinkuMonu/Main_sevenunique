@@ -64,6 +64,7 @@ const apiItems = [
 const navItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
+  // Services, Software, and APIs will be added as dropdowns in the NavigationMenu
   { name: "Gallery", href: "/gallery" },
   { name: "Blog", href: "/blog" },
   { name: "Career", href: "/career" },
@@ -106,19 +107,31 @@ export default function Header() {
           <nav className="hidden lg:flex">
             <NavigationMenu>
               <NavigationMenuList>
-                {navItems.map((item) => (
-                  <NavigationMenuItem key={item.name}>
-                    <Link href={item.href} legacyBehavior passHref>
-                      <NavigationMenuLink 
-                        className={navigationMenuTriggerStyle()} 
-                        active={pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))}
-                      >
-                        {item.name}
-                      </NavigationMenuLink>
-                    </Link>
-                  </NavigationMenuItem>
-                ))}
+                {/* Home */}
+                <NavigationMenuItem>
+                  <Link href="/" legacyBehavior passHref>
+                    <NavigationMenuLink 
+                      className={navigationMenuTriggerStyle()} 
+                      active={pathname === "/"}
+                    >
+                      Home
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
                 
+                {/* About */}
+                <NavigationMenuItem>
+                  <Link href="/about" legacyBehavior passHref>
+                    <NavigationMenuLink 
+                      className={navigationMenuTriggerStyle()} 
+                      active={pathname === "/about" || pathname.startsWith("/about")}
+                    >
+                      About
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+                
+                {/* Services Dropdown */}
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Services</NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -141,6 +154,7 @@ export default function Header() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
 
+                {/* Software Dropdown */}
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Software</NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -163,6 +177,7 @@ export default function Header() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
 
+                {/* API's Dropdown */}
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>API's</NavigationMenuTrigger>
                   <NavigationMenuContent>
@@ -184,6 +199,20 @@ export default function Header() {
                     </ul>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
+
+                {/* Gallery, Blog, Career, Contact */}
+                {navItems.slice(2).map((item) => (
+                  <NavigationMenuItem key={item.name}>
+                    <Link href={item.href} legacyBehavior passHref>
+                      <NavigationMenuLink 
+                        className={navigationMenuTriggerStyle()} 
+                        active={pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))}
+                      >
+                        {item.name}
+                      </NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                ))}
               </NavigationMenuList>
             </NavigationMenu>
           </nav>
@@ -204,23 +233,35 @@ export default function Header() {
 
         {/* Mobile Navigation Menu */}
         {isOpen && (
-          <div className="mt-4 lg:hidden  sm:overflow-auto sm:h-[900px]">
+          <div className="mt-4 lg:hidden sm:overflow-auto sm:h-[900px]">
             <div className="flex flex-col space-y-2 pb-4">
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={cn(
-                    "px-4 py-3 text-base font-medium rounded-md transition-colors",
-                    pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))
-                      ? "bg-purple-600 text-white"
-                      : "hover:bg-purple-600/10 hover:text-purple-600",
-                  )}
-                >
-                  {item.name}
-                </Link>
-              ))}
+              {/* Home */}
+              <Link
+                href="/"
+                className={cn(
+                  "px-4 py-3 text-base font-medium rounded-md transition-colors",
+                  pathname === "/"
+                    ? "bg-purple-600 text-white"
+                    : "hover:bg-purple-600/10 hover:text-purple-600",
+                )}
+              >
+                Home
+              </Link>
+              
+              {/* About */}
+              <Link
+                href="/about"
+                className={cn(
+                  "px-4 py-3 text-base font-medium rounded-md transition-colors",
+                  pathname === "/about" || pathname.startsWith("/about")
+                    ? "bg-purple-600 text-white"
+                    : "hover:bg-purple-600/10 hover:text-purple-600",
+                )}
+              >
+                About
+              </Link>
 
+              {/* Services Dropdown */}
               <div className="border-t border-gray-200 pt-2">
                 <details className="group">
                   <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
@@ -248,6 +289,7 @@ export default function Header() {
                 </details>
               </div>
 
+              {/* Software Dropdown */}
               <div className="border-t border-gray-200 pt-2">
                 <details className="group">
                   <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
@@ -275,6 +317,7 @@ export default function Header() {
                 </details>
               </div>
 
+              {/* API's Dropdown */}
               <div className="border-t border-gray-200 pt-2">
                 <details className="group">
                   <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
@@ -301,6 +344,22 @@ export default function Header() {
                   </div>
                 </details>
               </div>
+
+              {/* Gallery, Blog, Career, Contact */}
+              {navItems.slice(2).map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={cn(
+                    "px-4 py-3 text-base font-medium rounded-md transition-colors",
+                    pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))
+                      ? "bg-purple-600 text-white"
+                      : "hover:bg-purple-600/10 hover:text-purple-600",
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ))}
             </div>
           </div>
         )}
