@@ -17,7 +17,7 @@ import {
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "/placeholder.svg?height=1080&width=1920",
+    image: "/image/Blog-01.jpg",
     title: "Our Blog",
     description: "Insights, news, and updates from our team",
   },

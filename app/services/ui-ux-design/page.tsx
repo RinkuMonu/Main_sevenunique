@@ -7,7 +7,7 @@ import Banner from "@/components/banner"
 export default function UIUXDesignPage() {
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "/image/services/1.jpg",
       title: "UI/UX Design Services",
       description: "Create intuitive and engaging user experiences with our expert design team",
     },
@@ -15,9 +15,21 @@ export default function UIUXDesignPage() {
   
   return (
     <div className="flex flex-col">
-      <Banner slides={bannerSlides}  />
+      {/* <Banner slides={bannerSlides}  /> */}
+      <section className="relative h-[400px] md:h-[500px] overflow-hidden">
+      <Image src="/image/services/1.jpg" alt="" fill priority className="object-cover" />
+      <div className="absolute inset-0 bg-black/60" />
+      <div className="relative z-10 flex h-full items-center justify-center text-center">
+        <div className="px-4 md:px-6">
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4">
+            UI/UX Design
+          </h1>
+          <p className="mx-auto max-w-[700px] text-white/90 md:text-xl">Create intuitive and engaging user experiences with our expert design team</p>
+        </div>
+      </div>
+    </section>
 
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
@@ -51,7 +63,7 @@ export default function UIUXDesignPage() {
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/services/2.jpg"
                 alt="UI/UX Design Process"
                 fill
                 className="object-cover"
@@ -106,12 +118,12 @@ export default function UIUXDesignPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/services/3.jpg"
                 alt="UI/UX Design Portfolio"
                 fill
                 className="object-cover"
@@ -167,7 +179,7 @@ export default function UIUXDesignPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-primary text-primary-foreground">
+      <section className="py-16 md:py-24  bg-gray-50">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

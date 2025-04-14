@@ -8,7 +8,7 @@ import { CheckCircle, Target, Lightbulb, Users, Award } from "lucide-react"
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "/placeholder.svg?height=1080&width=1920",
+    image: "./image/About.jpg",
     title: "About Our Company",
     description: "Learn more about our journey, mission, and the team behind our success.",
   },
@@ -31,8 +31,8 @@ export default function AboutPage() {
       <Banner slides={bannerSlides} />
 
       {/* About Content Section */}
-      <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4">
+      <section className="py-16 md:py-24 ">
+        <div className="container mx-auto px-24">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <SectionHeading
@@ -54,7 +54,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="relative h-64">
                 <Image
-                  src="/images/about-1.png"
+                  src="/images/242405.jpg"
                   alt="About Us"
                   fill
                   className="object-cover rounded-lg shadow-lg"
@@ -62,7 +62,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-64 mt-8">
                 <Image
-                  src="/images/about-2.png"
+                  src="/images/13181.jpg"
                   alt="Our Team"
                   fill
                   className="object-cover rounded-lg shadow-lg"
@@ -70,7 +70,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-64 -mt-8">
                 <Image
-                  src="/images/about-3.png"
+                  src="/images/27531.jpg"
                   alt="Our Office"
                   fill
                   className="object-cover rounded-lg shadow-lg"
@@ -78,7 +78,7 @@ export default function AboutPage() {
               </div>
               <div className="relative h-64">
                 <Image
-                  src="/images/about-5.png"
+                  src="/images/2788.jpg"
                   alt="Working Together"
                   fill
                   className="object-cover rounded-lg shadow-lg"
@@ -90,14 +90,14 @@ export default function AboutPage() {
       </section>
 
       {/* Vision Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
                 <Image
-                  src="/images/gradient-level-up-illustration.png"
+                  src="/images/7031.jpg"
                   alt="Our Vision"
                   width={600}
                   height={400}
@@ -153,7 +153,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center justify-center">
             <div>
@@ -202,11 +202,11 @@ export default function AboutPage() {
               <div className="flex justify-center">
                 {/* <div className="absolute -top-4 -right-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div> */}
                 <Image
-                  src="/images/mission.svg"
+                  src="/images/4229.jpg"
                   alt="Our Mission"
                   width={500}
                   height={400}
-                  className="rounded-lg shadow-lg p-8"
+                  className="rounded-lg shadow-lg"
                 />
                 {/* <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div> */}
               </div>
@@ -216,7 +216,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 bg-gray-50 md:px-24 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <SectionHeading title="Our Core Values" subtitle="The principles that guide our work and relationships" />
 
@@ -307,7 +307,7 @@ export default function AboutPage() {
       </section> */}
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 bg-white-50 dark:bg-gray-900">
       <SectionHeading title="Join Our Journey" subtitle="Whether you're looking for a digital partner for your next project or interested in joining our team, we'd
             love to hear from you." />
         <div className="container mx-auto px-4 text-center">
