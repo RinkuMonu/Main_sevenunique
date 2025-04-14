@@ -17,13 +17,13 @@ export default function AppDevelopmentPage() {
  
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "/image/app-dev.jpg",
       title: "App Development Services",
       description: "Build powerful mobile applications for iOS and Android platforms",
     },
   ]
   return (
-    <div className="pt-14">
+    <div className="">
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
  
@@ -57,7 +57,7 @@ export default function AppDevelopmentPage() {
             </div>
             <div className="relative h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600&text=App Development"
+                src="/image/app-dev.jpg"
                 alt="App Development"
                 fill
                 className="object-cover rounded-lg"

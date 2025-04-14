@@ -165,12 +165,7 @@ function Team({ limit }: { limit: number }) {
       designation: "Content Writer",
       team: "Other",
     },
-    {
-      id: "gauravsir",
-      name: "Gaurav",
-      designation: "Accountant",
-      team: "Other",
-    },
+ 
   ];
   const pathname = usePathname();
 
