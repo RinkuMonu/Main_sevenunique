@@ -7,7 +7,7 @@ export default function BBPSSoftwarePage() {
 
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/BBPS.jpg",
           title: "BBPS Software",
           description: "Comprehensive Bharat Bill Payment System solution for businesses",
           

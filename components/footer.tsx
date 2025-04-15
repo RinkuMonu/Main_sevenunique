@@ -13,19 +13,19 @@ export default function Footer() {
               SevenUnique has been a dynamic startup IT agency dedicated to delivering innovative digital solutions. Specializing in website development, mobile application creation, and SEO services, we cater to a diverse range of clients.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+              <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
                 <Facebook className="h-5 w-5" aria-hidden="true" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+              <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
                 <Twitter className="h-5 w-5" aria-hidden="true" />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+              <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
                 <Instagram className="h-5 w-5" aria-hidden="true" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+              <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
                 <Linkedin className="h-5 w-5" aria-hidden="true" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
@@ -47,7 +47,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link 
                     href={link.href} 
-                    className="text-gray-400 hover:text-purple-400 transition-colors duration-300 flex items-start"
+                    className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300 flex items-start"
                   >
                     <span className="hover:underline">{link.text}</span>
                   </Link>
@@ -71,7 +71,7 @@ export default function Footer() {
                 <li key={service.href}>
                   <Link 
                     href={service.href} 
-                    className="text-gray-400 hover:text-purple-400 transition-colors duration-300 flex items-start"
+                    className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300 flex items-start"
                   >
                     <span className="hover:underline">{service.text}</span>
                   </Link>
@@ -85,20 +85,20 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4 text-white">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
-                <MapPin className="h-5 w-5 mr-3 text-purple-400 flex-shrink-0 mt-0.5" />
+                <MapPin className="h-5 w-5 mr-3 text-[#e8ab8f] flex-shrink-0 mt-0.5" />
                 <span className="text-gray-400">
                   Plot No 97, Dakshinpuri - I, Shrikishan, Sanganer, Jagatpura, Jaipur Rajasthan, India, 302017
                 </span>
               </li>
               <li className="flex items-center">
-                <Mail className="h-5 w-5 mr-3 text-purple-400 flex-shrink-0" />
-                <Link href="mailto:support@7unique.in" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                <Mail className="h-5 w-5 mr-3 text-[#e8ab8f] flex-shrink-0" />
+                <Link href="mailto:support@7unique.in" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
                   support@7unique.in
                 </Link>
               </li>
               <li className="flex items-center">
-                <Mail className="h-5 w-5 mr-3 text-purple-400 flex-shrink-0" />
-                <Link href="mailto:info@7unique.in" className="text-gray-400 hover:text-purple-400 transition-colors duration-300">
+                <Mail className="h-5 w-5 mr-3 text-[#e8ab8f] flex-shrink-0" />
+                <Link href="mailto:info@7unique.in" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
                   info@7unique.in
                 </Link>
               </li>

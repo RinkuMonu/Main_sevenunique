@@ -9,7 +9,7 @@ export default function CabBookingSoftwarePage() {
     
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/Cab.jpg",
           title: "Cab Booking Software",
           description: "Streamline transportation services with our advanced cab booking solutions",
           

@@ -44,7 +44,7 @@ export default function BlogCard({ title, excerpt, image, date, author, slug, in
               <span>{author}</span>
             </div>
           </div>
-          <h3 className="text-xl font-bold mb-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+          <h3 className="text-xl font-bold mb-2 group-hover:text-[#ab6545] dark:group-hover:text-[#e8ab8f] transition-colors">
             {title}
           </h3>
           <p className="text-gray-600 dark:text-gray-400 line-clamp-3">{excerpt}</p>

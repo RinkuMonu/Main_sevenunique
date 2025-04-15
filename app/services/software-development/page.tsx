@@ -39,17 +39,17 @@ const SoftwareDevelopment = () => {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "/image/banner/software.jpg",
       title: "Software Development",
       description: "Custom software solutions tailored to your business needs",
     },
   ]
   return (
-    <div className="pt-14">
+    <div className="">
       <Banner  slides={bannerSlides}  />
 
       {/* Overview */}
-      <section className="py-10 md:py-14">
+      <section className="py-10 md:py-14 px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
@@ -107,7 +107,7 @@ const SoftwareDevelopment = () => {
       </section>
 
       {/* Services */}
-      <section className="py-10 md:py-14 bg-gray-50">
+      <section className="py-10 md:py-14 px-24 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-3">Our Software Development Services</h2>
           <p className="text-gray-600 mb-10 max-w-xl mx-auto">
@@ -133,7 +133,7 @@ const SoftwareDevelopment = () => {
       </section>
 
       {/* Technologies */}
-      <section className="py-10 md:py-14">
+      <section className="py-10 md:py-14 px-24">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-3">Technologies We Use</h2>
           <p className="text-gray-600 mb-10 max-w-xl mx-auto">
@@ -150,7 +150,7 @@ const SoftwareDevelopment = () => {
       </section>
 
       {/* Process */}
-      <section className="py-10 md:py-14 bg-gray-50">
+      <section className="py-10 md:py-14 px-24 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-3">Our Development Process</h2>
           <p className="text-gray-600 mb-10 max-w-xl mx-auto">
@@ -176,7 +176,7 @@ const SoftwareDevelopment = () => {
               },
             ].map((step, index) => (
               <div key={index} className="bg-white rounded shadow p-6 relative">
-                <div className="absolute -top-4 -left-4 bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                <div className="absolute -top-4 -left-4 bg-[#AB6545] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
                   {index + 1}
                 </div>
                 <h3 className="font-semibold text-lg mb-2 mt-4">{step.title}</h3>
@@ -188,7 +188,7 @@ const SoftwareDevelopment = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-10 md:py-14 bg-primary text-white text-center">
+      <section className="py-10 md:py-14 px-24 bg-[#AB6545] text-white text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-3">Ready to Transform Your Business?</h2>
           <p className="mb-6 max-w-xl mx-auto">
