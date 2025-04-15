@@ -7,7 +7,7 @@ import Banner from "@/components/banner"
 export default function ECommercePortalPage() {
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/2.jpg",
           title: "E-Commerce Portal",
           description: "Build a powerful online store with our comprehensive e-commerce solutions",
           

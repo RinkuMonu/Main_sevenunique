@@ -8,7 +8,7 @@ export default function CRMSoftwarePage() {
 
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/CRM.jpg",
           title: "CRM Software",
           description: "Streamline customer relationships with our comprehensive CRM solution",
           

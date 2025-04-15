@@ -40,10 +40,10 @@ export default function GameDevelopmentPage() {
   const projects = [
     {
       id: 1,
-      title: "SUstylo",
+      title: "Seven Unique Rummy",
       description:
         "a synopsis of the project and the services we offered for Game development.",
-      image: "/image/work/1.jpg",
+      image: "/image/work/4.jpg",
       link: "https://sustylo.com/",
     },
     {
@@ -51,7 +51,7 @@ export default function GameDevelopmentPage() {
       title: "FinUniques",
       description:
         "A brief description of the project and the Game development solutions we provided.",
-      image: "/image/work/2.jpg",
+      image: "/image/work/5.jpg",
       link: "https://www.finuniques.in/",
     },
     {

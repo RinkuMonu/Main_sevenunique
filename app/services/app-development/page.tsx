@@ -367,7 +367,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Portfolio Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50">
+      {/* <section className="py-16 md:py-24 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -412,9 +412,9 @@ export default function AppDevelopmentPage() {
             <Button asChild>
               <Link href="/portfolio">View All Projects</Link>
             </Button>
-          </div> */}
+          </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 px-24 bg-white text-black">

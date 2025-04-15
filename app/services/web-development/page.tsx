@@ -32,7 +32,7 @@ export default function WebDevelopmentPage() {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "/image/5.jpg",
       title: "Web Development Services",
       description: "Create responsive and dynamic websites that drive results",
     },

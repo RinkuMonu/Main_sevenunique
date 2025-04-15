@@ -7,7 +7,7 @@ import Banner from "@/components/banner"
 export default function SportBettingSoftwarePage() {
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/Sport.jpg",
           title: "Sports Betting Software",
           description: "Build a powerful sports betting platform with our comprehensive software solutions",
           

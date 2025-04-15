@@ -7,7 +7,7 @@ import Banner from "@/components/banner"
 export default function LoanModuleSoftwarePage() {
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/Loan.jpg",
           title: "Loan Module Software",
           description: "Streamline loan processing and management with our comprehensive financial solution",
           

@@ -7,7 +7,7 @@ import Banner from "@/components/banner"
 export default function EmployTrackingSoftwarePage() {
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/employe.jpg",
           title: "Employee Tracking Software",
           description: "Monitor productivity and optimize workforce management with our comprehensive tracking solution",
           
