@@ -53,7 +53,7 @@ export default function Banner({ slides, autoplay = true, interval = 5000 }: Ban
             alt=""
             fill
             priority
-            className="object-cover"
+            className="object-fill"
           />
           <div className="absolute inset-0 " />
 

@@ -70,7 +70,7 @@ export default function ContactPage() {
       <Banner slides={bannerSlides} />
 
       {/* Contact Form Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
@@ -257,7 +257,7 @@ export default function ContactPage() {
       </section>
 
       {/* Map Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Find Us"
@@ -283,7 +283,7 @@ export default function ContactPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Frequently Asked Questions"

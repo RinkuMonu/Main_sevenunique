@@ -1,9 +1,16 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { CheckCircle, ArrowRight, Gamepad2, Monitor, Smartphone, Globe } from "lucide-react"
-import Banner from "@/components/banner"
- 
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  CheckCircle,
+  ArrowRight,
+  Gamepad2,
+  Monitor,
+  Smartphone,
+  Globe,
+} from "lucide-react";
+import Banner from "@/components/banner";
+
 export default function GameDevelopmentPage() {
   const benefits = [
     "Engage players with immersive storylines and responsive gameplay",
@@ -11,38 +18,78 @@ export default function GameDevelopmentPage() {
     "Strengthen brand loyalty and user retention with gamified experiences",
     "Expand your reach across platforms including mobile, web, PC, and console",
     "Harness the latest game engines and technologies like Unity, Unreal Engine, and AR/VR",
-  ]
- 
-  const platforms = ["PC & Mac", "Mobile Android", "Web Browsers", "Mobile ios", "Consoles", "Cross-Platform"]
- 
+  ];
+
+  const platforms = [
+    "PC & Mac",
+    "Mobile Android",
+    "Web Browsers",
+    "Mobile ios",
+    "Consoles",
+    "Cross-Platform",
+  ];
+
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "/image/banner/Game.jpg",
       title: "Game Development Services",
-      description: "From concept to launch, we create engaging, high-quality games tailored to your vision",
+      description:
+        "From concept to launch, we create engaging, high-quality games tailored to your vision",
     },
-  ]
-
+  ];
+  const projects = [
+    {
+      id: 1,
+      title: "SUstylo",
+      description:
+        "a synopsis of the project and the services we offered for Game development.",
+      image: "/image/work/1.jpg",
+      link: "https://sustylo.com/",
+    },
+    {
+      id: 2,
+      title: "FinUniques",
+      description:
+        "A brief description of the project and the Game development solutions we provided.",
+      image: "/image/work/2.jpg",
+      link: "https://www.finuniques.in/",
+    },
+    {
+      id: 3,
+      title: "Gaming Platform",
+      description:
+        "An overview of the project and the Game development services we offered.",
+      image: "/image/work/3.jpg",
+      link: "https://www.finuniquerummy.com/",
+    },
+  ];
   return (
     <div className="">
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
- 
+
       {/* Overview Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Immersive Game Development Solutions</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                Immersive Game Development Solutions
+              </h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              At SevenUnique, we understand that the future of gaming lies in immersive storytelling and seamless interactivity.
+                At SevenUnique, we understand that the future of gaming lies in
+                immersive storytelling and seamless interactivity.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Our game development services are designed to bring your ideas to life through visually captivating, technically robust, and creatively engaging experiences.
+                Our game development services are designed to bring your ideas
+                to life through visually captivating, technically robust, and
+                creatively engaging experiences.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Whether you're aiming to entertain, educate, or monetize, our expert team merges innovation with strategic thinking to build games that not only capture attention but also deliver measurable impact.
-
+                Whether you're aiming to entertain, educate, or monetize, our
+                expert team merges innovation with strategic thinking to build
+                games that not only capture attention but also deliver
+                measurable impact.
               </p>
               <h3 className="text-xl font-bold mb-3">Key Benefits:</h3>
               <ul className="space-y-2 mb-6">
@@ -59,7 +106,7 @@ export default function GameDevelopmentPage() {
             </div>
             <div className="relative h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600&text=Game Development"
+                src="/image/2151941537.jpg"
                 alt="Game Development"
                 fill
                 className="object-cover rounded-lg"
@@ -68,14 +115,18 @@ export default function GameDevelopmentPage() {
           </div>
         </div>
       </section>
- 
+
       {/* Services Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Game Development Services</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Our Game Development Services
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            we specialize in developing immersive, interactive, and high-performing games tailored to your brand vision and user needs.
+              we specialize in developing immersive, interactive, and
+              high-performing games tailored to your brand vision and user
+              needs.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -83,9 +134,13 @@ export default function GameDevelopmentPage() {
               <div className="text-primary mb-4">
                 <Monitor className="h-10 w-10" />
               </div>
-              <h3 className="text-xl font-bold mb-3">PC & Console Game Development</h3>
+              <h3 className="text-xl font-bold mb-3">
+                PC & Console Game Development
+              </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              From indie games to large-scale AAA-level projects, we develop robust PC and console games using engines like Unity and Unreal Engine.
+                From indie games to large-scale AAA-level projects, we develop
+                robust PC and console games using engines like Unity and Unreal
+                Engine.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -98,8 +153,7 @@ export default function GameDevelopmentPage() {
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Story-based and competitive gaming models
-                  </span>
+                  <span>Story-based and competitive gaming models</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
@@ -111,9 +165,13 @@ export default function GameDevelopmentPage() {
               <div className="text-primary mb-4">
                 <Smartphone className="h-10 w-10" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Mobile Game Development</h3>
+              <h3 className="text-xl font-bold mb-3">
+                Mobile Game Development
+              </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              We build highly engaging and visually appealing mobile games for Android and iOS platforms. Our games are designed with performance, monetization, and user retention in mind.
+                We build highly engaging and visually appealing mobile games for
+                Android and iOS platforms. Our games are designed with
+                performance, monetization, and user retention in mind.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -140,7 +198,8 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Web Game Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              We create fast, lightweight web-based games that are accessible via any modern browser and device.
+                We create fast, lightweight web-based games that are accessible
+                via any modern browser and device.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -167,7 +226,8 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">AR/VR Game Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              We offer next-generation gaming experiences using augmented and virtual reality technologies for deeply immersive gameplay.
+                We offer next-generation gaming experiences using augmented and
+                virtual reality technologies for deeply immersive gameplay.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -191,33 +251,43 @@ export default function GameDevelopmentPage() {
           </div>
         </div>
       </section>
- 
+
       {/* Platforms Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Platforms We Support</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Platforms We Support
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            we build games that perform seamlessly across a wide range of platforms to ensure maximum reach, performance, and player engagement.
+              we build games that perform seamlessly across a wide range of
+              platforms to ensure maximum reach, performance, and player
+              engagement.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {platforms.map((platform, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md text-center">
+              <div
+                key={index}
+                className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md text-center"
+              >
                 <h3 className="font-bold">{platform}</h3>
               </div>
             ))}
           </div>
         </div>
       </section>
- 
+
       {/* Process Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Game Development Process</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Our Game Development Process
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            we follow a streamlined, collaborative, and results-driven approach to game development.
+              we follow a streamlined, collaborative, and results-driven
+              approach to game development.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -227,7 +297,8 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Concept & Design</h3>
               <p className="text-gray-600 dark:text-gray-300">
-              We establish a strong basis for your game by developing the characters, plot, gaming mechanics, and game concept.
+                We establish a strong basis for your game by developing the
+                characters, plot, gaming mechanics, and game concept.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -236,16 +307,22 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Prototyping</h3>
               <p className="text-gray-600 dark:text-gray-300">
-              Before beginning full production, we construct a playable prototype to evaluate essential gameplay elements and make any necessary modifications.
+                Before beginning full production, we construct a playable
+                prototype to evaluate essential gameplay elements and make any
+                necessary modifications.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
               <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
                 3
               </div>
-              <h3 className="text-xl font-bold mb-3 mt-4">Development & Testing</h3>
+              <h3 className="text-xl font-bold mb-3 mt-4">
+                Development & Testing
+              </h3>
               <p className="text-gray-600 dark:text-gray-300">
-              Our developers construct the game in accordance with the authorized design, testing it frequently to guarantee its functioning and quality.
+                Our developers construct the game in accordance with the
+                authorized design, testing it frequently to guarantee its
+                functioning and quality.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -254,41 +331,49 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Launch & Support</h3>
               <p className="text-gray-600 dark:text-gray-300">
-              In addition to offering continuous maintenance and updates, we assist you in launching your game on the appropriate platforms.
+                In addition to offering continuous maintenance and updates, we
+                assist you in launching your game on the appropriate platforms.
               </p>
             </div>
           </div>
         </div>
       </section>
- 
+
       {/* Portfolio Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Game Development Portfolio</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Our Game Development Portfolio
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
               Take a look at some of our recent game development projects.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
-              <div key={item} className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md group">
+            {projects.map((project) => (
+              <div
+                key={project.id}
+                className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md group"
+              >
                 <div className="relative h-64 w-full overflow-hidden">
                   <Image
-                    src={`/placeholder.svg?height=300&width=400&text=Game Project ${item}`}
-                    alt={`Game Project ${item}`}
+                    src={project.image}
+                    alt={project.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">Game Project {item}</h3>
+                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    A brief description of the project and the game development solutions we provided.
+                    {project.description}
                   </p>
                   <Link
-                    href={`/case-studies/game-project-${item}`}
+                    href={project.link}
                     className="inline-flex items-center text-primary hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View Case Study <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -296,21 +381,23 @@ export default function GameDevelopmentPage() {
               </div>
             ))}
           </div>
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <Button asChild>
               <Link href="/portfolio">View All Projects</Link>
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
- 
+
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-primary text-white">
+      <section className="py-16 md:py-24 px-24 bg-gary-50 text-black">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Create Your Game?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Ready to Create Your Game?
+          </h2>
           <p className="max-w-2xl mx-auto mb-8">
-            Contact us today to discuss your game development needs and how we can help you create an engaging and
-            immersive gaming experience.
+            Contact us today to discuss your game development needs and how we
+            can help you create an engaging and immersive gaming experience.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button variant="secondary" size="lg" asChild>
@@ -319,7 +406,7 @@ export default function GameDevelopmentPage() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-transparent border-white text-white hover:bg-white hover:text-primary"
+              className="bg-transparent border-gray-100 text-black hover:bg-white hover:text-primary"
               asChild
             >
               <Link href="/services">Explore Other Services</Link>
@@ -328,5 +415,5 @@ export default function GameDevelopmentPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }

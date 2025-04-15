@@ -138,7 +138,7 @@ export default function CareerPage() {
       <Banner slides={bannerSlides} />
 
       {/* Introduction Section */}
-      <section className="py-16 md:py-24 md:px-24">
+      <section className="py-16 md:py-24 px-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -203,7 +203,7 @@ export default function CareerPage() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Benefits & Perks"
@@ -230,7 +230,7 @@ export default function CareerPage() {
       </section>
 
       {/* Open Positions Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Open Positions"
@@ -296,7 +296,7 @@ export default function CareerPage() {
       </section>
 
       {/* Application Process Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Our Application Process"
@@ -397,7 +397,7 @@ export default function CareerPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gray-20 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-20 dark:bg-gray-900">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Don't See a Position That Fits?

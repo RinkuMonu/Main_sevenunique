@@ -147,7 +147,7 @@ export default function BlogPage() {
       <Banner slides={bannerSlides} />
 
       {/* Blog Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <SectionHeading title="Latest Articles" subtitle="Stay updated with our latest insights, news, and tips" />
 

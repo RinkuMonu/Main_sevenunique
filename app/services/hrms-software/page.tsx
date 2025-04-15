@@ -17,7 +17,7 @@ export default function HRMSSoftwarePage() {
     <div className="flex flex-col">
       <Banner slides={bannerSlides}  />
 
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
@@ -57,7 +57,7 @@ export default function HRMSSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
@@ -212,7 +212,7 @@ export default function HRMSSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
@@ -267,7 +267,7 @@ export default function HRMSSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-primary text-primary-foreground">
+      <section className="py-16 md:py-24 px-24 bg-primary text-primary-foreground">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

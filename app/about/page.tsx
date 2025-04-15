@@ -31,7 +31,7 @@ export default function AboutPage() {
       <Banner slides={bannerSlides} />
 
       {/* About Content Section */}
-      <section className="py-16 md:py-24 ">
+      <section className="py-16 md:py-24 px-24 ">
         <div className="container mx-auto px-24">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -90,7 +90,7 @@ export default function AboutPage() {
       </section>
 
       {/* Vision Section */}
-      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
@@ -153,7 +153,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission Section */}
-      <section className="py-16 md:py-24 md:px-24">
+      <section className="py-16 md:py-24 px-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center justify-center">
             <div>
@@ -216,7 +216,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values Section */}
-      <section className="py-16 md:py-24 bg-gray-50 md:px-24 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 md:px-24 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <SectionHeading title="Our Core Values" subtitle="The principles that guide our work and relationships" />
 
@@ -280,7 +280,7 @@ export default function AboutPage() {
       </section>
 
       {/* Partners Section */}
-      {/* <section className="py-16 md:py-24">
+      {/* <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Our Trusted Partners"
@@ -307,7 +307,7 @@ export default function AboutPage() {
       </section> */}
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-white-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-white-50 dark:bg-gray-900">
       <SectionHeading title="Join Our Journey" subtitle="Whether you're looking for a digital partner for your next project or interested in joining our team, we'd
             love to hear from you." />
         <div className="container mx-auto px-4 text-center">
