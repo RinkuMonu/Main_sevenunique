@@ -104,7 +104,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex">
+          <nav className="hidden lg:flex mx-auto">
             <NavigationMenu>
               <NavigationMenuList>
                 {/* Home */}

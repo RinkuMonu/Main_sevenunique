@@ -15,7 +15,7 @@ import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react"
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "/placeholder.svg?height=1080&width=1920",
+    image: "./image/Contact.jpg",
     title: "Contact Us",
     description: "Get in touch with our team for any inquiries or support",
   },
@@ -290,7 +290,7 @@ export default function ContactPage() {
             subtitle="Find answers to common questions about our services and company"
           />
 
-          <div className="mt-12 max-w-3xl mx-auto space-y-6">
+          <div className="mx-auto space-y-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
               <h3 className="text-lg font-bold mb-2">What services do you offer?</h3>
               <p className="text-gray-600 dark:text-gray-400">
