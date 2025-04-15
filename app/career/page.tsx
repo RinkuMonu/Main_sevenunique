@@ -15,7 +15,7 @@ import {
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "/placeholder.svg?height=1080&width=1920",
+    image: "/image/Career-01.jpg",
     title: "Join Our Team",
     description: "Explore career opportunities and grow with us",
   },
@@ -138,7 +138,7 @@ export default function CareerPage() {
       <Banner slides={bannerSlides} />
 
       {/* Introduction Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -190,7 +190,7 @@ export default function CareerPage() {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/image/2149667031.jpg"
                 alt="Team working together"
                 width={600}
                 height={400}
@@ -397,7 +397,7 @@ export default function CareerPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gray-100 dark:bg-gray-900">
+      <section className="py-16 md:py-24 bg-gray-20 dark:bg-gray-900">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Don't See a Position That Fits?
@@ -411,7 +411,7 @@ export default function CareerPage() {
               variant="default"
               className="hover:bg-white hover:text-purple-700 bg-purple-600 text-white"
             >
-              Contact Us
+              Contact Us 
             </Button>
           </Link>
         </div>

@@ -1,46 +1,130 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { CheckCircle, ArrowRight, Smartphone, TabletSmartphone, Layers, Shield } from "lucide-react"
-import Banner from "@/components/banner"
- 
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  CheckCircle,
+  ArrowRight,
+  Smartphone,
+  TabletSmartphone,
+  Layers,
+  Shield,
+} from "lucide-react";
+import Banner from "@/components/banner";
+import Banner2 from "@/components/banner2";
+
 export default function AppDevelopmentPage() {
   const benefits = [
-    "Reach customers on their preferred mobile platforms",
-    "Increase customer engagement and loyalty",
-    "Create new revenue streams",
-    "Improve business processes and efficiency",
+    "Reach clients on the mobile platforms they prefer.",
+    "Boost client loyalty and engagement",
+    "Establish new sources of income",
+    "Boost productivity and business procedures",
     "Gain competitive advantage in the market",
-  ]
- 
-  const technologies = ["React Native", "Flutter", "Swift", "Kotlin", "Ionic", "Native Android & iOS"]
- 
+  ];
+
+  const technologies = [
+    "/image/Language/react-native.png",
+    "/image/Language/Flutter.png",
+    "/image/Language/Swift.png",
+    "/image/Language/Kotlin.png",
+  ];
+
   const bannerSlides = [
     {
-      image: "/image/app-dev.jpg",
-      title: "App Development Services",
-      description: "Build powerful mobile applications for iOS and Android platforms",
+      image: "/image/app-3.png",
+      title: "IOS Development",
+      description:
+        "Create robust mobile apps for the iOS and Android operating systems.",
     },
-  ]
+    {
+      image: "/image/app-4.png",
+      title: "IOS Development",
+      description:
+        "Create robust mobile apps for the Android and iOS platforms.",
+    },
+    {
+      image: "/image/app-5.png",
+      title: "IOS Development",
+      description:
+        "Build powerful mobile applications for iOS and Android platforms",
+    },
+  ];
+  const projects = [
+    {
+      id: 1,
+      title: "SUstylo",
+      description:
+        "a synopsis of the project and the services we offered for app development.",
+      image: "/image/work/1.jpg",
+      link: "https://sustylo.com/",
+    },
+    {
+      id: 2,
+      title: "FinUniques",
+      description:
+        "A brief description of the project and the app development solutions we provided.",
+      image: "/image/work/2.jpg",
+      link: "https://www.finuniques.in/",
+    },
+    {
+      id: 3,
+      title: "Gaming Platform",
+      description:
+        "An overview of the project and the app development services we offered.",
+      image: "/image/work/3.jpg",
+      link: "https://www.finuniquerummy.com/",
+    },
+  ];
   return (
     <div className="">
-      {/* Banner Section */}
-      <Banner slides={bannerSlides} />
- 
+      <div className="w-full px-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-primary mb-4">
+              App Development Services
+            </h1>
+            <p className="text-gray-600 dark:text-gray-300 text-justify">
+              At SevenUnique Tech Solution Pvt. Ltd., we understand that in
+              today’s fast-paced digital world, timely delivery and technical
+              excellence are non-negotiable. That’s why our mobile app
+              development services are built on the pillars of speed,
+              scalability, and precision.
+            </p>
+            <p className="text-gray-600 dark:text-gray-300">
+              Our team of seasoned developers crafts high-performance
+              applications compatible across all major platforms—Android, iOS,
+              Windows, and more. Whether you're a startup or an enterprise, we
+              design apps that are not only technically robust but also tailored
+              to your business model and user needs.
+            </p>
+          </div>
+          <div className="animate-slide-in-right">
+            <Banner2 slides={bannerSlides} />
+          </div>
+        </div>
+      </div>
+
       {/* Overview Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24 bg-gray-10">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Mobile App Development Solutions</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                Mobile App Development Solutions
+              </h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                In today's mobile-first world, having a powerful and user-friendly mobile application is essential for
-                businesses looking to engage with their customers effectively. Our app development services focus on
-                creating custom mobile applications that deliver exceptional user experiences and drive business growth.
+                At SevenUnique Tech Solution Pvt. Ltd., we don’t just develop
+                apps—we become your strategic partner in navigating the dynamic
+                world of digital transformation. With years of experience across
+                diverse industries, our expert developers not only craft
+                high-performance mobile applications but also provide tailored
+                solutions that are aligned with your business objectives.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Our team of experienced developers combines technical expertise with creative problem-solving to build
-                mobile applications that meet your specific business needs and exceed user expectations.
+                From custom features to intuitive interfaces, our focus is on
+                solving real-world problems while enhancing user experiences. By
+                collaborating with us, you’re not just building an app—you’re
+                investing in long-term growth and future-proof digital solutions
+                that drive success.
               </p>
               <h3 className="text-xl font-bold mb-3">Key Benefits:</h3>
               <ul className="space-y-2 mb-6">
@@ -66,14 +150,17 @@ export default function AppDevelopmentPage() {
           </div>
         </div>
       </section>
- 
+
       {/* Services Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24  dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our App Development Services</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Our App Development Services
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We offer a comprehensive range of app development services to meet your specific needs.
+              We offer a comprehensive range of app development services to meet
+              your specific needs.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -83,17 +170,16 @@ export default function AppDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Native App Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We develop high-performance native applications for iOS and Android platforms, leveraging
-                platform-specific features to deliver the best possible user experience.
+              For the iOS and Android platforms, we create high-performance native apps that take advantage of platform-specific capabilities to provide the greatest user experience.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>iOS app development (Swift, Objective-C)</span>
+                  <span>iOS app development (Swift, React Native)</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Android app development (Kotlin, Java)</span>
+                  <span>Android app development (React Native, Kotlin)</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
@@ -109,10 +195,11 @@ export default function AppDevelopmentPage() {
               <div className="text-primary mb-4">
                 <TabletSmartphone className="h-10 w-10" />
               </div>
-              <h3 className="text-xl font-bold mb-3">Cross-Platform App Development</h3>
+              <h3 className="text-xl font-bold mb-3">
+                Cross-Platform App Development
+              </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We build cross-platform applications that run on multiple platforms from a single codebase, reducing
-                development time and costs while maintaining a consistent user experience.
+              With a single codebase, we create cross-platform apps that function across several platforms, cutting down on development time and expenses without sacrificing user experience.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -137,10 +224,11 @@ export default function AppDevelopmentPage() {
               <div className="text-primary mb-4">
                 <Layers className="h-10 w-10" />
               </div>
-              <h3 className="text-xl font-bold mb-3">App Design & Development</h3>
+              <h3 className="text-xl font-bold mb-3">
+                App Design & Development
+              </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We provide end-to-end app design and development services, from concept to launch, ensuring a seamless
-                and engaging user experience.
+              From concept to launch, we offer full-cycle app design and development services, guaranteeing a smooth and interesting user experience.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -165,10 +253,11 @@ export default function AppDevelopmentPage() {
               <div className="text-primary mb-4">
                 <Shield className="h-10 w-10" />
               </div>
-              <h3 className="text-xl font-bold mb-3">App Maintenance & Support</h3>
+              <h3 className="text-xl font-bold mb-3">
+                App Maintenance & Support
+              </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We provide ongoing maintenance and support services to ensure your app remains up-to-date, secure, and
-                performs optimally.
+              To guarantee that your app is current, safe, and operates at its best, we offer continuous maintenance and support services.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -192,33 +281,40 @@ export default function AppDevelopmentPage() {
           </div>
         </div>
       </section>
- 
+
       {/* Technologies Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Technologies We Use</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Technologies We Use
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We leverage the latest technologies and frameworks to build powerful and scalable mobile applications.
+            We create robust and scalable mobile applications by utilizing the newest frameworks and technologies.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {technologies.map((tech, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md text-center">
-                <h3 className="font-bold">{tech}</h3>
+              <div
+                key={index}
+                className=" dark:bg-gray-800 p-6 pb-0 rounded-lg  text-center"
+              >
+                <img className="font-bold w-[137px] h-[137px]" src={tech} />
               </div>
             ))}
           </div>
         </div>
       </section>
- 
+
       {/* Process Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24  dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our App Development Process</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Our App Development Process
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We follow a structured and collaborative approach to ensure the success of every app development project.
+            To guarantee the success of any app development project, we employ a methodical and cooperative approach.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -226,73 +322,85 @@ export default function AppDevelopmentPage() {
               <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
                 1
               </div>
-              <h3 className="text-xl font-bold mb-3 mt-4">Discovery & Planning</h3>
+              <h3 className="text-xl font-bold mb-3 mt-4">
+                Discovery & Planning
+              </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We begin by understanding your business goals, target audience, and app requirements to create a solid
-                foundation for your project.
+              To build a strong foundation for your project, we start by comprehending your target audience, company objectives, and app needs.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
               <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
                 2
               </div>
-              <h3 className="text-xl font-bold mb-3 mt-4">Design & Prototyping</h3>
+              <h3 className="text-xl font-bold mb-3 mt-4">
+                Design & Prototyping
+              </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We create wireframes and interactive prototypes to visualize the app's interface and functionality
-                before development begins.
+              Before development starts, we produce interactive prototypes and wireframes to see how the app will work and look.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
               <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
                 3
               </div>
-              <h3 className="text-xl font-bold mb-3 mt-4">Development & Testing</h3>
+              <h3 className="text-xl font-bold mb-3 mt-4">
+                Development & Testing
+              </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Our developers build the app according to the approved designs, with regular testing to ensure quality
-                and functionality.
+              Our developers construct the software in accordance with the authorized designs, testing it frequently to guarantee its functioning and quality.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
               <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
                 4
               </div>
-              <h3 className="text-xl font-bold mb-3 mt-4">Deployment & Support</h3>
+              <h3 className="text-xl font-bold mb-3 mt-4">
+                Deployment & Support
+              </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We help you launch your app on the relevant app stores and provide ongoing support and maintenance.
+              We assist you with releasing your app on the appropriate app stores and offer continuing maintenance and support.
               </p>
             </div>
           </div>
         </div>
       </section>
- 
+
       {/* Portfolio Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our App Development Portfolio</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Our App Development Portfolio
+            </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Take a look at some of our recent app development projects.
+            Check out a few of our most recent app development endeavors.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
-              <div key={item} className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md group">
+            {projects.map((project) => (
+              <div
+                key={project.id}
+                className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md group"
+              >
                 <div className="relative h-64 w-full overflow-hidden">
                   <Image
-                    src={`/placeholder.svg?height=300&width=400&text=App Project ${item}`}
-                    alt={`App Project ${item}`}
+                    src={project.image}
+                    alt={project.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">App Project {item}</h3>
+                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    A brief description of the project and the app development solutions we provided.
+                    {project.description}
                   </p>
                   <Link
-                    href={`/case-studies/app-project-${item}`}
+                    href={project.link}
                     className="inline-flex items-center text-primary hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     View Case Study <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -300,21 +408,23 @@ export default function AppDevelopmentPage() {
               </div>
             ))}
           </div>
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <Button asChild>
               <Link href="/portfolio">View All Projects</Link>
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
- 
+
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-primary text-white">
+      <section className="py-16 md:py-24 bg-white text-black">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Build Your Mobile App?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Ready to Build Your Mobile App?
+          </h2>
           <p className="max-w-2xl mx-auto mb-8">
-            Contact us today to discuss your app development needs and how we can help you create a powerful mobile
-            application.
+            Contact us today to discuss your app development needs and how we
+            can help you create a powerful mobile application.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button variant="secondary" size="lg" asChild>
@@ -323,7 +433,7 @@ export default function AppDevelopmentPage() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-transparent border-white text-white hover:bg-white hover:text-primary"
+              className="bg-transparent border-primary text-black hover:bg-white hover:text-primary"
               asChild
             >
               <Link href="/services">Explore Other Services</Link>
@@ -332,5 +442,5 @@ export default function AppDevelopmentPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }

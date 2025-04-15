@@ -61,7 +61,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4 text-white">Services</h3>
             <ul className="space-y-3">
               {[
-                { href: "/services/ui-ux", text: "UI/UX Design" },
+                { href: "/services/ui-ux-design", text: "UI/UX Design" },
                 { href: "/services/app-development", text: "App Development" },
                 { href: "/services/web-development", text: "Web Development" },
                 { href: "/services/game-development", text: "Game Development" },
