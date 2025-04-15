@@ -26,20 +26,20 @@ const services = [
   { name: "BBPS Services", href: "/services/bbps" },
   { name: "Cab Booking Software", href: "/services/cab-booking-software" },
   { name: "Food Delivery Software", href: "/services/food-delivery-software" },
-  { name: "Grocery Software", href: "/services/grocery-software" },
-  { name: "Home Service Software", href: "/services/home-service-software" },
-  { name: "Fantasy Sport Software", href: "/services/fantasy-sport-software" },
-  { name: "Sport Betting Software", href: "/services/sport-betting-software" },
+  { name: "Grocery Delivery Software", href: "/services/grocery-software" },
+  { name: "Home Services Software", href: "/services/home-service-software" }, 
+  { name: "Fantasy Sports Software", href: "/services/fantasy-sport-software" }, 
+  { name: "Sports Betting Software", href: "/services/sport-betting-software" }, 
   { name: "School Management Software", href: "/services/school-management-software" },
   { name: "CRM Software", href: "/services/crm-software" },
   { name: "HRMS Software", href: "/services/hrms-software" },
-  { name: "Employ Tracking Software", href: "/services/employ-tracking-software" },
+  { name: "Employee Tracking Software", href: "/services/employee-tracking-software" },
   { name: "E-Commerce Portal", href: "/services/e-commerce-portal" },
-  { name: "Loan Module Software", href: "/services/loan-module-software" },
+  { name: "Loan Management Software", href: "/services/loan-module-software" }, 
   { name: "Reseller Software", href: "/services/reseller-software" },
   { name: "Travel Booking Software", href: "/services/travel-booking-software" },
   { name: "Fintech Software", href: "/services/fintech-software" },
-]
+];
 
 const softwareItems = [
   { name: "Recharge Software", href: "/services/recharge-software" },
