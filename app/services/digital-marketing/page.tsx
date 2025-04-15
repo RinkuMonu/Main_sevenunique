@@ -7,37 +7,37 @@ const DigitalMarketing = () => {
   const services = [
     {
       title: 'Search Engine Optimization (SEO)',
-      description: "Improve your website's visibility in search engine results and drive organic traffic.",
-      features: ['Keyword Research', 'On-page Optimization', 'Technical SEO', 'Link Building'],
+      description: "Our team employs proven SEO techniques, including on-page optimization, link building, and technical SEO, to drive organic traffic and increase your online presence.",
+      features: ['Keyword Research', 'On-page Optimization', 'Technical SEO', 'Off-page Optimization'],
       icon: '🔍'
     },
     {
       title: 'Social Media Marketing',
-      description: 'Engage with your audience and build brand awareness through effective social media strategies.',
-      features: ['Platform Strategy', 'Content Creation', 'Community Management', 'Paid Campaigns'],
+      description: 'We help your brand thrive across various social platforms such as Facebook, Instagram, Twitter, LinkedIn, and more',
+      features: ['Platform Strategy', 'Content Creation', 'Engagement Strategies', 'Paid Campaigns'],
       icon: '📱'
     },
     {
       title: 'Pay-Per-Click (PPC) Advertising',
-      description: 'Drive targeted traffic to your website through strategic paid advertising campaigns.',
+      description: ' We manage and optimize your paid ads on platforms like Google Ads, Bing Ads, and social media to drive targeted traffic to your website.',
       features: ['Google Ads', 'Social Media Ads', 'Display Advertising', 'Remarketing'],
       icon: '💰'
     },
     {
       title: 'Content Marketing',
-      description: 'Create valuable content that attracts, engages, and converts your target audience.',
+      description: ' We develop high-quality, SEO-optimized content that engages your audience, builds trust, and drives conversions',
       features: ['Content Strategy', 'Blog Posts', 'Whitepapers', 'Video Content'],
       icon: '✍️'
     },
     {
       title: 'Email Marketing',
-      description: 'Connect with your audience directly through personalized email campaigns.',
+      description: 'We develop personalized email campaigns that nurture leads, build relationships with customers, and keep your audience engaged.',
       features: ['Campaign Strategy', 'Email Design', 'Automation', 'Performance Analysis'],
       icon: '✉️'
     },
     {
       title: 'Analytics & Reporting',
-      description: 'Track, analyze, and optimize your digital marketing performance for better results.',
+      description: 'Our team continuously tracks, measures, and analyzes the performance of your digital marketing campaigns.',
       features: ['Custom Dashboards', 'Performance Tracking', 'Conversion Analysis', 'ROI Measurement'],
       icon: '📊'
     },
@@ -66,10 +66,11 @@ const DigitalMarketing = () => {
               
               <div className="space-y-4 mb-8">
                 <p className="text-lg text-gray-600">
-                  We don't just create campaigns - we build marketing systems that deliver consistent, scalable results through data-driven strategies.
+                In today’s digital-first world, a well-executed digital marketing strategy is key to achieving sustained business growth and maximizing ROI.
                 </p>
                 <p className="text-lg text-gray-600">
-                  Our full-funnel approach ensures every marketing dollar is optimized for maximum ROI.
+                At SevenUnique Tech Solution Pvt. Ltd., we blend innovative strategies with data-driven insights to create customized marketing campaigns that resonate with your target audience and drive real, measurable results.
+
                 </p>
               </div>
 
@@ -77,15 +78,15 @@ const DigitalMarketing = () => {
                 {[
                   {
                     title: 'Performance-Focused',
-                    desc: 'We measure success by your business outcomes, not just vanity metrics.',
+                    desc: 'We use business results, not simply vanity measures, to gauge performance.',
                   },
                   {
                     title: 'Omnichannel Integration',
-                    desc: 'Seamless coordination across all digital channels for maximum impact.',
+                    desc: 'synchronization across all digital platforms for optimal effect.',
                   },
                   {
                     title: 'Continuous Optimization',
-                    desc: 'Real-time adjustments based on performance data and market shifts.',
+                    desc: 'real-time modifications in response to market changes and performance data.',
                   },
                 ].map((item, idx) => (
                   <div className="flex items-start" key={idx}>
@@ -207,7 +208,7 @@ const DigitalMarketing = () => {
             {[
               { 
                 title: 'Discovery & Audit', 
-                desc: 'Comprehensive analysis of your current marketing and competitive landscape.',
+                desc: 'thorough examination of the competitive environment and marketing you are currently using.',
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
@@ -216,7 +217,7 @@ const DigitalMarketing = () => {
               },
               { 
                 title: 'Strategy Development', 
-                desc: 'Custom marketing roadmap aligned with your business objectives.',
+                desc: "Personalized marketing plan in line with your company's goals.",
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
@@ -225,7 +226,7 @@ const DigitalMarketing = () => {
               },
               { 
                 title: 'Execution', 
-                desc: 'Flawless implementation across all selected channels.',
+                desc: 'flawless execution in every channel that was chosen.',
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
@@ -234,7 +235,7 @@ const DigitalMarketing = () => {
               },
               { 
                 title: 'Optimization', 
-                desc: 'Continuous testing and refinement for peak performance.',
+                desc: 'For optimal performance, testing and improvement are ongoing.',
                 icon: (
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
@@ -369,19 +370,19 @@ const DigitalMarketing = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                quote: "Our website traffic tripled within 6 months of working with their team. The ROI has been incredible.",
+                quote: "After working with their team for six months, our website traffic tripled. The return on investment has been amazing.",
                 name: "Sarah Johnson",
                 title: "Marketing Director, TechStart",
                 avatar: "/avatar-1.jpg"
               },
               {
-                quote: "They transformed our social media presence from non-existent to our #1 lead source in under a year.",
+                quote: "In less than a year, they turned our nonexistent social media presence into our top lead source.",
                 name: "Michael Chen",
                 title: "CEO, RetailPro",
                 avatar: "/avatar-2.jpg"
               },
               {
-                quote: "The data-driven approach gave us clarity we never had before. Now we know exactly where to invest.",
+                quote: "We had never before had this level of clarity because to the data-driven approach. We now know precisely where to make investments.",
                 name: "David Martinez",
                 title: "Founder, GreenLife",
                 avatar: "/avatar-3.jpg"
@@ -416,7 +417,7 @@ const DigitalMarketing = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Transform Your Marketing?</h2>
           <p className="text-xl text-primary-light max-w-2xl mx-auto mb-10">
-            Schedule your free consultation and get a customized marketing strategy.
+          Make an appointment for your free consultation to receive a personalized marketing plan..
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
