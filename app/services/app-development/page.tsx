@@ -104,7 +104,7 @@ export default function AppDevelopmentPage() {
       </div>
 
       {/* Overview Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-10">
+      <section className="py-16 md:py-24 px-24 px-24 bg-gray-10">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -152,7 +152,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 md:py-24 px-24  dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 px-24  dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -283,7 +283,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Technologies Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="py-16 md:py-24 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -307,7 +307,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Process Section */}
-      <section className="py-16 md:py-24  dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24  dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -367,7 +367,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Portfolio Section */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="py-16 md:py-24 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -417,7 +417,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-white text-black">
+      <section className="py-16 md:py-24 px-24 bg-white text-black">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Build Your Mobile App?
