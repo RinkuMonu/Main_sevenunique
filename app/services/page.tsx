@@ -148,7 +148,7 @@ export default function ServicesPage() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className={index % 2 === 0 ? "order-1" : "order-1 md:order-2"}>
                 <div className="mb-2 flex items-center">
-                  <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400 mr-3">
+                  <div className="w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mr-3">
                     {service.icon}
                   </div>
                   <h2 className="text-3xl font-bold">{service.title}</h2>
@@ -157,24 +157,24 @@ export default function ServicesPage() {
                 <div className="space-y-3 mb-8">
                   {service.features.map((feature, featureIndex) => (
                     <div key={featureIndex} className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-purple-600 dark:text-purple-400 mr-2 flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] dark:text-[#e8ab8f] mr-2 flex-shrink-0 mt-0.5" />
                       <span className="text-gray-700 dark:text-gray-300">{feature}</span>
                     </div>
                   ))}
                 </div>
                 <Link href={service.href}>
-                  <Button className="bg-purple-600 hover:bg-purple-700 text-white">Learn More</Button>
+                  <Button className="bg-[#AB6545] bg-[#e8ab8f] text-white">Learn More</Button>
                 </Link>
               </div>
               <div className={index % 2 === 0 ? "order-2" : "order-2 md:order-1"}>
                 <div className="relative">
-                  <div className="absolute -top-4 -left-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
+                  <div className="absolute -top-4 -left-4 w-24 h-24 bg-[#e8ab8f] dark:bg-purple-900/30 rounded-lg -z-10"></div>
                   <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">
                     <div className="aspect-video relative overflow-hidden rounded-lg">
                       <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-blue-500/20"></div>
                       <div className="absolute inset-0 flex items-center justify-center">
                         <div className="text-center p-6">
-                          <div className="w-16 h-16 mx-auto bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+                          <div className="w-16 h-16 mx-auto bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mb-4">
                             {service.icon}
                           </div>
                           <h3 className="text-xl font-bold mb-2">{service.title}</h3>
@@ -185,7 +185,7 @@ export default function ServicesPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
+                  <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#e8ab8f] dark:bg-purple-900/30 rounded-lg -z-10"></div>
                 </div>
               </div>
             </div>

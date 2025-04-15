@@ -162,25 +162,25 @@ export default function CareerPage() {
               </p>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-purple-600 dark:text-purple-400 mr-2 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] dark:text-[#e8ab8f] mr-2 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700 dark:text-gray-300">
                   An inclusive and cooperative workplace
                   </span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-purple-600 dark:text-purple-400 mr-2 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] dark:text-[#e8ab8f] mr-2 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700 dark:text-gray-300">
                   Possibilities for career advancement and development
                   </span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-purple-600 dark:text-purple-400 mr-2 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] dark:text-[#e8ab8f] mr-2 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700 dark:text-gray-300">
                   Work on worthwhile and difficult projects.
                   </span>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-purple-600 dark:text-purple-400 mr-2 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] dark:text-[#e8ab8f] mr-2 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-700 dark:text-gray-300">
                   Competitive pay and benefits
                   </span>
@@ -188,7 +188,7 @@ export default function CareerPage() {
               </div>
             </div>
             <div className="relative">
-              <div className="absolute -top-4 -left-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
+              <div className="absolute -top-4 -left-4 w-24 h-24 bg-[#e8ab8f] dark:bg-purple-900/30 rounded-lg -z-10"></div>
               <Image
                 src="/image/2149667031.jpg"
                 alt="Team working together"
@@ -196,7 +196,7 @@ export default function CareerPage() {
                 height={400}
                 className="rounded-lg shadow-lg"
               />
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#e8ab8f] dark:bg-purple-900/30 rounded-lg -z-10"></div>
             </div>
           </div>
         </div>
@@ -216,7 +216,7 @@ export default function CareerPage() {
                 key={index}
                 className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg"
               >
-                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mb-4">
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
@@ -283,7 +283,7 @@ export default function CareerPage() {
                   </div>
                   <div className="mt-6">
                     <Link href={`/career/${job.slug}`}>
-                      <Button className="bg-purple-600 hover:bg-purple-700 text-white">
+                      <Button className="bg-[#AB6545] bg-[#e8ab8f] text-white">
                         Apply Now
                       </Button>
                     </Link>
@@ -306,7 +306,7 @@ export default function CareerPage() {
           <div className="max-w-4xl mx-auto mt-12">
             <div className="relative">
               {/* Timeline line */}
-              <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-0.5 bg-purple-200 dark:bg-purple-900/30 transform md:translate-x-px"></div>
+              <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-0.5 bg-[#e8ab8f] dark:bg-purple-900/30 transform md:translate-x-px"></div>
 
               {/* Timeline items */}
               <div className="space-y-12">
@@ -321,7 +321,7 @@ export default function CareerPage() {
                       skills and experience.
                     </p>
                   </div>
-                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-purple-600 rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
+                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-[#AB6545] rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
                     1
                   </div>
                   <div className="flex-1 md:pl-8 pt-8 md:pt-0"></div>
@@ -330,7 +330,7 @@ export default function CareerPage() {
                 {/* Step 2 */}
                 <div className="relative flex flex-col md:flex-row items-center">
                   <div className="flex-1 md:text-right md:pr-8 order-1 md:order-1 pb-8 md:pb-0"></div>
-                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-purple-600 rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
+                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-[#AB6545] rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
                     2
                   </div>
                   <div className="flex-1 md:pl-8 order-2 md:order-2 pt-8 md:pt-0">
@@ -355,7 +355,7 @@ export default function CareerPage() {
                       task or a coding challenge.
                     </p>
                   </div>
-                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-purple-600 rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
+                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-[#AB6545] rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
                     3
                   </div>
                   <div className="flex-1 md:pl-8 pt-8 md:pt-0"></div>
@@ -364,7 +364,7 @@ export default function CareerPage() {
                 {/* Step 4 */}
                 <div className="relative flex flex-col md:flex-row items-center">
                   <div className="flex-1 md:text-right md:pr-8 order-1 md:order-1 pb-8 md:pb-0"></div>
-                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-purple-600 rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
+                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-[#AB6545] rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
                     4
                   </div>
                   <div className="flex-1 md:pl-8 order-2 md:order-2 pt-8 md:pt-0">
@@ -385,7 +385,7 @@ export default function CareerPage() {
                       onboarding process!
                     </p>
                   </div>
-                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-purple-600 rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
+                  <div className="absolute left-0 md:left-1/2 top-0 w-8 h-8 bg-[#AB6545] rounded-full transform -translate-x-1/2 flex items-center justify-center text-white font-bold">
                     5
                   </div>
                   <div className="flex-1 md:pl-8 pt-8 md:pt-0"></div>
@@ -409,7 +409,7 @@ export default function CareerPage() {
             <Button
               size="lg"
               variant="default"
-              className="hover:bg-white hover:text-purple-700 bg-purple-600 text-white"
+              className="hover:bg-white hover:text-purple-700 bg-[#AB6545] text-white"
             >
               Contact Us 
             </Button>

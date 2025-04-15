@@ -106,7 +106,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <div className="max-w-3xl mx-auto">
           <Link
             href="/blog"
-            className="inline-flex items-center text-purple-600 dark:text-purple-400 mb-8 hover:underline"
+            className="inline-flex items-center text-[#ab6545] dark:text-[#e8ab8f] mb-8 hover:underline"
           >
             <ArrowLeft className="h-4 w-4 mr-2" />
             Back to Blog
@@ -183,7 +183,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 <div className="p-4">
                   <h3 className="font-bold mb-2">The Importance of User Testing in Design</h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">May 28, 2023</p>
-                  <Link href="#" className="text-purple-600 dark:text-purple-400 text-sm hover:underline">
+                  <Link href="#" className="text-[#ab6545] dark:text-[#e8ab8f] text-sm hover:underline">
                     Read more
                   </Link>
                 </div>
@@ -195,7 +195,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 <div className="p-4">
                   <h3 className="font-bold mb-2">Color Theory for Digital Designers</h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">April 15, 2023</p>
-                  <Link href="#" className="text-purple-600 dark:text-purple-400 text-sm hover:underline">
+                  <Link href="#" className="text-[#ab6545] dark:text-[#e8ab8f] text-sm hover:underline">
                     Read more
                   </Link>
                 </div>

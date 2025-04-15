@@ -8,7 +8,7 @@ export default function HomeServiceSoftwarePage() {
 
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/Home.jpg",
           title: "Home Service Software",
           description: "Streamline your home service business with our comprehensive management solution",
           
