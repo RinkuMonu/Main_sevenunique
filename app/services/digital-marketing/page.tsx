@@ -91,7 +91,7 @@ const DigitalMarketing = () => {
                 ].map((item, idx) => (
                   <div className="flex items-start" key={idx}>
                     <div className="flex-shrink-0 mt-1">
-                      <div className="flex items-center justify-center h-6 w-6 rounded-full bg-primary text-white">
+                      <div className="flex items-center justify-center h-6 w-6 rounded-full bg-[#AB6545] text-white">
                         <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
@@ -106,7 +106,7 @@ const DigitalMarketing = () => {
               </div>
 
               <div className="flex flex-wrap gap-4">
-                <Link href="/contact" className="px-8 py-3 bg-primary hover:bg-primary-dark text-white font-medium rounded-lg transition duration-300">
+                <Link href="/contact" className="px-8 py-3 bg-[#AB6545] hover:bg-[#AB6545]-dark text-white font-medium rounded-lg transition duration-300">
                   Get Started
                 </Link>
                 <Link href="#services" className="px-8 py-3 border border-gray-300 hover:border-primary text-gray-700 hover:text-primary font-medium rounded-lg transition duration-300">
@@ -317,7 +317,7 @@ const DigitalMarketing = () => {
                 <div className="p-8">
                   <div className="flex flex-wrap gap-2 mb-4">
                     {caseStudy.tags.map((tag, i) => (
-                      <span key={i} className="px-3 py-1 bg-primary/10 text-primary text-xs font-medium rounded-full">
+                      <span key={i} className="px-3 py-1 bg-[#AB6545]/10 text-primary text-xs font-medium rounded-full">
                         {tag}
                       </span>
                     ))}
@@ -357,7 +357,7 @@ const DigitalMarketing = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-12 lg:py-20 bg-primary text-white">
+      <section className="py-12 lg:py-20 bg-[#AB6545] text-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block mb-3 text-sm font-semibold text-primary-light tracking-widest">TESTIMONIALS</span>
@@ -388,7 +388,7 @@ const DigitalMarketing = () => {
                 avatar: "/avatar-3.jpg"
               }
             ].map((testimonial, index) => (
-              <div key={index} className="bg-primary-dark p-8 rounded-xl">
+              <div key={index} className="bg-[#AB6545]-dark p-8 rounded-xl">
                 <div className="mb-6">
                   <svg className="w-8 h-8 text-secondary" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />

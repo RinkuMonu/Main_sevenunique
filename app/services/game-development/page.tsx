@@ -292,7 +292,7 @@ export default function GameDevelopmentPage() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Concept & Design</h3>
@@ -302,7 +302,7 @@ export default function GameDevelopmentPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Prototyping</h3>
@@ -313,7 +313,7 @@ export default function GameDevelopmentPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">
@@ -326,7 +326,7 @@ export default function GameDevelopmentPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Launch & Support</h3>

@@ -3,13 +3,11 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
   CheckCircle,
-  ArrowRight,
   Smartphone,
   TabletSmartphone,
   Layers,
   Shield,
 } from "lucide-react";
-import Banner from "@/components/banner";
 import Banner2 from "@/components/banner2";
 
 export default function AppDevelopmentPage() {
@@ -104,7 +102,7 @@ export default function AppDevelopmentPage() {
       </div>
 
       {/* Overview Section */}
-      <section className="py-16 md:py-24 px-24 px-24 bg-gray-10">
+      <section className="py-16 md:py-24 px-24 bg-gray-10">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -152,7 +150,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 md:py-24 px-24 px-24  dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24   dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -319,7 +317,7 @@ export default function AppDevelopmentPage() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">
@@ -330,7 +328,7 @@ export default function AppDevelopmentPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">
@@ -341,7 +339,7 @@ export default function AppDevelopmentPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">
@@ -352,7 +350,7 @@ export default function AppDevelopmentPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">

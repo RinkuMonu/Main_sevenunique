@@ -82,7 +82,7 @@ export default function ContactPage() {
 
               <div className="space-y-6 mt-8">
                 <div className="flex items-start">
-                  <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400 mr-4 flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mr-4 flex-shrink-0">
                     <Mail className="h-5 w-5" />
                   </div>
                   <div>
@@ -93,7 +93,7 @@ export default function ContactPage() {
                 </div>
 
                 {/* <div className="flex items-start">
-                  <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400 mr-4 flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mr-4 flex-shrink-0">
                     <Phone className="h-5 w-5" />
                   </div>
                   <div>
@@ -104,7 +104,7 @@ export default function ContactPage() {
                 </div> */}
 
                 <div className="flex items-start">
-                  <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400 mr-4 flex-shrink-0">
+                  <div className="w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mr-4 flex-shrink-0">
                     <MapPin className="h-5 w-5" />
                   </div>
                   <div>
@@ -214,7 +214,7 @@ export default function ContactPage() {
                     </div>
                     <Button
                       type="submit"
-                      className="w-full bg-purple-600 hover:bg-purple-700 text-white"
+                      className="w-full bg-[#AB6545] bg-[#e8ab8f] text-white"
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? (
