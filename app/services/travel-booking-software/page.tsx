@@ -126,7 +126,7 @@ const TravelSoftware = () => {
                 ))}
               </div>
               <Link href="/contact" className="inline-block px-8 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">
-                Request a Demo
+                Get in Touch
               </Link>
             </div>
             <div className="lg:w-1/2">
@@ -279,7 +279,7 @@ const TravelSoftware = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/contact" className="inline-block px-8 py-3 bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-100 transition duration-300">
-              Request a Demo
+              Get in Touch
             </Link>
             <Link href="/services/software" className="inline-block px-8 py-3 border-2 border-white text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">
               Explore Other Software

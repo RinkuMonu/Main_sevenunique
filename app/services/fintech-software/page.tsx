@@ -293,7 +293,7 @@ export default function FintechSoftwarePage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button variant="secondary" size="lg" asChild>
-              <Link href="/contact">Request a Consultation</Link>
+              <Link href="/contact">Get in Touch</Link>
             </Button>
             <Button
               variant="outline"
