@@ -141,9 +141,9 @@ export default function Header() {
                           <NavigationMenuLink asChild>
                             <Link
                               href={service.href}
-                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-purple-600/10 hover:text-purple-600 focus:bg-accent focus:text-accent-foreground"
+                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-[#AB6545]/10 hover:text-[#ab6545] focus:bg-accent focus:text-accent-foreground"
                             >
-                              <div className="text-sm font-medium leading-none hover:text-purple-600 transition-all duration-200 hover:underline">
+                              <div className="text-sm font-medium leading-none hover:text-[#ab6545] transition-all duration-200 hover:underline">
                                 {service.name}
                               </div>
                             </Link>
@@ -164,9 +164,9 @@ export default function Header() {
                           <NavigationMenuLink asChild>
                             <Link
                               href={item.href}
-                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-purple-600/10 hover:text-purple-600 focus:bg-accent focus:text-accent-foreground"
+                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-[#AB6545]/10 hover:text-[#ab6545] focus:bg-accent focus:text-accent-foreground"
                             >
-                              <div className="text-sm font-medium leading-none hover:text-purple-600 transition-all duration-200 hover:underline">
+                              <div className="text-sm font-medium leading-none hover:text-[#ab6545] transition-all duration-200 hover:underline">
                                 {item.name}
                               </div>
                             </Link>
@@ -187,9 +187,9 @@ export default function Header() {
                           <NavigationMenuLink asChild>
                             <Link
                               href={item.href}
-                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-purple-600/10 hover:text-purple-600 focus:bg-accent focus:text-accent-foreground"
+                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-[#AB6545]/10 hover:text-[#ab6545] focus:bg-accent focus:text-accent-foreground"
                             >
-                              <div className="text-sm font-medium leading-none hover:text-purple-600 transition-all duration-200 hover:underline">
+                              <div className="text-sm font-medium leading-none hover:text-[#ab6545] transition-all duration-200 hover:underline">
                                 {item.name}
                               </div>
                             </Link>
@@ -241,8 +241,8 @@ export default function Header() {
                 className={cn(
                   "px-4 py-3 text-base font-medium rounded-md transition-colors",
                   pathname === "/"
-                    ? "bg-purple-600 text-white"
-                    : "hover:bg-purple-600/10 hover:text-purple-600",
+                    ? "bg-[#AB6545] text-white"
+                    : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
                 )}
               >
                 Home
@@ -254,8 +254,8 @@ export default function Header() {
                 className={cn(
                   "px-4 py-3 text-base font-medium rounded-md transition-colors",
                   pathname === "/about" || pathname.startsWith("/about")
-                    ? "bg-purple-600 text-white"
-                    : "hover:bg-purple-600/10 hover:text-purple-600",
+                    ? "bg-[#AB6545] text-white"
+                    : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
                 )}
               >
                 About
@@ -278,8 +278,8 @@ export default function Header() {
                         className={cn(
                           "block px-4 py-2 text-sm rounded-md transition-colors",
                           pathname === service.href
-                            ? "bg-purple-600 text-white"
-                            : "hover:bg-purple-600/10 hover:text-purple-600",
+                            ? "bg-[#AB6545] text-white"
+                            : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
                         )}
                       >
                         {service.name}
@@ -306,8 +306,8 @@ export default function Header() {
                         className={cn(
                           "block px-4 py-2 text-sm rounded-md transition-colors",
                           pathname === item.href
-                            ? "bg-purple-600 text-white"
-                            : "hover:bg-purple-600/10 hover:text-purple-600",
+                            ? "bg-[#AB6545] text-white"
+                            : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
                         )}
                       >
                         {item.name}
@@ -334,8 +334,8 @@ export default function Header() {
                         className={cn(
                           "block px-4 py-2 text-sm rounded-md transition-colors",
                           pathname === item.href
-                            ? "bg-purple-600 text-white"
-                            : "hover:bg-purple-600/10 hover:text-purple-600",
+                            ? "bg-[#AB6545] text-white"
+                            : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
                         )}
                       >
                         {item.name}
@@ -353,8 +353,8 @@ export default function Header() {
                   className={cn(
                     "px-4 py-3 text-base font-medium rounded-md transition-colors",
                     pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))
-                      ? "bg-purple-600 text-white"
-                      : "hover:bg-purple-600/10 hover:text-purple-600",
+                      ? "bg-[#AB6545] text-white"
+                      : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
                   )}
                 >
                   {item.name}

@@ -31,7 +31,7 @@ export default function ProjectCard({ title, category, image, href, index }: Pro
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent  group-hover:opacity-100 transition-opacity duration-300">
             <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-              <div className="text-sm font-medium text-purple-400 mb-1">{category}</div>
+              <div className="text-sm font-medium text-[#e8ab8f] mb-1">{category}</div>
               <h3 className="text-xl font-bold">{title}</h3>
             </div>
           </div>

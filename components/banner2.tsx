@@ -80,7 +80,7 @@ export default function Banner2({ slides, autoplay = true, interval = 5000 }: Ba
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.6, duration: 0.5 }}
               >
-                {/* <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white">
+                {/* <Button size="lg" className="bg-[#AB6545] bg-[#e8ab8f] text-white">
                   Get Started
                 </Button> */}
               </motion.div>

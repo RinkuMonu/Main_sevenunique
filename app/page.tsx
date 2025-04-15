@@ -246,7 +246,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
+                <div className="absolute -top-4 -left-4 w-24 h-24 bg-[#e8ab8f]  dark:bg-[#AB6545] rounded-lg -z-10"></div>
                 <Image
                   src="./image/124515.jpg"
                   alt="About Us"
@@ -254,7 +254,7 @@ export default function Home() {
                   height={400}
                   className="rounded-lg shadow-lg"
                 />
-                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
+                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#e8ab8f] dark:bg-purple-900/30 rounded-lg -z-10"></div>
               </div>
             </div>
             <div>
@@ -269,7 +269,7 @@ export default function Home() {
               <Link href="/about">
                 <Button
                   size="lg"
-                  className="bg-purple-600 hover:bg-purple-700 text-white"
+                  className=" bg-[#e8ab8f] text-white"
                 >
                   Learn More About Us
                 </Button>
@@ -371,10 +371,10 @@ export default function Home() {
               >
                 {index < strategies.length - 1 && (
                   <div className="hidden lg:block absolute top-1/2 right-0 w-full h-0.5 bg-gray-200 dark:bg-gray-700 -z-10 transform translate-x-1/2">
-                    <div className="absolute top-1/2 right-0 w-3 h-3 bg-purple-600 rounded-full transform -translate-y-1/2 translate-x-1/2"></div>
+                    <div className="absolute top-1/2 right-0 w-3 h-3 bg-[#AB6545] rounded-full transform -translate-y-1/2 translate-x-1/2"></div>
                   </div>
                 )}
-                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center dark:text-[#e8ab8f] mb-4">
                   {strategy.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-2">{strategy.title}</h3>

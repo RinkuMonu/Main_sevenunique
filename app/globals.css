@@ -129,7 +129,7 @@ body {
 }
 
 .prose a {
-  @apply text-purple-600 dark:text-purple-400 hover:underline;
+  @apply text-[#ab6545] dark:text-[#e8ab8f] hover:underline;
 }
 
 .prose blockquote {

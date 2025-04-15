@@ -95,7 +95,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
+                <div className="absolute -top-4 -left-4 w-24 h-24 bg-[#e8ab8f] dark:bg-purple-900/30 rounded-lg -z-10"></div>
                 <Image
                   src="/images/7031.jpg"
                   alt="Our Vision"
@@ -103,7 +103,7 @@ export default function AboutPage() {
                   height={400}
                   className="rounded-lg shadow-lg"
                 />
-                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div>
+                <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#e8ab8f] dark:bg-purple-900/30 rounded-lg -z-10"></div>
               </div>
             </div>
             <div className="order-1 md:order-2">
@@ -115,7 +115,7 @@ export default function AboutPage() {
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="mr-4 mt-1">
-                    <Target className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+                    <Target className="h-6 w-6 text-[#ab6545] dark:text-[#e8ab8f]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Innovation at the Core</h3>
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-start">
                   <div className="mr-4 mt-1">
-                    <Lightbulb className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+                    <Lightbulb className="h-6 w-6 text-[#ab6545] dark:text-[#e8ab8f]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Digital Transformation</h3>
@@ -137,7 +137,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-start">
                   <div className="mr-4 mt-1">
-                    <Users className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+                    <Users className="h-6 w-6 text-[#ab6545] dark:text-[#e8ab8f]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Inclusive Technology</h3>
@@ -165,7 +165,7 @@ export default function AboutPage() {
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="mr-4 mt-1">
-                    <CheckCircle className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+                    <CheckCircle className="h-6 w-6 text-[#ab6545] dark:text-[#e8ab8f]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Excellence in Delivery</h3>
@@ -176,7 +176,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-start">
                   <div className="mr-4 mt-1">
-                    <CheckCircle className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+                    <CheckCircle className="h-6 w-6 text-[#ab6545] dark:text-[#e8ab8f]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Client Partnership</h3>
@@ -187,7 +187,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-start">
                   <div className="mr-4 mt-1">
-                    <CheckCircle className="h-6 w-6 text-purple-600 dark:text-purple-400" />
+                    <CheckCircle className="h-6 w-6 text-[#ab6545] dark:text-[#e8ab8f]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Continuous Improvement</h3>
@@ -200,7 +200,7 @@ export default function AboutPage() {
             </div>
             <div>
               <div className="flex justify-center">
-                {/* <div className="absolute -top-4 -right-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div> */}
+                {/* <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#e8ab8f] dark:bg-purple-900/30 rounded-lg -z-10"></div> */}
                 <Image
                   src="/images/4229.jpg"
                   alt="Our Mission"
@@ -208,7 +208,7 @@ export default function AboutPage() {
                   height={400}
                   className="rounded-lg shadow-lg"
                 />
-                {/* <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-purple-200 dark:bg-purple-900/30 rounded-lg -z-10"></div> */}
+                {/* <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-[#e8ab8f] dark:bg-purple-900/30 rounded-lg -z-10"></div> */}
               </div>
             </div>
           </div>
@@ -222,7 +222,7 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mb-4">
                 <Award className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-bold mb-2">Excellence</h3>
@@ -231,7 +231,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mb-4">
                 <Users className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-bold mb-2">Collaboration</h3>
@@ -240,7 +240,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mb-4">
                 <Lightbulb className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-bold mb-2">Innovation</h3>
@@ -249,7 +249,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mb-4">
                 <CheckCircle className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-bold mb-2">Integrity</h3>
@@ -258,7 +258,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mb-4">
                 <Target className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-bold mb-2">Client Focus</h3>
@@ -267,7 +267,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+              <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-lg flex items-center justify-center text-[#ab6545] dark:text-[#e8ab8f] mb-4">
                 <Lightbulb className="h-6 w-6" />
               </div>
               <h3 className="text-xl font-bold mb-2">Continuous Learning</h3>

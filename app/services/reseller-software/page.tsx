@@ -176,7 +176,7 @@ export default function ResellerSoftwarePage() {
           </div>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Setup</h3>
@@ -185,7 +185,7 @@ export default function ResellerSoftwarePage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Onboard</h3>
@@ -194,7 +194,7 @@ export default function ResellerSoftwarePage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Manage</h3>
@@ -203,7 +203,7 @@ export default function ResellerSoftwarePage() {
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
-              <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="absolute -top-4 -left-4 w-12 h-12 bg-[#AB6545] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Scale</h3>
@@ -251,7 +251,7 @@ export default function ResellerSoftwarePage() {
       </section>
  
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-primary text-white">
+      <section className="py-16 md:py-24 bg-[#AB6545] text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Expand Your Business?</h2>
           <p className="max-w-2xl mx-auto mb-8">
