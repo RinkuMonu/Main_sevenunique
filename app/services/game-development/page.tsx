@@ -6,14 +6,14 @@ import Banner from "@/components/banner"
  
 export default function GameDevelopmentPage() {
   const benefits = [
-    "Engage users with interactive and immersive experiences",
-    "Create new revenue streams through in-app purchases and ads",
-    "Build brand awareness and loyalty through gamification",
-    "Reach a wider audience across multiple platforms",
-    "Leverage cutting-edge technologies for innovative gameplay",
+    "Engage players with immersive storylines and responsive gameplay",
+    "Unlock new revenue channels through in-app purchases and strategic ad integration",
+    "Strengthen brand loyalty and user retention with gamified experiences",
+    "Expand your reach across platforms including mobile, web, PC, and console",
+    "Harness the latest game engines and technologies like Unity, Unreal Engine, and AR/VR",
   ]
  
-  const platforms = ["PC & Mac", "Mobile (iOS & Android)", "Web Browsers", "VR & AR", "Consoles", "Cross-Platform"]
+  const platforms = ["PC & Mac", "Mobile Android", "Web Browsers", "Mobile ios", "Consoles", "Cross-Platform"]
  
   const bannerSlides = [
     {
@@ -35,13 +35,14 @@ export default function GameDevelopmentPage() {
             <div className="animate-slide-in-left">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Immersive Game Development Solutions</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                In the rapidly growing gaming industry, creating engaging and immersive games is essential for capturing
-                and retaining players. Our game development services focus on creating captivating gaming experiences
-                that entertain, engage, and drive results for your business.
+              At SevenUnique, we understand that the future of gaming lies in immersive storytelling and seamless interactivity.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Our team of experienced game developers combines technical expertise with creative storytelling to build
-                games that resonate with your target audience and achieve your business objectives.
+              Our game development services are designed to bring your ideas to life through visually captivating, technically robust, and creatively engaging experiences.
+              </p>
+              <p className="text-gray-600 dark:text-gray-300 mb-6">
+              Whether you're aiming to entertain, educate, or monetize, our expert team merges innovation with strategic thinking to build games that not only capture attention but also deliver measurable impact.
+
               </p>
               <h3 className="text-xl font-bold mb-3">Key Benefits:</h3>
               <ul className="space-y-2 mb-6">
@@ -74,7 +75,7 @@ export default function GameDevelopmentPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Game Development Services</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We offer a comprehensive range of game development services to meet your specific needs.
+            we specialize in developing immersive, interactive, and high-performing games tailored to your brand vision and user needs.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -84,25 +85,25 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">PC & Console Game Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We develop high-quality games for PC and console platforms, leveraging powerful game engines to create
-                immersive gaming experiences.
+              From indie games to large-scale AAA-level projects, we develop robust PC and console games using engines like Unity and Unreal Engine.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Unity and Unreal Engine development</span>
+                  <span>High-definition visuals and responsive gameplay</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>3D and 2D game development</span>
+                  <span>Integration with Steam, PlayStation, Xbox</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Advanced graphics and physics</span>
+                  <span>Story-based and competitive gaming models
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Multiplayer functionality</span>
+                  <span>Advanced performance optimization</span>
                 </li>
               </ul>
             </div>
@@ -112,25 +113,24 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Mobile Game Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We create engaging mobile games for iOS and Android platforms, optimized for performance and user
-                experience on mobile devices.
+              We build highly engaging and visually appealing mobile games for Android and iOS platforms. Our games are designed with performance, monetization, and user retention in mind.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>iOS and Android game development</span>
+                  <span>Casual, arcade, and multiplayer game development</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Casual and hyper-casual games</span>
+                  <span>Cross-platform mobile gaming solutions</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>In-app purchases and monetization</span>
+                  <span>In-app purchases and ad monetization systems</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Performance optimization for mobile</span>
+                  <span>Real-time player interaction features</span>
                 </li>
               </ul>
             </div>
@@ -140,25 +140,24 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Web Game Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We develop browser-based games that run smoothly across different devices and browsers, providing
-                accessible gaming experiences.
+              We create fast, lightweight web-based games that are accessible via any modern browser and device.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>HTML5 and WebGL games</span>
+                  <span>HTML5, WebGL, and JavaScript-based games</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Cross-browser compatibility</span>
+                  <span>Social media-integrated games</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Responsive design for different devices</span>
+                  <span>Interactive branded experiences (advergames)</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Integration with web platforms</span>
+                  <span>Real-time web multiplayer gaming</span>
                 </li>
               </ul>
             </div>
@@ -168,25 +167,24 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">AR/VR Game Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We create immersive augmented reality (AR) and virtual reality (VR) games that provide unique and
-                engaging experiences.
+              We offer next-generation gaming experiences using augmented and virtual reality technologies for deeply immersive gameplay.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>AR games for mobile devices</span>
+                  <span>AR-based mobile and smart glasses games</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>VR games for headsets</span>
+                  <span>VR simulations and gamified training</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Mixed reality experiences</span>
+                  <span>Support for Oculus, HTC Vive, and other devices</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Immersive gameplay mechanics</span>
+                  <span>Educational and enterprise-focused solutions</span>
                 </li>
               </ul>
             </div>
@@ -200,7 +198,7 @@ export default function GameDevelopmentPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Platforms We Support</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We develop games for a wide range of platforms to reach your target audience wherever they are.
+            we build games that perform seamlessly across a wide range of platforms to ensure maximum reach, performance, and player engagement.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
@@ -219,7 +217,7 @@ export default function GameDevelopmentPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Game Development Process</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We follow a structured and collaborative approach to ensure the success of every game development project.
+            we follow a streamlined, collaborative, and results-driven approach to game development.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -229,8 +227,7 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Concept & Design</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We develop the game concept, storyline, characters, and gameplay mechanics, creating a solid foundation
-                for your game.
+              We establish a strong basis for your game by developing the characters, plot, gaming mechanics, and game concept.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -239,8 +236,7 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Prototyping</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We create a playable prototype to test core gameplay mechanics and make necessary adjustments before
-                full development.
+              Before beginning full production, we construct a playable prototype to evaluate essential gameplay elements and make any necessary modifications.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -249,8 +245,7 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Development & Testing</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Our developers build the game according to the approved design, with regular testing to ensure quality
-                and functionality.
+              Our developers construct the game in accordance with the authorized design, testing it frequently to guarantee its functioning and quality.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -259,7 +254,7 @@ export default function GameDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Launch & Support</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We help you launch your game on the relevant platforms and provide ongoing support and updates.
+              In addition to offering continuous maintenance and updates, we assist you in launching your game on the appropriate platforms.
               </p>
             </div>
           </div>

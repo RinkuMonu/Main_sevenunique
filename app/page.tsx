@@ -189,25 +189,25 @@ const strategies = [
     icon: <CheckCircle className="h-6 w-6" />,
     title: "Discovery & Planning",
     description:
-      "We start by understanding your business goals and requirements to create a comprehensive project plan.",
+      "We begin by comprehending your company's objectives and needs in order to develop an extensive project strategy.",
   },
   {
     icon: <Palette className="h-6 w-6" />,
     title: "Design & Prototyping",
     description:
-      "Our design team creates intuitive interfaces and prototypes for your approval before development begins.",
+      "Before development starts, our design team produces user-friendly prototypes and interfaces for your approval.",
   },
   {
     icon: <Code className="h-6 w-6" />,
     title: "Development & Testing",
     description:
-      "We develop your solution using the latest technologies and conduct thorough testing to ensure quality.",
+      "We use the newest technologies to design your solution, and we thoroughly test it to guarantee its quality.",
   },
   {
     icon: <Zap className="h-6 w-6" />,
     title: "Deployment & Launch",
     description:
-      "We handle the deployment process and ensure a smooth launch of your project.",
+      "We take care of the deployment procedure and guarantee a seamless project launch.",
   },
 ];
 
