@@ -78,7 +78,7 @@ export default function ResellerSoftwarePage() {
                 ))}
               </ul>
               <Button asChild>
-                <Link href="/contact">Request a Demo</Link>
+                <Link href="/contact">Get in Touch</Link>
               </Button>
             </div>
             <div className="relative h-[400px]">
@@ -260,7 +260,7 @@ export default function ResellerSoftwarePage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button variant="secondary" size="lg" asChild>
-              <Link href="/contact">Request a Demo</Link>
+              <Link href="/contact">Get in Touch</Link>
             </Button>
             <Button
               variant="outline"
