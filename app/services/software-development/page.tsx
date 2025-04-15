@@ -9,24 +9,24 @@ const SoftwareDevelopment = () => {
     {
       title: "Custom Software Development",
       description:
-        "Tailored software solutions designed to address your specific business needs and challenges.",
+        "software solutions that are specifically tailored to your company's goals and issues.",
       features: ["Requirement Analysis", "Custom Architecture", "Scalable Solutions", "Ongoing Support"],
     },
     {
       title: "Enterprise Software",
       description:
-        "Robust enterprise applications that streamline operations, improve efficiency, and drive growth.",
+        "dependable business apps that boost productivity, simplify processes, and spur expansion.",
       features: ["ERP Systems", "CRM Solutions", "Business Intelligence", "Workflow Automation"],
     },
     {
       title: "SaaS Development",
       description:
-        "Cloud-based software-as-a-service solutions that provide flexibility, scalability, and accessibility.",
+        "software-as-a-service options that are cloud-based and offer accessibility, scalability, and flexibility.",
       features: ["Multi-tenant Architecture", "Subscription Management", "API Integration", "Analytics Dashboard"],
     },
     {
       title: "Legacy System Modernization",
-      description: "Transform your outdated systems into modern, efficient, and secure applications.",
+      description: "Convert your antiquated systems into secure, effective, and contemporary apps.",
       features: ["Code Refactoring", "Platform Migration", "UI/UX Modernization", "Performance Optimization"],
     },
   ]
@@ -55,26 +55,29 @@ const SoftwareDevelopment = () => {
             <div>
               <h2 className="text-3xl font-bold mb-4">Custom Software Solutions</h2>
               <p className="text-gray-600 mb-3">
-                Our software development team creates custom solutions that address your unique business challenges,
-                streamline operations, and drive growth.
+              we specialize in custom software development that is fully tailored to meet your specific operational needs, industry demands, and future goals.
+
               </p>
               <p className="text-gray-600 mb-6">
-                Whether you need an enterprise application, SaaS platform, or legacy system modernization, we deliver high-quality software with real business value.
+              Our expert team crafts scalable, secure, and high-performance software solutions designed to streamline your workflows, reduce manual effort, and boost overall productivity.
+              </p>
+              <p className="text-gray-600 mb-6">
+              From concept to deployment and beyond, we align our strategies with your business vision—delivering solutions that work for you, not the other way around.
               </p>
 
               <div className="space-y-4 mb-6">
                 {[
                   {
                     title: "Tailored Solutions",
-                    desc: "We develop software that directly solves your unique business challenges.",
+                    desc: "We create software that specifically addresses the particular business problems you face.",
                   },
                   {
                     title: "Scalable Architecture",
-                    desc: "Our systems are built to scale as your business grows.",
+                    desc: "Our systems are designed to expand with your company.",
                   },
                   {
                     title: "Agile Development",
-                    desc: "We use agile methodologies for speed, flexibility, and transparency.",
+                    desc: "For speed, flexibility, and transparency, we employ agile approaches.",
                   },
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start gap-3">
@@ -108,7 +111,7 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-3">Our Software Development Services</h2>
           <p className="text-gray-600 mb-10 max-w-xl mx-auto">
-            We offer a comprehensive range of software development services to meet your specific needs.
+          we specialize in creating innovative software solutions that drive business growth and streamline operations.
           </p>
           <div className="grid md:grid-cols-2 gap-6 text-left">
             {services.map((service, index) => (
@@ -157,19 +160,19 @@ const SoftwareDevelopment = () => {
             {[
               {
                 title: "Discovery & Planning",
-                desc: "Understand your goals, define scope, and plan the project roadmap.",
+                desc: "Recognize your objectives, specify the project's scope, and create a roadmap.",
               },
               {
                 title: "Design & Architecture",
-                desc: "Build a strong foundation with clear system design and architecture.",
+                desc: "Establish a solid base with a well-defined system architecture and design.",
               },
               {
                 title: "Development & Testing",
-                desc: "Iterative development with continuous testing for quality and performance.",
+                desc: "ongoing performance and quality testing along with iterative development.",
               },
               {
                 title: "Deployment & Support",
-                desc: "Smooth deployment and long-term maintenance and support.",
+                desc: "seamless implementation, as well as ongoing upkeep and assistance.",
               },
             ].map((step, index) => (
               <div key={index} className="bg-white rounded shadow p-6 relative">
@@ -189,7 +192,7 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-3">Ready to Transform Your Business?</h2>
           <p className="mb-6 max-w-xl mx-auto">
-            Contact us today to discuss your software development needs and how we can help.
+          To explore your software development requirements and how we might assist, get in touch with us right now.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/contact" className="btn btn-light text-primary">

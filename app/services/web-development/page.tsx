@@ -49,13 +49,13 @@ export default function WebDevelopmentPage() {
             <div className="animate-slide-in-left">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Custom Web Development Solutions</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                In today's digital world, having a strong online presence is essential for businesses of all sizes. Our
-                web development services focus on creating custom websites that not only look great but also deliver
-                results for your business.
+              we specialize in delivering custom web development solutions that are tailored to meet your specific business requirements, drive user engagement, and deliver exceptional performance.
+              </p>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+              Whether you need a simple website, a complex web application, or a full-fledged e-commerce platform, we provide end-to-end web development services that empower your business to succeed online.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Our team of experienced web developers combines technical expertise with creative design to build
-                websites that engage your audience, reflect your brand identity, and achieve your business objectives.
+              To create websites that engage your audience, represent your brand identity, and accomplish your business goals, our team of skilled web developers blends technical know-how with artistic design.
               </p>
               <h3 className="text-xl font-bold mb-3">Key Benefits:</h3>
               <ul className="space-y-2 mb-6">
@@ -98,8 +98,8 @@ export default function WebDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Website Design & Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We create custom websites that are visually appealing, user-friendly, and optimized for performance
-                across all devices.
+              We craft visually engaging, fully responsive websites that align with your brand identity and business objectives. Our design-first approach ensures a seamless user experience, driving better engagement and conversions across all devices.
+
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -126,8 +126,7 @@ export default function WebDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Web Application Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We build powerful web applications that provide advanced functionality and solve complex business
-                challenges.
+              We develop dynamic and scalable web applications tailored to your workflow. From customer portals to business management systems, our solutions are robust, secure, and designed to optimize performance and efficiency.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -154,8 +153,7 @@ export default function WebDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">E-commerce Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We develop e-commerce websites that provide seamless shopping experiences and drive sales for your
-                business.
+              Our e-commerce solutions help businesses sell more with user-friendly interfaces, secure payment integrations, real-time inventory management, and mobile-first design—boosting sales and improving customer satisfaction
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -182,8 +180,7 @@ export default function WebDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Website Maintenance & Support</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We provide ongoing maintenance and support services to ensure your website remains secure, up-to-date,
-                and performs optimally.
+              We don’t just build websites—we maintain them. Our ongoing support services include regular updates, bug fixing, security monitoring, and performance optimization to ensure your site stays reliable and up to date.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -243,8 +240,7 @@ export default function WebDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Discovery & Planning</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We begin by understanding your business goals, target audience, and website requirements to create a
-                solid foundation for your project.
+              To provide a strong basis for your project, we start by comprehending your target market, business objectives, and website specifications.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -253,8 +249,7 @@ export default function WebDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Design & Prototyping</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We create wireframes and design mockups to visualize the website's layout and appearance before
-                development begins.
+              Before production starts, we produce wireframes and design mockups to see how the website will look and feel.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -263,8 +258,7 @@ export default function WebDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Development & Testing</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Our developers build the website according to the approved designs, with regular testing to ensure
-                quality and functionality.
+              Our experts construct the website in accordance with the authorized designs, testing it frequently to guarantee its functioning and quality.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -273,8 +267,7 @@ export default function WebDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Launch & Support</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                We deploy your website to the live server and provide ongoing support and maintenance to ensure its
-                continued success.
+              To guarantee your website's continuous success, we deploy it to the live server and offer continuing support and upkeep.
               </p>
             </div>
           </div>
