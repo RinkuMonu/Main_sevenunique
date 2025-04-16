@@ -15,7 +15,7 @@ import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react"
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "./image/Contact.jpg",
+    image: "./image/banner/Contact.jpg",
     title: "Contact Us",
     description: "Get in touch with our team for any inquiries or support",
   },
@@ -214,7 +214,7 @@ export default function ContactPage() {
                     </div>
                     <Button
                       type="submit"
-                      className="w-full bg-[#AB6545] bg-[#e8ab8f] text-white"
+                      className="w-full bg-[#AB6545]  text-[#e8ab8f]"
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? (

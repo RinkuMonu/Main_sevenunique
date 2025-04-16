@@ -47,12 +47,12 @@ export default function FintechSoftwarePage() {
   ]
  
   return (
-    <div className="pt-14">
+    <div className="">
       {/* Banner Section */}
       <Banner slides={bannerSlides}/>
  
       {/* Overview Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -73,12 +73,12 @@ export default function FintechSoftwarePage() {
                 ))}
               </ul>
               <Button asChild>
-                <Link href="/contact">Request a Consultation</Link>
+                <Link href="/contact" className="text-white">Request a Consultation</Link>
               </Button>
             </div>
             <div className="relative h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600&text=Fintech Solutions"
+                src="/image/124767 (1).jpg"
                 alt="Fintech Solutions"
                 fill
                 className="object-cover rounded-lg"
@@ -89,7 +89,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* Solutions Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Fintech Solutions</h2>
@@ -100,7 +100,7 @@ export default function FintechSoftwarePage() {
           <div className="grid md:grid-cols-2 gap-8">
             {solutions.map((solution, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                <div className="text-[#ab6545] mb-4">{solution.icon}</div>
+                <div className=" text-[#ab6545] mb-4">{solution.icon}</div>
                 <h3 className="text-xl font-bold mb-3">{solution.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300">{solution.description}</p>
               </div>
@@ -110,12 +110,12 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* Features Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[400px]">
+            <div className="relative h-[800px]">
               <Image
-                src="/placeholder.svg?height=400&width=600&text=Advanced Features"
+                src="/image/198.jpg"
                 alt="Advanced Features"
                 fill
                 className="object-cover rounded-lg"
@@ -186,7 +186,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* Use Cases Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Use Cases</h2>
@@ -229,7 +229,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* Implementation Process Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Implementation Process</h2>
@@ -279,7 +279,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-[#AB6545] text-white">
+      <section className="py-16 md:py-24 px-24 text-white"  style={{backgroundImage:"url(/image/8268.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Financial Services?</h2>
           <p className="max-w-2xl mx-auto mb-8">

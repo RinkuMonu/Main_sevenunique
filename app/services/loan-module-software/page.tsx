@@ -9,7 +9,7 @@ export default function LoanModuleSoftwarePage() {
         {
           image: "/image/banner/Loan.jpg",
           title: "Loan Module Software",
-          description: "Streamline loan processing and management with our comprehensive financial solution",
+          description: "Simplify loan administration and processing with our all-inclusive financial solution.",
           
         },
       ]
@@ -23,36 +23,34 @@ export default function LoanModuleSoftwarePage() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Advanced Loan Management</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our loan module software provides a complete solution for financial institutions and lenders looking to
-                streamline loan processing and management. From application to disbursement and repayment tracking, our
-                platform handles every aspect of the loan lifecycle with efficiency and accuracy.
+              At SevenUnique Tech Solutions, we offer Advanced Loan Management Software that helps financial institutions better manage operations and client interactions by automating and streamlining the entire loan process, from application to repayment.
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6546]" />
                   <span>Comprehensive loan application processing</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6546]" />
                   <span>Credit scoring and risk assessment</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6546]" />
                   <span>Loan disbursement and repayment tracking</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6546]" />
                   <span>Collateral management and documentation</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6546]" />
                   <span>Comprehensive reporting and analytics</span>
                 </li>
               </ul>
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/2148793796.jpg"
                 alt="Loan Module Software"
                 fill
                 className="object-cover"
@@ -68,14 +66,14 @@ export default function LoanModuleSoftwarePage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Our loan module software comes packed with features designed to optimize loan processing and management.
+              Our loan module software is jam-packed with features that maximize loan administration and processing.
               </p>
             </div>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6546]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -93,11 +91,11 @@ export default function LoanModuleSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Application Processing</h3>
               <p className="text-muted-foreground">
-                Streamlined loan application processing with customizable workflows and approval chains.
+              simplified loan application processing with adaptable approval chains and workflows.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6546]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -115,12 +113,11 @@ export default function LoanModuleSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Credit Scoring</h3>
               <p className="text-muted-foreground">
-                Advanced credit scoring models with customizable risk assessment parameters and integration with credit
-                bureaus.
+              Advanced credit scoring models with customizable risk assessment parameters and integration with credit bureaus.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6546]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -139,11 +136,11 @@ export default function LoanModuleSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Disbursement Management</h3>
               <p className="text-muted-foreground">
-                Efficient loan disbursement with multiple payment options and automated notifications.
+              Loans are disbursed efficiently with automated notifications and a variety of payment choices.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6546]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -161,12 +158,11 @@ export default function LoanModuleSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Repayment Tracking</h3>
               <p className="text-muted-foreground">
-                Comprehensive repayment tracking with automated reminders, late payment management, and collection
-                workflows.
+              thorough tracking of repayments with automated reminders, routines for collecting payments, and handling of late payments.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6546]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -184,11 +180,11 @@ export default function LoanModuleSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Collateral Management</h3>
               <p className="text-muted-foreground">
-                Efficient collateral tracking with valuation, documentation, and lien management.
+              Effective tracking of collateral, including documentation, lien management, and appraisal.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6546]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -206,7 +202,7 @@ export default function LoanModuleSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Analytics & Reporting</h3>
               <p className="text-muted-foreground">
-                Comprehensive reporting tools to track loan portfolio performance, risk metrics, and compliance.
+              Detailed reporting options to monitor compliance, risk measures, and loan portfolio performance.
               </p>
             </div>
           </div>
@@ -218,7 +214,7 @@ export default function LoanModuleSoftwarePage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/23515.jpg"
                 alt="Loan Management Dashboard"
                 fill
                 className="object-cover"
@@ -227,31 +223,30 @@ export default function LoanModuleSoftwarePage() {
             <div className="space-y-4 order-1 lg:order-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Our Loan Module Software</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our loan module software stands out from the competition with its robust features, scalable
-                architecture, and user-friendly interface. We've designed our solution to meet the needs of financial
-                institutions of all sizes.
+              Our loan module software's scalable architecture, user-friendly interface, and strong features set it apart from the competitors. Our system has been developed to satisfy the requirements of financial institutions of various sizes.
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6546] mt-1" />
                   <div>
                     <h3 className="font-bold">Scalable Solution</h3>
                     <p className="text-muted-foreground">
-                      Our platform grows with your business, from a small lender to a large financial institution.
+                    Our solution is designed to grow with your business, whether you’re a small micro-lender or a large financial institution.
+
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6546] mt-1" />
                   <div>
                     <h3 className="font-bold">Regulatory Compliance</h3>
                     <p className="text-muted-foreground">
-                      Built with compliance in mind, our software adheres to various regulatory requirements.
+                    Stay in line with all relevant financial regulations, ensuring smooth and legal operations.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6546] mt-1" />
                   <div>
                     <h3 className="font-bold">Seamless Integration</h3>
                     <p className="text-muted-foreground">
@@ -260,7 +255,7 @@ export default function LoanModuleSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6546] mt-1" />
                   <div>
                     <h3 className="font-bold">Dedicated Support</h3>
                     <p className="text-muted-foreground">
@@ -274,7 +269,7 @@ export default function LoanModuleSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-primary-foreground">
+      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-black"    style={{backgroundImage:"url(/image/1134.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -282,8 +277,7 @@ export default function LoanModuleSoftwarePage() {
                 Ready to Transform Your Loan Operations?
               </h2>
               <p className="mx-auto max-w-[700px] md:text-xl">
-                Contact us today to discuss how our loan module software can help you streamline loan processing and
-                enhance customer experience.
+              Get in touch with us right now to find out how our loan module software can improve client satisfaction and expedite loan processing.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">

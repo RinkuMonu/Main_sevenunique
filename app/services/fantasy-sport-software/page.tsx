@@ -7,7 +7,10 @@ export default function FantasySportSoftwarePage() {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=1080&width=1920",
+
+
+      image: "/image/banner/Fantasy.jpg",
+
       title: "Fantasy Sport Software",
       description: "Build engaging fantasy sports platforms with our comprehensive software solutions",
 
@@ -28,31 +31,33 @@ export default function FantasySportSoftwarePage() {
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-25 w-25 text-primary" />
                   <span>Comprehensive player and team management</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-25 w-25 text-primary" />
                   <span>Flexible contest creation and management</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+
+                  <CheckCircle className="h-25 w-25 text-primary" />
+
                   <span>Real-time scoring and statistics
                   </span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-25 w-25 text-primary" />
                   <span>Secure payment processing and wallet management</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-25 w-25 text-primary" />
                   <span>Advanced analytics and reporting tools</span>
                 </li>
               </ul>
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/37654.jpg"
                 alt="Fantasy Sport Software"
                 fill
                 className="object-cover"
@@ -67,7 +72,9 @@ export default function FantasySportSoftwarePage() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
-              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+
+              <p className="mx-auto  text-muted-foreground md:text-sm">
+
                 Our fantasy sports software by SevenUnique Tech Solutions is built to offer an immersive, dynamic, and competitive experience for users, ensuring that every aspect of the game—from player management to prize distribution—is seamless, secure, and highly engaging. We have incorporated a range of robust features designed to optimize user interaction, enhance gameplay, and provide a versatile platform that can be tailored to a wide variety of fantasy sports games. Below are the standout features that set our solution apart:
               </p>
             </div>
@@ -75,7 +82,7 @@ export default function FantasySportSoftwarePage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -100,7 +107,7 @@ export default function FantasySportSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -122,7 +129,7 @@ export default function FantasySportSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -144,7 +151,7 @@ export default function FantasySportSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -168,7 +175,7 @@ export default function FantasySportSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -190,7 +197,7 @@ export default function FantasySportSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -219,9 +226,9 @@ export default function FantasySportSoftwarePage() {
       <section className="py-16 md:py-24 px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-            <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
+            <div className="relative aspect-video mx-w[800px] overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/27535.jpg"
                 alt="Fantasy Sports App"
                 fill
                 className="object-cover"
@@ -236,7 +243,7 @@ export default function FantasySportSoftwarePage() {
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="text-[#ab6545] mt-1" width={70} height={70} />
                   <div>
                     <h3 className="font-bold">Scalable Solution</h3>
                     <p className="text-muted-foreground">
@@ -245,7 +252,7 @@ export default function FantasySportSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="text-[#ab6545]  mt-1" width={70} height={70} />
                   <div>
                     <h3 className="font-bold">Customizable Interface</h3>
                     <p className="text-muted-foreground">
@@ -254,7 +261,7 @@ export default function FantasySportSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="text-[#ab6545]  mt-1" width={70} height={70} />
                   <div>
                     <h3 className="font-bold">Regulatory Compliance</h3>
                     <p className="text-muted-foreground">
@@ -263,7 +270,7 @@ export default function FantasySportSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="text-[#ab6545]  mt-1" width={70} height={70} />
                   <div>
                     <h3 className="font-bold">Dedicated Support</h3>
                     <p className="text-muted-foreground">
@@ -272,7 +279,9 @@ export default function FantasySportSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+
+                  <CheckCircle className="text-[#ab6545]  mt-1" width={70} height={70} />
+
                   <div>
                     <h3 className="font-bold">Advanced Security Features</h3>
                     <p className="text-muted-foreground">
@@ -286,7 +295,7 @@ export default function FantasySportSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-primary-foreground">
+      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-primary-foreground"  style={{backgroundImage:"url(/image/477491.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

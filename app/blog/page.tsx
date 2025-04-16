@@ -17,7 +17,7 @@ import {
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "/image/Blog-01.jpg",
+    image: "/image/banner/Blog.jpg",
     title: "Our Blog",
     description: "Insights, news, and updates from our team",
   },
