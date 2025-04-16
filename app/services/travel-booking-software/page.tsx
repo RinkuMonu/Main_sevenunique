@@ -1,38 +1,40 @@
 import Banner from "@/components/banner";
 import Link from "next/link";
 import {BiBox,BiCreditCard,BiGroup,BiBarChartAlt2,BiCodeAlt} from 'react-icons/bi';
+import { CheckCircle } from "lucide-react"
+
   import { FaCalendarAlt } from "react-icons/fa";
 const TravelSoftware = () => {
     const features = [
         {
           title: "Booking Management",
           description: " Efficiently manage bookings for flights, hotels, car rentals, and travel packages with real-time availability updates",
-          icon: <FaCalendarAlt  className="text-blue-600 text-2xl"/>,
+          icon: <FaCalendarAlt  className="text-[#ab6545] text-2xl"/>,
         },
         {
           title: "Inventory Management",
           description: " Manage your inventory of rooms, seats, and travel packages with real-time updates.",
-          icon: <BiBox className="text-blue-600 text-2xl"/>,
+          icon: <BiBox className="text-[#ab6545] text-2xl"/>,
         },
         {
           title: "Payment Processing",
           description: " Offer secure and reliable payment processing that supports multiple payment methods and currencies.",
-          icon: <BiCreditCard className="text-blue-600 text-2xl"/>,
+          icon: <BiCreditCard className="text-[#ab6545] text-2xl"/>,
         },
         {
           title: "Customer Management",
           description: "Maintain detailed customer profiles, including preferences, past bookings, and special requests.",
-          icon: <BiGroup className="text-blue-600 text-2xl"/>,
+          icon: <BiGroup className="text-[#ab6545] text-2xl"/>,
         },
         {
           title: "Reporting & Analytics",
           description: "Generate detailed reports on sales, bookings, customer behavior, and financial performance.",
-          icon: <BiBarChartAlt2 className="text-blue-600 text-2xl"/>,
+          icon: <BiBarChartAlt2 className="text-[#ab6545] text-2xl"/>,
         },
         {
           title: "API Integration",
           description: " Integrate seamlessly with major GDS, OTAs, and other travel service providers",
-          icon: <BiCodeAlt className="text-blue-600 text-2xl"/>,
+          icon: <BiCodeAlt className="text-[#ab6545] text-2xl"/>,
         },
       ];
 
@@ -60,7 +62,7 @@ const TravelSoftware = () => {
   ];
   const bannerSlides = [
     {
-      image: "/image/banner/Travel,jpg",
+      image: "/image/banner/Travel.jpg",
       title: "Travel Booking Software",
       description: "Comprehensive travel management solution for travel agencies and tour operators",
       
@@ -69,11 +71,11 @@ const TravelSoftware = () => {
  
 
   return (
-    <div className="pt-14">
+    <div className="">
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
-      <section className="py-12 md:py-16 bg-white">
+      <section className="py-12 md:py-16 px-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             <div className="lg:w-1/2 animate-fade-in">
@@ -102,9 +104,7 @@ const TravelSoftware = () => {
                 ].map((item, index) => (
                   <div key={index} className="flex items-start">
                     <div className="flex-shrink-0 mt-1">
-                      <svg className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
+                     <CheckCircle width={30} height={30} className=" text-[#ab6545] mt-1" />
                     </div>
                     <div className="ml-3">
                       <h3 className="text-lg font-semibold text-gray-900">{item.title}</h3>
@@ -113,9 +113,6 @@ const TravelSoftware = () => {
                   </div>
                 ))}
               </div>
-              <Link href="/contact" className="inline-block px-8 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">
-                Get in Touch
-              </Link>
             </div>
             <div className="lg:w-1/2">
               <div className="relative rounded-xl overflow-hidden shadow-lg">
@@ -134,7 +131,7 @@ const TravelSoftware = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 md:py-16 bg-gray-50">
+      <section className="py-12 md:py-16 px-24 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -149,7 +146,7 @@ const TravelSoftware = () => {
               <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <div className="p-6">
                   <div className="flex items-center justify-center w-16 h-16 rounded-full bg-blue-50 mb-4">
-                    {/* <i className={` ${feature.icon} text-blue-600 text-2xl`}></i> */}
+                    {/* <i className={` ${feature.icon} text-[#ab6545] text-2xl`}></i> */}
                     {feature.icon}
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">{feature.title}</h3>
@@ -162,7 +159,7 @@ const TravelSoftware = () => {
       </section>
 
       {/* Modules Section */}
-      <section className="py-12 md:py-16 bg-white">
+      <section className="py-12 md:py-16 px-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -196,7 +193,7 @@ const TravelSoftware = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-12 md:py-16 bg-gray-50">
+      <section className="py-12 md:py-16 px-24 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             <div className="lg:w-1/2 order-2 lg:order-1">
@@ -228,9 +225,7 @@ const TravelSoftware = () => {
                 ].map((item, index) => (
                   <div key={index} className="flex items-start">
                     <div className="flex-shrink-0 mt-1">
-                      <svg className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
+                     <CheckCircle width={30} height={30} className=" text-[#ab6545] mt-1" />
                     </div>
                     <div className="ml-3">
                       <h3 className="text-lg font-semibold text-gray-900">{item.title}</h3>
@@ -257,19 +252,19 @@ const TravelSoftware = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-16 bg-blue-600 text-white">
+      <section className="py-12 md:py-16 px-24 bg-[#ab6545] text-black"   style={{backgroundImage:"url(/image/28381.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat", backgroundAttachment:"fixed"}}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Transform Your Travel Business?
           </h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-black   max-w-3xl mx-auto mb-8">
             Contact us today to learn more about our Travel Software and how it can help streamline your travel business operations.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="inline-block px-8 py-3 bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-100 transition duration-300">
+            <Link href="/contact" className="inline-block px-6 font-[12px] py-2 bg-white text-[#ab6545] rounded-lg hover:bg-gray-100 transition duration-300">
               Get in Touch
             </Link>
-            <Link href="/services/software" className="inline-block px-8 py-3 border-2 border-white text-white font-medium rounded-lg hover:bg-blue-700 transition duration-300">
+            <Link href="/services/software" className="inline-block px-6 font-[12px] py-2 border-2 border-white text-white rounded-lg hover:bg-blue-700 transition duration-300">
               Explore Other Software
             </Link>
           </div>

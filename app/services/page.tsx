@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "./image/Services.jpg",
+    image: "./image/banner/Services.jpg",
     title: "Our Services",
     description: "Comprehensive digital solutions tailored to your business needs",
   },
@@ -142,7 +142,7 @@ export default function ServicesPage() {
         <section
           key={index}
           id={service.href.split("/").pop()}
-          className={`py-16 md:py-24 px-24 px-24 ${index % 2 === 0 ? "bg-gray-50 dark:bg-gray-900" : ""}`}
+          className={`py-16 md:py-24 px-24 ${index % 2 === 0 ? "bg-gray-50 dark:bg-gray-900" : ""}`}
         >
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -163,7 +163,7 @@ export default function ServicesPage() {
                   ))}
                 </div>
                 <Link href={service.href}>
-                  <Button className="bg-[#AB6545] bg-[#e8ab8f] text-white">Learn More</Button>
+                  <Button className="bg-[#AB6545] text-[#e8ab8f]">Learn More</Button>
                 </Link>
               </div>
               <div className={index % 2 === 0 ? "order-2" : "order-2 md:order-1"}>

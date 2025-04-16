@@ -54,7 +54,7 @@ export default function BBPSSoftwarePage() {
               </ul>
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
-              <Image src="/placeholder.svg?height=600&width=600" alt="BBPS Software" fill className="object-cover" />
+              <Image src="/image/9252.jpg" alt="BBPS Software" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function BBPSSoftwarePage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
+              <div className="mb-4 rounded-full bg-purple-100 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -95,7 +95,7 @@ export default function BBPSSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
+              <div className="mb-4 rounded-full bg-purple-100 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -118,7 +118,7 @@ export default function BBPSSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
+              <div className="mb-4 rounded-full bg-purple-100 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -143,7 +143,7 @@ export default function BBPSSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
+              <div className="mb-4 rounded-full bg-purple-100 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -165,7 +165,7 @@ export default function BBPSSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
+              <div className="mb-4 rounded-full bg-purple-100 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -190,7 +190,7 @@ export default function BBPSSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
+              <div className="mb-4 rounded-full bg-purple-100 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -228,7 +228,7 @@ export default function BBPSSoftwarePage() {
 
           <div className="grid gap-8 md:grid-cols-4">
             <div className="flex flex-col items-center text-center p-6">
-              <div className="mb-4 rounded-full bg-primary text-[#ab6545]-foreground w-12 h-12 flex items-center justify-center text-xl font-bold">
+              <div className="mb-4 rounded-full bg-purple-100 text-[#ab6545] w-12 h-12 flex items-center justify-center text-xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-bold mb-2">Setup</h3>
@@ -237,7 +237,7 @@ export default function BBPSSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6">
-              <div className="mb-4 rounded-full bg-primary text-[#ab6545]-foreground w-12 h-12 flex items-center justify-center text-xl font-bold">
+              <div className="mb-4 rounded-full bg-purple-100 text-[#ab6545] w-12 h-12 flex items-center justify-center text-xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-bold mb-2">User Management</h3>
@@ -246,7 +246,7 @@ export default function BBPSSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6">
-              <div className="mb-4 rounded-full bg-primary text-[#ab6545]-foreground w-12 h-12 flex items-center justify-center text-xl font-bold">
+              <div className="mb-4 rounded-full bg-purple-100 text-[#ab6545] w-12 h-12 flex items-center justify-center text-xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-bold mb-2">Bill Payments</h3>
@@ -255,7 +255,7 @@ export default function BBPSSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6">
-              <div className="mb-4 rounded-full bg-primary text-[#ab6545]-foreground w-12 h-12 flex items-center justify-center text-xl font-bold">
+              <div className="mb-4 rounded-full bg-purple-100 text-[#ab6545] w-12 h-12 flex items-center justify-center text-xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-bold mb-2">Reporting</h3>
@@ -272,7 +272,7 @@ export default function BBPSSoftwarePage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/162.jpg"
                 alt="BBPS Software Dashboard"
                 fill
                 className="object-cover"
@@ -326,7 +326,7 @@ export default function BBPSSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-primary text-[#ab6545]-foreground">
+      <section className="py-16 md:py-24 px-24 bg-purple-100 text-white"   style={{backgroundImage:"url(/image/685646.jpg)", backgroundAttachment:"fixed", backgroundPosition:"center"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import PageBanner from "@/components/page-banner"
 import { CheckCircle, Users, BarChart4, Shield, Settings } from "lucide-react"
 import Banner from "@/components/banner"
 
@@ -48,12 +47,12 @@ export default function ResellerSoftwarePage() {
   ]
 
   return (
-    <div className="pt-14">
+    <div className="">
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -74,12 +73,12 @@ export default function ResellerSoftwarePage() {
                 ))}
               </ul>
               <Button asChild>
-                <Link href="/contact">Get in Touch</Link>
+                <Link href="/contact" className="text-white">Get in Touch</Link>
               </Button>
             </div>
             <div className="relative h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600&text=Reseller Software"
+                src="/image/254275.jpg"
                 alt="Reseller Software"
                 fill
                 className="object-cover rounded-lg"
@@ -90,11 +89,11 @@ export default function ResellerSoftwarePage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Key Features</h2>
-            <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            <p className="text-gray-600 dark:text-gray-300  mx-auto">
               Our reseller software is equipped with a comprehensive set of features designed to optimize and simplify the management of your reseller network, providing efficiency, flexibility, and complete control over your business operations.
             </p>
           </div>
@@ -161,11 +160,11 @@ export default function ResellerSoftwarePage() {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">How It Works</h2>
-            <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            <p className="text-gray-600 dark:text-gray-300  mx-auto">
             Our reseller software is designed to be user-friendly, offering a seamless experience for both administrators and resellers. The process is streamlined into four simple steps:
             </p>
           </div>
@@ -211,11 +210,11 @@ export default function ResellerSoftwarePage() {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900" >
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Use Cases</h2>
-            <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+            <p className="text-gray-600 dark:text-gray-300  mx-auto">
             Our reseller software is versatile and adaptable to a wide range of industries and business models, allowing businesses to expand their reach and grow their networks efficiently. Here are some of the top use cases:
             </p>
           </div>
@@ -243,10 +242,10 @@ export default function ResellerSoftwarePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-[#AB6545] text-white">
+      <section className="py-16 md:py-24 px-24  text-[#AB6545]"   style={{backgroundImage:"url(/image/439384.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Expand Your Business?</h2>
-          <p className="max-w-2xl mx-auto mb-8">
+          <p className=" mx-auto mb-8">
             Contact us today to learn more about our reseller software and how it can help you create and manage a
             successful reseller network.
           </p>

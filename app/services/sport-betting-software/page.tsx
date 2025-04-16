@@ -53,7 +53,7 @@ export default function SportBettingSoftwarePage() {
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/248362.jpg"
                 alt="Sports Betting Software"
                 fill
                 className="object-cover"
@@ -219,7 +219,7 @@ export default function SportBettingSoftwarePage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/4109671.jpg"
                 alt="Sports Betting App"
                 fill
                 className="object-cover"
@@ -277,7 +277,7 @@ export default function SportBettingSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-[#ab6545]-foreground">
+      <section className="py-16 md:py-24 px-24  text-[#ab6545]-foreground"   style={{backgroundImage:"url(/image/3127.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

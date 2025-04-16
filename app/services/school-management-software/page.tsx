@@ -6,7 +6,7 @@ import Banner from "@/components/banner"
 export default function SchoolManagementSoftwarePage() {
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/School.jpg",
           title: "School Management Software",
           description: "Use our all-inclusive school management solution to streamline educational administration.",
           
@@ -50,7 +50,7 @@ export default function SchoolManagementSoftwarePage() {
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/46041.jpg"
                 alt="School Management Software"
                 fill
                 className="object-cover"
@@ -220,7 +220,7 @@ export default function SchoolManagementSoftwarePage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/2242.jpg"
                 alt="School Management System"
                 fill
                 className="object-cover"
@@ -235,7 +235,7 @@ export default function SchoolManagementSoftwarePage() {
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
+                  <CheckCircle width={70} height={70} className=" text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Scalable Solution</h3>
                     <p className="text-muted-foreground">
@@ -244,7 +244,7 @@ export default function SchoolManagementSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
+                  <CheckCircle width={70} height={70} className=" text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">User-Friendly Interface</h3>
                     <p className="text-muted-foreground">
@@ -253,7 +253,7 @@ export default function SchoolManagementSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
+                  <CheckCircle width={70} height={70} className=" text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Data Security</h3>
                     <p className="text-muted-foreground">
@@ -262,7 +262,7 @@ export default function SchoolManagementSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
+                  <CheckCircle width={70} height={70} className=" text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Dedicated Support</h3>
                     <p className="text-muted-foreground">
@@ -276,7 +276,7 @@ export default function SchoolManagementSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-[#ab6545]-foreground">
+      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-[#ab6545]-foreground" style={{backgroundImage:"url(/image/22182.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

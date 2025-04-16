@@ -20,18 +20,18 @@ import {
 
 const bannerSlides = [
   {
-    image: "./image/1.jpg",
+    image: "./image/banner/E-COMMERCE-DEVELOPMENT.jpg",
     // title: "Innovative Digital Solutions",
     // description:
     //   "We help businesses transform their ideas into reality with cutting-edge technology and creative design.",
   },
   {
-    image: "./image/2.jpg",
+    image: "./image/banner/Digital-Marketing.jpg",
     // title: "Expert Development Team",
     // description: "Our team of experienced developers and designers are ready to bring your vision to life.",
   },
   {
-    image: "./image/3.jpg",
+    image: "./image/banner/Mobile App.jpg",
     // title: "Comprehensive Digital Services",
     // description: "From web development to digital marketing, we offer end-to-end solutions for your business needs.",
   },
