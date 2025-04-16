@@ -27,30 +27,30 @@ export default function FoodDeliverySoftwarePage() {
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Seamless order management and processing</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Real-time delivery tracking for customers</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Efficient route optimization for drivers</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Integrated payment processing solutions</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Customizable to match your brand identity</span>
                 </li>
               </ul>
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/2149303524.jpg"
                 alt="Food Delivery Software"
                 fill
                 className="object-cover"
@@ -73,7 +73,7 @@ export default function FoodDeliverySoftwarePage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -95,7 +95,7 @@ export default function FoodDeliverySoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -117,7 +117,7 @@ export default function FoodDeliverySoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -140,7 +140,7 @@ export default function FoodDeliverySoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -163,7 +163,7 @@ export default function FoodDeliverySoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -189,7 +189,7 @@ export default function FoodDeliverySoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -219,7 +219,7 @@ export default function FoodDeliverySoftwarePage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/2149663658.jpg"
                 alt="Food Delivery App"
                 fill
                 className="object-cover"
@@ -233,7 +233,7 @@ export default function FoodDeliverySoftwarePage() {
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Scalable Architecture</h3>
                     <p className="text-muted-foreground">
@@ -243,7 +243,7 @@ export default function FoodDeliverySoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold"> Brand-Ready Customization</h3>
                     <p className="text-muted-foreground">
@@ -252,7 +252,7 @@ export default function FoodDeliverySoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Seamless System Integration</h3>
                     <p className="text-muted-foreground">
@@ -261,7 +261,7 @@ export default function FoodDeliverySoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Real-Time Performance & Monitoring</h3>
                     <p className="text-muted-foreground">
@@ -275,7 +275,7 @@ export default function FoodDeliverySoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-primary text-primary-foreground">
+      <section className="py-16 md:py-24 px-24 bg-primary text-[#ab6545]-foreground"  style={{backgroundImage:"url(/image/17997.jpg)", backgroundAttachment:"fixed", backgroundPosition:"center"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

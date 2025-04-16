@@ -5,15 +5,15 @@ import { CheckCircle } from "lucide-react"
 import Banner from "@/components/banner"
 
 export default function SportBettingSoftwarePage() {
-    const bannerSlides = [
-        {
-          image: "/image/banner/Sport.jpg",
-          title: "Sports Betting Software",
-          description: "Build a powerful sports betting platform with our comprehensive software solutions",
-          
-        },
-      ]
-      
+  const bannerSlides = [
+    {
+      image: "/image/banner/Sport.jpg",
+      title: "Sports Betting Software",
+      description: "Build a powerful sports betting platform with our comprehensive software solutions",
+
+    },
+  ]
+
   return (
     <div className="flex flex-col">
       <Banner slides={bannerSlides} />
@@ -24,29 +24,27 @@ export default function SportBettingSoftwarePage() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Advanced Sports Betting Solutions</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our sports betting software provides a complete solution for businesses looking to enter the exciting
-                world of sports betting. From odds management to bet placement and settlement, our platform handles
-                every aspect of your sports betting business.
+                Our advanced sports betting software offers a comprehensive platform designed to handle all aspects of the sports betting lifecycle, enabling businesses to easily manage and operate a fully integrated betting system. Whether you're starting your own sportsbook or enhancing an existing one, our solution provides robust features to optimize your operations, offer an engaging user experience, and drive revenue growth.
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Comprehensive odds management system</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Real-time bet placement and tracking</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Automated bet settlement and payout</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Secure payment processing and wallet management</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Advanced risk management tools</span>
                 </li>
               </ul>
@@ -69,15 +67,14 @@ export default function SportBettingSoftwarePage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Our sports betting software comes packed with features designed to create a secure and engaging betting
-                platform.
+                Our sports betting software is packed with a wide range of innovative features, all designed to provide a secure, engaging, and smooth betting experience for your users. From real-time odds updates to seamless bet placement and management, our platform ensures that bettors can enjoy an immersive, dynamic experience. Every aspect of the software, including payment processing, risk management, and user interaction, is optimized for efficiency, security, and user satisfaction.
               </p>
             </div>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -95,11 +92,11 @@ export default function SportBettingSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Odds Management</h3>
               <p className="text-muted-foreground">
-                Comprehensive odds management system with automatic updates and risk management tools.
+                A robust odds management system that enables you to automatically update odds across a variety of sports and markets. Integrated with risk management tools, it helps you stay ahead of market fluctuations and offer competitive odds at all times.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -117,11 +114,11 @@ export default function SportBettingSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Bet Management</h3>
               <p className="text-muted-foreground">
-                Efficient bet placement, tracking, and settlement with support for various bet types.
+                Efficient and user-friendly bet placement system that supports all types of bets, whether single, multiple, or system bets. It also ensures quick bet tracking, real-time updates, and fast settlements after events are completed.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -139,11 +136,11 @@ export default function SportBettingSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Live Betting</h3>
               <p className="text-muted-foreground">
-                Real-time in-play betting with dynamic odds updates and instant bet placement.
+                Engage your users with live, in-play betting options. Our platform allows real-time odds updates, instant bet acceptance, and dynamic event monitoring, keeping the excitement high throughout the game.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -162,11 +159,11 @@ export default function SportBettingSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Payment Processing</h3>
               <p className="text-muted-foreground">
-                Secure payment processing with multiple options and integrated wallet management.
+                A secure and seamless payment gateway supporting various payment options like credit/debit cards, e-wallets, and bank transfers. With integrated wallet management, your users can deposit and withdraw funds effortlessly.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -184,11 +181,11 @@ export default function SportBettingSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Risk Management</h3>
               <p className="text-muted-foreground">
-                Advanced risk management tools to identify and mitigate potential losses and fraud.
+                Our advanced risk management tools help you analyze betting patterns, identify high-risk activities, and mitigate potential losses. This ensures that your platform remains safe, secure, and fair for all users.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -207,7 +204,7 @@ export default function SportBettingSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">User Management</h3>
               <p className="text-muted-foreground">
-                Comprehensive user management with profiles, betting history, and responsible gambling tools.
+                Comprehensive user profiles with betting history, preferences, and responsible gambling tools. You can monitor user activity, set limits, and ensure compliance with responsible gaming practices to promote a safe betting environment.
               </p>
             </div>
           </div>
@@ -230,44 +227,42 @@ export default function SportBettingSoftwarePage() {
                 Why Choose Our Sports Betting Software
               </h2>
               <p className="text-muted-foreground md:text-lg">
-                Our sports betting software stands out from the competition with its robust features, scalable
-                architecture, and user-friendly interface. We've designed our solution to meet the needs of sports
-                betting businesses of all sizes.
+                Our sports betting software stands out in the market due to its robust features, scalable architecture, and intuitive user interface. Whether you're a large-scale betting operator or a smaller business, we've designed our solution to meet the unique needs of sports betting enterprises of all sizes.
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Scalable Solution</h3>
                     <p className="text-muted-foreground">
-                      Our platform handles millions of bets and users simultaneously without performance issues.
+                      Our platform is built to scale effortlessly, capable of managing millions of users and simultaneous bets without sacrificing performance, ensuring a smooth experience even during peak times.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Customizable Interface</h3>
                     <p className="text-muted-foreground">
-                      Tailor the platform to match your brand identity and specific business requirements.
+                      With flexible customization options, you can tailor the platform’s look and feel to align with your brand identity, offering a personalized experience for your users while meeting specific business goals.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Regulatory Compliance</h3>
                     <p className="text-muted-foreground">
-                      Built with compliance in mind, our software adheres to various regulatory requirements.
+                      Our software is designed with full regulatory compliance in mind, adhering to global standards and legal requirements to help you operate safely and confidently within regulated markets.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Dedicated Support</h3>
                     <p className="text-muted-foreground">
-                      Our team provides comprehensive support throughout implementation and beyond.
+                      Our dedicated support team is always ready to assist you. From initial setup to ongoing maintenance, we provide comprehensive support to ensure your platform runs smoothly at all times and to address any challenges you might face post-launch.
                     </p>
                   </div>
                 </li>
@@ -277,7 +272,7 @@ export default function SportBettingSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-primary-foreground">
+      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-[#ab6545]-foreground">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

@@ -5,14 +5,14 @@ import { CheckCircle } from "lucide-react"
 import Banner from "@/components/banner"
 
 export default function ECommercePortalPage() {
-    const bannerSlides = [
-        {
-          image: "/image/2.jpg",
-          title: "E-Commerce Portal",
-          description: "Build a powerful online store with our comprehensive e-commerce solutions",
-          
-        },
-      ]
+  const bannerSlides = [
+    {
+      image: "/image/2.jpg",
+      title: "E-Commerce Portal",
+      description: "Build a powerful online store with our comprehensive e-commerce solutions",
+
+    },
+  ]
   return (
     <div className="flex flex-col">
       <Banner slides={bannerSlides} />
@@ -21,31 +21,30 @@ export default function ECommercePortalPage() {
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Complete E-Commerce Solutions</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Complete E-Commerce Solutions
+              </h2>
               <p className="text-muted-foreground md:text-lg">
-                Our e-commerce portal provides a complete solution for businesses looking to establish or enhance their
-                online presence. From product management to order processing and customer engagement, our platform
-                handles every aspect of your online store to help you grow your business in the digital marketplace.
+                Our e-commerce portal offers a comprehensive solution tailored to businesses looking to establish, manage, or enhance their online presence. Whether you’re starting a new e-commerce business or looking to scale your existing store, our platform covers every aspect of the e-commerce journey. From intuitive product management to secure order processing and customer engagement tools, our solution is designed to drive business growth in the competitive digital marketplace. Here’s how our e-commerce solutions stand out:
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Comprehensive product and inventory management</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Secure payment processing with multiple options</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Order management and fulfillment tracking</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Customer management and engagement tools</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Advanced analytics and reporting</span>
                 </li>
               </ul>
@@ -68,14 +67,14 @@ export default function ECommercePortalPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Our e-commerce portal comes packed with features designed to help you build and grow your online store.
+                Our e-commerce portal is equipped with a wide range of powerful features, meticulously designed to help you not only build and grow your online store efficiently but also provide an exceptional customer experience, streamline operations, and ultimately drive business success in a competitive digital marketplace. From intuitive product management to seamless order fulfillment and personalized customer engagement, every feature is crafted to empower you in managing and scaling your business effectively, regardless of your industry or business size.
               </p>
             </div>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -95,11 +94,11 @@ export default function ECommercePortalPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Product Management</h3>
               <p className="text-muted-foreground">
-                Comprehensive product catalog with categories, variants, and inventory management.
+                Easily manage your product catalog with options for organizing products into categories, managing variations (like sizes and colors), and tracking inventory levels. You can also set up pricing, manage product descriptions, and update product details with ease. This feature allows for smooth handling of large product ranges while keeping things simple and organized.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -118,11 +117,11 @@ export default function ECommercePortalPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Payment Processing</h3>
               <p className="text-muted-foreground">
-                Secure payment processing with multiple options including credit cards, digital wallets, and more.
+                Ensure smooth and secure transactions with our integrated payment gateways that support multiple payment options. From credit and debit cards to digital wallets and alternative payment methods, we offer a wide range of secure options. This flexibility allows customers to pay through their preferred channels while you enjoy seamless, encrypted transactions.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -142,11 +141,11 @@ export default function ECommercePortalPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Order Management</h3>
               <p className="text-muted-foreground">
-                Efficient order processing with status tracking, fulfillment management, and customer notifications.
+                Streamline your order fulfillment process with automated order status tracking and management. From order receipt to shipment, every step is monitored and updated in real time. With tools to manage order processing, packaging, shipping, and customer notifications, you’ll provide an excellent experience for your customers, ensuring timely and accurate deliveries.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -167,11 +166,11 @@ export default function ECommercePortalPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Customer Management</h3>
               <p className="text-muted-foreground">
-                Comprehensive customer profiles with purchase history, wishlist, and personalization options.
+                Build and maintain detailed customer profiles, tracking purchase history, preferences, and wishlist items. You can also offer personalized experiences based on browsing and purchase patterns. This feature helps create a customer-centric approach, ensuring better engagement, loyalty, and satisfaction.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -189,11 +188,11 @@ export default function ECommercePortalPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Content Management</h3>
               <p className="text-muted-foreground">
-                Easy-to-use content management system for product descriptions, blog posts, and marketing materials.
+                Create and manage product descriptions, blog posts, promotional content, and marketing materials using our easy-to-use Content Management System (CMS). It gives you the flexibility to present your products in a way that appeals to your target audience while boosting SEO efforts to drive organic traffic.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -211,7 +210,7 @@ export default function ECommercePortalPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Analytics & Reporting</h3>
               <p className="text-muted-foreground">
-                Comprehensive analytics and reporting tools to track sales, customer behavior, and business performance.
+                Track your business performance through comprehensive analytics and reporting tools. Our system provides insights into key metrics such as sales data, customer behavior, conversion rates, and traffic sources. These insights help you make informed decisions, identify trends, and optimize your strategies for growth.
               </p>
             </div>
           </div>
@@ -232,43 +231,43 @@ export default function ECommercePortalPage() {
             <div className="space-y-4 order-1 lg:order-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Our E-Commerce Portal</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our e-commerce portal stands out from the competition with its robust features, scalable architecture,
-                and user-friendly interface. We've designed our solution to meet the needs of businesses of all sizes.
+                Our e-commerce portal stands out from the competition with its robust features, scalable architecture, and user-friendly interface. We’ve designed our solution to meet the needs of businesses of all sizes, whether you're starting small or scaling up to a large online marketplace.
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Scalable Solution</h3>
                     <p className="text-muted-foreground">
-                      Our platform grows with your business, from a small shop to a large online marketplace.
+                      Our platform is designed to grow alongside your business, easily handling increased traffic, product listings, and order volume, whether you’re operating as a small shop or a large online marketplace.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Mobile-Responsive Design</h3>
                     <p className="text-muted-foreground">
-                      Optimized for all devices to provide a seamless shopping experience for your customers.
+                      With a mobile-first approach, our portal is fully optimized for all devices, providing your customers with a seamless and enjoyable shopping experience, regardless of whether they’re using a smartphone, tablet, or desktop.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">SEO-Friendly</h3>
                     <p className="text-muted-foreground">
-                      Built with search engine optimization in mind to help your products rank higher in search results.
+                      Built with search engine optimization best practices, our platform helps your products rank higher in search engine results, driving more traffic to your store and increasing visibility in a competitive online marketplace.
+
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Dedicated Support</h3>
                     <p className="text-muted-foreground">
-                      Our team provides comprehensive support throughout implementation and beyond.
+                      We believe in providing ongoing support for our clients. Our expert team is available to assist with everything from the initial setup and customization to ongoing maintenance and optimization, ensuring a smooth experience at every step.
                     </p>
                   </div>
                 </li>
@@ -278,7 +277,7 @@ export default function ECommercePortalPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-primary-foreground">
+      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-[#ab6545]-foreground">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

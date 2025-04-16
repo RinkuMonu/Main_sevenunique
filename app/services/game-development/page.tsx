@@ -95,7 +95,7 @@ export default function GameDevelopmentPage() {
               <ul className="space-y-2 mb-6">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                     <span>{benefit}</span>
                   </li>
                 ))}
@@ -131,7 +131,7 @@ export default function GameDevelopmentPage() {
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Monitor className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">
@@ -144,25 +144,25 @@ export default function GameDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>High-definition visuals and responsive gameplay</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Integration with Steam, PlayStation, Xbox</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Story-based and competitive gaming models</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Advanced performance optimization</span>
                 </li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Smartphone className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">
@@ -175,25 +175,25 @@ export default function GameDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Casual, arcade, and multiplayer game development</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Cross-platform mobile gaming solutions</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>In-app purchases and ad monetization systems</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Real-time player interaction features</span>
                 </li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Globe className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">Web Game Development</h3>
@@ -203,25 +203,25 @@ export default function GameDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>HTML5, WebGL, and JavaScript-based games</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Social media-integrated games</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Interactive branded experiences (advergames)</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Real-time web multiplayer gaming</span>
                 </li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Gamepad2 className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">AR/VR Game Development</h3>
@@ -231,19 +231,19 @@ export default function GameDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>AR-based mobile and smart glasses games</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>VR simulations and gamified training</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Support for Oculus, HTC Vive, and other devices</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Educational and enterprise-focused solutions</span>
                 </li>
               </ul>
@@ -371,7 +371,7 @@ export default function GameDevelopmentPage() {
                   </p>
                   <Link
                     href={project.link}
-                    className="inline-flex items-center text-primary hover:underline"
+                    className="inline-flex items-center text-[#ab6545] hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -406,7 +406,7 @@ export default function GameDevelopmentPage() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-transparent border-gray-100 text-black hover:bg-white hover:text-primary"
+              className="bg-transparent border-gray-100 text-black hover:bg-white hover:text-[#ab6545]"
               asChild
             >
               <Link href="/services">Explore Other Services</Link>

@@ -61,8 +61,8 @@ const DigitalMarketing = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2 animate-fade-in">
-              <span className="inline-block mb-3 text-sm font-semibold text-primary tracking-widest">DIGITAL MARKETING</span>
-              <h2 className="text-4xl lg:text-5xl font-bold leading-tight mb-6">Strategic Marketing for <span className="text-primary">Measurable Growth</span></h2>
+              <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">DIGITAL MARKETING</span>
+              <h2 className="text-4xl lg:text-5xl font-bold leading-tight mb-6">Strategic Marketing for <span className="text-[#ab6545]">Measurable Growth</span></h2>
               
               <div className="space-y-4 mb-8">
                 <p className="text-lg text-gray-600">
@@ -109,7 +109,7 @@ const DigitalMarketing = () => {
                 <Link href="/contact" className="px-8 py-3 bg-[#AB6545] hover:bg-[#AB6545]-dark text-white font-medium rounded-lg transition duration-300">
                   Get Started
                 </Link>
-                <Link href="#services" className="px-8 py-3 border border-gray-300 hover:border-primary text-gray-700 hover:text-primary font-medium rounded-lg transition duration-300">
+                <Link href="#services" className="px-8 py-3 border border-gray-300 hover:border-primary text-gray-700 hover:text-[#ab6545] font-medium rounded-lg transition duration-300">
                   Explore Services
                 </Link>
               </div>
@@ -154,8 +154,8 @@ const DigitalMarketing = () => {
       <section id="services" className="py-12 lg:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-block mb-3 text-sm font-semibold text-primary tracking-widest">SERVICES</span>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Comprehensive Digital Marketing <span className="text-primary">Services</span></h2>
+            <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">SERVICES</span>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Comprehensive Digital Marketing <span className="text-[#ab6545]">Services</span></h2>
             <p className="text-xl text-gray-600">
               Integrated solutions tailored to your business goals and audience.
             </p>
@@ -171,7 +171,7 @@ const DigitalMarketing = () => {
                   <ul className="space-y-2">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center">
-                        <svg className="h-5 w-5 text-primary mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg className="h-5 w-5 text-[#ab6545] mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span>{feature}</span>
@@ -180,7 +180,7 @@ const DigitalMarketing = () => {
                   </ul>
                 </div>
                 <div className="px-8 py-4 bg-gray-50 border-t border-gray-100">
-                  <Link href="/contact" className="text-primary font-medium inline-flex items-center group-hover:underline">
+                  <Link href="/contact" className="text-[#ab6545] font-medium inline-flex items-center group-hover:underline">
                     Get this service
                     <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
@@ -197,8 +197,8 @@ const DigitalMarketing = () => {
       <section className="py-12 lg:py-20">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-block mb-3 text-sm font-semibold text-primary tracking-widest">PROCESS</span>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Our Proven <span className="text-primary">Marketing Framework</span></h2>
+            <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">PROCESS</span>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Our Proven <span className="text-[#ab6545]">Marketing Framework</span></h2>
             <p className="text-xl text-gray-600">
               A systematic approach that delivers consistent results.
             </p>
@@ -244,7 +244,7 @@ const DigitalMarketing = () => {
               },
             ].map((step, idx) => (
               <div key={idx} className="bg-white p-8 rounded-xl shadow-md border border-gray-100 hover:border-primary transition duration-300">
-                <div className="text-primary mb-5">
+                <div className="text-[#ab6545] mb-5">
                   {step.icon}
                 </div>
                 <div className="text-xl font-bold mb-3 flex items-center">
@@ -262,8 +262,8 @@ const DigitalMarketing = () => {
       <section className="py-12 lg:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-block mb-3 text-sm font-semibold text-primary tracking-widest">CASE STUDIES</span>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Marketing Success <span className="text-primary">Stories</span></h2>
+            <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">CASE STUDIES</span>
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Marketing Success <span className="text-[#ab6545]">Stories</span></h2>
             <p className="text-xl text-gray-600">
               Real businesses achieving real results with our strategies.
             </p>
@@ -317,7 +317,7 @@ const DigitalMarketing = () => {
                 <div className="p-8">
                   <div className="flex flex-wrap gap-2 mb-4">
                     {caseStudy.tags.map((tag, i) => (
-                      <span key={i} className="px-3 py-1 bg-[#AB6545]/10 text-primary text-xs font-medium rounded-full">
+                      <span key={i} className="px-3 py-1 bg-[#AB6545]/10 text-[#ab6545] text-xs font-medium rounded-full">
                         {tag}
                       </span>
                     ))}
@@ -328,13 +328,13 @@ const DigitalMarketing = () => {
                   <div className="grid grid-cols-3 gap-4 mb-6">
                     {caseStudy.results.map((result, i) => (
                       <div key={i} className="text-center">
-                        <p className="text-2xl font-bold text-primary">{result.value}</p>
+                        <p className="text-2xl font-bold text-[#ab6545]">{result.value}</p>
                         <p className="text-xs text-gray-500">{result.label}</p>
                       </div>
                     ))}
                   </div>
                   
-                  <Link href={`/case-studies/${caseStudy.title.toLowerCase().replace(/\s+/g, '-')}`} className="inline-flex items-center font-medium text-primary group-hover:underline">
+                  <Link href={`/case-studies/${caseStudy.title.toLowerCase().replace(/\s+/g, '-')}`} className="inline-flex items-center font-medium text-[#ab6545] group-hover:underline">
                     Read full case study
                     <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
@@ -346,7 +346,7 @@ const DigitalMarketing = () => {
           </div>
           
           <div className="text-center mt-12">
-            <Link href="/case-studies" className="inline-flex items-center px-6 py-3 border border-gray-300 rounded-lg text-gray-700 font-medium hover:border-primary hover:text-primary transition duration-300">
+            <Link href="/case-studies" className="inline-flex items-center px-6 py-3 border border-gray-300 rounded-lg text-gray-700 font-medium hover:border-primary hover:text-[#ab6545] transition duration-300">
               View All Case Studies
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -360,9 +360,9 @@ const DigitalMarketing = () => {
       <section className="py-12 lg:py-20 bg-[#AB6545] text-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-block mb-3 text-sm font-semibold text-primary-light tracking-widest">TESTIMONIALS</span>
+            <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545]-light tracking-widest">TESTIMONIALS</span>
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">Trusted by <span className="text-secondary">Innovative Brands</span></h2>
-            <p className="text-xl text-primary-light">
+            <p className="text-xl text-[#ab6545]-light">
               Don't just take our word for it - hear from our clients.
             </p>
           </div>
@@ -403,7 +403,7 @@ const DigitalMarketing = () => {
                   />
                   <div>
                     <p className="font-bold">{testimonial.name}</p>
-                    <p className="text-primary-light text-sm">{testimonial.title}</p>
+                    <p className="text-[#ab6545]-light text-sm">{testimonial.title}</p>
                   </div>
                 </div>
               </div>
@@ -416,12 +416,12 @@ const DigitalMarketing = () => {
       <section className="py-12 lg:py-20 bg-gradient-to-r from-primary to-secondary">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Transform Your Marketing?</h2>
-          <p className="text-xl text-primary-light max-w-2xl mx-auto mb-10">
+          <p className="text-xl text-[#ab6545]-light max-w-2xl mx-auto mb-10">
           Make an appointment for your free consultation to receive a personalized marketing plan..
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="px-8 py-4 bg-white text-primary font-bold rounded-lg hover:bg-gray-100 transition duration-300">
+            <Link href="/contact" className="px-8 py-4 bg-white text-[#ab6545] font-bold rounded-lg hover:bg-gray-100 transition duration-300">
               Get Started Today
             </Link>
             <Link href="/contact" className="px-8 py-4 border-2 border-white text-white font-bold rounded-lg hover:bg-white/10 transition duration-300">
