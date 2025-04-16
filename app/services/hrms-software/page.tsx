@@ -23,9 +23,8 @@ export default function HRMSSoftwarePage() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Complete HR Management Solution</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our Human Resource Management System (HRMS) provides a complete solution for businesses looking to
-                streamline HR operations, enhance employee experience, and optimize workforce management. From
-                recruitment to retirement, our platform handles every aspect of the employee lifecycle.
+              At SevenUnique Tech Solutions, we offer comprehensive HR management solutions that streamline all aspects of human resources processes within your organization. Our solution integrates modern technology, data-driven insights, and user-friendly interfaces to help you manage, nurture, and grow your workforce more efficiently.
+
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
@@ -63,7 +62,7 @@ export default function HRMSSoftwarePage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Our HRMS software comes packed with features designed to optimize your human resources operations.
+              Numerous capabilities in our HRMS software are intended to maximize your human resources operations.
               </p>
             </div>
           </div>
@@ -91,7 +90,7 @@ export default function HRMSSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Employee Management</h3>
               <p className="text-muted-foreground">
-                Centralized database for all employee information with comprehensive profiles and document management.
+              centralized database that houses all employee data, including detailed biographies and document administration.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -114,7 +113,7 @@ export default function HRMSSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Recruitment</h3>
               <p className="text-muted-foreground">
-                End-to-end recruitment management from job posting to candidate selection and onboarding.
+              complete hiring management, including posting jobs, choosing candidates, and onboarding them.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -137,7 +136,7 @@ export default function HRMSSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Time & Attendance</h3>
               <p className="text-muted-foreground">
-                Accurate time tracking with multiple clock-in options, leave management, and attendance reporting.
+              Precise timekeeping featuring various clock-in choices, leave administration, and attendance documentation.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -160,7 +159,7 @@ export default function HRMSSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Payroll Management</h3>
               <p className="text-muted-foreground">
-                Automated payroll processing with tax calculations, deductions, and multiple payment options.
+              automated payroll processing that offers several payment alternatives, tax computations, and deductions.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -183,7 +182,7 @@ export default function HRMSSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Performance Management</h3>
               <p className="text-muted-foreground">
-                Comprehensive performance evaluation tools with goal setting, feedback, and development planning.
+              Tools for comprehensive performance evaluation that include development planning, goal-setting, and feedback.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -205,7 +204,7 @@ export default function HRMSSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Analytics & Reporting</h3>
               <p className="text-muted-foreground">
-                Comprehensive reporting tools to track HR metrics, workforce analytics, and compliance.
+              All-inclusive reporting solutions for monitoring workforce analytics, compliance, and HR data.
               </p>
             </div>
           </div>
@@ -221,8 +220,7 @@ export default function HRMSSoftwarePage() {
             <div className="space-y-4 order-1 lg:order-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Our HRMS Software</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our HRMS software stands out from the competition with its robust features, scalable architecture, and
-                user-friendly interface. We've designed our solution to meet the needs of businesses of all sizes.
+              Our HRMS software's scalable architecture, user-friendly interface, and strong features set it apart from the competitors. Our system is made to accommodate companies of all sizes.
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
@@ -230,7 +228,7 @@ export default function HRMSSoftwarePage() {
                   <div>
                     <h3 className="font-bold">Scalable Solution</h3>
                     <p className="text-muted-foreground">
-                      Our platform grows with your business, from a small team to a large enterprise.
+                    Tailored to fit the needs of both small businesses and large enterprises.
                     </p>
                   </div>
                 </li>
@@ -239,16 +237,17 @@ export default function HRMSSoftwarePage() {
                   <div>
                     <h3 className="font-bold">User-Friendly Interface</h3>
                     <p className="text-muted-foreground">
-                      Intuitive design that's easy to use for HR professionals and employees alike.
+                    Easy-to-use interface ensures a smooth experience for HR managers and employees alike.
+
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h3 className="font-bold">Compliance Management</h3>
+                    <h3 className="font-bold">Integration-ready</h3>
                     <p className="text-muted-foreground">
-                      Built-in compliance features to help you adhere to labor laws and regulations.
+                    Our system seamlessly integrates with existing software like ERP, payroll, and accounting systems.
                     </p>
                   </div>
                 </li>

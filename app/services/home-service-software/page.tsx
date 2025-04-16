@@ -8,7 +8,7 @@ export default function HomeServiceSoftwarePage() {
 
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/Home.jpg",
           title: "Home Service Software",
           description: "Streamline your home service business with our comprehensive management solution",
           
@@ -24,9 +24,8 @@ export default function HomeServiceSoftwarePage() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Empower Your Service Business</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our home service software provides a complete solution for businesses offering services like cleaning,
-                plumbing, electrical work, landscaping, and more. From booking management to service tracking, our
-                platform handles every aspect of your home service business operations.
+              you specialize in plumbing, electrical services, cleaning, pest control, or any other home service, our software is meticulously designed to optimize your business operations, enhance customer satisfaction, and drive sustainable growth. Our platform offers advanced features that streamline your daily tasks, reduce operational bottlenecks, and increase your revenue potential.
+
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
@@ -69,8 +68,7 @@ export default function HomeServiceSoftwarePage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Our home service software comes packed with features designed to optimize your service business
-                operations.
+              Our home service software is loaded with features that are intended to maximize the operations of your service business.
               </p>
             </div>
           </div>
@@ -98,7 +96,7 @@ export default function HomeServiceSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Booking & Scheduling</h3>
               <p className="text-muted-foreground">
-                Efficient booking system with calendar management, automated reminders, and scheduling optimization.
+              Effective reservation system featuring scheduling optimization, calendar management, and automated reminders.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -123,7 +121,7 @@ export default function HomeServiceSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Service Provider Management</h3>
               <p className="text-muted-foreground">
-                Track service providers, manage their schedules, and optimize their routes for maximum efficiency.
+              Keep tabs on service providers, control their timetables, and streamline their routes for optimal effectiveness.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -146,7 +144,7 @@ export default function HomeServiceSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Real-time Tracking</h3>
               <p className="text-muted-foreground">
-                GPS tracking for service providers and real-time updates for customers on service status.
+              GPS monitoring for service providers and real-time service status information for clients.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -168,7 +166,7 @@ export default function HomeServiceSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Customer Communication</h3>
               <p className="text-muted-foreground">
-                Automated notifications, in-app messaging, and feedback collection to enhance customer experience.
+              In-app messaging, automated alerts, and feedback gathering to improve user experience.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -191,7 +189,7 @@ export default function HomeServiceSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Payment Processing</h3>
               <p className="text-muted-foreground">
-                Secure payment processing with multiple options including credit cards, digital wallets, and invoicing.
+              Credit cards, digital wallets, and invoicing are just a few of the safe payment methods available.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -213,8 +211,7 @@ export default function HomeServiceSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Analytics & Reporting</h3>
               <p className="text-muted-foreground">
-                Comprehensive analytics and reporting tools to track business performance and identify growth
-                opportunities.
+              Tools for thorough analytics and reporting that monitor company performance and spot expansion prospects.
               </p>
             </div>
           </div>
@@ -230,17 +227,15 @@ export default function HomeServiceSoftwarePage() {
             <div className="space-y-4 order-1 lg:order-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Our Home Service Software</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our home service software stands out from the competition with its robust features, scalable
-                architecture, and user-friendly interface. We've designed our solution to meet the needs of service
-                businesses of all sizes.
+              At SevenUnique Tech Solutions Pvt. Ltd., we offer comprehensive and tailored home service software solutions designed to streamline operations, enhance customer experience, and drive business growth. Here’s why our software is the best choice for your business.
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h3 className="font-bold">Scalable Solution</h3>
+                    <h3 className="font-bold">Tailored Solutions for Your Business</h3>
                     <p className="text-muted-foreground">
-                      Our platform grows with your business, from a single service provider to a large team.
+                    Our software is fully customizable to meet the unique needs of your home service business
                     </p>
                   </div>
                 </li>
@@ -256,18 +251,18 @@ export default function HomeServiceSoftwarePage() {
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h3 className="font-bold">Seamless Integration</h3>
+                    <h3 className="font-bold">Real-Time Monitoring & GPS Tracking</h3>
                     <p className="text-muted-foreground">
-                      Easily integrate with existing systems, payment gateways, and third-party services.
+                    Track your technicians in real time with GPS and live updates, ensuring that your team is on schedule. 
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h3 className="font-bold">Dedicated Support</h3>
+                    <h3 className="font-bold">Powerful Analytics & Reporting</h3>
                     <p className="text-muted-foreground">
-                      Our team provides comprehensive support throughout implementation and beyond.
+                    Make data-driven decisions to optimize operations and enhance your marketing strategies.
                     </p>
                   </div>
                 </li>

@@ -7,7 +7,7 @@ export default function FoodDeliverySoftwarePage() {
 
     const bannerSlides = [
         {
-          image: "/placeholder.svg?height=1080&width=1920",
+          image: "/image/banner/food.jpg",
           title: "Food Delivery Software",
           description: "Empower your food business with our comprehensive delivery management solution",
           

@@ -15,6 +15,15 @@ export default function CabBookingSoftwarePage() {
 
     },
   ]
+    
+    const bannerSlides = [
+        {
+          image: "/image/banner/Cab.jpg",
+          title: "Cab Booking Software",
+          description: "Streamline transportation services with our advanced cab booking solutions",
+          
+        },
+      ]
   return (
     <div className="flex flex-col">
       <Banner slides={bannerSlides} />

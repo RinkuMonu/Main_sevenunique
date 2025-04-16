@@ -8,10 +8,10 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Company Name - Professional Services",
-  description: "Your trusted partner for digital solutions and services",
+  title: "SevenUnique Tech Solution pvt. ltd",
+  description:"Your trusted partner for digital solutions and services",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.ico", 
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
