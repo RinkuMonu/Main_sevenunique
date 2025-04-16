@@ -290,7 +290,7 @@ export default function Header() {
               </div>
 
               {/* Software Dropdown */}
-              <div className="border-t border-gray-200 pt-2">
+              {/* <div className="border-t border-gray-200 pt-2">
                 <details className="group">
                   <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
                     <span>Software</span>
@@ -315,7 +315,7 @@ export default function Header() {
                     ))}
                   </div>
                 </details>
-              </div>
+              </div> */}
 
               {/* API's Dropdown */}
               <div className="border-t border-gray-200 pt-2">
