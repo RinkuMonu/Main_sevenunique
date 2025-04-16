@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import PageBanner from "../../../components/PageBanner";
 import {
   FaClock,
   FaInfoCircle,
@@ -8,45 +7,39 @@ import {
   FaShieldAlt,
   FaCode,
   FaChartLine,
-  FaCheckCircle,
-  FaGlobe,
-  FaServer,
-  FaBook,
-  FaLaptopCode,
-  FaHeadset
-} from "react-icons/fa";
+  FaCheckCircle} from "react-icons/fa";
 import Banner from "@/components/banner";
 
 const HotelManagement = () => {
   const features = [
     {
       title: "Real-time Availability",
-      description: "Access real-time availability and rates from thousands of hotels worldwide.",
+      description: " Get instant access to live room availability, dynamic pricing, and real-time updates across a global network of hotel partners.",
       icon: <FaClock className="text-primary text-xl" />,
     },
     {
       title: "Comprehensive Hotel Data",
-      description: "Detailed hotel information including amenities, room types, policies, and images.",
+      description: " Display rich hotel profiles with detailed descriptions, room categories, images, amenities, location info, guest policies, and cancellation rules.",
       icon: <FaInfoCircle className="text-primary text-xl" />,
     },
     {
       title: "Booking Management",
-      description: "Complete booking management with confirmation, modification, and cancellation capabilities.",
+      description: "Manage the entire booking process—initiate, confirm, modify, or cancel reservations—with instant response and real-time status updates.",
       icon: <FaCalendarCheck className="text-primary text-xl" />,
     },
     {
       title: "Secure Transactions",
-      description: "Secure payment processing with support for multiple payment methods and currencies.",
+      description: "Support secure payment processing with multiple currencies and payment gateways, backed by industry-standard encryption and compliance.",
       icon: <FaShieldAlt className="text-primary text-xl" />,
     },
     {
       title: "Flexible Integration",
-      description: "Easy integration with your existing systems through our comprehensive API documentation.",
+      description: " Integrate effortlessly using our developer-centric REST API, complete with detailed documentation, code samples, and SDKs for faster deployment.",
       icon: <FaCode className="text-primary text-xl" />,
     },
     {
       title: "Analytics & Reporting",
-      description: "Detailed analytics and reporting to track bookings, revenue, and performance.",
+      description: "Gain visibility into performance metrics with advanced reporting on bookings, revenue, cancellation trends, and user behavior.",
       icon: <FaChartLine className="text-primary text-xl" />,
     },
   ];
@@ -86,7 +79,7 @@ const HotelManagement = () => {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=400&width=1920&text=PAN Verification API",
+      image: "/image/banner/Hotel-Booking.jpg",
       title: "Hotel Management API",
       description: "Comprehensive hotel booking and management API for travel applications",
     },
@@ -103,15 +96,11 @@ const HotelManagement = () => {
             <div className="lg:w-1/2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Hotel Management API</h2>
               <p className="text-gray-600 mb-4">
-                Our Hotel Management API provides a comprehensive solution for integrating hotel booking and management
-                capabilities into your applications. With access to a vast inventory of hotels worldwide, real-time
-                availability, and secure booking management, our API enables you to offer a complete hotel booking
-                experience to your customers.
+              Deliver a world-class hotel booking experience with our powerful and versatile Hotel Management API. Designed to support dynamic travel platforms, corporate booking systems, and custom travel applications, our API enables real-time access to global hotel inventories, seamless booking workflows, and robust property management features—all through a single integration.
               </p>
               <p className="text-gray-600 mb-8">
-                Whether you're building a travel booking platform, a corporate travel management system, or enhancing
-                your existing application with hotel booking capabilities, our API provides the tools and data you need
-                to create a seamless hotel booking experience.
+              Whether you're scaling your travel tech business or upgrading an existing solution, our API gives you everything you need to streamline operations and delight your customers with fast, flexible, and secure hotel booking capabilities.
+
               </p>
               <div className="flex flex-col gap-4 mb-8">
                 <div className="flex">
@@ -172,8 +161,7 @@ const HotelManagement = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our Hotel Management API offers a comprehensive set of features to enable seamless hotel booking
-              experiences.
+            Our Hotel Management API is packed with powerful features to help you deliver a seamless, scalable, and secure hotel booking experience.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -239,9 +227,8 @@ const HotelManagement = () => {
             <div className="lg:w-1/2 order-1 lg:order-2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Easy Integration</h2>
               <p className="text-gray-600 mb-8">
-                We've designed our Hotel Management API to be easy to integrate into your applications, with
-                comprehensive documentation, SDKs for popular programming languages, and dedicated support to help you
-                get started quickly.
+              Our Hotel Management API is built with developers in mind, making integration smooth, fast, and flexible. Whether you're building from scratch or enhancing an existing platform, our tools and resources ensure a hassle-free experience.
+
               </p>
               <div className="flex flex-col gap-4">
                 <div className="flex">
@@ -251,7 +238,7 @@ const HotelManagement = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Comprehensive Documentation</h3>
                     <p className="text-gray-600">
-                      Detailed API documentation with examples and guides to help you understand and implement our API.
+                    Step-by-step API documentation with detailed endpoint descriptions, parameters, and real-world examples to guide you through every aspect of integration.
                     </p>
                   </div>
                 </div>
@@ -262,7 +249,8 @@ const HotelManagement = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">SDKs for Popular Languages</h3>
                     <p className="text-gray-600">
-                      Ready-to-use SDKs for popular programming languages to simplify integration.
+                    Pre-built SDKs for popular programming languages like Java, Python, Node.js, and PHP—accelerating your development process and reducing time-to-market.
+
                     </p>
                   </div>
                 </div>
@@ -273,7 +261,7 @@ const HotelManagement = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Sandbox Environment</h3>
                     <p className="text-gray-600">
-                      Test your integration in our sandbox environment before going live.
+                    Safely test your API calls, booking flows, and error handling in a secure, fully functional sandbox before moving to production.
                     </p>
                   </div>
                 </div>
@@ -284,7 +272,7 @@ const HotelManagement = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Dedicated Support</h3>
                     <p className="text-gray-600">
-                      Our team of API experts is available to help you with integration and troubleshooting.
+                    Access to our expert support team for technical assistance, implementation guidance, and troubleshooting whenever you need it.
                     </p>
                   </div>
                 </div>

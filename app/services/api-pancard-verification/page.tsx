@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import PageBanner from "@/components/api-pancard-verification/page-banner"
 import { CheckCircle, Shield, Zap, FileSearch, Server } from "lucide-react"
 import Banner from "@/components/banner"
 
@@ -53,7 +52,7 @@ export default function PancardVerificationApiPage() {
       <Banner slides={bannerSlides}  />
 
       {/* Overview Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -75,12 +74,12 @@ export default function PancardVerificationApiPage() {
                 ))}
               </ul>
               <Button asChild>
-                <Link href="/contact">Get API Access</Link>
+                <Link href="/contact" className="text-white bg-[#d59172]">Get API Access</Link>
               </Button>
             </div>
             <div className="relative h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=600&text=PAN Verification"
+                src="/image/13087.jpg"
                 alt="PAN Card Verification"
                 fill
                 className="object-cover rounded-lg"
@@ -91,7 +90,7 @@ export default function PancardVerificationApiPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Key Features</h2>
@@ -112,7 +111,7 @@ export default function PancardVerificationApiPage() {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">How It Works</h2>
@@ -165,12 +164,12 @@ export default function PancardVerificationApiPage() {
       </section>
 
       {/* API Documentation Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] order-2 md:order-1">
               <Image
-                src="/placeholder.svg?height=400&width=600&text=API Documentation"
+                src="/image/51286.jpg"
                 alt="API Documentation"
                 fill
                 className="object-cover rounded-lg"
@@ -204,7 +203,7 @@ export default function PancardVerificationApiPage() {
                 </li>
               </ul>
               <Button asChild>
-                <Link href="/documentation/pancard-verification-api">View Documentation</Link>
+                <Link href="/documentation/pancard-verification-api"  className="text-white bg-[#AB6545]">View Documentation</Link>
               </Button>
             </div>
           </div>
@@ -212,7 +211,7 @@ export default function PancardVerificationApiPage() {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Use Cases</h2>
@@ -255,107 +254,9 @@ export default function PancardVerificationApiPage() {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Flexible Pricing</h2>
-            <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              We offer flexible pricing plans to suit businesses of all sizes, from startups to enterprises.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-2">Basic</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">For small businesses and startups</p>
-              <div className="text-3xl font-bold mb-4">
-                ₹3,000<span className="text-sm font-normal">/month</span>
-              </div>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Up to 1,000 verifications per month</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Standard API access</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Email support</span>
-                </li>
-              </ul>
-              <Button className="w-full" asChild>
-                <Link href="/contact">Get Started</Link>
-              </Button>
-            </div>
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md border-2 border-primary relative">
-              <div className="absolute top-0 right-0 bg-primary text-white px-3 py-1 text-sm font-bold rounded-bl-lg">
-                Popular
-              </div>
-              <h3 className="text-xl font-bold mb-2">Professional</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">For growing businesses</p>
-              <div className="text-3xl font-bold mb-4">
-                ₹8,000<span className="text-sm font-normal">/month</span>
-              </div>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Up to 5,000 verifications per month</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Advanced API features</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Priority support</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Detailed reporting</span>
-                </li>
-              </ul>
-              <Button className="w-full" asChild>
-                <Link href="/contact">Get Started</Link>
-              </Button>
-            </div>
-            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-2">Enterprise</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">For large organizations</p>
-              <div className="text-3xl font-bold mb-4">Custom</div>
-              <ul className="space-y-2 mb-6">
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Unlimited verifications</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Full API feature set</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>24/7 dedicated support</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>Custom integration support</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
-                  <span>SLA guarantees</span>
-                </li>
-              </ul>
-              <Button className="w-full" asChild>
-                <Link href="/contact">Contact Sales</Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-primary text-white">
+      <section className="py-16 md:py-24 px-24 bg-primary text-white"    style={{backgroundImage:"url(/image/2299.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Verify PAN Cards Instantly?</h2>
           <p className="max-w-2xl mx-auto mb-8">
@@ -363,7 +264,7 @@ export default function PancardVerificationApiPage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button variant="secondary" size="lg" asChild>
-              <Link href="/contact">Get API Access</Link>
+              <Link href="/contact" className="text-black bg-[#AB6545]">Get API Access</Link>
             </Button>
             <Button
               variant="outline"

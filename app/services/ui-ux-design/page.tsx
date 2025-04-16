@@ -183,7 +183,7 @@ export default function UIUXDesignPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24  bg-gray-50">
+      <section className="py-16 md:py-24 px-24 text-white bg-gray-50"  style={{backgroundImage:"url(/image/430575.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -202,7 +202,7 @@ export default function UIUXDesignPage() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="bg-transparent border-gray-100 bg-white hover:bg-[#AB6545] hover:text-white"
+                className="bg-transparent border-gray-100  hover:bg-[#AB6545] hover:text-white"
               >
                 <Link href="/services">Explore Other Services</Link>
               </Button>

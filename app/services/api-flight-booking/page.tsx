@@ -20,32 +20,32 @@ const FlightBooking = () => {
   const features = [
     {
       title: "Global Flight Inventory",
-      description: "Access real-time flight data from hundreds of airlines worldwide.",
+      description: "Gain real-time access to flight data from hundreds of domestic and international airlines, ensuring extensive route coverage and availability for your users.",
       icon: <FaPlane className="text-primary text-xl" />,
     },
     {
       title: "Instant Search",
-      description: "Get flight options in milliseconds with our powerful search engine.",
+      description: "Deliver quick and accurate search results within milliseconds, allowing users to filter flights by date, time, fare class, airlines, and other preferences for a smooth booking journey.",
       icon: <FaSearch className="text-primary text-xl" />,
     },
     {
       title: "Live Pricing",
-      description: "Access up-to-the-minute pricing and availability.",
+      description: " Display up-to-the-minute flight fares and seat availability, helping users make informed decisions based on real-time data without surprises during checkout.",
       icon: <FaMoneyBillWave className="text-primary text-xl" />,
     },
     {
       title: "Secure Booking",
-      description: "End-to-end encrypted transactions for safe reservations.",
+      description: " Process bookings safely with end-to-end encryption, PCI-compliant payment integration, and automated confirmation handling for reliable and secure transactions.",
       icon: <FaShieldAlt className="text-primary text-xl" />,
     },
     {
       title: "Flexible Changes",
-      description: "Easy modifications and cancellations through our API.",
+      description: "Support modifications, rescheduling, and cancellations directly through the API, giving your users complete control over their travel plans.",
       icon: <FaExchangeAlt className="text-primary text-xl" />,
     },
     {
       title: "Detailed Analytics",
-      description: "Comprehensive reporting on bookings and performance.",
+      description: "Gain insights into booking trends, customer behavior, and revenue generation with detailed analytics dashboards and reporting tools built for performance tracking.",
       icon: <FaChartLine className="text-primary text-xl" />,
     },
   ];
@@ -53,22 +53,22 @@ const FlightBooking = () => {
   const useCases = [
     {
       title: "Travel Agencies",
-      description: "Offer comprehensive flight booking services to your clients.",
+      description: " Empower online and offline travel agencies to provide real-time flight options, competitive fares, and instant bookings, enhancing customer satisfaction and driving revenue.",
       icon: <FaUserTie className="text-primary text-xl" />,
     },
     {
       title: "Corporate Travel",
-      description: "Manage employee travel with policy-compliant flight options.",
+      description: " Enable businesses to manage employee travel with policy-compliant flight options, preferred airlines, and centralized booking control for cost-effective and efficient travel planning.",
       icon: <FaBuilding className="text-primary text-xl" />,
     },
     {
       title: "Tour Packages",
-      description: "Bundle flights with hotels and activities for complete packages.",
+      description: " Bundle flights with hotel stays, local tours, and other services to create attractive and customizable travel packages for leisure or business travelers.",
       icon: <FaHotel className="text-primary text-xl" />,
     },
     {
       title: "Transportation Services",
-      description: "Offer flight+ground transportation combos.",
+      description: "Integrate air travel with on-ground transport services such as taxis, buses, or car rentals to offer seamless end-to-end travel solutions.",
       icon: <FaCar className="text-primary text-xl" />,
     }
   ];
@@ -109,28 +109,28 @@ const FlightBooking = () => {
   const benefits = [
     {
       title: "Increased Revenue",
-      description: "Generate commissions on every flight booking.",
+      description: " Earn additional income through commissions on every booking and upselling travel services.",
       icon: <FaMoneyBillWave className="text-primary text-xl" />,
     },
     {
       title: "Competitive Edge",
-      description: "Offer flight booking when competitors don't.",
+      description: " Differentiate your platform by offering integrated flight bookings that many competitors lack.",
       icon: <FaChartLine className="text-primary text-xl" />,
     },
     {
       title: "Seamless Experience",
-      description: "Provide end-to-end travel solutions.",
+      description: " Deliver a smooth, end-to-end travel journey by combining flights with hotels, transport, and more.",
       icon: <FaPlane className="text-primary text-xl" />,
     },
     {
       title: "Global Reach",
-      description: "Access flights to destinations worldwide.",
+      description: "Tap into international travel demand with access to real-time flight inventory from global airlines.",
       icon: <FaGlobe className="text-primary text-xl" />,
     }
   ];
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=400&width=1920&text=PAN Verification API",
+      image: "/image/banner/FlightBooking.jpg",
       title: "Flight Booking API",
       description: "Powerful flight booking and management API for travel applications",
     },
@@ -147,13 +147,12 @@ const FlightBooking = () => {
             <div className="lg:w-1/2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Flight Booking API</h2>
               <p className="text-gray-600 mb-4">
-                Our Flight Booking API provides direct access to global flight inventory, enabling you to offer
-                comprehensive flight booking capabilities within your application. With real-time availability,
-                competitive pricing, and seamless integration, you can provide a complete travel experience to your users.
+              Elevate your travel platform with our robust Flight Booking API, giving you seamless access to a global network of airlines and flight data. Designed for performance, accuracy, and ease of integration, our API allows you to deliver real-time flight search, booking, and management capabilities directly within your application.
+
               </p>
               <p className="text-gray-600 mb-8">
-                Whether you're building a travel portal, corporate booking tool, or adding flight options to your
-                existing platform, our API delivers the data and functionality you need with industry-leading reliability.
+              Whether you're developing a full-fledged travel portal, a business travel management tool, or simply expanding your service offering, our API empowers you to provide users with a smooth, feature-rich flight booking experience.
+
               </p>
               <div className="flex flex-col gap-4 mb-8">
                 <div className="flex">
@@ -214,7 +213,7 @@ const FlightBooking = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our Flight Booking API offers everything you need to build a powerful flight booking experience.
+            Our Flight Booking API is designed to deliver a seamless, scalable, and secure booking experience for your users.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -237,7 +236,8 @@ const FlightBooking = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Use Cases</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our API powers flight booking solutions across multiple industries.
+            Our Flight Booking API supports a wide range of applications across industries, enabling businesses to deliver seamless flight booking experiences tailored to their audience.
+
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -292,7 +292,8 @@ const FlightBooking = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Business Benefits</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              How integrating flight booking can transform your business.
+            Integrating our Flight Booking API can unlock new opportunities and elevate your travel-related offerings.
+
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -326,8 +327,8 @@ const FlightBooking = () => {
             <div className="lg:w-1/2 order-1 lg:order-2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Simple Integration</h2>
               <p className="text-gray-600 mb-8">
-                Our Flight Booking API is designed for easy implementation with comprehensive documentation,
-                code samples, and dedicated support to get you up and running quickly.
+              Our Flight Booking API is built to integrate seamlessly with your applications, helping you launch quickly and confidently.
+
               </p>
               <div className="flex flex-col gap-4">
                 <div className="flex">
@@ -337,7 +338,7 @@ const FlightBooking = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Clear Documentation</h3>
                     <p className="text-gray-600">
-                      Detailed API reference with examples for all endpoints.
+                    Access step-by-step API guides with real-world examples for every endpoint and use case.
                     </p>
                   </div>
                 </div>
@@ -348,7 +349,8 @@ const FlightBooking = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">SDKs & Libraries</h3>
                     <p className="text-gray-600">
-                      Pre-built SDKs for popular programming languages and frameworks.
+                    Use ready-to-go SDKs in popular programming languages and frameworks to accelerate development.
+
                     </p>
                   </div>
                 </div>
@@ -359,7 +361,8 @@ const FlightBooking = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Test Environment</h3>
                     <p className="text-gray-600">
-                      Full sandbox environment to test integration before going live.
+                    Safely test your integration in a fully-featured sandbox before switching to production.
+
                     </p>
                   </div>
                 </div>
@@ -370,7 +373,7 @@ const FlightBooking = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Technical Support</h3>
                     <p className="text-gray-600">
-                      Dedicated engineering support during integration.
+                    Get expert assistance from our dedicated engineering team throughout your integration journey.
                     </p>
                   </div>
                 </div>

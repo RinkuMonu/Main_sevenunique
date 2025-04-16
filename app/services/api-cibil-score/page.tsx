@@ -111,7 +111,7 @@ const CivilScore = () => {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=400&width=1920&text=PAN Verification API",
+      image: "/image/banner/CIBILScore.jpg",
       title: "Civil Score API",
       description: "Comprehensive credit assessment and identity verification API",
     },
