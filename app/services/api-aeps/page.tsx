@@ -7,21 +7,11 @@ export default function AEPSAPIPage() {
   return (
     <div className="flex flex-col">
       <section className="relative h-[400px] md:h-[500px] overflow-hidden">
-        <Image src="/placeholder.svg?height=800&width=1920" alt="AEPS API" fill priority className="object-cover" />
-        <div className="absolute inset-0 bg-black/60" />
-        <div className="relative z-10 flex h-full items-center justify-center text-center">
-          <div className="px-4 md:px-6">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4">
-              AEPS API
-            </h1>
-            <p className="mx-auto max-w-[700px] text-white/90 md:text-xl">
-              Integrate Aadhaar Enabled Payment System capabilities into your applications
-            </p>
-          </div>
-        </div>
+        <Image src="/image/banner/AePS.jpg" alt="AEPS API" fill priority className="object-cover" />
+        
       </section>
 
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
@@ -32,40 +22,40 @@ export default function AEPSAPIPage() {
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Cash withdrawal using Aadhaar authentication</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Balance inquiry for linked bank accounts</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Mini statement generation for recent transactions</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Aadhaar to Aadhaar fund transfer</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Secure biometric authentication integration</span>
                 </li>
               </ul>
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
-              <Image src="/placeholder.svg?height=600&width=600" alt="AEPS API" fill className="object-cover" />
+              <Image src="/image/578.jpg" alt="AEPS API" fill className="object-cover" />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
-              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+              <p className="mx-auto max-w-[900px] text-muted-foreground">
               Our AEPS API is packed with powerful features that offer seamless integration, making it easy for businesses to deliver secure and efficient financial services to their customers.
 
               </p>
@@ -74,7 +64,7 @@ export default function AEPSAPIPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -97,7 +87,7 @@ export default function AEPSAPIPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -119,7 +109,7 @@ export default function AEPSAPIPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -142,7 +132,7 @@ export default function AEPSAPIPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -164,7 +154,7 @@ export default function AEPSAPIPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -187,7 +177,7 @@ export default function AEPSAPIPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -212,7 +202,7 @@ export default function AEPSAPIPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-primary text-primary-foreground">
+      <section className="py-16 md:py-24 text-white"  style={{backgroundImage:"url(/image/2147669958.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

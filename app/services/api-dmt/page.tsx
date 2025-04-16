@@ -1,79 +1,91 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { CheckCircle } from "lucide-react"
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { CheckCircle } from "lucide-react";
 
 export default function DMTAPIPage() {
   return (
     <div className="flex flex-col">
       <section className="relative h-[400px] md:h-[500px] overflow-hidden">
-        <Image src="/placeholder.svg?height=800&width=1920" alt="DMT API" fill priority className="object-cover" />
-        <div className="absolute inset-0 bg-black/60" />
-        <div className="relative z-10 flex h-full items-center justify-center text-center">
-          <div className="px-4 md:px-6">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl text-white mb-4">
-              Domestic Money Transfer API
-            </h1>
-            <p className="mx-auto max-w-[700px] text-white/90 md:text-xl">
-              Integrate secure and reliable money transfer capabilities into your applications
-            </p>
-          </div>
-        </div>
+        <Image
+          src="/image/banner/DMT.jpg"
+          alt="DMT API"
+          fill
+          priority
+          className="object-cover"
+        />
       </section>
 
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Comprehensive DMT API Solution</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Comprehensive DMT API Solution
+              </h2>
               <p className="text-muted-foreground md:text-lg">
-              Our Domestic Money Transfer (DMT) API is a robust and secure solution designed to empower your platform with instant money transfer capabilities across India. Whether you're a fintech startup, retail service provider, or enterprise-level business, our DMT API enables you to offer fast, reliable, and secure bank transfers to your customers with minimal integration effort.
-
+                Our Domestic Money Transfer (DMT) API is a robust and secure
+                solution designed to empower your platform with instant money
+                transfer capabilities across India. Whether you're a fintech
+                startup, retail service provider, or enterprise-level business,
+                our DMT API enables you to offer fast, reliable, and secure bank
+                transfers to your customers with minimal integration effort.
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Bank account verification and validation</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>IMPS, NEFT, and RTGS transfer support</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Real-time transaction status and tracking</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Beneficiary management and quick transfers</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
-                  <span>Secure integration with multiple authentication options</span>
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
+                  <span>
+                    Secure integration with multiple authentication options
+                  </span>
                 </li>
               </ul>
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
-              <Image src="/placeholder.svg?height=600&width=600" alt="DMT API" fill className="object-cover" />
+              <Image
+                src="/image/2124.jpg"
+                alt="DMT API"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
-              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Our Domestic Money Transfer (DMT) API offers a powerful set of features tailored to ensure fast, reliable, and secure money transfers within India.
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Key Features
+              </h2>
+              <p className="mx-auto max-w-[700px] text-muted-foreground">
+                Our Domestic Money Transfer (DMT) API offers a powerful set of
+                features tailored to ensure fast, reliable, and secure money
+                transfers within India.
               </p>
             </div>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+            <div className="flex flex-col items-center text-center p-6 rounded-md bg-background shadow-sm">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -91,11 +103,12 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Account Verification</h3>
               <p className="text-muted-foreground">
-              Instantly verify the validity of beneficiary bank account details before processing a transaction.
+                Instantly verify the validity of beneficiary bank account
+                details before processing a transaction.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+            <div className="flex flex-col items-center text-center p-6 rounded-md bg-background shadow-sm">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -111,13 +124,16 @@ export default function DMTAPIPage() {
                   <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2">Multiple Transfer Modes</h3>
+              <h3 className="text-xl font-bold mb-2">
+                Multiple Transfer Modes
+              </h3>
               <p className="text-muted-foreground">
-              Seamlessly support IMPS, NEFT, and RTGS payment rails with intelligent routing and transaction limits
+                Seamlessly support IMPS, NEFT, and RTGS payment rails with
+                intelligent routing and transaction limits
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+            <div className="flex flex-col items-center text-center p-6 rounded-md bg-background shadow-sm">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -138,11 +154,12 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Beneficiary Management</h3>
               <p className="text-muted-foreground">
-              Easily manage beneficiaries and save frequent recipients for faster, error-free transfers.
+                Easily manage beneficiaries and save frequent recipients for
+                faster, error-free transfers.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+            <div className="flex flex-col items-center text-center p-6 rounded-md bg-background shadow-sm">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -163,11 +180,12 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Transaction Tracking</h3>
               <p className="text-muted-foreground">
-              Monitor every transaction in real time with status updates, detailed logs, and instant confirmations.
+                Monitor every transaction in real time with status updates,
+                detailed logs, and instant confirmations.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+            <div className="flex flex-col items-center text-center p-6 rounded-md bg-background shadow-sm">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -186,11 +204,12 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Easy Integration</h3>
               <p className="text-muted-foreground">
-              our RESTful API includes clean documentation, sandbox testing, and sample code for smooth onboarding.
+                our RESTful API includes clean documentation, sandbox testing,
+                and sample code for smooth onboarding.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+            <div className="flex flex-col items-center text-center p-6 rounded-md bg-background shadow-sm">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -208,8 +227,8 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Dedicated Support</h3>
               <p className="text-muted-foreground">
-              Dedicated team support always available for integration, troubleshooting, and post-deployment help.
-
+                Dedicated team support always available for integration,
+                troubleshooting, and post-deployment help.
               </p>
             </div>
           </div>
@@ -220,131 +239,84 @@ export default function DMTAPIPage() {
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Integration Process</h2>
-              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              Integrating our DMT API is quick and developer-friendly, designed to get your system up and running with minimal effort.
-
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Integration Process
+              </h2>
+              <p className="mx-auto max-w-[700px] text-muted-foreground">
+                Integrating our DMT API is quick and developer-friendly,
+                designed to get your system up and running with minimal effort.
               </p>
             </div>
           </div>
 
           <div className="grid gap-8 md:grid-cols-4">
-            <div className="flex flex-col items-center text-center p-6">
-              <div className="mb-4 rounded-full bg-primary text-primary-foreground w-12 h-12 flex items-center justify-center text-xl font-bold">
+            <div className="flex flex-col items-center text-center p-6 bg-white shadow-md rounded-md">
+              <div className="mb-4 rounded-full bg-purple-100 text-[#ab6545] w-12 h-12 flex items-center justify-center text-xl font-bold">
                 1
               </div>
               <h3 className="text-xl font-bold mb-2">Sign Up</h3>
               <p className="text-muted-foreground">
-              Register on our platform and complete the necessary KYC and verification steps to obtain your unique API credentials.
-
+                Register on our platform and complete the necessary KYC and
+                verification steps to obtain your unique API credentials.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6">
-              <div className="mb-4 rounded-full bg-primary text-primary-foreground w-12 h-12 flex items-center justify-center text-xl font-bold">
+            <div className="flex flex-col items-center text-center p-6 bg-white shadow-md rounded-md">
+              <div className="mb-4 rounded-full bg-purple-100 text-[#ab6545] w-12 h-12 flex items-center justify-center text-xl font-bold">
                 2
               </div>
               <h3 className="text-xl font-bold mb-2">Integration</h3>
               <p className="text-muted-foreground">
-              Use our well-documented REST API and ready-to-use sample code to seamlessly integrate DMT capabilities into your existing system.
-
+                Use our well-documented REST API and ready-to-use sample code to
+                seamlessly integrate DMT capabilities into your existing system.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6">
-              <div className="mb-4 rounded-full bg-primary text-primary-foreground w-12 h-12 flex items-center justify-center text-xl font-bold">
+            <div className="flex flex-col items-center text-center p-6 bg-white shadow-md rounded-md">
+              <div className="mb-4 rounded-full bg-purple-100 text-[#ab6545] w-12 h-12 flex items-center justify-center text-xl font-bold">
                 3
               </div>
               <h3 className="text-xl font-bold mb-2">Testing</h3>
               <p className="text-muted-foreground">
-              Test your implementation in our secure sandbox environment to validate functionality and ensure transaction flow accuracy.
-
+                Test your implementation in our secure sandbox environment to
+                validate functionality and ensure transaction flow accuracy.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6">
-              <div className="mb-4 rounded-full bg-primary text-primary-foreground w-12 h-12 flex items-center justify-center text-xl font-bold">
+            <div className="flex flex-col items-center text-center p-6 bg-white shadow-md rounded-md">
+              <div className="mb-4 rounded-full bg-purple-100 text-[#ab6545] w-12 h-12 flex items-center justify-center text-xl font-bold">
                 4
               </div>
               <h3 className="text-xl font-bold mb-2">Go Live</h3>
               <p className="text-muted-foreground">
-              Once you're confident with your setup, move to the live environment and start executing real-time transactions with full support.
-
+                Once you're confident with your setup, move to the live
+                environment and start executing real-time transactions with full
+                support.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-gray-50 dark:bg-gray-900">
-        <div className="px-4 md:px-6">
-          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-            <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">API Documentation</h2>
-              <p className="text-muted-foreground md:text-lg">
-              Our robust API documentation equips you with everything needed to integrate the DMT API smoothly into your platform or application.
-
-              </p>
-              <div className="bg-background p-6 rounded-lg border">
-                <pre className="text-sm overflow-x-auto">
-                  <code>
-                    {`// Example API Request
-POST /api/v1/dmt/transfer HTTP/1.1
-Host: api.example.com
-Authorization: Bearer YOUR_API_KEY
-Content-Type: application/json
-
-{
-  "beneficiary_account": "1234567890",
-  "beneficiary_ifsc": "SBIN0001234",
-  "amount": 1000,
-  "transfer_mode": "IMPS",
-  "reference_id": "TXN123456789"
-}`}
-                  </code>
-                </pre>
-              </div>
-              <ul className="text-muted-foreground">
-              <p >
-              Whether you're building from scratch or integrating into an existing system, our documentation provides:
-              </p>
-              <li className="list-disc">Detailed API reference with clear request and response formats</li>
-              <li className="list-disc">Sample code snippets in multiple programming languages</li>
-              <li className="list-disc">Step-by-step guides for common use cases and troubleshooting</li>
-              </ul>
-              <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button asChild>
-                  <Link href="#">View API Documentation</Link>
-                </Button>
-                <Button asChild variant="outline">
-                  <Link href="#">Download SDK</Link>
-                </Button>
-              </div>
-            </div>
-            <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
-              <Image
-                src="/placeholder.svg?height=600&width=600"
-                alt="API Documentation"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 md:py-24 bg-primary text-primary-foreground">
+      <section className="py-16 md:py-24 bg-primary text-white"   style={{backgroundImage:"url(/image/2151575474.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Get Started?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ready to Get Started?
+              </h2>
               <p className="mx-auto max-w-[700px] md:text-xl">
-                Contact us today to discuss how our DMT API can help you offer secure and convenient money transfer
-                services to your customers.
+                Contact us today to discuss how our DMT API can help you offer
+                secure and convenient money transfer services to your customers.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button asChild size="lg" variant="secondary">
                 <Link href="/contact">Get in Touch</Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="bg-transparent border-white hover:bg-white/10">
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="bg-transparent border-white hover:bg-white/10"
+              >
                 <Link href="/services">Explore Other Services</Link>
               </Button>
             </div>
@@ -352,5 +324,5 @@ Content-Type: application/json
         </div>
       </section>
     </div>
-  )
+  );
 }

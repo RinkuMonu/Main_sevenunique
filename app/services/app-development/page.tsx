@@ -134,7 +134,7 @@ export default function AppDevelopmentPage() {
                 ))}
               </ul>
               <Button asChild>
-                <Link href="/contact">Discuss Your Project</Link>
+                <Link href="/contact" className="text-white bg-[#df9471]">Discuss Your Project</Link>
               </Button>
             </div>
             <div className="relative h-[400px]">
@@ -415,7 +415,7 @@ export default function AppDevelopmentPage() {
       </section> */}
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-24 bg-white text-black">
+      <section className="py-16 md:py-24 px-24 bg-white text-white"   style={{backgroundImage:"url(/image/2150165980.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Build Your Mobile App?
