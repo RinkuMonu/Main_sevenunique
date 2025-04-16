@@ -66,7 +66,9 @@ export default function EmployTrackingSoftwarePage() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
+
               <p className="mx-auto text-muted-foreground ">
+
               Our employee tracking software is packed with a comprehensive set of advanced features, all crafted to optimize your workforce management, increase productivity, and provide complete transparency. Whether you are managing a remote team or monitoring employees in the office, our platform ensures that every aspect of your team's performance is tracked efficiently and in real time.
               </p>
             </div>

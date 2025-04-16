@@ -93,7 +93,9 @@ export default function ResellerSoftwarePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Key Features</h2>
+
             <p className="text-gray-600 dark:text-gray-300  mx-auto">
+
               Our reseller software is equipped with a comprehensive set of features designed to optimize and simplify the management of your reseller network, providing efficiency, flexibility, and complete control over your business operations.
             </p>
           </div>
@@ -164,7 +166,9 @@ export default function ResellerSoftwarePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">How It Works</h2>
+
             <p className="text-gray-600 dark:text-gray-300  mx-auto">
+
             Our reseller software is designed to be user-friendly, offering a seamless experience for both administrators and resellers. The process is streamlined into four simple steps:
             </p>
           </div>
@@ -214,7 +218,9 @@ export default function ResellerSoftwarePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Use Cases</h2>
+
             <p className="text-gray-600 dark:text-gray-300  mx-auto">
+
             Our reseller software is versatile and adaptable to a wide range of industries and business models, allowing businesses to expand their reach and grow their networks efficiently. Here are some of the top use cases:
             </p>
           </div>
@@ -242,7 +248,9 @@ export default function ResellerSoftwarePage() {
       </section>
 
       {/* CTA Section */}
+
       <section className="py-16 md:py-24 px-24  text-[#AB6545]"   style={{backgroundImage:"url(/image/439384.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
+
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Expand Your Business?</h2>
           <p className=" mx-auto mb-8">

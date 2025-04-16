@@ -7,7 +7,10 @@ export default function FantasySportSoftwarePage() {
 
   const bannerSlides = [
     {
+
+
       image: "/image/banner/Fantasy.jpg",
+
       title: "Fantasy Sport Software",
       description: "Build engaging fantasy sports platforms with our comprehensive software solutions",
 
@@ -36,7 +39,9 @@ export default function FantasySportSoftwarePage() {
                   <span>Flexible contest creation and management</span>
                 </li>
                 <li className="flex items-center gap-2">
+
                   <CheckCircle className="h-25 w-25 text-primary" />
+
                   <span>Real-time scoring and statistics
                   </span>
                 </li>
@@ -67,7 +72,9 @@ export default function FantasySportSoftwarePage() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
+
               <p className="mx-auto  text-muted-foreground md:text-sm">
+
                 Our fantasy sports software by SevenUnique Tech Solutions is built to offer an immersive, dynamic, and competitive experience for users, ensuring that every aspect of the game—from player management to prize distribution—is seamless, secure, and highly engaging. We have incorporated a range of robust features designed to optimize user interaction, enhance gameplay, and provide a versatile platform that can be tailored to a wide variety of fantasy sports games. Below are the standout features that set our solution apart:
               </p>
             </div>
@@ -272,7 +279,9 @@ export default function FantasySportSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
+
                   <CheckCircle className="text-[#ab6545]  mt-1" width={70} height={70} />
+
                   <div>
                     <h3 className="font-bold">Advanced Security Features</h3>
                     <p className="text-muted-foreground">

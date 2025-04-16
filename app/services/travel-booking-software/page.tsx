@@ -1,7 +1,9 @@
 import Banner from "@/components/banner";
 import Link from "next/link";
 import {BiBox,BiCreditCard,BiGroup,BiBarChartAlt2,BiCodeAlt} from 'react-icons/bi';
+
 import { CheckCircle } from "lucide-react"
+
 
   import { FaCalendarAlt } from "react-icons/fa";
 const TravelSoftware = () => {
