@@ -27,9 +27,8 @@ export default function DMTAPIPage() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Comprehensive DMT API Solution</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our Domestic Money Transfer (DMT) API provides a seamless way to integrate money transfer capabilities
-                into your applications. Enable your customers to send money to any bank account in India quickly and
-                securely.
+              Our Domestic Money Transfer (DMT) API is a robust and secure solution designed to empower your platform with instant money transfer capabilities across India. Whether you're a fintech startup, retail service provider, or enterprise-level business, our DMT API enables you to offer fast, reliable, and secure bank transfers to your customers with minimal integration effort.
+
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
@@ -67,7 +66,7 @@ export default function DMTAPIPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Our DMT API comes with a range of features designed to provide a seamless money transfer experience.
+              Our Domestic Money Transfer (DMT) API offers a powerful set of features tailored to ensure fast, reliable, and secure money transfers within India.
               </p>
             </div>
           </div>
@@ -92,7 +91,7 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Account Verification</h3>
               <p className="text-muted-foreground">
-                Verify bank account details in real-time before initiating transfers to ensure accuracy.
+              Instantly verify the validity of beneficiary bank account details before processing a transaction.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -114,7 +113,7 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Multiple Transfer Modes</h3>
               <p className="text-muted-foreground">
-                Support for IMPS, NEFT, and RTGS transfer modes with appropriate transaction limits.
+              Seamlessly support IMPS, NEFT, and RTGS payment rails with intelligent routing and transaction limits
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -139,7 +138,7 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Beneficiary Management</h3>
               <p className="text-muted-foreground">
-                Add, edit, and manage beneficiaries for quick and easy repeat transfers.
+              Easily manage beneficiaries and save frequent recipients for faster, error-free transfers.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -164,7 +163,7 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Transaction Tracking</h3>
               <p className="text-muted-foreground">
-                Real-time transaction status updates and comprehensive reporting for all transfers.
+              Monitor every transaction in real time with status updates, detailed logs, and instant confirmations.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -187,7 +186,7 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Easy Integration</h3>
               <p className="text-muted-foreground">
-                Simple REST API with comprehensive documentation and sample code in multiple programming languages.
+              our RESTful API includes clean documentation, sandbox testing, and sample code for smooth onboarding.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -209,7 +208,8 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Dedicated Support</h3>
               <p className="text-muted-foreground">
-                Technical support team available to assist with integration and resolve any issues.
+              Dedicated team support always available for integration, troubleshooting, and post-deployment help.
+
               </p>
             </div>
           </div>
@@ -222,7 +222,8 @@ export default function DMTAPIPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Integration Process</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Integrating our DMT API is a straightforward process that can be completed in a few simple steps.
+              Integrating our DMT API is quick and developer-friendly, designed to get your system up and running with minimal effort.
+
               </p>
             </div>
           </div>
@@ -234,7 +235,8 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Sign Up</h3>
               <p className="text-muted-foreground">
-                Create an account and complete the verification process to get your API credentials.
+              Register on our platform and complete the necessary KYC and verification steps to obtain your unique API credentials.
+
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6">
@@ -243,7 +245,8 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Integration</h3>
               <p className="text-muted-foreground">
-                Use our comprehensive documentation and sample code to integrate the API into your application.
+              Use our well-documented REST API and ready-to-use sample code to seamlessly integrate DMT capabilities into your existing system.
+
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6">
@@ -252,7 +255,8 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Testing</h3>
               <p className="text-muted-foreground">
-                Test the integration in our sandbox environment to ensure everything works correctly.
+              Test your implementation in our secure sandbox environment to validate functionality and ensure transaction flow accuracy.
+
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6">
@@ -261,7 +265,8 @@ export default function DMTAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Go Live</h3>
               <p className="text-muted-foreground">
-                Switch to the production environment and start processing real transactions.
+              Once you're confident with your setup, move to the live environment and start executing real-time transactions with full support.
+
               </p>
             </div>
           </div>
@@ -274,8 +279,8 @@ export default function DMTAPIPage() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">API Documentation</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our comprehensive API documentation provides all the information you need to successfully integrate our
-                DMT API into your applications.
+              Our robust API documentation equips you with everything needed to integrate the DMT API smoothly into your platform or application.
+
               </p>
               <div className="bg-background p-6 rounded-lg border">
                 <pre className="text-sm overflow-x-auto">
@@ -296,10 +301,14 @@ Content-Type: application/json
                   </code>
                 </pre>
               </div>
-              <p className="text-muted-foreground">
-                Our documentation includes detailed API references, sample code in multiple programming languages, and
-                guides for common integration scenarios.
+              <ul className="text-muted-foreground">
+              <p >
+              Whether you're building from scratch or integrating into an existing system, our documentation provides:
               </p>
+              <li className="list-disc">Detailed API reference with clear request and response formats</li>
+              <li className="list-disc">Sample code snippets in multiple programming languages</li>
+              <li className="list-disc">Step-by-step guides for common use cases and troubleshooting</li>
+              </ul>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button asChild>
                   <Link href="#">View API Documentation</Link>

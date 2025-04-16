@@ -27,9 +27,8 @@ export default function AEPSAPIPage() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Comprehensive AEPS API Solution</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our AEPS API provides a seamless way to integrate Aadhaar Enabled Payment System capabilities into your
-                applications. Enable your customers to perform banking transactions using their Aadhaar number and
-                biometric authentication.
+              Our APES APIs are designed to help financial institutions, payment service providers, and businesses integrate and streamline their operations efficiently. By leveraging our comprehensive set of APIs, you can enhance security, improve transaction processing, and provide seamless customer experiences in the evolving digital finance landscape.
+
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
@@ -67,7 +66,8 @@ export default function AEPSAPIPage() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Our AEPS API comes with a range of features designed to provide a seamless integration experience.
+              Our AEPS API is packed with powerful features that offer seamless integration, making it easy for businesses to deliver secure and efficient financial services to their customers.
+
               </p>
             </div>
           </div>
@@ -93,7 +93,7 @@ export default function AEPSAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Cash Withdrawal</h3>
               <p className="text-muted-foreground">
-                Enable customers to withdraw cash using their Aadhaar number and biometric authentication.
+              Allow your customers to easily withdraw cash using their Aadhaar number and biometric authentication.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -115,7 +115,7 @@ export default function AEPSAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Balance Inquiry</h3>
               <p className="text-muted-foreground">
-                Allow customers to check their bank account balance using Aadhaar authentication.
+              Enable customers to check their bank account balance securely by authenticating with their Aadhaar number and biometrics.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -137,7 +137,8 @@ export default function AEPSAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Fund Transfer</h3>
               <p className="text-muted-foreground">
-                Facilitate Aadhaar to Aadhaar fund transfers with secure biometric authentication.
+              Facilitate Aadhaar to Aadhaar fund transfers with enhanced security, leveraging biometric authentication for safe and reliable money transfers between accounts.
+
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -159,7 +160,7 @@ export default function AEPSAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Secure Authentication</h3>
               <p className="text-muted-foreground">
-                Robust security measures including encryption and compliance with UIDAI guidelines.
+              Our AEPS API offers end-to-end encryption and UIDAI compliance, ensuring secure, authentic transactions and protection of customer data.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -182,7 +183,7 @@ export default function AEPSAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Easy Integration</h3>
               <p className="text-muted-foreground">
-                Simple REST API with comprehensive documentation and sample code in multiple programming languages.
+              Our AEPS API features easy integration with a REST interface, detailed docs, sample code, and multi-language support for quick developer onboarding.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -204,7 +205,7 @@ export default function AEPSAPIPage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Dedicated Support</h3>
               <p className="text-muted-foreground">
-                Technical support team available to assist with integration and resolve any issues.
+              Our technical support team is always ready to assist with integration, address any issues, and provide guidance.
               </p>
             </div>
           </div>
