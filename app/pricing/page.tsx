@@ -97,10 +97,10 @@ export default function PricingPage() {
       {/* Main Content with Sidebar Navigation */}
       <div className="flex">
         {/* Sidebar Navigation */}
-        <div className="hidden md:block w-64 bg-white border-r border-gray-200 min-h-screen fixed left-0 top-0 z-10">
+        <div className="hidden md:block w-64 bg-white border-r border-gray-200 min-h-screen left-0 top-0 z-10">
           <div className="p-6">
             <div className="h-12 w-32 bg-white mb-8">
-              <div className="h-full w-full bg-gray-200 rounded"></div>
+              {/* <div className="h-full w-full bg-gray-200 rounded"></div> */}
             </div>
 
             <nav className="space-y-1">
@@ -137,7 +137,7 @@ export default function PricingPage() {
         </div>
 
         {/* Main Content */}
-        <div className="flex-1 md:ml-64">
+        <div className="">
           {/* Payment Gateway Section */}
           <section className="container mx-auto px-6 py-12">
             <div className="bg-white rounded-xl shadow-sm p-8 mb-10">
@@ -401,8 +401,11 @@ export default function PricingPage() {
             </div>
           </section>
 
-          {/* CTA Section */}
-          <section className="bg-gradient-to-r from-purple-600 to-purple-700 text-white py-16">
+         
+        </div>
+      </div>
+       {/* CTA Section */}
+       <section className="bg-gradient-to-r from-purple-600 to-purple-700 text-white py-16">
             <div className="container mx-auto px-6">
               <div className="max-w-4xl mx-auto text-center">
                 <h2 className="text-2xl md:text-3xl font-bold mb-6">Ready to get started?</h2>
@@ -423,8 +426,6 @@ export default function PricingPage() {
               </div>
             </div>
           </section>
-        </div>
-      </div>
     </div>
   )
 }
