@@ -239,6 +239,18 @@ export default function PancardVerificationApiPage() {
               Prevent identity theft and fraud by verifying that PAN card details are legitimate and match official records.
               </p>
             </div>
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-3">Loan & Credit Applications</h3>
+              <p className="text-gray-600 dark:text-gray-300">
+              Verify PAN details during loan or credit applications to confirm identity, prevent fraud, and assess applicant credibility.
+              </p>
+            </div>
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-3">Tax Compliance</h3>
+              <p className="text-gray-600 dark:text-gray-300">
+              Validate PAN cards to ensure accurate tax information, reduce errors, and ensure compliance with tax regulations.
+              </p>
+            </div>
           </div>
         </div>
       </section>
