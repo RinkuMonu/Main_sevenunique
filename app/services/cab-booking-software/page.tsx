@@ -6,6 +6,15 @@ import Banner from "@/components/banner"
 
 export default function CabBookingSoftwarePage() {
 
+
+  const bannerSlides = [
+    {
+      image: "/placeholder.svg?height=1080&width=1920",
+      title: "Cab Booking Software",
+      description: "Streamline transportation services with our advanced cab booking solutions",
+
+    },
+  ]
     
     const bannerSlides = [
         {
@@ -23,11 +32,9 @@ export default function CabBookingSoftwarePage() {
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Modern Cab Booking Solutions</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Modern Cab Booking Solutions by SevenUnique</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our cab booking software provides a comprehensive solution for transportation businesses looking to
-                streamline operations and enhance customer experience. With our platform, you can manage your fleet,
-                track drivers, process payments, and provide a seamless booking experience for your customers.
+                Transform your transportation business with our robust and feature-rich cab booking software. Designed for modern mobility needs, our solution helps you manage bookings, monitor drivers in real-time, optimize routes, and deliver a seamless experience to both drivers and passengers. Whether you're a local taxi provider or a large fleet operator, our system scales with your growth and ensures operational efficiency.
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
@@ -68,9 +75,9 @@ export default function CabBookingSoftwarePage() {
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Key Features of Our Cab Booking Software</h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                Our cab booking software comes packed with features designed to optimize your transportation business.
+                At SevenUnique Tech Solutions Pvt. Ltd., our cab booking platform is designed with powerful features to enhance efficiency, elevate customer experience, and grow your transportation business seamlessly.
               </p>
             </div>
           </div>
@@ -97,7 +104,7 @@ export default function CabBookingSoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Booking Management</h3>
               <p className="text-muted-foreground">
-                Efficiently manage ride bookings, cancellations, and scheduling with our intuitive dashboard.
+                Simplify ride scheduling with a smart dashboard that allows easy handling of bookings, reassignments, cancellations, and automated ride confirmations.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -119,9 +126,9 @@ export default function CabBookingSoftwarePage() {
                   <path d="M2 12h20" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2">Real-time Tracking</h3>
+              <h3 className="text-xl font-bold mb-2"> Real-Time Vehicle Tracking</h3>
               <p className="text-muted-foreground">
-                Track vehicles in real-time, optimize routes, and provide accurate ETAs to customers.
+                Enable customers and admins to track drivers live on the map. Leverage route optimization and dynamic ETAs to improve ride accuracy and reduce wait times.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -143,9 +150,9 @@ export default function CabBookingSoftwarePage() {
                   <path d="M16 11h0" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2">Driver Management</h3>
+              <h3 className="text-xl font-bold mb-2">Driver Management System</h3>
               <p className="text-muted-foreground">
-                Manage driver profiles, track performance, and handle payouts through a centralized system.
+                Onboard, verify, and manage driver profiles in one place. Monitor performance, assign rides, manage availability, and streamline driver payouts.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -166,9 +173,10 @@ export default function CabBookingSoftwarePage() {
                   <line x1="2" x2="22" y1="10" y2="10" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2">Payment Processing</h3>
+              <h3 className="text-xl font-bold mb-2">Secure Payment Gateway
+              </h3>
               <p className="text-muted-foreground">
-                Secure payment processing with multiple options including credit cards, digital wallets, and cash.
+                Support all major payment methods—credit/debit cards, UPI, wallets, and cash—through a secure and encrypted system with real-time payment updates.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -189,9 +197,9 @@ export default function CabBookingSoftwarePage() {
                   <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2">Customer Support</h3>
+              <h3 className="text-xl font-bold mb-2">Built-in Customer Support Tools</h3>
               <p className="text-muted-foreground">
-                Integrated customer support tools including in-app chat, call support, and feedback management.
+                Enhance rider satisfaction with in-app support including chat, direct call, and real-time issue resolution features. Feedback and rating systems help you improve service quality.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -211,10 +219,9 @@ export default function CabBookingSoftwarePage() {
                   <path d="M12 20v-6M6 20V10M18 20V4" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2">Analytics & Reporting</h3>
+              <h3 className="text-xl font-bold mb-2"> Advanced Analytics & Reporting</h3>
               <p className="text-muted-foreground">
-                Comprehensive analytics and reporting tools to track business performance and identify growth
-                opportunities.
+                Get access to real-time reports on earnings, ride history, driver performance, customer insights, and business trends to make data-driven decisions.
               </p>
             </div>
           </div>
@@ -228,46 +235,46 @@ export default function CabBookingSoftwarePage() {
               <Image src="/placeholder.svg?height=600&width=600" alt="Cab Booking App" fill className="object-cover" />
             </div>
             <div className="space-y-4 order-1 lg:order-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Our Cab Booking Software</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Our Cab Booking Software?</h2>
               <p className="text-muted-foreground md:text-lg">
-                Our cab booking software stands out from the competition with its robust features, scalable
-                architecture, and user-friendly interface. We've designed our solution to meet the needs of
-                transportation businesses of all sizes.
+                At SevenUnique Tech Solutions Pvt. Ltd., we don’t just build cab booking platforms — we create smart, scalable, and future-ready solutions tailored for modern transportation businesses. Here’s why our software stands out:
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h3 className="font-bold">Scalable Solution</h3>
+                    <h3 className="font-bold"> End-to-End Customization</h3>
                     <p className="text-muted-foreground">
-                      Our platform grows with your business, from a small fleet to thousands of vehicles.
+                      Our platform adapts to your unique business model — whether you run a city taxi, airport transfer service, or ride-hailing startup. Every module, from design to functionality, is fully customizable.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h3 className="font-bold">Customizable Interface</h3>
+                    <h3 className="font-bold">Seamless User Experience
+                    </h3>
                     <p className="text-muted-foreground">
-                      Tailor the platform to match your brand identity and specific business requirements.
+                      With intuitive interfaces for both drivers and passengers, our software ensures quick bookings, smooth navigation, and easy payments — leading to high user satisfaction and retention.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h3 className="font-bold">Seamless Integration</h3>
+                    <h3 className="font-bold">Scalable Architecture</h3>
                     <p className="text-muted-foreground">
-                      Easily integrate with existing systems, payment gateways, and third-party services.
+                      From a single city operation to a multi-region fleet, our cloud-based system is built to scale effortlessly as your business grows.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-primary mt-1" />
                   <div>
-                    <h3 className="font-bold">Dedicated Support</h3>
+                    <h3 className="font-bold">Robust Security Standards</h3>
                     <p className="text-muted-foreground">
-                      Our team provides comprehensive support throughout implementation and beyond.
+                      We follow strict data protection and encryption protocols to ensure safe transactions, user privacy, and secure ride management across all devices.
+
                     </p>
                   </div>
                 </li>
@@ -282,11 +289,10 @@ export default function CabBookingSoftwarePage() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                Ready to Transform Your Transportation Business?
+                5. Quick Deployment & Continuous Support
               </h2>
               <p className="mx-auto max-w-[700px] md:text-xl">
-                Contact us today to discuss how our cab booking software can help you streamline operations and enhance
-                customer experience.
+                Get your business up and running in no time. Plus, our dedicated support team is always ready to help with updates, integrations, or troubleshooting as your needs evolve.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
