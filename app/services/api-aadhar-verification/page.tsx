@@ -22,32 +22,32 @@ const AadharVerification = () => {
     {
       title: "Instant Verification",
       description: "Authenticate Aadhaar details in real time to reduce wait and improve onboarding efficiency.",
-      icon: <FaBolt className="text-primary text-xl" />
+      icon: <FaBolt className="text-[#b0552b] text-xl" />
     },
     {
       title: "Secure Processing",
       description: "Ensure data protection with end-to-end encryption and full compliance with UIDAI and KYC regulations.",
-      icon: <FaShieldAlt className="text-primary text-xl" />
+      icon: <FaShieldAlt className="text-[#b0552b] text-xl" />
     },
     {
       title: "Multiple Verification Methods",
       description: "Supports Aadhaar number, VID, and QR code scanning for flexible use across different scenarios.",
-      icon: <FaListCheck className="text-primary text-xl" />
+      icon: <FaListCheck className="text-[#b0552b] text-xl" />
     },
     {
       title: "Demographic Verification",
       description: "Cross-check name, DOB, gender, and address with Aadhaar records for accurate identity validation.",
-      icon: <FaUserCheck className="text-primary text-xl" />
+      icon: <FaUserCheck className="text-[#b0552b] text-xl" />
     },
     {
       title: "Comprehensive Reporting",
       description: "Access detailed logs, audit trails, and analytics dashboards to support audits and internal reviews.",
-      icon: <FaFileAlt className="text-primary text-xl" />
+      icon: <FaFileAlt className="text-[#b0552b] text-xl" />
     },
     {
       title: "Easy Integration",
       description: "Developer-friendly RESTful API with docs, code samples, and SDKs for easy integration.",
-      icon: <FaCode className="text-primary text-xl" />
+      icon: <FaCode className="text-[#b0552b] text-xl" />
     }
   ];
 
@@ -55,22 +55,22 @@ const AadharVerification = () => {
     {
       title: "Financial Services",
       description: "Streamline onboarding by verifying Aadhaar for account openings, loans, insurance, and KYC compliance.",
-      icon: <FaUniversity className="text-primary text-xl" />
+      icon: <FaUniversity className="text-[#b0552b] text-xl" />
     },
     {
       title: "Telecom",
       description: "Enable quick, secure subscriber verification for SIM activations, number portability, and digital enrollments that reducing fraud.",
-      icon: <FaPhone className="text-primary text-xl" />
+      icon: <FaPhone className="text-[#b0552b] text-xl" />
     },
     {
       title: "E-commerce",
       description: "Boost trust in high-value or restricted purchases by verifying identity before processing, reducing transaction and delivery risks.",
-      icon: <FaShoppingCart className="text-primary text-xl" />
+      icon: <FaShoppingCart className="text-[#b0552b] text-xl" />
     },
     {
       title: "Government Services",
       description: "Authenticate citizens for digital services, benefits, subsidies, and document verification to ensure accurate service delivery.",
-      icon: <FaBuilding className="text-primary text-xl" />
+      icon: <FaBuilding className="text-[#b0552b] text-xl" />
     }
   ];
 
@@ -109,18 +109,18 @@ const AadharVerification = () => {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=400&width=1920&text=PAN Verification API",
+      image: "/image/banner/Aadhaar.jpg",
       title: "Aadhar Verification API",
       description: "Secure and reliable Aadhar verification API for identity verification",
     },
   ];
 
   return (
-    <div className="pt-14">
+    <div className="">
       <Banner  slides={bannerSlides}/>
 
       {/* Overview Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 animate-slide-in-left">
@@ -134,7 +134,7 @@ const AadharVerification = () => {
               <div className="flex flex-col gap-4 mb-8">
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#AB6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Fast & Reliable</h3>
@@ -145,7 +145,7 @@ const AadharVerification = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#AB6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Secure & Compliant</h3>
@@ -156,7 +156,7 @@ const AadharVerification = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#AB6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Easy to Integrate</h3>
@@ -166,14 +166,14 @@ const AadharVerification = () => {
                   </div>
                 </div>
               </div>
-              <Link href="/contact" className="inline-block bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors">
+              <Link href="/contact" className="inline-block text-white bg-[#AB6545] px-8 py-2 rounded-sm hover:bg-primary-dark transition-colors">
                 Get API Access
               </Link>
             </div>
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full rounded-lg overflow-hidden">
                 <Image
-                  src="https://via.placeholder.com/600x400?text=Aadhar+Verification+API"
+                  src="/image/20357.jpg"
                   alt="Aadhar Verification API"
                   fill
                   className="object-cover"
@@ -185,7 +185,7 @@ const AadharVerification = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
@@ -196,7 +196,7 @@ const AadharVerification = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
-                <div className="flex items-center justify-center bg-primary bg-opacity-10 rounded-full w-16 h-16 mb-4">
+                <div className="flex items-center justify-center bg-opacity-10 rounded-full w-16 h-16 text-[#b0552b] mb-4">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
@@ -208,7 +208,7 @@ const AadharVerification = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Use Cases</h2>
@@ -219,7 +219,7 @@ const AadharVerification = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {useCases.map((useCase, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
-                <div className="flex items-center justify-center bg-primary bg-opacity-10 rounded-full w-16 h-16 mb-4">
+                <div className="flex items-center justify-center bg-opacity-10 rounded-full w-16 h-16 text-[#ab6545]">
                   {useCase.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{useCase.title}</h3>
@@ -231,7 +231,7 @@ const AadharVerification = () => {
       </section>
 
       {/* API Endpoints Section */}
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">API Endpoints</h2>
@@ -261,13 +261,13 @@ const AadharVerification = () => {
       </section>
 
       {/* Integration Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 order-2 lg:order-1">
               <div className="relative h-96 w-full rounded-lg overflow-hidden">
                 <Image
-                  src="https://via.placeholder.com/600x400?text=API+Integration"
+                  src="/image/35.jpg"
                   alt="API Integration"
                   fill
                   className="object-cover"
@@ -283,7 +283,7 @@ const AadharVerification = () => {
               <div className="flex flex-col gap-4">
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#b0552b]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Comprehensive Documentation</h3>
@@ -295,7 +295,7 @@ const AadharVerification = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#b0552b]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">SDKs for Popular Languages</h3>
@@ -307,7 +307,7 @@ const AadharVerification = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#b0552b]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Sandbox Environment</h3>
@@ -319,7 +319,7 @@ const AadharVerification = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#b0552b]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Dedicated Support</h3>
@@ -336,14 +336,14 @@ const AadharVerification = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20 bg-primary text-white">
+      <section className="py-12 md:py-20 px-24 bg-primary text-black" style={{backgroundImage:"url(/image/3283.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Integrate Aadhar Verification?</h2>
           <p className="max-w-2xl mx-auto mb-8">
             Contact us today to learn more about our Aadhar Verification API and how it can help you make better decisions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="bg-white text-primary px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
+            <Link href="/contact" className="bg-white text-[#b0552b] px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
               Get API Access
             </Link>
             <Link href="/services/apis" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">

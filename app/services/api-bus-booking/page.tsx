@@ -107,18 +107,18 @@ const BusBooking = () => {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=400&width=1920&text=PAN Verification API",
+      image: "/image/banner/BusBooking.jpg",
       title: "Bus Booking API",
       description: "Comprehensive bus booking API for travel applications and websites",
     },
   ];
 
   return (
-    <div className="pt-14">
+    <div className="">
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 animate-slide-in-left">
@@ -132,7 +132,7 @@ const BusBooking = () => {
               <div className="flex flex-col gap-4 mb-8">
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Comprehensive Coverage</h3>
@@ -143,7 +143,7 @@ const BusBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Reliable & Scalable</h3>
@@ -154,7 +154,7 @@ const BusBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Developer-Friendly</h3>
@@ -164,14 +164,14 @@ const BusBooking = () => {
                   </div>
                 </div>
               </div>
-              <Link href="/contact" className="inline-block bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors">
+              <Link href="/contact" className="inline-block text-white bg-[#ab6545] px-8 py-2 rounded-sm hover:bg-primary-dark transition-colors">
                 Get API Access
               </Link>
             </div>
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full rounded-lg overflow-hidden">
                 <Image
-                  src="https://via.placeholder.com/600x400?text=Bus+Booking+API"
+                  src="/image/2148863821.jpg"
                   alt="Bus Booking API"
                   fill
                   className="object-cover"
@@ -183,7 +183,7 @@ const BusBooking = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
@@ -194,7 +194,7 @@ const BusBooking = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
-                <div className="flex items-center justify-center bg-primary bg-opacity-10 rounded-full w-16 h-16 mb-4">
+                <div className="flex items-center text-[#ab6545] justify-center bg-opacity-10 rounded-full w-16 h-16">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
@@ -206,7 +206,7 @@ const BusBooking = () => {
       </section>
 
       {/* API Endpoints Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">API Endpoints</h2>
@@ -237,7 +237,7 @@ const BusBooking = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Benefits</h2>
@@ -248,7 +248,7 @@ const BusBooking = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefits.map((benefit, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
-                <div className="flex items-center justify-center bg-primary bg-opacity-10 rounded-full w-16 h-16 mb-4">
+                <div className="flex items-center justify-center text-[#ab6545] bg-opacity-10 rounded-full w-16 h-16">
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{benefit.title}</h3>
@@ -260,13 +260,13 @@ const BusBooking = () => {
       </section>
 
       {/* Integration Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 order-2 lg:order-1">
               <div className="relative h-96 w-full rounded-lg overflow-hidden">
                 <Image
-                  src="https://via.placeholder.com/600x400?text=API+Integration"
+                  src="/image/2149371201.jpg"
                   alt="API Integration"
                   fill
                   className="object-cover"
@@ -281,7 +281,7 @@ const BusBooking = () => {
               <div className="flex flex-col gap-4">
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Comprehensive Documentation</h3>
@@ -292,7 +292,7 @@ const BusBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">SDKs for Popular Languages</h3>
@@ -303,7 +303,7 @@ const BusBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Sandbox Environment</h3>
@@ -314,7 +314,7 @@ const BusBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Dedicated Support</h3>
@@ -330,14 +330,14 @@ const BusBooking = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20 bg-primary text-white">
+      <section className="py-12 md:py-20 px-24 bg-primary text-white" style={{backgroundImage:"url(/image/988.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Integrate Bus Booking?</h2>
           <p className="max-w-2xl mx-auto mb-8">
             Contact us today to learn more about our Bus Booking API and how it can enhance your applications.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="bg-white text-primary px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
+            <Link href="/contact" className="bg-white text-[#ab6545] px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
               Get API Access
             </Link>
             <Link href="/services/apis" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">

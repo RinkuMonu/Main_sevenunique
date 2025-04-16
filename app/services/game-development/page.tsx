@@ -40,27 +40,27 @@ export default function GameDevelopmentPage() {
   const projects = [
     {
       id: 1,
-      title: "Seven Unique Rummy",
+      title: "Rummy",
       description:
         "a synopsis of the project and the services we offered for Game development.",
-      image: "/image/work/4.jpg",
-      link: "https://sustylo.com/",
+      image: "/image/2151933847.jpg",
+      link: "https://www.finuniquerummy.com/rummy",
     },
     {
       id: 2,
-      title: "FinUniques",
+      title: "Poker",
       description:
         "A brief description of the project and the Game development solutions we provided.",
-      image: "/image/work/5.jpg",
-      link: "https://www.finuniques.in/",
+      image: "/image/6640325_23142.jpg",
+      link: "https://www.finuniquerummy.com/poker",
     },
     {
       id: 3,
-      title: "Gaming Platform",
+      title: "Pool",
       description:
         "An overview of the project and the Game development services we offered.",
-      image: "/image/work/3.jpg",
-      link: "https://www.finuniquerummy.com/",
+      image: "/image/2814.jpg",
+      link: "https://www.finuniquerummy.com/pool",
     },
   ];
   return (
@@ -390,7 +390,7 @@ export default function GameDevelopmentPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-24 bg-gary-50 text-black">
+      <section className="py-16 md:py-24 px-24 bg-gary-50 text-white"   style={{backgroundImage:"url(/image/15031301.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Create Your Game?

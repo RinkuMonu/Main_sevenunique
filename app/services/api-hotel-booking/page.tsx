@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import PageBanner from "../../../components/PageBanner";
 import {
   FaClock,
   FaInfoCircle,
@@ -8,13 +7,7 @@ import {
   FaShieldAlt,
   FaCode,
   FaChartLine,
-  FaCheckCircle,
-  FaGlobe,
-  FaServer,
-  FaBook,
-  FaLaptopCode,
-  FaHeadset
-} from "react-icons/fa";
+  FaCheckCircle} from "react-icons/fa";
 import Banner from "@/components/banner";
 
 const HotelManagement = () => {
@@ -86,7 +79,7 @@ const HotelManagement = () => {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=400&width=1920&text=PAN Verification API",
+      image: "/image/banner/Hotel-Booking.jpg",
       title: "Hotel Management API",
       description: "Comprehensive hotel booking and management API for travel applications",
     },

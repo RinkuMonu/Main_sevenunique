@@ -130,7 +130,7 @@ const FlightBooking = () => {
   ];
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=400&width=1920&text=PAN Verification API",
+      image: "/image/banner/FlightBooking.jpg",
       title: "Flight Booking API",
       description: "Powerful flight booking and management API for travel applications",
     },
