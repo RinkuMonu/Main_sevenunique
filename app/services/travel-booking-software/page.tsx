@@ -1,13 +1,6 @@
 import Banner from "@/components/banner";
 import Link from "next/link";
-import {
-    BiCalendarCheck,
-    BiBox,
-    BiCreditCard,
-    BiGroup,
-    BiBarChartAlt2,
-    BiCodeAlt
-  } from 'react-icons/bi';
+import {BiBox,BiCreditCard,BiGroup,BiBarChartAlt2,BiCodeAlt} from 'react-icons/bi';
   import { FaCalendarAlt } from "react-icons/fa";
 const TravelSoftware = () => {
     const features = [

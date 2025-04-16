@@ -12,7 +12,7 @@ export default function gallery() {
             description: "To give you an inside look at our work environment, we've opened a window for you to catch a glimpse. Scroll down for a chance to explore how we live and thrive on campus.",
         },
     ]
-
+    // all posts part start
     const allPosts = [
         {
             image: "https://www.sevenunique.com/assets/1-DH17cQmn.webp",
@@ -47,13 +47,16 @@ export default function gallery() {
     ]
     const [img, setImg] = useState(false);
     const [imgindex, setImgIndex] = useState('0')
+    // showImage start
     const showImage = (index) => {
         setImgIndex(index)
         setImg(!img)
     }
+    // removeImage start
     const removeImage = () => {
         setImg(!img)
     }
+    // nextImg start
     const nextImg = () => {
         if (imgindex == allPosts.length - 1) {
             setImgIndex(0)
@@ -61,6 +64,7 @@ export default function gallery() {
             setImgIndex(imgindex + 1)
         }
     }
+    // preImg start
     const preImg = () => {
         if (imgindex == 0) {
             setImgIndex(allPosts.length - 1)
@@ -71,7 +75,6 @@ export default function gallery() {
     return (
         <>
             <Banner slides={bannerSlides} />
-
             <div className={`bg-black bg-opacity-50 min-w-full min-h-screen fixed top-10 left-0 z-10 flex justify-center items-center ${img ? '' : 'hidden'}`}>
                 <div className="w-4/5 md:w-3/4 lg:w-1/2 mx-auto bg-white rounded-lg shadow-lg p-4 relative z-30 transform transition-all">
                     <Image
@@ -105,13 +108,7 @@ export default function gallery() {
                     </div>
                 </div>
             </div>
-
-
-
-
             <div className="text-center font-semibold text-xl pt-8">Funny Moments</div>
-
-
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-8">
                 {allPosts.map((data, index) => (
                     <div
