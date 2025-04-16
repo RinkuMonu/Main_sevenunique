@@ -29,23 +29,23 @@ export default function ECommercePortalPage() {
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Comprehensive product and inventory management</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Secure payment processing with multiple options</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Order management and fulfillment tracking</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Customer management and engagement tools</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Advanced analytics and reporting</span>
                 </li>
               </ul>
@@ -75,7 +75,7 @@ export default function ECommercePortalPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -99,7 +99,7 @@ export default function ECommercePortalPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -122,7 +122,7 @@ export default function ECommercePortalPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -146,7 +146,7 @@ export default function ECommercePortalPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -171,7 +171,7 @@ export default function ECommercePortalPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -193,7 +193,7 @@ export default function ECommercePortalPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -237,7 +237,7 @@ export default function ECommercePortalPage() {
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Scalable Solution</h3>
                     <p className="text-muted-foreground">
@@ -246,7 +246,7 @@ export default function ECommercePortalPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Mobile-Responsive Design</h3>
                     <p className="text-muted-foreground">
@@ -255,7 +255,7 @@ export default function ECommercePortalPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">SEO-Friendly</h3>
                     <p className="text-muted-foreground">
@@ -264,7 +264,7 @@ export default function ECommercePortalPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Dedicated Support</h3>
                     <p className="text-muted-foreground">
@@ -278,7 +278,7 @@ export default function ECommercePortalPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-primary-foreground">
+      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-[#ab6545]-foreground">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

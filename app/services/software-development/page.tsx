@@ -81,7 +81,7 @@ const SoftwareDevelopment = () => {
                   },
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start gap-3">
-                    <i className="bi bi-check-circle text-primary mt-1"></i>
+                    <i className="bi bi-check-circle text-[#ab6545] mt-1"></i>
                     <div>
                       <h3 className="font-semibold">{item.title}</h3>
                       <p className="text-gray-600">{item.desc}</p>
@@ -121,7 +121,7 @@ const SoftwareDevelopment = () => {
                 <ul className="space-y-1">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start">
-                      <i className="bi bi-check-circle text-primary mr-2 mt-1"></i>
+                      <i className="bi bi-check-circle text-[#ab6545] mr-2 mt-1"></i>
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -195,7 +195,7 @@ const SoftwareDevelopment = () => {
           To explore your software development requirements and how we might assist, get in touch with us right now.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="btn btn-light text-primary">
+            <Link href="/contact" className="btn btn-light text-[#ab6545]">
               Contact Us
             </Link>
             <Link href="/services" className="btn btn-outline-light border-white">

@@ -72,7 +72,7 @@ export default function ResellerSoftwarePage() {
               <ul className="space-y-2 mb-6">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                     <span>{benefit}</span>
                   </li>
                 ))}
@@ -106,7 +106,7 @@ export default function ResellerSoftwarePage() {
           <div className="grid md:grid-cols-2 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                <div className="text-primary mb-4">{feature.icon}</div>
+                <div className="text-[#ab6545] mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300">{feature.description}</p>
               </div>
@@ -120,19 +120,19 @@ export default function ResellerSoftwarePage() {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Sales and revenue reports by reseller</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Commission tracking and payout reports</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Service usage and performance metrics</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Customizable dashboards for different user roles</span>
                 </li>
               </ul>
@@ -144,19 +144,19 @@ export default function ResellerSoftwarePage() {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Multiple payment gateway integrations</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Automated invoicing and receipt generation</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Wallet and credit management</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Tax calculation and management</span>
                 </li>
               </ul>
@@ -265,7 +265,7 @@ export default function ResellerSoftwarePage() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-transparent border-white text-white hover:bg-white hover:text-primary"
+              className="bg-transparent border-white text-white hover:bg-white hover:text-[#ab6545]"
               asChild
             >
               <Link href="/services">Explore Other Services</Link>
