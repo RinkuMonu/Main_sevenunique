@@ -21,32 +21,32 @@ const AadharVerification = () => {
   const features = [
     {
       title: "Instant Verification",
-      description: "Verify Aadhar details in real-time with our fast and reliable API.",
+      description: "Authenticate Aadhaar details in real time to reduce wait and improve onboarding efficiency.",
       icon: <FaBolt className="text-primary text-xl" />
     },
     {
       title: "Secure Processing",
-      description: "Ensure data security with our encrypted and compliant verification process.",
+      description: "Ensure data protection with end-to-end encryption and full compliance with UIDAI and KYC regulations.",
       icon: <FaShieldAlt className="text-primary text-xl" />
     },
     {
       title: "Multiple Verification Methods",
-      description: "Verify using Aadhar number, virtual ID, or QR code scanning.",
+      description: "Supports Aadhaar number, VID, and QR code scanning for flexible use across different scenarios.",
       icon: <FaListCheck className="text-primary text-xl" />
     },
     {
       title: "Demographic Verification",
-      description: "Verify name, address, gender, and date of birth against Aadhar records.",
+      description: "Cross-check name, DOB, gender, and address with Aadhaar records for accurate identity validation.",
       icon: <FaUserCheck className="text-primary text-xl" />
     },
     {
       title: "Comprehensive Reporting",
-      description: "Access detailed verification reports and analytics for compliance and auditing.",
+      description: "Access detailed logs, audit trails, and analytics dashboards to support audits and internal reviews.",
       icon: <FaFileAlt className="text-primary text-xl" />
     },
     {
       title: "Easy Integration",
-      description: "Integrate seamlessly with your existing systems using our developer-friendly API.",
+      description: "Developer-friendly RESTful API with docs, code samples, and SDKs for easy integration.",
       icon: <FaCode className="text-primary text-xl" />
     }
   ];
@@ -54,22 +54,22 @@ const AadharVerification = () => {
   const useCases = [
     {
       title: "Financial Services",
-      description: "Verify customer identity for account opening, loan applications, and KYC compliance.",
+      description: "Streamline onboarding by verifying Aadhaar for account openings, loans, insurance, and KYC compliance.",
       icon: <FaUniversity className="text-primary text-xl" />
     },
     {
       title: "Telecom",
-      description: "Verify subscriber identity for SIM card activation and service provisioning.",
+      description: "Enable quick, secure subscriber verification for SIM activations, number portability, and digital enrollments that reducing fraud.",
       icon: <FaPhone className="text-primary text-xl" />
     },
     {
       title: "E-commerce",
-      description: "Verify customer identity for high-value purchases and secure transactions.",
+      description: "Boost trust in high-value or restricted purchases by verifying identity before processing, reducing transaction and delivery risks.",
       icon: <FaShoppingCart className="text-primary text-xl" />
     },
     {
       title: "Government Services",
-      description: "Verify citizen identity for service delivery and benefit disbursement.",
+      description: "Authenticate citizens for digital services, benefits, subsidies, and document verification to ensure accurate service delivery.",
       icon: <FaBuilding className="text-primary text-xl" />
     }
   ];
@@ -126,15 +126,10 @@ const AadharVerification = () => {
             <div className="lg:w-1/2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Aadhar Verification API</h2>
               <p className="text-gray-600 mb-4">
-                Our Aadhar Verification API provides a secure and reliable solution for verifying identity using Aadhar,
-                India's unique identification system. With real-time verification capabilities and multiple verification
-                methods, our API enables you to verify customer identity quickly and accurately, ensuring compliance with
-                KYC regulations.
+              Our Aadhar Verification API offers a secure, robust, and real-time solution for verifying customer identities using Aadhaar, India’s unique biometric identification system. Designed to support a wide range of industries—from banking and fintech to telecom, e-commerce, and government services.
               </p>
               <p className="text-gray-600 mb-8">
-                Whether you're in financial services, telecom, e-commerce, or government services, our Aadhar Verification
-                API provides the tools you need to verify customer identity securely and efficiently, reducing fraud and
-                ensuring regulatory compliance.
+              Whether you're validating identities during onboarding or verifying users for sensitive transactions, our Aadhar API ensures accurate, instant, and compliant identity verification at scale.
               </p>
               <div className="flex flex-col gap-4 mb-8">
                 <div className="flex">
@@ -195,7 +190,7 @@ const AadharVerification = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our Aadhar Verification API offers a comprehensive set of features for secure and reliable identity verification.
+            Our Aadhar Verification API is packed with powerful features that ensure accurate, fast, and secure identity verification, helping you stay compliant and fraud-resistant.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -282,8 +277,8 @@ const AadharVerification = () => {
             <div className="lg:w-1/2 order-1 lg:order-2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Easy Integration</h2>
               <p className="text-gray-600 mb-8">
-                We've designed our Aadhar Verification API to be easy to integrate into your applications, with comprehensive
-                documentation, SDKs for popular programming languages, and dedicated support to help you get started quickly.
+              Our Aadhar Verification API is built for seamless integration, enabling you to add identity verification to your application with minimal effort. With detailed resources and expert support, you can get up and running quickly and confidently.
+
               </p>
               <div className="flex flex-col gap-4">
                 <div className="flex">
@@ -293,7 +288,8 @@ const AadharVerification = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Comprehensive Documentation</h3>
                     <p className="text-gray-600">
-                      Detailed API documentation with examples and guides to help you understand and implement our API.
+                    Step-by-step guides, detailed endpoint references, and practical examples make it easy to understand and implement the API in your system.
+
                     </p>
                   </div>
                 </div>
@@ -304,7 +300,8 @@ const AadharVerification = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">SDKs for Popular Languages</h3>
                     <p className="text-gray-600">
-                      Ready-to-use SDKs for popular programming languages to simplify integration.
+                    Access ready-to-use SDKs for widely used programming languages such as Java, Python, PHP, Node.js, and more—so your team can integrate faster with less code.
+
                     </p>
                   </div>
                 </div>
@@ -315,7 +312,8 @@ const AadharVerification = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Sandbox Environment</h3>
                     <p className="text-gray-600">
-                      Test your integration in our sandbox environment before going live.
+                    Use our secure sandbox environment to test API calls, simulate real-time responses, and ensure everything works smoothly before going live.
+
                     </p>
                   </div>
                 </div>
@@ -326,7 +324,8 @@ const AadharVerification = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Dedicated Support</h3>
                     <p className="text-gray-600">
-                      Our team of API experts is available to help you with integration and troubleshooting.
+                    Our experienced technical team is available to assist you during every stage of integration, from setup to post-launch troubleshooting.
+
                     </p>
                   </div>
                 </div>
