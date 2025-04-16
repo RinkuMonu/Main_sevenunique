@@ -19,32 +19,32 @@ const BusBooking = () => {
   const features = [
     {
       title: "Extensive Bus Network",
-      description: "Access to a vast network of bus operators and routes across the country.",
+      description: "Connect with a broad network of bus operators covering regional and national routes, providing wide travel options for your customers.",
       icon: <FaMapMarkerAlt className=" text-xl" />,
     },
     {
       title: "Real-time Availability",
-      description: "Check real-time seat availability and pricing for all routes and operators.",
+      description: "Get up-to-the-minute data on seat availability, fare pricing, and route schedules across all operators.",
       icon: <FaClock className=" text-xl" />,
     },
     {
-      title: "Seat Selection",
-      description: "Allow customers to select their preferred seats with interactive seat maps.",
+      title: "Interactive Seat Selection",
+      description: "Enable users to choose their desired seats using intuitive and visually rich seat maps, enhancing user engagement.",
       icon: <FaTh className=" text-xl" />,
     },
     {
-      title: "Secure Booking",
-      description: "Process bookings securely with multiple payment options and instant confirmation.",
+      title: "Secure Booking & Payments",
+      description: "Support secure, real-time bookings with multiple payment methods and instant booking confirmations.",
       icon: <FaShieldAlt className=" text-xl" />,
     },
     {
-      title: "Booking Management",
-      description: "Manage bookings with options for cancellation, rescheduling, and refunds.",
+      title: "Flexible Booking Management",
+      description: "Offer customers the ability to cancel, reschedule, or request refunds—all from within your platform.",
       icon: <FaCog className=" text-xl" />,
     },
     {
-      title: "Comprehensive Analytics",
-      description: "Access detailed reports and analytics on bookings, revenue, and performance.",
+      title: "Actionable Analytics",
+      description: "Track performance with detailed reporting on bookings, revenue, cancellations, and customer behavior.",
       icon: <FaChartLine className=" text-xl" />,
     },
   ];
@@ -85,22 +85,22 @@ const BusBooking = () => {
   const benefits = [
     {
       title: "Increased Revenue",
-      description: "Generate additional revenue by offering bus booking services to your customers.",
+      description: "Tap into new income streams by adding bus booking services to your platform, turning every trip into a revenue opportunity.",
       icon: <FaMoneyBillWave className=" text-xl" />,
     },
     {
       title: "Enhanced User Experience",
-      description: "Provide a seamless booking experience with real-time availability and seat selection.",
+      description: "Delight your users with a smooth and intuitive booking journey, complete with live seat availability and easy selection.",
       icon: <FaUsers className=" text-xl" />,
     },
     {
-      title: "Competitive Advantage",
-      description: "Stand out from competitors by offering comprehensive bus booking capabilities.",
+      title: "Stronger Competitive Edge",
+      description: "Differentiate your offering with advanced travel features that go beyond the basics, giving you a clear advantage in a crowded market.",
       icon: <FaTrophy className=" text-xl" />,
     },
     {
       title: "Operational Efficiency",
-      description: "Streamline operations with automated booking processes and real-time updates.",
+      description: "Automate bookings, updates, and cancellations - saving time, reducing errors, and improving service delivery.",
       icon: <FaBolt className=" text-xl" />,
     },
   ];
@@ -124,15 +124,10 @@ const BusBooking = () => {
             <div className="lg:w-1/2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Bus Booking API</h2>
               <p className="text-gray-600 mb-4">
-                Our Bus Booking API provides a comprehensive solution for integrating bus booking capabilities into your
-                applications and websites. With access to a vast network of bus operators and routes, real-time
-                availability, and secure booking management, our API enables you to offer a complete bus booking
-                experience to your customers.
+                Our Bus Booking API offers a powerful and flexible solution for integrating real-time bus ticketing capabilities into your platforms. From city-to-city travel to long-distance routes, the API connects you to a wide network of operators with up-to-date schedules, seat layouts, and fare details.
               </p>
               <p className="text-gray-600 mb-8">
-                Whether you're building a travel booking platform, a corporate travel management system, or enhancing
-                your existing application with bus booking capabilities, our API provides the tools and data you need to
-                create a seamless bus booking experience.
+                Whether you're building a travel aggregator, managing corporate travel, or enhancing an existing service, our API empowers you to deliver a smooth and efficient bus booking experience to your users.
               </p>
               <div className="flex flex-col gap-4 mb-8">
                 <div className="flex">
@@ -193,7 +188,7 @@ const BusBooking = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our Bus Booking API offers a comprehensive set of features to enable seamless bus booking experiences.
+              Our Bus Booking API is packed with features designed to deliver a smooth and reliable booking experience for both developers and end-users.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -224,11 +219,10 @@ const BusBooking = () => {
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold">{endpoint.name}</h3>
-                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    endpoint.method.includes("GET") ? "bg-green-100 text-green-800" : 
-                    endpoint.method.includes("POST") ? "bg-blue-100 text-blue-800" : 
-                    "bg-yellow-100 text-yellow-800"
-                  }`}>
+                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${endpoint.method.includes("GET") ? "bg-green-100 text-green-800" :
+                    endpoint.method.includes("POST") ? "bg-blue-100 text-blue-800" :
+                      "bg-yellow-100 text-yellow-800"
+                    }`}>
                     {endpoint.method}
                   </span>
                 </div>
@@ -248,7 +242,7 @@ const BusBooking = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Benefits</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Integrating our Bus Booking API can provide numerous benefits for your business and customers.
+              Integrating our Bus Booking API unlocks a range of advantages that can drive growth, improve efficiency, and enhance customer satisfaction.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -282,9 +276,7 @@ const BusBooking = () => {
             <div className="lg:w-1/2 order-1 lg:order-2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Easy Integration</h2>
               <p className="text-gray-600 mb-8">
-                We've designed our Bus Booking API to be easy to integrate into your applications, with comprehensive
-                documentation, SDKs for popular programming languages, and dedicated support to help you get started
-                quickly.
+                We’ve built our Bus Booking API with developers in mind—making integration as straightforward and hassle-free as possible. Whether you're building from scratch or enhancing an existing system, our tools and support are here to help you move fast and with confidence.
               </p>
               <div className="flex flex-col gap-4">
                 <div className="flex">
@@ -294,7 +286,7 @@ const BusBooking = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Comprehensive Documentation</h3>
                     <p className="text-gray-600">
-                      Detailed API documentation with examples and guides to help you understand and implement our API.
+                    Comprehensive API docs with examples and guides for easy integration.
                     </p>
                   </div>
                 </div>
