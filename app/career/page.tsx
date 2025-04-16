@@ -283,7 +283,7 @@ export default function CareerPage() {
                   </div>
                   <div className="mt-6">
                     <Link href={`/career/${job.slug}`}>
-                      <Button className="bg-[#AB6545] bg-[#e8ab8f] text-white">
+                      <Button className=" bg-[#e8ab8f] text-white">
                         Apply Now
                       </Button>
                     </Link>

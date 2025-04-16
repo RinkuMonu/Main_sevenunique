@@ -77,7 +77,7 @@ export default function AppDevelopmentPage() {
       <div className="w-full px-24 bg-gray-50">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-primary mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[#ab6545] mb-4">
               App Development Services
             </h1>
             <p className="text-gray-600 dark:text-gray-300 text-justify">
@@ -128,7 +128,7 @@ export default function AppDevelopmentPage() {
               <ul className="space-y-2 mb-6">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                     <span>{benefit}</span>
                   </li>
                 ))}
@@ -163,7 +163,7 @@ export default function AppDevelopmentPage() {
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Smartphone className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">Native App Development</h3>
@@ -172,25 +172,25 @@ export default function AppDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>iOS app development (Swift, React Native)</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Android app development (React Native, Kotlin)</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Platform-specific optimizations</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Hardware integration</span>
                 </li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <TabletSmartphone className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">
@@ -201,25 +201,25 @@ export default function AppDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>React Native development</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Flutter development</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Ionic framework</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Code reusability across platforms</span>
                 </li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Layers className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">
@@ -230,25 +230,25 @@ export default function AppDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>UI/UX design for mobile apps</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Prototyping and wireframing</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Custom app development</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>App testing and quality assurance</span>
                 </li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Shield className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">
@@ -259,19 +259,19 @@ export default function AppDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Regular updates and improvements</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Bug fixes and performance optimization</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Security updates</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Technical support</span>
                 </li>
               </ul>
@@ -396,7 +396,7 @@ export default function AppDevelopmentPage() {
                   </p>
                   <Link
                     href={project.link}
-                    className="inline-flex items-center text-primary hover:underline"
+                    className="inline-flex items-center text-[#ab6545] hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -431,7 +431,7 @@ export default function AppDevelopmentPage() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-transparent border-primary text-black hover:bg-white hover:text-primary"
+              className="bg-transparent border-primary text-black hover:bg-white hover:text-[#ab6545]"
               asChild
             >
               <Link href="/services">Explore Other Services</Link>

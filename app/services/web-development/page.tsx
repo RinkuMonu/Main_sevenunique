@@ -60,7 +60,7 @@ export default function WebDevelopmentPage() {
               <ul className="space-y-2 mb-6">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                     <span>{benefit}</span>
                   </li>
                 ))}
@@ -92,7 +92,7 @@ export default function WebDevelopmentPage() {
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Globe className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">Website Design & Development</h3>
@@ -102,25 +102,25 @@ export default function WebDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Responsive web design</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Custom website development</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>UI/UX design for web</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Performance optimization</span>
                 </li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Code className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">Web Application Development</h3>
@@ -129,25 +129,25 @@ export default function WebDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Custom web applications</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Progressive Web Apps (PWAs)</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>SaaS product development</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>API development and integration</span>
                 </li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <Database className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">E-commerce Development</h3>
@@ -156,25 +156,25 @@ export default function WebDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Custom e-commerce websites</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Shopify and WooCommerce development</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Payment gateway integration</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Shopping cart and checkout optimization</span>
                 </li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-              <div className="text-primary mb-4">
+              <div className="text-[#ab6545] mb-4">
                 <BarChart4 className="h-10 w-10" />
               </div>
               <h3 className="text-xl font-bold mb-3">Website Maintenance & Support</h3>
@@ -183,19 +183,19 @@ export default function WebDevelopmentPage() {
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Regular updates and security patches</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Performance monitoring and optimization</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Content updates and management</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Technical support and troubleshooting</span>
                 </li>
               </ul>
@@ -300,7 +300,7 @@ export default function WebDevelopmentPage() {
                   </p>
                   <Link
                     href={`/case-studies/web-project-${item}`}
-                    className="inline-flex items-center text-primary hover:underline"
+                    className="inline-flex items-center text-[#ab6545] hover:underline"
                   >
                     View Case Study <ArrowRight className="ml-1 h-4 w-4" />
                   </Link>
@@ -331,7 +331,7 @@ export default function WebDevelopmentPage() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-transparent border-white text-white hover:bg-white hover:text-primary"
+              className="bg-transparent border-white text-white hover:bg-white hover:text-[#ab6545]"
               asChild
             >
               <Link href="/services">Explore Other Services</Link>

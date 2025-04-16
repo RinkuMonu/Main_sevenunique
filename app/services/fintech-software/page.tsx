@@ -70,7 +70,7 @@ export default function FintechSoftwarePage() {
               <ul className="space-y-2 mb-6">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                     <span>{benefit}</span>
                   </li>
                 ))}
@@ -103,7 +103,7 @@ export default function FintechSoftwarePage() {
           <div className="grid md:grid-cols-2 gap-8">
             {solutions.map((solution, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                <div className="text-primary mb-4">{solution.icon}</div>
+                <div className="text-[#ab6545] mb-4">{solution.icon}</div>
                 <h3 className="text-xl font-bold mb-3">{solution.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300">{solution.description}</p>
               </div>
@@ -135,15 +135,15 @@ export default function FintechSoftwarePage() {
                   <h3 className="text-lg font-bold mb-2">Security & Compliance</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                       <span>End-to-end encryption for data protection</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                       <span>Multi-factor authentication</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                       <span>Compliance with financial regulations (PCI DSS, GDPR, etc.)</span>
                     </li>
                   </ul>
@@ -152,15 +152,15 @@ export default function FintechSoftwarePage() {
                   <h3 className="text-lg font-bold mb-2">Integration Capabilities</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                       <span>API-first architecture for seamless integration</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                       <span>Integration with banking systems and payment gateways</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                       <span>Third-party service integrations</span>
                     </li>
                   </ul>
@@ -169,15 +169,15 @@ export default function FintechSoftwarePage() {
                   <h3 className="text-lg font-bold mb-2">User Experience</h3>
                   <ul className="space-y-2">
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                       <span>Intuitive and responsive user interfaces</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                       <span>Customizable dashboards and reports</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                       <span>Mobile-first design for on-the-go access</span>
                     </li>
                   </ul>
@@ -205,7 +205,7 @@ export default function FintechSoftwarePage() {
                 Create a full-featured digital banking platform with account management, transfers, bill payments, and
                 financial tools.
               </p>
-              <Link href="/contact" className="inline-flex items-center text-primary hover:underline">
+              <Link href="/contact" className="inline-flex items-center text-[#ab6545] hover:underline">
                 Learn More <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
@@ -214,7 +214,7 @@ export default function FintechSoftwarePage() {
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Implement secure and efficient payment processing systems for e-commerce, retail, or service businesses.
               </p>
-              <Link href="/contact" className="inline-flex items-center text-primary hover:underline">
+              <Link href="/contact" className="inline-flex items-center text-[#ab6545] hover:underline">
                 Learn More <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
@@ -223,7 +223,7 @@ export default function FintechSoftwarePage() {
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Build digital lending platforms with loan origination, credit scoring, and loan management capabilities.
               </p>
-              <Link href="/contact" className="inline-flex items-center text-primary hover:underline">
+              <Link href="/contact" className="inline-flex items-center text-[#ab6545] hover:underline">
                 Learn More <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
@@ -298,7 +298,7 @@ export default function FintechSoftwarePage() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-transparent border-white text-white hover:bg-white hover:text-primary"
+              className="bg-transparent border-white text-white hover:bg-white hover:text-[#ab6545]"
               asChild
             >
               <Link href="/services">Explore Other Services</Link>

@@ -34,23 +34,23 @@ export default function UIUXDesignPage() {
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Researching users and creating personas</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Information architecture and wireframing</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Interactive prototyping and user testing</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Visual design and UI component systems</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Accessibility and inclusive design</span>
                 </li>
               </ul>
@@ -83,7 +83,7 @@ export default function UIUXDesignPage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary font-bold text-xl">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545] font-bold text-xl">
                 01
               </div>
               <h3 className="text-xl font-bold mb-2">Discovery</h3>
@@ -92,7 +92,7 @@ export default function UIUXDesignPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary font-bold text-xl">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545] font-bold text-xl">
                 02
               </div>
               <h3 className="text-xl font-bold mb-2">Research</h3>
@@ -101,7 +101,7 @@ export default function UIUXDesignPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary font-bold text-xl">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545] font-bold text-xl">
                 03
               </div>
               <h3 className="text-xl font-bold mb-2">Design</h3>
@@ -110,7 +110,7 @@ export default function UIUXDesignPage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-primary font-bold text-xl">
+              <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545] font-bold text-xl">
                 04
               </div>
               <h3 className="text-xl font-bold mb-2">Testing</h3>
@@ -142,7 +142,7 @@ export default function UIUXDesignPage() {
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">User-Centered Approach</h3>
                     <p className="text-muted-foreground">
@@ -151,7 +151,7 @@ export default function UIUXDesignPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Research-Driven Design</h3>
                     <p className="text-muted-foreground">
@@ -160,7 +160,7 @@ export default function UIUXDesignPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Collaborative Process</h3>
                     <p className="text-muted-foreground">
@@ -169,7 +169,7 @@ export default function UIUXDesignPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Conversion-Focused</h3>
                     <p className="text-muted-foreground">

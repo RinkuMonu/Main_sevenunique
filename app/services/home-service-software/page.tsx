@@ -29,23 +29,23 @@ export default function HomeServiceSoftwarePage() {
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Efficient booking and scheduling system</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Service provider management and tracking</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Customer management and communication tools</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Integrated payment processing solutions</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
                   <span>Comprehensive reporting and analytics</span>
                 </li>
               </ul>
@@ -75,7 +75,7 @@ export default function HomeServiceSoftwarePage() {
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -100,7 +100,7 @@ export default function HomeServiceSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -125,7 +125,7 @@ export default function HomeServiceSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -148,7 +148,7 @@ export default function HomeServiceSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -170,7 +170,7 @@ export default function HomeServiceSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -193,7 +193,7 @@ export default function HomeServiceSoftwarePage() {
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
-              <div className="mb-4 rounded-full bg-primary/10 p-4 text-primary">
+              <div className="mb-4 rounded-full bg-primary/10 p-4 text-[#ab6545]">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -231,7 +231,7 @@ export default function HomeServiceSoftwarePage() {
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Tailored Solutions for Your Business</h3>
                     <p className="text-muted-foreground">
@@ -240,7 +240,7 @@ export default function HomeServiceSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Customizable Interface</h3>
                     <p className="text-muted-foreground">
@@ -249,7 +249,7 @@ export default function HomeServiceSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Real-Time Monitoring & GPS Tracking</h3>
                     <p className="text-muted-foreground">
@@ -258,7 +258,7 @@ export default function HomeServiceSoftwarePage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-primary mt-1" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Powerful Analytics & Reporting</h3>
                     <p className="text-muted-foreground">
@@ -272,7 +272,7 @@ export default function HomeServiceSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-primary text-primary-foreground">
+      <section className="py-16 md:py-24 px-24 bg-primary text-[#ab6545]-foreground">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
