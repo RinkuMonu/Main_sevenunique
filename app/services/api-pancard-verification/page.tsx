@@ -18,22 +18,22 @@ export default function PancardVerificationApiPage() {
     {
       icon: <FileSearch className="h-10 w-10" />,
       title: "Real-time Verification",
-      description: "Verify PAN card details instantly against official databases with real-time results.",
+      description: "Instantly verify PAN card details against official government databases, providing real-time results for quick decision-making.",
     },
     {
       icon: <Shield className="h-10 w-10" />,
       title: "Secure Processing",
-      description: "End-to-end encryption and secure handling of sensitive information in compliance with regulations.",
+      description: "Our API employs end-to-end encryption and ensures secure handling of sensitive personal data, including KYC guidelines.",
     },
     {
       icon: <Zap className="h-10 w-10" />,
       title: "High Performance",
-      description: "Fast and reliable API with high uptime and quick response times for seamless verification.",
+      description: "With a fast and reliable API, you can rely on quick response times, ensuring a seamless verification experience for your users.",
     },
     {
       icon: <Server className="h-10 w-10" />,
       title: "Comprehensive Data",
-      description: "Detailed verification results including name, status, and other relevant information.",
+      description: "Get verification results with the PAN card holder’s name, status, and other relevant details for transparency and reliability.",
     },
   ]
 
@@ -59,13 +59,11 @@ export default function PancardVerificationApiPage() {
             <div className="animate-slide-in-left">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Reliable PAN Card Verification API</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Our PAN Card Verification API provides a fast and reliable way to verify PAN card details against
-                official databases. This API is essential for businesses that need to validate customer identities,
-                comply with KYC regulations, and prevent fraud.
+              Our PAN Card Verification API offers a fast, efficient, and reliable solution for validating PAN card details against official government databases. This API is vital for businesses needing to authenticate customer identities, meet KYC regulations, and prevent fraud.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                With our easy-to-integrate API, you can seamlessly add PAN card verification capabilities to your
-                applications, websites, or internal systems, ensuring accurate and reliable verification results.
+              By integrating our easy-to-use API, you can add real-time PAN card verification functionality to your applications, websites, or internal systems, ensuring the highest level of accuracy and reliability.
+
               </p>
               <h3 className="text-xl font-bold mb-3">Key Benefits:</h3>
               <ul className="space-y-2 mb-6">
@@ -98,7 +96,7 @@ export default function PancardVerificationApiPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Key Features</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Our PAN Card Verification API offers a comprehensive set of features to meet your verification needs.
+            Our PAN Card Verification API is designed to provide a robust and efficient solution for validating PAN card details, ensuring both accuracy and security.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -119,8 +117,7 @@ export default function PancardVerificationApiPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">How It Works</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Our PAN Card Verification API is designed to be simple to integrate and use, with a straightforward
-              workflow.
+            Integrating our PAN Card Verification API into your application is simple and streamlined. Here's how it works.
             </p>
           </div>
           <div className="grid md:grid-cols-4 gap-8">
@@ -130,7 +127,8 @@ export default function PancardVerificationApiPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Integration</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Integrate our API with your application or system using our comprehensive documentation and SDK.
+              Begin by integrating our API with your application or system using our comprehensive documentation and SDK. It’s designed for easy setup with multiple programming language support.
+
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -139,7 +137,7 @@ export default function PancardVerificationApiPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">API Request</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Send a verification request with the PAN card number and other required parameters.
+              Send a verification request by providing the PAN card number along with other necessary parameters. The API accepts standard HTTP requests for maximum compatibility.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -148,7 +146,8 @@ export default function PancardVerificationApiPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Verification</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Our API verifies the PAN card details against official databases in real-time.
+              Our system cross-checks the PAN card details with official government databases in real-time, ensuring that the information is accurate and up-to-date.
+
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -157,8 +156,8 @@ export default function PancardVerificationApiPage() {
               </div>
               <h3 className="text-xl font-bold mb-3 mt-4">Response</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Receive a detailed response with verification results, including status, name, and other relevant
-                information.
+              Once the verification is complete, you'll receive a detailed response. This will include essential information such as the verification status, holder's name, and other relevant details.
+
               </p>
             </div>
           </div>
@@ -180,8 +179,7 @@ export default function PancardVerificationApiPage() {
             <div className="animate-slide-in-right order-1 md:order-2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Comprehensive Documentation</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                We provide detailed documentation to help you integrate and use our PAN Card Verification API
-                effectively. Our documentation includes:
+              We provide detailed, clear, and user-friendly documentation to ensure a seamless integration process for your PAN Card Verification API.
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
@@ -219,26 +217,26 @@ export default function PancardVerificationApiPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Use Cases</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Our PAN Card Verification API can be used in various scenarios to enhance your business processes.
+            Our PAN Card Verification API is designed to serve various business needs, ensuring seamless operations, enhanced security, and better compliance.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3">KYC Verification</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Verify customer identities as part of your KYC process to comply with regulatory requirements.
+              In order to comply with financial services regulations, it is simple to confirm the identity of customers via KYC.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3">Onboarding Automation</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Streamline customer onboarding by automating PAN card verification in your registration process.
+              Automate PAN card verification during registration or account creation to accelerate onboarding and reduce errors.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-3">Fraud Prevention</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                Prevent fraud by verifying the authenticity of PAN cards provided by customers or partners.
+              Prevent identity theft and fraud by verifying that PAN card details are legitimate and match official records.
               </p>
             </div>
           </div>
