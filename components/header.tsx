@@ -41,12 +41,12 @@ const services = [
   { name: "Fintech Software", href: "/services/fintech-software" },
 ];
 
-const softwareItems = [
-  { name: "Recharge Software", href: "/services/recharge-software" },
-  { name: "BBPS Software", href: "/services/bbps-software" },
-  { name: "UTI (Pancard) Software", href: "/services/uti-pancard-software" },
-  { name: "Travel Software", href: "/services/travel-booking-software" },
-]
+// const softwareItems = [
+//   { name: "Recharge Software", href: "/services/recharge-software" },
+//   { name: "BBPS Software", href: "/services/bbps-software" },
+//   { name: "UTI (Pancard) Software", href: "/services/uti-pancard-software" },
+//   { name: "Travel Software", href: "/services/travel-booking-software" },
+// ]
 
 const apiItems = [
   { name: "Recharge", href: "/services/api-recharge" },
@@ -155,7 +155,7 @@ export default function Header() {
                 </NavigationMenuItem>
 
                 {/* Software Dropdown */}
-                <NavigationMenuItem>
+                {/* <NavigationMenuItem>
                   <NavigationMenuTrigger>Software</NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
@@ -175,7 +175,7 @@ export default function Header() {
                       ))}
                     </ul>
                   </NavigationMenuContent>
-                </NavigationMenuItem>
+                </NavigationMenuItem> */}
 
                 {/* API's Dropdown */}
                 <NavigationMenuItem>
