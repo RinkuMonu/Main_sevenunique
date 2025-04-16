@@ -15,7 +15,7 @@ import {
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "/image/Career-01.jpg",
+    image: "/image/banner/Career.jpg",
     title: "Join Our Team",
     description: "Explore career opportunities and grow with us",
   },

@@ -7,7 +7,7 @@ import Banner from "@/components/banner"
 export default function ECommercePortalPage() {
   const bannerSlides = [
     {
-      image: "/image/2.jpg",
+      image: "/image/banner/E-commerce Portal.jpg",
       title: "E-Commerce Portal",
       description: "Build a powerful online store with our comprehensive e-commerce solutions",
 
@@ -28,30 +28,30 @@ export default function ECommercePortalPage() {
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
+                  <CheckCircle className="h-15 w-15 text-[#ab6545]" />
                   <span>Comprehensive product and inventory management</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
+                  <CheckCircle className="h-15 w-15 text-[#ab6545]" />
                   <span>Secure payment processing with multiple options</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
+                  <CheckCircle className="h-15 w-15 text-[#ab6545]" />
                   <span>Order management and fulfillment tracking</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
+                  <CheckCircle className="h-15 w-15 text-[#ab6545]" />
                   <span>Customer management and engagement tools</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545]" />
+                  <CheckCircle className="h-15 w-15 text-[#ab6545]" />
                   <span>Advanced analytics and reporting</span>
                 </li>
               </ul>
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/1531.jpg"
                 alt="E-Commerce Portal"
                 fill
                 className="object-cover"
@@ -222,7 +222,7 @@ export default function ECommercePortalPage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/image/2148688502.jpg"
                 alt="E-Commerce Dashboard"
                 fill
                 className="object-cover"
@@ -235,7 +235,7 @@ export default function ECommercePortalPage() {
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
+                  <CheckCircle className="text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Scalable Solution</h3>
                     <p className="text-muted-foreground">
@@ -244,7 +244,7 @@ export default function ECommercePortalPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
+                  <CheckCircle className="text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Mobile-Responsive Design</h3>
                     <p className="text-muted-foreground">
@@ -253,7 +253,7 @@ export default function ECommercePortalPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
+                  <CheckCircle className="text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">SEO-Friendly</h3>
                     <p className="text-muted-foreground">
@@ -263,7 +263,7 @@ export default function ECommercePortalPage() {
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
+                  <CheckCircle className="text-[#ab6545] mt-1" />
                   <div>
                     <h3 className="font-bold">Dedicated Support</h3>
                     <p className="text-muted-foreground">
@@ -277,7 +277,7 @@ export default function ECommercePortalPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-[#ab6545]-foreground">
+      <section className="py-16 md:py-24 px-24 text-white" style={{backgroundImage:"url(/image/7177.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

@@ -7,7 +7,7 @@ export default function GrocerySoftwarePage() {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "/image/banner/Grocery.jpg",
       title: "Grocery Software Solutions",
       description: "Streamline your grocery business with our comprehensive management and delivery platform",
 
@@ -52,7 +52,7 @@ export default function GrocerySoftwarePage() {
               </ul>
             </div>
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square">
-              <Image src="/placeholder.svg?height=600&width=600" alt="Grocery Software" fill className="object-cover" />
+              <Image src="/image/2147801312.jpg" alt="Grocery Software" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -217,7 +217,7 @@ export default function GrocerySoftwarePage() {
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
-              <Image src="/placeholder.svg?height=600&width=600" alt="Grocery App" fill className="object-cover" />
+              <Image src="/image/9750.jpg" alt="Grocery App" fill className="object-cover" />
             </div>
             <div className="space-y-4 order-1 lg:order-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Our Grocery Software</h2>
@@ -269,7 +269,7 @@ export default function GrocerySoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-primary text-[#ab6545]-foreground">
+      <section className="py-16 md:py-24 px-24 text-white font-extrabold"  style={{backgroundImage:"url(/image/95547.jpg)", backgroundAttachment:"fixed", backgroundPosition:"center"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

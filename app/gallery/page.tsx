@@ -7,7 +7,7 @@ export default function gallery() {
     // Sample data for the banner
     const bannerSlides = [
         {
-            image: "/placeholder.svg?height=1080&width=1920",
+            image: "/image/banner/Gallery.jpg",
             title: "Gallery",
             description: "To give you an inside look at our work environment, we've opened a window for you to catch a glimpse. Scroll down for a chance to explore how we live and thrive on campus.",
         },
