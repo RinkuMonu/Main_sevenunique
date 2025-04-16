@@ -23,32 +23,32 @@ const CivilScore = () => {
   const features = [
     {
       title: "Comprehensive Credit Assessment",
-      description: "Evaluate creditworthiness with a comprehensive analysis of financial history and behavior.",
+      description: "Access a full credit profile—financial history, transaction behavior, and debt-to-income ratios—for precise creditworthiness evaluation before making decisions.",
       icon: <FaChartLine className="text-primary text-xl" />,
     },
     {
-      title: "Identity Verification",
-      description: "Verify identity through multiple data points to prevent fraud and ensure compliance.",
+      title: " Multi-Faceted Identity Verification",
+      description: "Prevent fraud and ensure compliance with secure identity verification using personal data, biometrics, address checks, and more—streamlining your KYC process and reducing risk.",
       icon: <FaShieldAlt className="text-primary text-xl" />,
     },
     {
-      title: "Risk Assessment",
-      description: "Assess risk levels with advanced algorithms and machine learning models.",
+      title: "Advanced Risk Assessment",
+      description: "Use advanced machine learning and predictive algorithms to assess customer risk, analyze behavior patterns, and forecast future stability—enabling real-time, informed decisions.",
       icon: <FaExclamationTriangle className="text-primary text-xl" />,
     },
     {
-      title: "Customizable Parameters",
-      description: "Tailor the scoring model to your specific business needs and risk tolerance.",
+      title: "Customizable Scoring Parameters",
+      description: "Customize scoring to match your business needs—set thresholds, prioritize data points, and fine-tune models for industry-specific relevance.",
       icon: <FaSlidersH className="text-primary text-xl" />,
     },
     {
       title: "Real-time Processing",
-      description: "Get instant results with our real-time processing capabilities.",
+      description: "Make fast, confident decisions with real-time insights into creditworthiness, identity, and risk.",
       icon: <FaBolt className="text-primary text-xl" />,
     },
     {
-      title: "Secure Data Handling",
-      description: "Ensure data security and compliance with industry standards and regulations.",
+      title: "Secure & Compliant Data Handling",
+      description: "Secure sensitive data with end-to-end encryption and ensure compliance with global standards like GDPR and PCI-DSS, protecting both your business and customers.",
       icon: <FaLock className="text-primary text-xl" />,
     },
   ];
@@ -56,22 +56,22 @@ const CivilScore = () => {
   const useCases = [
     {
       title: "Financial Services",
-      description: "Evaluate loan applications, credit card approvals, and other financial services with confidence.",
+      description: "Use the Civil Score API to evaluate the creditworthiness of individuals or businesses before approving loan applications, credit card requests, or other financial services. With detailed insights into financial behavior and payment history, you can reduce default risk and make better lending decisions.",
       icon: <FaUniversity className="text-primary text-xl" />,
     },
     {
       title: "Rental Screening",
-      description: "Screen potential tenants for rental properties with comprehensive background checks.",
+      description: "For real estate companies and property managers, the Civil Score API offers a reliable way to screen potential tenants. Perform comprehensive background checks, evaluate financial stability, and verify identity to ensure that tenants meet your leasing criteria and reduce the risk of defaults or fraud.",
       icon: <FaHome className="text-primary text-xl" />,
     },
     {
       title: "Employment Verification",
-      description: "Verify employment history and conduct background checks for potential employees.",
+      description: "In human resources and recruitment, verifying employment history, job stability, and criminal records is essential. The Civil Score API simplifies this process by providing accurate identity verification and background checks, helping HR teams ensure that candidates have a trustworthy history before making hiring decisions.",
       icon: <FaBriefcase className="text-primary text-xl" />,
     },
     {
       title: "Insurance Underwriting",
-      description: "Assess risk for insurance policies with detailed applicant information.",
+      description: "Insurance providers can use the Civil Score API to assess risk when underwriting policies. With detailed applicant information including credit scores, identity verification, and financial history, insurance companies can better understand applicants' risk profiles and adjust premiums or policy terms accordingly.",
       icon: <FaUmbrella className="text-primary text-xl" />,
     },
   ];
@@ -119,7 +119,7 @@ const CivilScore = () => {
 
   return (
     <div className="pt-14">
-      <Banner slides={bannerSlides}/>
+      <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
       <section className="py-12 md:py-20">
@@ -128,14 +128,10 @@ const CivilScore = () => {
             <div className="lg:w-1/2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Civil Score API</h2>
               <p className="text-gray-600 mb-4">
-                Our Civil Score API provides a comprehensive solution for credit assessment, identity verification, and
-                risk evaluation. With advanced algorithms and access to multiple data sources, our API enables you to
-                make informed decisions about individuals and businesses.
+                Harness the Civil Score API for real-time, data-driven insights in credit assessment, identity verification, and risk evaluation—empowering smarter, compliant decision-making through advanced algorithms and diverse data integration.
               </p>
               <p className="text-gray-600 mb-8">
-                Whether you're evaluating loan applications, screening tenants, verifying employment, or conducting
-                background checks, our Civil Score API provides the data and insights you need to make confident
-                decisions while minimizing risk.
+                From finance to real estate and employment screening, Civil Score API delivers accurate insights into financial and behavioral reliability—eliminating guesswork for smarter, scalable, and secure decisions.
               </p>
               <div className="flex flex-col gap-4 mb-8">
                 <div className="flex">
@@ -196,7 +192,7 @@ const CivilScore = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our Civil Score API offers a comprehensive set of features for credit assessment and identity verification.
+              Our Civil Score API comes equipped with a comprehensive set of features to support credit assessment, identity verification, and risk evaluation. Built for businesses in industries ranging from financial services to real estate, the API is packed with powerful capabilities designed to help you make smarter, more confident decisions.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -219,7 +215,7 @@ const CivilScore = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Use Cases</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our Civil Score API can be used in various industries and applications to assess risk and verify identity.
+              The Civil Score API can be seamlessly integrated into various industries and business processes, helping you assess risk, verify identity, and make informed decisions. Whether you're in finance, real estate, human resources, or insurance, the API delivers valuable insights to help mitigate risk and enhance your operations.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -250,9 +246,8 @@ const CivilScore = () => {
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold">{endpoint.name}</h3>
-                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    endpoint.method === "GET" ? "bg-green-100 text-green-800" : "bg-blue-100 text-blue-800"
-                  }`}>
+                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${endpoint.method === "GET" ? "bg-green-100 text-green-800" : "bg-blue-100 text-blue-800"
+                    }`}>
                     {endpoint.method}
                   </span>
                 </div>
@@ -283,9 +278,7 @@ const CivilScore = () => {
             <div className="lg:w-1/2 order-1 lg:order-2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Easy Integration</h2>
               <p className="text-gray-600 mb-8">
-                We've designed our Civil Score API to be easy to integrate into your applications, with comprehensive
-                documentation, SDKs for popular programming languages, and dedicated support to help you get started
-                quickly.
+                Integrating the Civil Score API into your systems has never been easier. We’ve built the API to be developer-friendly, ensuring that your team can quickly get up and running with minimal effort. With comprehensive resources, SDKs, and a dedicated support team, you’ll be able to seamlessly integrate risk evaluation and credit scoring capabilities into your platform.
               </p>
               <div className="flex flex-col gap-4">
                 <div className="flex">
