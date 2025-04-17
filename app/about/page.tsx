@@ -302,7 +302,7 @@ export default function AboutPage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="bg-white text-purple-700 hover:bg-purple-400 hover:text-white"
+                  className="bg-white text-purple-700 hover:bg-[#e8ab8f] hover:text-white"
                 >
                   Contact Us
                 </Button>
@@ -311,7 +311,7 @@ export default function AboutPage() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="text-white bg-gray-100 hover:bg-purple-400 hover:text-white"
+                  className="bg-transparent border-gray-100  hover:bg-[#AB6545] hover:text-white"
                 >
                   Join Our Team
                 </Button>
