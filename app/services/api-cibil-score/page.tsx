@@ -24,32 +24,32 @@ const CivilScore = () => {
     {
       title: "Comprehensive Credit Assessment",
       description: "Access a full credit profile—financial history, transaction behavior, and debt-to-income ratios—for precise creditworthiness evaluation before making decisions.",
-      icon: <FaChartLine className="text-primary text-xl" />,
+      icon: <FaChartLine className="text-[#ab6545] text-xl" />,
     },
     {
       title: " Multi-Faceted Identity Verification",
       description: "Prevent fraud and ensure compliance with secure identity verification using personal data, biometrics, address checks, and more—streamlining your KYC process and reducing risk.",
-      icon: <FaShieldAlt className="text-primary text-xl" />,
+      icon: <FaShieldAlt className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Advanced Risk Assessment",
       description: "Use advanced machine learning and predictive algorithms to assess customer risk, analyze behavior patterns, and forecast future stability—enabling real-time, informed decisions.",
-      icon: <FaExclamationTriangle className="text-primary text-xl" />,
+      icon: <FaExclamationTriangle className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Customizable Scoring Parameters",
       description: "Customize scoring to match your business needs—set thresholds, prioritize data points, and fine-tune models for industry-specific relevance.",
-      icon: <FaSlidersH className="text-primary text-xl" />,
+      icon: <FaSlidersH className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Real-time Processing",
       description: "Make fast, confident decisions with real-time insights into creditworthiness, identity, and risk.",
-      icon: <FaBolt className="text-primary text-xl" />,
+      icon: <FaBolt className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Secure & Compliant Data Handling",
       description: "Secure sensitive data with end-to-end encryption and ensure compliance with global standards like GDPR and PCI-DSS, protecting both your business and customers.",
-      icon: <FaLock className="text-primary text-xl" />,
+      icon: <FaLock className="text-[#ab6545] text-xl" />,
     },
   ];
 
@@ -57,22 +57,22 @@ const CivilScore = () => {
     {
       title: "Financial Services",
       description: "Use the Civil Score API to evaluate the creditworthiness of individuals or businesses before approving loan applications, credit card requests, or other financial services. With detailed insights into financial behavior and payment history, you can reduce default risk and make better lending decisions.",
-      icon: <FaUniversity className="text-primary text-xl" />,
+      icon: <FaUniversity className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Rental Screening",
       description: "For real estate companies and property managers, the Civil Score API offers a reliable way to screen potential tenants. Perform comprehensive background checks, evaluate financial stability, and verify identity to ensure that tenants meet your leasing criteria and reduce the risk of defaults or fraud.",
-      icon: <FaHome className="text-primary text-xl" />,
+      icon: <FaHome className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Employment Verification",
       description: "In human resources and recruitment, verifying employment history, job stability, and criminal records is essential. The Civil Score API simplifies this process by providing accurate identity verification and background checks, helping HR teams ensure that candidates have a trustworthy history before making hiring decisions.",
-      icon: <FaBriefcase className="text-primary text-xl" />,
+      icon: <FaBriefcase className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Insurance Underwriting",
       description: "Insurance providers can use the Civil Score API to assess risk when underwriting policies. With detailed applicant information including credit scores, identity verification, and financial history, insurance companies can better understand applicants' risk profiles and adjust premiums or policy terms accordingly.",
-      icon: <FaUmbrella className="text-primary text-xl" />,
+      icon: <FaUmbrella className="text-[#ab6545] text-xl" />,
     },
   ];
 
@@ -118,11 +118,11 @@ const CivilScore = () => {
   ];
 
   return (
-    <div className="pt-14">
+    <div className="">
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 animate-slide-in-left">
@@ -136,7 +136,7 @@ const CivilScore = () => {
               <div className="flex flex-col gap-4 mb-8">
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Accurate & Reliable</h3>
@@ -147,7 +147,7 @@ const CivilScore = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Fast & Efficient</h3>
@@ -158,7 +158,7 @@ const CivilScore = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Secure & Compliant</h3>
@@ -168,14 +168,14 @@ const CivilScore = () => {
                   </div>
                 </div>
               </div>
-              <Link href="/contact" className="inline-block bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors">
+              <Link href="/contact" className="inline-block bg-[#ab6545] text-white px-8 py-2 rounded-sm hover:bg-primary-dark transition-colors">
                 Get API Access
               </Link>
             </div>
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full rounded-lg overflow-hidden">
                 <Image
-                  src="https://via.placeholder.com/600x400?text=Civil+Score+API"
+                  src="/image/12133.jpg"
                   alt="Civil Score API"
                   fill
                   className="object-cover"
@@ -187,7 +187,7 @@ const CivilScore = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
@@ -198,7 +198,7 @@ const CivilScore = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
-                <div className="flex items-center justify-center bg-primary bg-opacity-10 rounded-full w-16 h-16 mb-4">
+                <div className="flex items-center justify-center bg-opacity-10 rounded-full w-16 h-16">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
@@ -210,7 +210,7 @@ const CivilScore = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Use Cases</h2>
@@ -221,7 +221,7 @@ const CivilScore = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {useCases.map((useCase, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
-                <div className="flex items-center justify-center bg-primary bg-opacity-10 rounded-full w-16 h-16 mb-4">
+                <div className="flex items-center justify-center bg-opacity-10 rounded-full w-16 h-16">
                   {useCase.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{useCase.title}</h3>
@@ -233,7 +233,7 @@ const CivilScore = () => {
       </section>
 
       {/* API Endpoints Section */}
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">API Endpoints</h2>
@@ -262,13 +262,13 @@ const CivilScore = () => {
       </section>
 
       {/* Integration Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 order-2 lg:order-1">
               <div className="relative h-96 w-full rounded-lg overflow-hidden">
                 <Image
-                  src="https://via.placeholder.com/600x400?text=API+Integration"
+                  src="/image/42623.jpg"
                   alt="API Integration"
                   fill
                   className="object-cover"
@@ -283,7 +283,7 @@ const CivilScore = () => {
               <div className="flex flex-col gap-4">
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Comprehensive Documentation</h3>
@@ -294,7 +294,7 @@ const CivilScore = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">SDKs for Popular Languages</h3>
@@ -305,7 +305,7 @@ const CivilScore = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Sandbox Environment</h3>
@@ -316,7 +316,7 @@ const CivilScore = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Dedicated Support</h3>
@@ -332,14 +332,14 @@ const CivilScore = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20 bg-primary text-white">
+      <section className="py-12 md:py-20 px-24 bg-primary text-white" style={{backgroundImage:"url(/image/60665.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Integrate Civil Score?</h2>
           <p className="max-w-2xl mx-auto mb-8">
             Contact us today to learn more about our Civil Score API and how it can help you make better decisions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="bg-white text-primary px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
+            <Link href="/contact" className="bg-white text-[#ab6545] px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
               Get API Access
             </Link>
             <Link href="/services/apis" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">
