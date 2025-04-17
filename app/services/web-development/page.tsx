@@ -29,13 +29,13 @@ export default function WebDevelopmentPage() {
   ]
  
 
-  const bannerSlides = [
-    {
-      image: "/image/5.jpg",
-      title: "Web Development Services",
-      description: "Create responsive and dynamic websites that drive results",
-    },
-  ]
+    const bannerSlides = [
+      {
+        image: "/image/banner/WebDev.jpg",
+        title: "Web Development Services",
+        description: "Create responsive and dynamic websites that drive results",
+      },
+    ]
   return (
     <div className="">
       {/* Banner Section */}

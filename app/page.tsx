@@ -86,25 +86,25 @@ const projects = [
     title: "E-commerce Platform",
     category: "Web Development",
     image: "./image/e-commerce-platform.jpg",
-    href: "/projects/e-commerce-platform",
+    href: "/services/e-commerce-portal",
   },
   {
     title: "Fitness Tracking App",
     category: "App Development",
     image: "./image/app-dev.jpg",
-    href: "/projects/fitness-app",
+    href: "/services/app-development",
   },
   {
     title: "Corporate Branding",
     category: "UI/UX Design",
     image: "./image/ui-ux.jpg",
-    href: "/projects/corporate-branding",
+    href: "/services/software-development",
   },
   {
     title: "Adventure Game",
     category: "Game Development",
     image: "./image/Game-Development.jpg",
-    href: "/projects/adventure-game",
+    href: "/services/game-development",
   },
 ];
 
@@ -374,7 +374,7 @@ export default function Home() {
                     <div className="absolute top-1/2 right-0 w-3 h-3 bg-[#AB6545] rounded-full transform -translate-y-1/2 translate-x-1/2"></div>
                   </div>
                 )}
-                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center dark:text-[#e8ab8f] mb-4">
+                <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center text-[#e8ab8f] mb-4">
                   {strategy.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-2">{strategy.title}</h3>
@@ -388,7 +388,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-16 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-16 bg-gray-50 dark:bg-gray-900 text-white" style={{backgroundImage:"url(/image/2149399288.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Start Your Project?
@@ -411,7 +411,7 @@ export default function Home() {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-black"
+                className="text-white hover:bg-gray-100 bg-gray-10"
               >
                 Explore Services
               </Button>

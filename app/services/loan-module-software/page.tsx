@@ -269,7 +269,7 @@ export default function LoanModuleSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-black"    style={{backgroundImage:"url(/image/1134.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
+      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-black" style={{backgroundImage:"url(/image/1134.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
