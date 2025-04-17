@@ -7,6 +7,7 @@ import {
   TabletSmartphone,
   Layers,
   Shield,
+  ArrowRight,
 } from "lucide-react";
 import Banner2 from "@/components/banner2";
 
@@ -20,10 +21,10 @@ export default function AppDevelopmentPage() {
   ];
 
   const technologies = [
-    "/image/Language/react-native.png",
-    "/image/Language/Flutter.png",
-    "/image/Language/Swift.png",
-    "/image/Language/Kotlin.png",
+    { name: "React Native", image: "/image/Language/react-native.png" },
+    { name: "Flutter", image: "/image/Language/Flutter.png" },
+    { name: "Swift", image: "/image/Language/Swift.png" },
+    { name: "Kotlin", image: "/image/Language/Kotlin.png" },
   ];
 
   const bannerSlides = [
@@ -134,7 +135,9 @@ export default function AppDevelopmentPage() {
                 ))}
               </ul>
               <Button asChild>
-                <Link href="/contact" className="text-white bg-[#df9471]">Discuss Your Project</Link>
+                <Link href="/contact" className="text-white bg-[#df9471]">
+                  Discuss Your Project
+                </Link>
               </Button>
             </div>
             <div className="relative h-[400px]">
@@ -168,7 +171,9 @@ export default function AppDevelopmentPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Native App Development</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              For the iOS and Android platforms, we create high-performance native apps that take advantage of platform-specific capabilities to provide the greatest user experience.
+                For the iOS and Android platforms, we create high-performance
+                native apps that take advantage of platform-specific
+                capabilities to provide the greatest user experience.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -197,7 +202,9 @@ export default function AppDevelopmentPage() {
                 Cross-Platform App Development
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              With a single codebase, we create cross-platform apps that function across several platforms, cutting down on development time and expenses without sacrificing user experience.
+                With a single codebase, we create cross-platform apps that
+                function across several platforms, cutting down on development
+                time and expenses without sacrificing user experience.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -226,7 +233,9 @@ export default function AppDevelopmentPage() {
                 App Design & Development
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              From concept to launch, we offer full-cycle app design and development services, guaranteeing a smooth and interesting user experience.
+                From concept to launch, we offer full-cycle app design and
+                development services, guaranteeing a smooth and interesting user
+                experience.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -255,7 +264,8 @@ export default function AppDevelopmentPage() {
                 App Maintenance & Support
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-              To guarantee that your app is current, safe, and operates at its best, we offer continuous maintenance and support services.
+                To guarantee that your app is current, safe, and operates at its
+                best, we offer continuous maintenance and support services.
               </p>
               <ul className="space-y-2 mb-4">
                 <li className="flex items-start">
@@ -281,23 +291,32 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Technologies Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50">
+      <section className="py-16 md:py-24 px-4 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">
               Technologies We Use
             </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            We create robust and scalable mobile applications by utilizing the newest frameworks and technologies.
+              We create robust and scalable mobile applications by utilizing the
+              newest frameworks and technologies.
             </p>
           </div>
+
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {technologies.map((tech, index) => (
               <div
                 key={index}
-                className=" dark:bg-gray-800 p-6 pb-0 rounded-lg  text-center"
+                className="bg-white dark:bg-gray-800 p-6 rounded-lg text-center shadow-sm hover:shadow-md transition-shadow"
               >
-                <img className="font-bold w-[137px] h-[137px]" src={tech} />
+                <img
+                  className="mx-auto w-[100px] h-[100px] object-contain mb-4"
+                  src={tech.image}
+                  alt={tech.name}
+                />
+                <h4 className="text-lg font-medium text-gray-700 dark:text-gray-200">
+                  {tech.name}
+                </h4>
               </div>
             ))}
           </div>
@@ -312,7 +331,8 @@ export default function AppDevelopmentPage() {
               Our App Development Process
             </h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            To guarantee the success of any app development project, we employ a methodical and cooperative approach.
+              To guarantee the success of any app development project, we employ
+              a methodical and cooperative approach.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -324,7 +344,9 @@ export default function AppDevelopmentPage() {
                 Discovery & Planning
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-              To build a strong foundation for your project, we start by comprehending your target audience, company objectives, and app needs.
+                To build a strong foundation for your project, we start by
+                comprehending your target audience, company objectives, and app
+                needs.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -335,7 +357,8 @@ export default function AppDevelopmentPage() {
                 Design & Prototyping
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-              Before development starts, we produce interactive prototypes and wireframes to see how the app will work and look.
+                Before development starts, we produce interactive prototypes and
+                wireframes to see how the app will work and look.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -346,7 +369,9 @@ export default function AppDevelopmentPage() {
                 Development & Testing
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-              Our developers construct the software in accordance with the authorized designs, testing it frequently to guarantee its functioning and quality.
+                Our developers construct the software in accordance with the
+                authorized designs, testing it frequently to guarantee its
+                functioning and quality.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
@@ -357,7 +382,8 @@ export default function AppDevelopmentPage() {
                 Deployment & Support
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-              We assist you with releasing your app on the appropriate app stores and offer continuing maintenance and support.
+                We assist you with releasing your app on the appropriate app
+                stores and offer continuing maintenance and support.
               </p>
             </div>
           </div>
@@ -406,7 +432,7 @@ export default function AppDevelopmentPage() {
               </div>
             ))}
           </div>
-          {/* <div className="text-center mt-12">
+        <div className="text-center mt-12">
             <Button asChild>
               <Link href="/portfolio">View All Projects</Link>
             </Button>
@@ -415,7 +441,14 @@ export default function AppDevelopmentPage() {
       </section> */}
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-24 bg-white text-white"   style={{backgroundImage:"url(/image/2150165980.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
+      <section
+        className="py-16 md:py-24 px-24 bg-white text-white"
+        style={{
+          backgroundImage: "url(/image/2150165980.jpg)",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Build Your Mobile App?
