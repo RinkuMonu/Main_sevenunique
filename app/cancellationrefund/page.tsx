@@ -4,7 +4,7 @@ import React from "react";
 function CancellationPolicy() {
     const bannerSlides = [
         {
-          image: "/image/banner/Sport.jpg",
+          image: "/image/banner/Refund-Cancellation.jpg",
           title: "Cancellation & Refund Policy",
         
     

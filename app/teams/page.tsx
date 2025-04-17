@@ -18,7 +18,7 @@ const teamMembers = [
 ]
 const bannerSlides = [
     {
-      image: "/image/5.jpg",
+      image: "/image/banner/Our-Team.jpg",
       title: "Web Development Services",
       description: "Create responsive and dynamic websites that drive results",
     },

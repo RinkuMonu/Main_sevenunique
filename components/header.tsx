@@ -70,7 +70,7 @@ const navItems = [
   // { name: "Career", href: "/career" },
   { name: "Contact", href: "/contact" },
   { name: "Pricing", href: "/pricing" },
-  { name: "Login", href: "/login" },
+
 ]
 
 export default function Header() {
@@ -215,6 +215,16 @@ export default function Header() {
                     </Link>
                   </NavigationMenuItem>
                 ))}
+                <NavigationMenuItem>
+                  <Link href="/login" legacyBehavior passHref className="bg-[#AB6545]">
+                    <NavigationMenuLink 
+                      className={navigationMenuTriggerStyle() + " bg-[#fda780] py-1 ms-auto px-10"} 
+                      active={pathname === "/login"}
+                    >
+                      Login
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
           </nav>

@@ -5,7 +5,7 @@ function Terms() {
 
   const bannerSlides = [
     {
-      image: "/image/banner/Sport.jpg",
+      image: "/image/banner/Privacy-Policy.jpg",
       title: "Sports Betting Software",
       description: "Build a powerful sports betting platform with our comprehensive software solutions",
 
