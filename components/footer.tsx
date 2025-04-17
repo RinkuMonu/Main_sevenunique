@@ -14,19 +14,19 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
-                <Facebook className="h-5 w-5" aria-hidden="true" />
+                <Facebook className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
-                <Twitter className="h-5 w-5" aria-hidden="true" />
+                <Twitter className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
-                <Instagram className="h-5 w-5" aria-hidden="true" />
+                <Instagram className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
-                <Linkedin className="h-5 w-5" aria-hidden="true" />
+                <Linkedin className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
             </div>
@@ -43,9 +43,6 @@ export default function Footer() {
                 { href: "/blog", text: "Blog" },
                 { href: "/career", text: "Careers" },
                 { href: "/gallery", text: "Gallery" },
-                { href: "/privacypolicy", text: "Privacy & Policy" },
-                { href: "/cancellationrefund", text: "Cancellation & Refund Policy" },
-                { href: "/terms_of_use", text: "Term of use" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link 
@@ -111,10 +108,23 @@ export default function Footer() {
 
        
         <div className="mt-12 pt-8 border-t border-gray-800 text-center">
-          <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Seven Unique. All rights reserved.
-          </p>
-        </div>
+  <p className="text-gray-400 text-sm">
+    &copy; {new Date().getFullYear()} Seven Unique. All rights reserved.
+  </p>
+  <div className="mt-2 flex justify-center space-x-4 text-sm">
+    <Link href="/privacypolicy" className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300">
+      Privacy & Policy
+    </Link>
+    <span className="text-gray-600">|</span>
+    <Link href="/cancellationrefund" className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300">
+      Cancellation & Refund Policy
+    </Link>
+    <span className="text-gray-600">|</span>
+    <Link href="/terms_of_use" className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300">
+      Terms of Use
+    </Link>
+  </div>
+</div>
       </div>
     </footer>
   )

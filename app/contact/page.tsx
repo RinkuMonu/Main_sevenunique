@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-
+import axios from 'axios';
 import { useState } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
@@ -22,46 +22,80 @@ const bannerSlides = [
 ]
 
 export default function ContactPage() {
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    subject: "",
-    message: "",
-  })
+  // const [formState, setFormState] = useState({
+  //   fullName: "",
+  //   email: "",
+  //   number: "",
+  //   // subject: "",
+  //   message: "",
+  // })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isError, setIsError] = useState(false)
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target
-    setFormState((prev) => ({ ...prev, [name]: value }))
-  }
+  // const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  //   const { name, value } = e.target
+  //   setFormState((prev) => ({ ...prev, [name]: value }))
+  // }
 
-  const handleSelectChange = (value: string) => {
-    setFormState((prev) => ({ ...prev, subject: value }))
-  }
+  // const handleSelectChange = (value: string) => {
+  //   setFormState((prev) => ({ ...prev, subject: value }))
+  // }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setIsSubmitting(true)
+    setIsSubmitting(true);
+    setIsError(false)
 
     // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false)
-      setIsSubmitted(true)
-      setFormState({
-        name: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
-      })
+    // setTimeout(() => {
+    //   setIsSubmitting(false)
+    //   setIsSubmitted(true)
+    //   // setFormState({
+    //   //   fullName: e.target.name.value,
+    //   //   email: e.target.email.value,
+    //   //   number: e.target.phone.value,
+    //   //   // subject: "",
+    //   //   message: e.target.message.value,
+    //   // })
 
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setIsSubmitted(false)
-      }, 5000)
-    }, 1500)
+    //   // Reset success message after 5 seconds
+    //   // setTimeout(() => {
+    //   //   setIsSubmitted(false)
+    //   // }, 5000)
+    // }, 1500)
+
+    // formState data part
+    const formState = {
+      fullName: e.target.name.value,
+      email: e.target.email.value,
+      number: e.target.phone.value,
+      // subject: "",
+      message: e.target.message.value,
+    }
+
+    // formState api part start
+    try {
+      const response = await axios.post('https://admin-backend-dm97.onrender.com/api/submit-form', formState)
+      if (response.data.success) {
+        setIsSubmitted(true)
+
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setIsSubmitted(false);
+          setIsSubmitting(false)
+        }, 5000)
+      } else {
+        setIsError(true)
+      }
+      setIsSubmitting(false)
+    } catch (error) {
+      console.log(error);
+      setIsSubmitted(false);
+      setIsSubmitting(false);
+      setIsError(true)
+    }
+
   }
 
   return (
@@ -87,8 +121,12 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold mb-1">Email Us</h3>
-                    <p className="text-gray-600 dark:text-gray-400">support@7unique.in</p>
-                    <p className="text-gray-600 dark:text-gray-400">info@7unique.in</p>
+                    <p className="text-gray-600 dark:text-gray-400">
+                      <a href="mailto:support@7unique.in" className="hover:text-[#AB6545]">support@7unique.in</a>
+                    </p>
+                    <p className="text-gray-600 dark:text-gray-400">
+                      <a href="mailto:info@7unique.in" className="hover:text-[#AB6545]">info@7unique.in</a>
+                    </p>
                   </div>
                 </div>
 
@@ -146,8 +184,8 @@ export default function ContactPage() {
                       <Input
                         id="name"
                         name="name"
-                        value={formState.name}
-                        onChange={handleChange}
+                        // value={formState.name}
+                        // onChange={handleChange}
                         placeholder="Enter Your Name"
                         required
                       />
@@ -160,8 +198,8 @@ export default function ContactPage() {
                         id="email"
                         name="email"
                         type="email"
-                        value={formState.email}
-                        onChange={handleChange}
+                        // value={formState.email}
+                        // onChange={handleChange}
                         placeholder="example@example.com"
                         required
                       />
@@ -173,12 +211,12 @@ export default function ContactPage() {
                       <Input
                         id="phone"
                         name="phone"
-                        value={formState.phone}
-                        onChange={handleChange}
+                        // value={formState.phone}
+                        // onChange={handleChange}
                         placeholder="+91-9876543201"
                       />
                     </div>
-                    <div>
+                    {/* <div>
                       <label htmlFor="subject" className="block text-sm font-medium mb-1">
                         Subject
                       </label>
@@ -197,7 +235,7 @@ export default function ContactPage() {
                   <SelectItem value="other">Other</SelectItem>
                         </SelectContent>
                       </Select>
-                    </div>
+                    </div> */}
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium mb-1">
                         Message
@@ -205,8 +243,8 @@ export default function ContactPage() {
                       <Textarea
                         id="message"
                         name="message"
-                        value={formState.message}
-                        onChange={handleChange}
+                        // value={formState.message}
+                        // onChange={handleChange}
                         placeholder="How can we help you?"
                         rows={5}
                         required
@@ -214,7 +252,7 @@ export default function ContactPage() {
                     </div>
                     <Button
                       type="submit"
-                      className="w-full bg-[#AB6545]  text-[#e8ab8f]"
+                      className="w-full bg-[#AB6545]  text-black font-semibold hover:bg-white hover:text-[#AB6545] border-2 border-[#AB6545]"
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? (
@@ -249,6 +287,10 @@ export default function ContactPage() {
                       )}
                     </Button>
                   </div>
+                  {
+                    isError ? <div className="text-red-500 pt-3">Please provide valid details</div> : ''
+                  }
+
                 </form>
               )}
             </div>
@@ -266,17 +308,17 @@ export default function ContactPage() {
 
           <div className="mt-12 bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
             <div className="aspect-[16/9] relative h-[400px] w-full">
-            <iframe
-        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3561.264701407029!2d75.869785!3d26.799699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDQ3JzU4LjkiTiA3NcKwNTInMTEuMiJF!5e0!3m2!1sen!2sin!4v1724749044503!5m2!1sen!2sin"
-        width="100%"
-        height="100%"
-        style={{ border: 0 }}
-        allowFullScreen
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-        title="Company Location"
-      ></iframe>
-             
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3561.264701407029!2d75.869785!3d26.799699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDQ3JzU4LjkiTiA3NcKwNTInMTEuMiJF!5e0!3m2!1sen!2sin!4v1724749044503!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Company Location"
+              ></iframe>
+
             </div>
           </div>
         </div>
