@@ -277,7 +277,7 @@ export default function ECommercePortalPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 text-white" style={{backgroundImage:"url(/image/7177.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
+      <section className="py-16 md:py-24 px-24 text-white" style={{backgroundImage:"url(/image/7177.jpg)",   backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

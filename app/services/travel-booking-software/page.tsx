@@ -254,7 +254,7 @@ const TravelSoftware = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-16 px-24 bg-[#ab6545] text-black"   style={{backgroundImage:"url(/image/28381.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat", backgroundAttachment:"fixed"}}>
+      <section className="py-12 md:py-16 px-24 bg-[#ab6545] text-black"   style={{backgroundImage:"url(/image/28381.jpg)",   backgroundRepeat:"no-repeat",  backgroundPosition:"bottom", backgroundSize:"cover", backgroundAttachment:"fixed"}}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Transform Your Travel Business?
