@@ -330,7 +330,7 @@ const BusBooking = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20 px-24 bg-primary text-white" style={{backgroundImage:"url(/image/988.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
+      <section className="py-12 md:py-20 px-24 bg-primary text-white" style={{backgroundImage:"url(/image/988.jpg)",   backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Integrate Bus Booking?</h2>
           <p className="max-w-2xl mx-auto mb-8">
