@@ -39,7 +39,7 @@ export default function ResellerSoftwarePage() {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "/image/banner/reseller.jpg",
       title: "Reseller Software Solutions",
       description: "Expand your business through a network of resellers with our comprehensive management platform",
 
@@ -249,7 +249,7 @@ export default function ResellerSoftwarePage() {
 
       {/* CTA Section */}
 
-      <section className="py-16 md:py-24 px-24  text-[#AB6545]"   style={{backgroundImage:"url(/image/439384.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
+      <section className="py-16 md:py-24 px-24  text-white" style={{backgroundImage:"url(/image/439384.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
 
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Expand Your Business?</h2>

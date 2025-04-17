@@ -97,7 +97,7 @@ const SoftwareDevelopment = () => {
 
             <div>
               <img
-                src="https://via.placeholder.com/600x400?text=Software+Development"
+                src="/image/2149901785.jpg"
                 alt="Software Development"
                 className="rounded w-full object-cover h-[400px]"
               />
@@ -188,7 +188,7 @@ const SoftwareDevelopment = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-10 md:py-14 px-24 bg-[#AB6545] text-white text-center">
+      <section className="py-10 md:py-14 px-24 bg-[#AB6545] text-white text-center"  style={{backgroundImage:"url(/image/1694.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-3">Ready to Transform Your Business?</h2>
           <p className="mb-6 max-w-xl mx-auto">
