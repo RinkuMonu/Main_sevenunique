@@ -21,32 +21,32 @@ const FlightBooking = () => {
     {
       title: "Global Flight Inventory",
       description: "Gain real-time access to flight data from hundreds of domestic and international airlines, ensuring extensive route coverage and availability for your users.",
-      icon: <FaPlane className="text-primary text-xl" />,
+      icon: <FaPlane className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Instant Search",
       description: "Deliver quick and accurate search results within milliseconds, allowing users to filter flights by date, time, fare class, airlines, and other preferences for a smooth booking journey.",
-      icon: <FaSearch className="text-primary text-xl" />,
+      icon: <FaSearch className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Live Pricing",
       description: " Display up-to-the-minute flight fares and seat availability, helping users make informed decisions based on real-time data without surprises during checkout.",
-      icon: <FaMoneyBillWave className="text-primary text-xl" />,
+      icon: <FaMoneyBillWave className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Secure Booking",
       description: " Process bookings safely with end-to-end encryption, PCI-compliant payment integration, and automated confirmation handling for reliable and secure transactions.",
-      icon: <FaShieldAlt className="text-primary text-xl" />,
+      icon: <FaShieldAlt className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Flexible Changes",
       description: "Support modifications, rescheduling, and cancellations directly through the API, giving your users complete control over their travel plans.",
-      icon: <FaExchangeAlt className="text-primary text-xl" />,
+      icon: <FaExchangeAlt className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Detailed Analytics",
       description: "Gain insights into booking trends, customer behavior, and revenue generation with detailed analytics dashboards and reporting tools built for performance tracking.",
-      icon: <FaChartLine className="text-primary text-xl" />,
+      icon: <FaChartLine className="text-[#ab6545] text-xl" />,
     },
   ];
 
@@ -54,22 +54,22 @@ const FlightBooking = () => {
     {
       title: "Travel Agencies",
       description: " Empower online and offline travel agencies to provide real-time flight options, competitive fares, and instant bookings, enhancing customer satisfaction and driving revenue.",
-      icon: <FaUserTie className="text-primary text-xl" />,
+      icon: <FaUserTie className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Corporate Travel",
       description: " Enable businesses to manage employee travel with policy-compliant flight options, preferred airlines, and centralized booking control for cost-effective and efficient travel planning.",
-      icon: <FaBuilding className="text-primary text-xl" />,
+      icon: <FaBuilding className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Tour Packages",
       description: " Bundle flights with hotel stays, local tours, and other services to create attractive and customizable travel packages for leisure or business travelers.",
-      icon: <FaHotel className="text-primary text-xl" />,
+      icon: <FaHotel className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Transportation Services",
       description: "Integrate air travel with on-ground transport services such as taxis, buses, or car rentals to offer seamless end-to-end travel solutions.",
-      icon: <FaCar className="text-primary text-xl" />,
+      icon: <FaCar className="text-[#ab6545] text-xl" />,
     }
   ];
 
@@ -110,22 +110,22 @@ const FlightBooking = () => {
     {
       title: "Increased Revenue",
       description: " Earn additional income through commissions on every booking and upselling travel services.",
-      icon: <FaMoneyBillWave className="text-primary text-xl" />,
+      icon: <FaMoneyBillWave className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Competitive Edge",
       description: " Differentiate your platform by offering integrated flight bookings that many competitors lack.",
-      icon: <FaChartLine className="text-primary text-xl" />,
+      icon: <FaChartLine className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Seamless Experience",
       description: " Deliver a smooth, end-to-end travel journey by combining flights with hotels, transport, and more.",
-      icon: <FaPlane className="text-primary text-xl" />,
+      icon: <FaPlane className="text-[#ab6545] text-xl" />,
     },
     {
       title: "Global Reach",
       description: "Tap into international travel demand with access to real-time flight inventory from global airlines.",
-      icon: <FaGlobe className="text-primary text-xl" />,
+      icon: <FaGlobe className="text-[#ab6545] text-xl" />,
     }
   ];
   const bannerSlides = [
@@ -137,11 +137,11 @@ const FlightBooking = () => {
   ];
 
   return (
-    <div className="pt-14">
+    <div className="">
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 animate-slide-in-left">
@@ -157,7 +157,7 @@ const FlightBooking = () => {
               <div className="flex flex-col gap-4 mb-8">
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Global Coverage</h3>
@@ -168,7 +168,7 @@ const FlightBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Real-time Data</h3>
@@ -179,7 +179,7 @@ const FlightBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Developer Friendly</h3>
@@ -189,14 +189,14 @@ const FlightBooking = () => {
                   </div>
                 </div>
               </div>
-              <Link href="/contact" className="inline-block bg-primary text-white px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors">
+              <Link href="/contact" className="inline-block bg-[#ab6545] text-white px-8 py-2 rounded-sm hover:bg-primary-dark transition-colors">
                 Get API Access
               </Link>
             </div>
             <div className="lg:w-1/2">
               <div className="relative h-96 w-full rounded-lg overflow-hidden">
                 <Image
-                  src="https://via.placeholder.com/600x400?text=Flight+Booking+API"
+                  src="/image/7712.jpg"
                   alt="Flight Booking API"
                   fill
                   className="object-cover"
@@ -208,7 +208,7 @@ const FlightBooking = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
@@ -219,7 +219,7 @@ const FlightBooking = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {features.map((feature, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
-                <div className="flex items-center justify-center bg-primary bg-opacity-10 rounded-full w-16 h-16 mb-4">
+                <div className="flex items-center justify-center bg-opacity-10 rounded-full w-16 h-16">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
@@ -231,7 +231,7 @@ const FlightBooking = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Use Cases</h2>
@@ -243,7 +243,7 @@ const FlightBooking = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {useCases.map((useCase, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
-                <div className="flex items-center justify-center bg-primary bg-opacity-10 rounded-full w-16 h-16 mb-4">
+                <div className="flex items-center justify-center bg-opacity-10 rounded-full w-16 h-16">
                   {useCase.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{useCase.title}</h3>
@@ -255,7 +255,7 @@ const FlightBooking = () => {
       </section>
 
       {/* API Endpoints Section */}
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">API Endpoints</h2>
@@ -287,7 +287,7 @@ const FlightBooking = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-12 md:py-20">
+      <section className="py-12 md:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Business Benefits</h2>
@@ -299,7 +299,7 @@ const FlightBooking = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefits.map((benefit, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
-                <div className="flex items-center justify-center bg-primary bg-opacity-10 rounded-full w-16 h-16 mb-4">
+                <div className="flex items-center justify-center bg-opacity-10 rounded-full w-16 h-16">
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3">{benefit.title}</h3>
@@ -311,13 +311,13 @@ const FlightBooking = () => {
       </section>
 
       {/* Integration Section */}
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-12 md:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 order-2 lg:order-1">
               <div className="relative h-96 w-full rounded-lg overflow-hidden">
                 <Image
-                  src="https://via.placeholder.com/600x400?text=API+Integration"
+                  src="/image/2151896836.jpg"
                   alt="API Integration"
                   fill
                   className="object-cover"
@@ -333,7 +333,7 @@ const FlightBooking = () => {
               <div className="flex flex-col gap-4">
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Clear Documentation</h3>
@@ -344,7 +344,7 @@ const FlightBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">SDKs & Libraries</h3>
@@ -356,7 +356,7 @@ const FlightBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Test Environment</h3>
@@ -368,7 +368,7 @@ const FlightBooking = () => {
                 </div>
                 <div className="flex">
                   <div className="mr-3 mt-1">
-                    <FaCheckCircle className="text-primary" />
+                    <FaCheckCircle className="text-[#ab6545]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-1">Technical Support</h3>
@@ -384,14 +384,14 @@ const FlightBooking = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20 bg-primary text-white">
+      <section className="py-12 md:py-20 px-24 bg-primary text-white" style={{backgroundImage:"url(/image/2151662924.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Add Flight Booking?</h2>
           <p className="max-w-2xl mx-auto mb-8">
             Contact us today to learn how our Flight Booking API can transform your travel business.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/contact" className="bg-white text-primary px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
+            <Link href="/contact" className="bg-white text-[#ab6545] px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
               Get API Access
             </Link>
             <Link href="/services/apis" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">

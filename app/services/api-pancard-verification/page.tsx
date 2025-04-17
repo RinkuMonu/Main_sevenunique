@@ -68,7 +68,7 @@ export default function PancardVerificationApiPage() {
               <ul className="space-y-2 mb-6">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                     <span>{benefit}</span>
                   </li>
                 ))}
@@ -101,7 +101,7 @@ export default function PancardVerificationApiPage() {
           <div className="grid md:grid-cols-2 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-                <div className="text-primary mb-4">{feature.icon}</div>
+                <div className="text-[#ab6545] mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300">{feature.description}</p>
               </div>
@@ -182,23 +182,23 @@ export default function PancardVerificationApiPage() {
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>API reference with endpoint details and parameters</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Integration guides and code samples</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Error handling and troubleshooting</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>Best practices for security and compliance</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-[#ab6545] mr-2 mt-0.5" />
                   <span>SDK for popular programming languages</span>
                 </li>
               </ul>
@@ -269,7 +269,7 @@ export default function PancardVerificationApiPage() {
             <Button
               variant="outline"
               size="lg"
-              className="bg-transparent border-white text-white hover:bg-white hover:text-primary"
+              className="bg-transparent border-white text-white hover:bg-white hover:text-[#ab6545]"
               asChild
             >
               <Link href="/documentation/pancard-verification-api">View Documentation</Link>

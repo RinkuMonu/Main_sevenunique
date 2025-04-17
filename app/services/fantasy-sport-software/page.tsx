@@ -31,26 +31,26 @@ export default function FantasySportSoftwarePage() {
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-25 w-25 text-primary" />
+                  <CheckCircle className="h-25 w-25 text-[#ab6545]" />
                   <span>Comprehensive player and team management</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-25 w-25 text-primary" />
+                  <CheckCircle className="h-25 w-25 text-[#ab6545]" />
                   <span>Flexible contest creation and management</span>
                 </li>
                 <li className="flex items-center gap-2">
 
-                  <CheckCircle className="h-25 w-25 text-primary" />
+                  <CheckCircle className="h-25 w-25 text-[#ab6545]" />
 
                   <span>Real-time scoring and statistics
                   </span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-25 w-25 text-primary" />
+                  <CheckCircle className="h-25 w-25 text-[#ab6545]" />
                   <span>Secure payment processing and wallet management</span>
                 </li>
                 <li className="flex items-center gap-2">
-                  <CheckCircle className="h-25 w-25 text-primary" />
+                  <CheckCircle className="h-25 w-25 text-[#ab6545]" />
                   <span>Advanced analytics and reporting tools</span>
                 </li>
               </ul>
@@ -295,7 +295,7 @@ export default function FantasySportSoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-primary-foreground"  style={{backgroundImage:"url(/image/477491.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
+      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-[#ab6545]-foreground"  style={{backgroundImage:"url(/image/477491.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
