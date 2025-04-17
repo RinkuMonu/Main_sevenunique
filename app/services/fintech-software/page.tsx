@@ -39,7 +39,7 @@ export default function FintechSoftwarePage() {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=1080&width=1920",
+      image: "/image/banner/Fintech.jpg",
       title: "Fintech Software Solutions",
       description: "Innovative financial technology solutions for modern businesses",
       
@@ -279,7 +279,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-24 text-white"  style={{backgroundImage:"url(/image/8268.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
+      <section className="py-16 md:py-24 px-24 text-white"  style={{backgroundImage:"url(/image/8268.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Financial Services?</h2>
           <p className="max-w-2xl mx-auto mb-8">

@@ -38,7 +38,7 @@ export default function PancardVerificationApiPage() {
 
   const bannerSlides = [
     {
-      image: "/placeholder.svg?height=400&width=1920&text=PAN Verification API",
+      image: "/image/banner/PAN Card Verification API’s-01.jpg",
       title: "PAN Card Verification API",
       description: "Fast and reliable PAN card verification for your business needs",
       
@@ -47,7 +47,7 @@ export default function PancardVerificationApiPage() {
  
 
   return (
-    <div className="pt-14">
+    <div className="">
       {/* Banner Section */}
       <Banner slides={bannerSlides}  />
 
@@ -256,7 +256,7 @@ export default function PancardVerificationApiPage() {
 
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-24 bg-primary text-white"    style={{backgroundImage:"url(/image/2299.jpg)", backgroundPosition:"center", backgroundRepeat:"no-repeat"}}>
+      <section className="py-16 md:py-24 px-24 bg-primary text-white"    style={{backgroundImage:"url(/image/2299.jpg)", backgroundPosition:"cover", backgroundRepeat:"no-repeat", backgroundAttachment:"fixed"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Verify PAN Cards Instantly?</h2>
           <p className="max-w-2xl mx-auto mb-8">

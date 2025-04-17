@@ -57,7 +57,7 @@ const DigitalMarketing = () => {
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
-      <section className="py-12 lg:py-20">
+      <section className="py-12 lg:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2 animate-fade-in">
@@ -106,10 +106,10 @@ const DigitalMarketing = () => {
               </div>
 
               <div className="flex flex-wrap gap-4">
-                <Link href="/contact" className="px-8 py-3 bg-[#AB6545] hover:bg-[#AB6545]-dark text-white font-medium rounded-lg transition duration-300">
+                <Link href="/contact" className="px-8 py-2 bg-[#AB6545] hover:bg-[#AB6545]-dark text-white font-medium rounded-sm transition duration-300">
                   Get Started
                 </Link>
-                <Link href="#services" className="px-8 py-3 border border-gray-300 hover:border-primary text-gray-700 hover:text-[#ab6545] font-medium rounded-lg transition duration-300">
+                <Link href="#services" className="px-8 py-2 border border-gray-300 hover:border-primary text-gray-700 hover:text-[#ab6545] font-medium rounded-sm transition duration-300">
                   Explore Services
                 </Link>
               </div>
@@ -118,7 +118,7 @@ const DigitalMarketing = () => {
             <div className="lg:w-1/2">
               <div className="relative rounded-xl overflow-hidden shadow-xl">
                 <img
-                  src="/marketing-strategy.jpg"
+                  src="/image/434 (1).jpg"
                   alt="Digital marketing strategy meeting"
                   className="w-full h-auto object-cover"
                   width={800}
@@ -151,7 +151,7 @@ const DigitalMarketing = () => {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-12 lg:py-20 bg-gray-50">
+      <section id="services" className="py-12 lg:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">SERVICES</span>
@@ -194,7 +194,7 @@ const DigitalMarketing = () => {
       </section>
 
       {/* Process Section */}
-      <section className="py-12 lg:py-20">
+      <section className="py-12 lg:py-20 px-24">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">PROCESS</span>
@@ -259,7 +259,7 @@ const DigitalMarketing = () => {
       </section>
 
       {/* Case Studies Section */}
-      <section className="py-12 lg:py-20 bg-gray-50">
+      <section className="py-12 lg:py-20 px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">CASE STUDIES</span>
@@ -274,7 +274,7 @@ const DigitalMarketing = () => {
               {
                 title: "E-commerce Growth",
                 description: "300% revenue increase in 6 months through PPC and SEO",
-                image: "/ecommerce-case-study.jpg",
+                image: "/image/300.jpg",
                 tags: ["SEO", "PPC", "Conversion"],
                 results: [
                   { value: "300%", label: "Revenue Growth" },
@@ -285,7 +285,7 @@ const DigitalMarketing = () => {
               {
                 title: "SaaS Lead Generation",
                 description: "Scaled qualified leads by 5x through content marketing",
-                image: "/saas-case-study.jpg",
+                image: "/image/2150038851.jpg",
                 tags: ["Content", "Email", "Automation"],
                 results: [
                   { value: "5x", label: "More Leads" },
@@ -296,7 +296,7 @@ const DigitalMarketing = () => {
               {
                 title: "Local Service Expansion",
                 description: "National expansion through localized digital strategies",
-                image: "/local-case-study.jpg",
+                image: "/image/3598.jpg",
                 tags: ["Local SEO", "Social", "Reputation"],
                 results: [
                   { value: "8x", label: "Market Expansion" },
@@ -334,86 +334,24 @@ const DigitalMarketing = () => {
                     ))}
                   </div>
                   
-                  <Link href={`/case-studies/${caseStudy.title.toLowerCase().replace(/\s+/g, '-')}`} className="inline-flex items-center font-medium text-[#ab6545] group-hover:underline">
+                  {/* <Link href={`/case-studies/${caseStudy.title.toLowerCase().replace(/\s+/g, '-')}`} className="inline-flex items-center font-medium text-[#ab6545] group-hover:underline">
                     Read full case study
                     <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                     </svg>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             ))}
           </div>
           
-          <div className="text-center mt-12">
-            <Link href="/case-studies" className="inline-flex items-center px-6 py-3 border border-gray-300 rounded-lg text-gray-700 font-medium hover:border-primary hover:text-[#ab6545] transition duration-300">
-              View All Case Studies
-              <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-              </svg>
-            </Link>
-          </div>
+            
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-12 lg:py-20 bg-[#AB6545] text-white">
-        <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545]-light tracking-widest">TESTIMONIALS</span>
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">Trusted by <span className="text-secondary">Innovative Brands</span></h2>
-            <p className="text-xl text-[#ab6545]-light">
-              Don't just take our word for it - hear from our clients.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                quote: "After working with their team for six months, our website traffic tripled. The return on investment has been amazing.",
-                name: "Sarah Johnson",
-                title: "Marketing Director, TechStart",
-                avatar: "/avatar-1.jpg"
-              },
-              {
-                quote: "In less than a year, they turned our nonexistent social media presence into our top lead source.",
-                name: "Michael Chen",
-                title: "CEO, RetailPro",
-                avatar: "/avatar-2.jpg"
-              },
-              {
-                quote: "We had never before had this level of clarity because to the data-driven approach. We now know precisely where to make investments.",
-                name: "David Martinez",
-                title: "Founder, GreenLife",
-                avatar: "/avatar-3.jpg"
-              }
-            ].map((testimonial, index) => (
-              <div key={index} className="bg-[#AB6545]-dark p-8 rounded-xl">
-                <div className="mb-6">
-                  <svg className="w-8 h-8 text-secondary" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-                  </svg>
-                </div>
-                <p className="text-lg mb-6">{testimonial.quote}</p>
-                <div className="flex items-center">
-                  <img 
-                    src={testimonial.avatar} 
-                    alt={testimonial.name} 
-                    className="w-12 h-12 rounded-full object-cover mr-4 border-2 border-secondary"
-                  />
-                  <div>
-                    <p className="font-bold">{testimonial.name}</p>
-                    <p className="text-[#ab6545]-light text-sm">{testimonial.title}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
-      <section className="py-12 lg:py-20 bg-gradient-to-r from-primary to-secondary">
+      <section className="py-12 lg:py-20 px-24 bg-gradient-to-r from-primary to-secondary" style={{backgroundImage:"url(/image/17745.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Transform Your Marketing?</h2>
           <p className="text-xl text-[#ab6545]-light max-w-2xl mx-auto mb-10">
