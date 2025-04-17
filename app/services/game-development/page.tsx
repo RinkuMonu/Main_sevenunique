@@ -101,7 +101,7 @@ export default function GameDevelopmentPage() {
                 ))}
               </ul>
               <Button asChild>
-                <Link href="/contact">Discuss Your Project</Link>
+                <Link href="/contact" className="text-white">Discuss Your Project</Link>
               </Button>
             </div>
             <div className="relative h-[400px]">
