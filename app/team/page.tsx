@@ -241,7 +241,7 @@ function Team({ limit }: { limit: number }) {
         <div className="text-center">
           <button
             onClick={() => router.push("/team")}
-            className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+            className="bg-[#ab6545] text-white px-6 py-2 rounded"
           >
             More Team
           </button>

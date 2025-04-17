@@ -70,6 +70,7 @@ const navItems = [
   // { name: "Career", href: "/career" },
   { name: "Contact", href: "/contact" },
   { name: "Pricing", href: "/pricing" },
+  { name: "Login", href: "/login" },
 ]
 
 export default function Header() {
