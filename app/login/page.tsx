@@ -4,7 +4,8 @@
   import { useRouter } from "next/navigation";
   import Swal from "sweetalert2";
   import Image from "next/image";
-
+  import { IoHome } from "react-icons/io5";
+import Link from "next/link";
   const Login = () => {
     const [otp, setOtp] = useState("");
     const [loading, setLoading] = useState(false);
@@ -72,6 +73,7 @@
               </div>
             </div>
             <div className="w-full md:w-1/2 py-5 px-2 md:pe-5 bg-white">
+            <Link href="/"><IoHome size={30}/></Link>
               <div className="ps-2 max-w-md mx-auto pt-[60px]">
                 <div className="mt-5">
                   <Image src="/image/logo.png" alt="logo" width={70} height={70} />
