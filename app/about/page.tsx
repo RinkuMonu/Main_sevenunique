@@ -32,7 +32,7 @@ export default function AboutPage() {
       <Banner slides={bannerSlides} />
 
       {/* About Content Section */}
-      <section className="py-16 md:py-24 px-24 ">
+      <section className="py-16 md:py-5 lg:py-24 px-24 ">
         <div className="container mx-auto px-24">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>

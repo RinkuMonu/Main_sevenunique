@@ -97,7 +97,7 @@ export default function Header() {
         "sticky top-0 z-50 w-full transition-all duration-300",
         scrolled ? "bg-white/90 backdrop-blur-md shadow-sm dark:bg-teal-dark/90" : "bg-white dark:bg-teal-dark",
       )}
-      style={{ zIndex: "9999" }}
+      style={{ zIndex: "99" }}
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">

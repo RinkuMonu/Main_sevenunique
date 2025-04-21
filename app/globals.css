@@ -147,3 +147,35 @@ body {
 .prose img {
   @apply rounded-lg my-6;
 }
+.pricing-enterprises {
+  transform: scale(.9);
+  z-index: 0;
+}
+.pricing-starts-at {
+  border-radius: 4px;
+  transform: scale(1.1);
+  z-index: 0;
+}
+.pricing-enterprises:hover {
+  border-radius: 4px;
+  box-shadow: -5.20231px 5.20231px 34px rgba(24, 0, 72, .078);
+  transform: scale(1.1);
+  z-index: 10;
+}
+.scaledown {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  transform: scale(.9);
+}
+/* ===== Scrollbar CSS ===== */
+*::-webkit-scrollbar {
+  width: 2px;
+  border-radius: 14px;
+}
+ 
+*::-webkit-scrollbar-track {background: #a86adf;}
+ 
+*::-webkit-scrollbar-thumb {
+  background-color: #ff5000;
+  outline: none;
+}
