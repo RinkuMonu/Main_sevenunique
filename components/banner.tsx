@@ -38,7 +38,7 @@ export default function Banner({ slides, autoplay = true, interval = 5000 }: Ban
   }
 
   return (
-    <div className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden">
+    <div className="relative w-full h-[35vh] md:h-[40vh] lg:h-[60vh] overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
@@ -53,7 +53,7 @@ export default function Banner({ slides, autoplay = true, interval = 5000 }: Ban
             alt=""
             fill
             priority
-            className="object-fit"
+            className="sm:object-contain md:object-cover lg:object-cover"
           />
           <div className="absolute inset-0 " />
 

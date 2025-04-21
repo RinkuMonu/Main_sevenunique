@@ -336,7 +336,7 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 md:py-16 bg-gray-50 dark:bg-gray-900">
+      {/* <section className="py-16 md:py-16 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Founder & Promoter"
@@ -350,10 +350,10 @@ export default function Home() {
               className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
             >
               More Team
-            </Link> */}
+            </Link>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Strategy Section */}
       <section className="py-16 md:py-24 px-24">

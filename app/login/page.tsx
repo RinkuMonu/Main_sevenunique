@@ -57,26 +57,21 @@ import Link from "next/link";
       });
       setLoading(false);
     };
-
     return (
       <div className="container-fluid p-0 h-screen bg-gray-100">
         <div className="h-full">
           <div className="flex flex-row h-full">
             <div className="hidden md:block md:w-1/2">
               <div className="h-full w-full relative">
-                <Image
-                  src="/image/login.svg"
-                  alt="Login"
-                  fill
-                  className="p-[50px]"
-                />
+                <iframe src="https://lottie.host/embed/ff5871b9-506e-4cb9-9f74-61a4284fd6ae/X3Skm7ONso.lottie" style={{width:"100%", height:"inherit"}}></iframe>
               </div>
             </div>
             <div className="w-full md:w-1/2 py-5 px-2 md:pe-5 bg-white">
-            <Link href="/"><IoHome size={30}/></Link>
+           
               <div className="ps-2 max-w-md mx-auto pt-[60px]">
-                <div className="mt-5">
+                <div className="mt-5 flex justify-between align-center">
                   <Image src="/image/logo.png" alt="logo" width={70} height={70} />
+                  <Link href="/" className="bg-gray-50 rounded-full p-4 h-full border"><IoHome className="text-[#e47947]" size={20}/></Link>
                 </div>
                 <div className="text-left mt-4">
                   <h2 className="text-2xl font-bold text-gray-800">Welcome Back!</h2>
@@ -136,11 +131,11 @@ import Link from "next/link";
                     )}
                   </div>
 
-                  {/* <div className="mt-4 text-center">
+                  <div className="mt-4 text-center">
                     <p className="text-sm text-gray-600">
-                      Don't have an account? <a href="/register" className="text-blue-600 hover:text-blue-800">Register</a>
+                      Don't have an account? <Link href="/signup" className="text-blue-600 hover:text-blue-800">Register</Link>
                     </p>
-                  </div> */}
+                  </div>
                 </form>
               </div>
             </div>

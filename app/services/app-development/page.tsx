@@ -445,8 +445,7 @@ export default function AppDevelopmentPage() {
         className="py-16 md:py-24 px-24 bg-white text-white"
         style={{
           backgroundImage: "url(/image/2150165980.jpg)",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
+             backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"
         }}
       >
         <div className="container mx-auto px-4 text-center">
