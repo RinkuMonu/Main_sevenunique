@@ -57,7 +57,7 @@ const DigitalMarketing = () => {
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
-      <section className="py-12 lg:py-20 px-24">
+      <section className="py-12 lg:py-20 md:px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2 animate-fade-in">
@@ -151,7 +151,7 @@ const DigitalMarketing = () => {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-12 lg:py-20 px-24 bg-gray-50">
+      <section id="services" className="py-12 lg:py-20 md:px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">SERVICES</span>
@@ -194,7 +194,7 @@ const DigitalMarketing = () => {
       </section>
 
       {/* Process Section */}
-      <section className="py-12 lg:py-20 px-24">
+      <section className="py-12 lg:py-20 md:px-24">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">PROCESS</span>
@@ -259,7 +259,7 @@ const DigitalMarketing = () => {
       </section>
 
       {/* Case Studies Section */}
-      <section className="py-12 lg:py-20 px-24 bg-gray-50">
+      <section className="py-12 lg:py-20 md:px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block mb-3 text-sm font-semibold text-[#ab6545] tracking-widest">CASE STUDIES</span>
@@ -351,7 +351,7 @@ const DigitalMarketing = () => {
 
 
       {/* CTA Section */}
-      <section className="py-12 lg:py-20 px-24 bg-gradient-to-r from-primary to-secondary" style={{backgroundImage:"url(/image/17745.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
+      <section className="py-12 lg:py-20 md:px-24 bg-gradient-to-r from-primary to-secondary" style={{backgroundImage:"url(/image/17745.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Ready to Transform Your Marketing?</h2>
           <p className="text-xl text-[#ab6545]-light max-w-2xl mx-auto mb-10">

@@ -122,7 +122,7 @@ const CivilScore = () => {
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
-      <section className="py-12 md:py-20 px-24">
+      <section className="py-12 md:py-20 md:px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 animate-slide-in-left">
@@ -187,7 +187,7 @@ const CivilScore = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 md:py-20 px-24 bg-gray-50">
+      <section className="py-12 md:py-20 md:px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
@@ -210,7 +210,7 @@ const CivilScore = () => {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-12 md:py-20 px-24">
+      <section className="py-12 md:py-20 md:px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Use Cases</h2>
@@ -233,7 +233,7 @@ const CivilScore = () => {
       </section>
 
       {/* API Endpoints Section */}
-      <section className="py-12 md:py-20 px-24 bg-gray-50">
+      <section className="py-12 md:py-20 md:px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">API Endpoints</h2>
@@ -262,7 +262,7 @@ const CivilScore = () => {
       </section>
 
       {/* Integration Section */}
-      <section className="py-12 md:py-20 px-24">
+      <section className="py-12 md:py-20 md:px-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row gap-8 items-center">
             <div className="lg:w-1/2 order-2 lg:order-1">
@@ -332,7 +332,7 @@ const CivilScore = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20 px-24 bg-primary text-white" style={{backgroundImage:"url(/image/60665.jpg)", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
+      <section className="py-12 md:py-20 md:px-24 bg-primary text-white" style={{backgroundImage:"url(/image/60665.jpg)", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Integrate Civil Score?</h2>
           <p className="max-w-2xl mx-auto mb-8">

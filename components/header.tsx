@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Button } from "@/components/ui/button"
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -12,10 +12,10 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
-import { cn } from "@/lib/utils"
-import { Menu, X } from "lucide-react"
-import { FaS } from "react-icons/fa6"
+} from "@/components/ui/navigation-menu";
+import { cn } from "@/lib/utils";
+import { Menu, X } from "lucide-react";
+import { FaS } from "react-icons/fa6";
 
 const services = [
   { name: "UI/UX Design", href: "/services/ui-ux-design" },
@@ -28,17 +28,26 @@ const services = [
   { name: "Cab Booking Software", href: "/services/cab-booking-software" },
   { name: "Food Delivery Software", href: "/services/food-delivery-software" },
   { name: "Grocery Delivery Software", href: "/services/grocery-software" },
-  { name: "Home Services Software", href: "/services/home-service-software" }, 
-  { name: "Fantasy Sports Software", href: "/services/fantasy-sport-software" }, 
-  { name: "Sports Betting Software", href: "/services/sport-betting-software" }, 
-  { name: "School Management Software", href: "/services/school-management-software" },
+  { name: "Home Services Software", href: "/services/home-service-software" },
+  { name: "Fantasy Sports Software", href: "/services/fantasy-sport-software" },
+  { name: "Sports Betting Software", href: "/services/sport-betting-software" },
+  {
+    name: "School Management Software",
+    href: "/services/school-management-software",
+  },
   { name: "CRM Software", href: "/services/crm-software" },
   { name: "HRMS Software", href: "/services/hrms-software" },
-  { name: "Employee Tracking Software", href: "/services/employee-tracking-software" },
+  {
+    name: "Employee Tracking Software",
+    href: "/services/employee-tracking-software",
+  },
   { name: "E-Commerce Portal", href: "/services/e-commerce-portal" },
-  { name: "Loan Management Software", href: "/services/loan-module-software" }, 
+  { name: "Loan Management Software", href: "/services/loan-module-software" },
   { name: "Reseller Software", href: "/services/reseller-software" },
-  { name: "Travel Booking Software", href: "/services/travel-booking-software" },
+  {
+    name: "Travel Booking Software",
+    href: "/services/travel-booking-software",
+  },
   { name: "Fintech Software", href: "/services/fintech-software" },
 ];
 
@@ -60,7 +69,7 @@ const apiItems = [
   { name: "Hotel Booking", href: "/services/api-hotel-booking" },
   { name: "Flight Booking", href: "/services/api-flight-booking" },
   { name: "Cibil Score", href: "/services/api-cibil-score" },
-]
+];
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -71,27 +80,26 @@ const navItems = [
   // { name: "Career", href: "/career" },
   { name: "Contact", href: "/contact" },
   { name: "Pricing", href: "/pricing" },
-
-]
+];
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
-  const [isLoggedIn, setLoggedIn] = useState(false)
-  const pathname = usePathname()
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [isLoggedIn, setLoggedIn] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20)
-    }
+      setScrolled(window.scrollY > 20);
+    };
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
-    setIsOpen(false)
-  }, [pathname])
+    setIsOpen(false);
+  }, [pathname]);
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -106,14 +114,22 @@ export default function Header() {
     <header
       className={cn(
         "sticky top-0 z-50 w-full transition-all duration-300",
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-sm dark:bg-teal-dark/90" : "bg-white dark:bg-teal-dark",
+        scrolled
+          ? "bg-white/90 backdrop-blur-md shadow-sm dark:bg-teal-dark/90"
+          : "bg-white dark:bg-teal-dark"
       )}
       style={{ zIndex: "99" }}
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <img src="/image/logo.png" alt="Logo" width={70} height={70} className="h-auto" />
+            <img
+              src="/image/logo.png"
+              alt="Logo"
+              width={70}
+              height={70}
+              className="h-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -123,27 +139,29 @@ export default function Header() {
                 {/* Home */}
                 <NavigationMenuItem>
                   <Link href="/" legacyBehavior passHref>
-                    <NavigationMenuLink 
-                      className={navigationMenuTriggerStyle()} 
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
                       active={pathname === "/"}
                     >
                       Home
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
-                
+
                 {/* About */}
                 <NavigationMenuItem>
                   <Link href="/about" legacyBehavior passHref>
-                    <NavigationMenuLink 
-                      className={navigationMenuTriggerStyle()} 
-                      active={pathname === "/about" || pathname.startsWith("/about")}
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                      active={
+                        pathname === "/about" || pathname.startsWith("/about")
+                      }
                     >
                       About
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
-                
+
                 {/* Services Dropdown */}
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Services</NavigationMenuTrigger>
@@ -217,49 +235,55 @@ export default function Header() {
                 {navItems.slice(2).map((item) => (
                   <NavigationMenuItem key={item.name}>
                     <Link href={item.href} legacyBehavior passHref>
-                      <NavigationMenuLink 
-                        className={navigationMenuTriggerStyle()} 
-                        active={pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))}
+                      <NavigationMenuLink
+                        className={navigationMenuTriggerStyle()}
+                        active={
+                          pathname === item.href ||
+                          (item.href !== "/" && pathname.startsWith(item.href))
+                        }
                       >
                         {item.name}
                       </NavigationMenuLink>
                     </Link>
                   </NavigationMenuItem>
                 ))}
-               {isLoggedIn ? (
-        <button
-          onClick={handleLogout}
-          className="text-red-600 font-semibold hover:underline"
-        >
-          Log Out
-        </button>
-      ) : (
-        <NavigationMenuItem>
-          <Link href="/login" passHref>
-            <NavigationMenuLink
-              className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}
-              active={pathname === "/login"}
-            >
-              Login
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-      )}
-            
+                {isLoggedIn ? (
+                  <button
+                    onClick={handleLogout}
+                    className="text-red-600 font-semibold hover:underline"
+                  >
+                    Log Out
+                  </button>
+                ) : (
+                  <NavigationMenuItem>
+                    <Link href="/login" passHref>
+                      <NavigationMenuLink
+                        className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}
+                        active={pathname === "/login"}
+                      >
+                        Login
+                      </NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                )}
               </NavigationMenuList>
             </NavigationMenu>
           </nav>
 
           {/* Mobile Navigation Toggle */}
           <div className="lg:hidden">
-            <Button 
-              variant="ghost" 
-              size="icon" 
-              onClick={() => setIsOpen(!isOpen)} 
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle Menu"
               className="focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </Button>
           </div>
         </div>
@@ -275,12 +299,12 @@ export default function Header() {
                   "px-4 py-3 text-base font-medium rounded-md transition-colors",
                   pathname === "/"
                     ? "bg-[#AB6545] text-white"
-                    : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
+                    : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
                 )}
               >
                 Home
               </Link>
-              
+
               {/* About */}
               <Link
                 href="/about"
@@ -288,7 +312,7 @@ export default function Header() {
                   "px-4 py-3 text-base font-medium rounded-md transition-colors",
                   pathname === "/about" || pathname.startsWith("/about")
                     ? "bg-[#AB6545] text-white"
-                    : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
+                    : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
                 )}
               >
                 About
@@ -299,11 +323,19 @@ export default function Header() {
                 <details className="group">
                   <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
                     <span>Services</span>
-                    <svg className="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                    <svg
+                      className="h-5 w-5 transition-transform group-open:rotate-180"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                   </summary>
-                  <div className="pl-4 pt-1 space-y-1">
+                  <div className="pl-4 pt-1 space-y-1 h-80 overflow-y-auto">
                     {services.map((service) => (
                       <Link
                         key={service.href}
@@ -312,7 +344,7 @@ export default function Header() {
                           "block px-4 py-2 text-sm rounded-md transition-colors",
                           pathname === service.href
                             ? "bg-[#AB6545] text-white"
-                            : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
+                            : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
                         )}
                       >
                         {service.name}
@@ -355,11 +387,19 @@ export default function Header() {
                 <details className="group">
                   <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
                     <span>API's</span>
-                    <svg className="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                    <svg
+                      className="h-5 w-5 transition-transform group-open:rotate-180"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
                     </svg>
                   </summary>
-                  <div className="pl-4 pt-1 space-y-1">
+                  <div className="pl-4 pt-1 space-y-1 h-80 overflow-y-auto">
                     {apiItems.map((item) => (
                       <Link
                         key={item.href}
@@ -368,7 +408,7 @@ export default function Header() {
                           "block px-4 py-2 text-sm rounded-md transition-colors",
                           pathname === item.href
                             ? "bg-[#AB6545] text-white"
-                            : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
+                            : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
                         )}
                       >
                         {item.name}
@@ -385,35 +425,36 @@ export default function Header() {
                   href={item.href}
                   className={cn(
                     "px-4 py-3 text-base font-medium rounded-md transition-colors",
-                    pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))
+                    pathname === item.href ||
+                      (item.href !== "/" && pathname.startsWith(item.href))
                       ? "bg-[#AB6545] text-white"
-                      : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
+                      : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
                   )}
                 >
                   {item.name}
                 </Link>
               ))}
               {isLoggedIn ? (
-        <button
-          onClick={handleLogout}
-          className="text-red-600 font-semibold hover:underline"
-        >
-          Log Out
-        </button>
-      ) : (
-        <NavigationMenuItem>
-          <Link href="/login"     className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}>
-            
-             
-              Login
-          
-          </Link>
-        </NavigationMenuItem>
-      )}
+                <button
+                  onClick={handleLogout}
+                  className="text-red-600 font-semibold hover:underline"
+                >
+                  Log Out
+                </button>
+              ) : (
+                <NavigationMenuItem style={{ listStyleType: "none" }}>
+                  <Link
+                    href="/login"
+                    className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}
+                  >
+                    Login
+                  </Link>
+                </NavigationMenuItem>
+              )}
             </div>
           </div>
         )}
       </div>
     </header>
-  )
+  );
 }

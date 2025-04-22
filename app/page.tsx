@@ -218,7 +218,7 @@ export default function Home() {
       <Banner slides={bannerSlides} />
 
       {/* Services Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Our Services"
@@ -241,7 +241,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-16 md:py-24 px-24 md:px-24">
+      <section className="py-16 md:py-24 md:px-24 md:md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -280,7 +280,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Our Projects"
@@ -311,7 +311,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="What Our Clients Say"
@@ -356,7 +356,7 @@ export default function Home() {
       </section> */}
 
       {/* Strategy Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Our Strategy"

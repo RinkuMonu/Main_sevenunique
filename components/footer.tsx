@@ -13,19 +13,19 @@ export default function Footer() {
               SevenUnique has been a dynamic startup IT agency dedicated to delivering innovative digital solutions. Specializing in website development, mobile application creation, and SEO services, we cater to a diverse range of clients.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
-                <Facebook className="h-8 w-8" aria-hidden="true" />
+              <Link target="blank" href="https://www.facebook.com/profile.php?id=61556669918427" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
+                <Facebook className="h-8 w-8" aria-hidden="true"  />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
+              <Link target="blank" href="https://x.com/Sevenuniqu42041" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
                 <Twitter className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
+              <Link target="blank" href="https://www.instagram.com/sevenuniquetech/?hl=en" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
                 <Instagram className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
+              <Link target="blank" href="https://www.linkedin.com/in/sevenuniquetechsolution/" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
                 <Linkedin className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">LinkedIn</span>
               </Link>

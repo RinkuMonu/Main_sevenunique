@@ -49,7 +49,7 @@ const SoftwareDevelopment = () => {
       <Banner  slides={bannerSlides}  />
 
       {/* Overview */}
-      <section className="py-10 md:py-14 px-24">
+      <section className="py-10 md:py-14 md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
@@ -107,7 +107,7 @@ const SoftwareDevelopment = () => {
       </section>
 
       {/* Services */}
-      <section className="py-10 md:py-14 px-24 bg-gray-50">
+      <section className="py-10 md:py-14 md:px-24 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-3">Our Software Development Services</h2>
           <p className="text-gray-600 mb-10 max-w-xl mx-auto">
@@ -133,7 +133,7 @@ const SoftwareDevelopment = () => {
       </section>
 
       {/* Technologies */}
-      <section className="py-10 md:py-14 px-24">
+      <section className="py-10 md:py-14 md:px-24">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-3">Technologies We Use</h2>
           <p className="text-gray-600 mb-10 max-w-xl mx-auto">
@@ -150,7 +150,7 @@ const SoftwareDevelopment = () => {
       </section>
 
       {/* Process */}
-      <section className="py-10 md:py-14 px-24 bg-gray-50">
+      <section className="py-10 md:py-14 md:px-24 bg-gray-50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-3">Our Development Process</h2>
           <p className="text-gray-600 mb-10 max-w-xl mx-auto">
@@ -188,7 +188,7 @@ const SoftwareDevelopment = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-10 md:py-14 px-24 bg-[#AB6545] text-white text-center"  style={{backgroundImage:"url(/image/1694.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
+      <section className="py-10 md:py-14 md:px-24 bg-[#AB6545] text-white text-center"  style={{backgroundImage:"url(/image/1694.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-3">Ready to Transform Your Business?</h2>
           <p className="mb-6 max-w-xl mx-auto">

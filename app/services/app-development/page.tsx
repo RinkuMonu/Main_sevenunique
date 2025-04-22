@@ -75,7 +75,7 @@ export default function AppDevelopmentPage() {
   ];
   return (
     <div className="">
-      <div className="w-full px-24 bg-gray-50">
+      <div className="w-full md:px-24 bg-gray-50">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[#ab6545] mb-4">
@@ -103,7 +103,7 @@ export default function AppDevelopmentPage() {
       </div>
 
       {/* Overview Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-10">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-10">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -153,7 +153,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 md:py-24 px-24   dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24   dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -291,7 +291,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Technologies Section */}
-      <section className="py-16 md:py-24 px-4 md:px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 px-4 md:md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">
@@ -324,7 +324,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Process Section */}
-      <section className="py-16 md:py-24 px-24  dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24  dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -391,7 +391,7 @@ export default function AppDevelopmentPage() {
       </section>
 
       {/* Portfolio Section */}
-      {/* <section className="py-16 md:py-24 px-24 bg-gray-50">
+      {/* <section className="py-16 md:py-24 md:px-24 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -442,7 +442,7 @@ export default function AppDevelopmentPage() {
 
       {/* CTA Section */}
       <section
-        className="py-16 md:py-24 px-24 bg-white text-white"
+        className="py-16 md:py-24 md:px-24 bg-white text-white"
         style={{
           backgroundImage: "url(/image/2150165980.jpg)",
              backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"

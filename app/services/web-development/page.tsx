@@ -42,7 +42,7 @@ export default function WebDevelopmentPage() {
       <Banner slides={bannerSlides}   />
  
       {/* Overview Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -82,7 +82,7 @@ export default function WebDevelopmentPage() {
       </section>
  
       {/* Services Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Web Development Services</h2>
@@ -205,7 +205,7 @@ export default function WebDevelopmentPage() {
       </section>
  
       {/* Technologies Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Technologies We Use</h2>
@@ -224,7 +224,7 @@ export default function WebDevelopmentPage() {
       </section>
  
       {/* Process Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Web Development Process</h2>
@@ -274,7 +274,7 @@ export default function WebDevelopmentPage() {
       </section>
  
       {/* Portfolio Section */}
-      {/* <section className="py-16 md:py-24 px-24">
+      {/* <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Web Development Portfolio</h2>
@@ -317,7 +317,7 @@ export default function WebDevelopmentPage() {
       </section> */}
  
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-24 bg-[#AB6545] text-white"  style={{
+      <section className="py-16 md:py-24 md:px-24 bg-[#AB6545] text-white"  style={{
           backgroundImage: "url(/image/2149406783.jpg)",
             backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"
           
