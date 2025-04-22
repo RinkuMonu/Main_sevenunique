@@ -260,7 +260,7 @@ export default function Home() {
             <div>
               <SectionHeading
                 title="About Our Company"
-                subtitle=" At SevenUnique Tech Solutions, we are committed to providing cutting-edge solutions that empower businesses to grow and succeed. Founded by Mr. Dinesh Kumar and Amit Balotiya, we specialize in offering tailored digital solutions in the fields of UI/UX design, app development, web development, game development, digital marketing, and software development."
+                subtitle=" At SevenUnique Tech Solutions, we are committed to providing cutting-edge solutions that empower businesses to grow and succeed. Founded by Mr. Dinesh Kumar and Mr. Amit Balotiya, we specialize in offering tailored digital solutions in the fields of UI/UX design, app development, web development, game development, digital marketing, and software development."
                 centered={false}
               />
               {/* <p className="text-gray-600 dark:text-gray-400 mb-8">

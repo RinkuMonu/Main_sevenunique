@@ -113,7 +113,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <img src="https://www.sevenunique.com/assets/main_logo-BmA0ECeW.png" alt="Logo" width={50} height={50} className="h-auto" />
+            <img src="/image/logo.png" alt="Logo" width={70} height={70} className="h-auto" />
           </Link>
 
           {/* Desktop Navigation */}
