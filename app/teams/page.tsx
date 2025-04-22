@@ -1,7 +1,7 @@
 import Banner from "@/components/banner"
 import TeamSection from "@/components/TeamSection"
 
-// Sample team data that matches the image
+
 const teamMembers = [
   {
     name: "Dinesh Kumar",
@@ -16,6 +16,12 @@ const teamMembers = [
     team: "Owner",
   },
   {
+    name: "Vimal Verma",
+    role: "Vice President",
+    image: "/image/team/SEVNOO04.webp",
+    team: "Dedicated",
+  },
+  {
     name: "Kamlesh Meena",
     role: "Senior Business Development Manager",
     image: "/image/team/SEVNOO05.webp",
@@ -27,12 +33,7 @@ const teamMembers = [
     image: "/image/team/SEVNOO03.webp",
     team: "Dedicated",
   },
-  {
-    name: "Vimal Verma",
-    role: "Vice President",
-    image: "/image/team/SEVNOO04.webp",
-    team: "Dedicated",
-  },
+
   {
     name: "Rahul Prajapat",
     role: "MD Right Operator",
@@ -88,6 +89,12 @@ const teamMembers = [
     team: "Other",
   },
   {
+    name: "Nandini Lodha",
+    role: "Front-end Developer",
+    image: "/image/team/SEVNOO22.webp",
+    team: "Other",
+  },
+  {
     name: "Rinku Yadav",
     role: "Mern Stack",
     image: "/image/team/SEVNOO21.webp",
@@ -103,12 +110,6 @@ const teamMembers = [
     name: "Rahul Singh",
     role: "Mern Stack",
     image: "/image/team/SEVNOO18.webp",
-    team: "Other",
-  },
-  {
-    name: "Nandini Lodha",
-    role: "Front-end Developer",
-    image: "/image/team/SEVNOO22.webp",
     team: "Other",
   },
   {
@@ -233,14 +234,14 @@ const Team = () => {
               </p>
               <a
                 href="/career"
-                className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md"
+                className="inline-block bg-[#e8ab8f] hover:bg-[#e1926e] text-white font-medium py-2 px-8 rounded-sm "
               >
                 View Open Positions
               </a>
             </div>
             <div>
               <img
-                src="https://via.placeholder.com/600x400?text=Join+Our+Team"
+                src="/image/team.jpg"
                 alt="Join Our Team"
                 className="rounded-lg shadow-md w-full"
               />

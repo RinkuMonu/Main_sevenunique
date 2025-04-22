@@ -41,6 +41,7 @@ export default function Footer() {
                 { href: "/about", text: "About Us" },
                 { href: "/services", text: "Services" },
                 { href: "/blog", text: "Blog" },
+                { href: "/teams", text: "Our Team" },
                 { href: "/career", text: "Careers" },
                 { href: "/gallery", text: "Gallery" },
               ].map((link) => (
