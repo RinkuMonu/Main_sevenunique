@@ -46,12 +46,7 @@ const teamMembers = [
     image: "/image/team/SEVNOO08.webp",
     team: "Dedicated",
   },
-  {
-    name: "Parveen Gupta",
-    role: "Sales Manager",
-    image: "/image/team/photo-100.jpg",
-    team: "Other",
-  },
+
   {
     name: "Mohit Balotiya",
     role: "Sr. Relationship Manager",
@@ -60,8 +55,14 @@ const teamMembers = [
   },
   {
     name: "Krishan Parjapat",
-    role: "Sr. Relationship Manager",
+    role: "Administration",
     image: "/image/team/SEVNOO09.webp",
+    team: "Other",
+  },
+  {
+    name: "Parveen Gupta",
+    role: "Sales Manager",
+    image: "/image/team/photo-100.jpg",
     team: "Other",
   },
   {
