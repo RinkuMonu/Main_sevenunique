@@ -55,11 +55,18 @@ const blogPosts = [
   },
 ]
 
+// Static params function to be used for static export
+export async function generateStaticParams() {
+  return blogPosts.map((post) => ({
+    slug: post.slug,
+  }))
+}
+
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   // Find the blog post with the matching slug
   const post = blogPosts.find((post) => post.slug === params.slug)
 
-  // If no post is found, you might want to handle this case
+  // If no post is found, handle this case
   if (!post) {
     return (
       <div className="container mx-auto px-4 py-16 text-center">

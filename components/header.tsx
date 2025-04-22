@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { cn } from "@/lib/utils"
 import { Menu, X } from "lucide-react"
+import { FaS } from "react-icons/fa6"
 
 const services = [
   { name: "UI/UX Design", href: "/services/ui-ux-design" },
@@ -76,6 +77,7 @@ const navItems = [
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [isLoggedIn, setLoggedIn] = useState(false)
   const pathname = usePathname()
 
   useEffect(() => {
@@ -91,6 +93,15 @@ export default function Header() {
     setIsOpen(false)
   }, [pathname])
 
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    setLoggedIn(!!token);
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    setLoggedIn(false);
+  };
   return (
     <header
       className={cn(
@@ -215,16 +226,26 @@ export default function Header() {
                     </Link>
                   </NavigationMenuItem>
                 ))}
-                <NavigationMenuItem>
-                  <Link href="/login" legacyBehavior passHref className="bg-[#AB6545]">
-                    <NavigationMenuLink 
-                      className={navigationMenuTriggerStyle() + " bg-[#fda780] py-1 ms-auto px-10"} 
-                      active={pathname === "/login"}
-                    >
-                      Login
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
+               {isLoggedIn ? (
+        <button
+          onClick={handleLogout}
+          className="text-red-600 font-semibold hover:underline"
+        >
+          Log Out
+        </button>
+      ) : (
+        <NavigationMenuItem>
+          <Link href="/login" passHref>
+            <NavigationMenuLink
+              className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}
+              active={pathname === "/login"}
+            >
+              Login
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+      )}
+            
               </NavigationMenuList>
             </NavigationMenu>
           </nav>
@@ -372,6 +393,23 @@ export default function Header() {
                   {item.name}
                 </Link>
               ))}
+              {isLoggedIn ? (
+        <button
+          onClick={handleLogout}
+          className="text-red-600 font-semibold hover:underline"
+        >
+          Log Out
+        </button>
+      ) : (
+        <NavigationMenuItem>
+          <Link href="/login"     className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}>
+            
+             
+              Login
+          
+          </Link>
+        </NavigationMenuItem>
+      )}
             </div>
           </div>
         )}
