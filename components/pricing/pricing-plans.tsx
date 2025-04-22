@@ -22,7 +22,7 @@ export default function PricingPlans({ title, description, plans }: PricingPlans
     <div className="p-7">
       <div className="flex">
         <img
-          src="https://www.sevenunique.com/assets/main_logo-BmA0ECeW.png"
+          src="/image/logo.png"
           className="w-[32px] h-[32px] md:w-[48px] md:h-[48px]"
           alt="Logo"
           width={50}

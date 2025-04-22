@@ -5,7 +5,7 @@ export default function PayinSection() {
     <div className="p-7 bg-white rounded-lg shadow-md">
       <div className="flex">
         <img
-          src="https://www.sevenunique.com/assets/main_logo-BmA0ECeW.png"
+          src="/image/logo.png"
           className="w-[32px] h-[32px] md:w-[48px] md:h-[48px]"
           alt="Logo"
           width={50}

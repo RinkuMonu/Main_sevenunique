@@ -47,7 +47,7 @@ export default function AboutPage() {
                 for businesses and individuals alike.
               </p>
               <p className="text-gray-600 dark:text-gray-400 mb-6">
-                Founded by visionary leaders, Mr. Dinesh Kumar and Amit
+                Founded by visionary leaders, Mr. Dinesh Kumar and Mr. Amit
                 Balotiya, we are committed to bridging the digital divide,
                 making digital payment solutions accessible, safe, and
                 future-ready for all.

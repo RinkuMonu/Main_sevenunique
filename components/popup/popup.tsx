@@ -158,7 +158,7 @@ const Popup = ({ isOpen, onClose }: PopupProps) => {
           {/* Left side background - hidden on mobile */}
           <div className="hidden lg:block lg:w-1/2">
             <img 
-              src="./image/2150010130.jpg" 
+              src="/image/2150010130.jpg" 
               alt="Contact us" 
               className="w-full h-full object-cover"
             />
