@@ -77,7 +77,7 @@ const TravelSoftware = () => {
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
-      <section className="py-12 md:py-16 px-24 bg-white">
+      <section className="py-12 md:py-16 md:px-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             <div className="lg:w-1/2 animate-fade-in">
@@ -133,7 +133,7 @@ const TravelSoftware = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-12 md:py-16 px-24 bg-gray-50">
+      <section className="py-12 md:py-16 md:px-24 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -161,7 +161,7 @@ const TravelSoftware = () => {
       </section>
 
       {/* Modules Section */}
-      <section className="py-12 md:py-16 px-24 bg-white">
+      <section className="py-12 md:py-16 md:px-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -195,7 +195,7 @@ const TravelSoftware = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-12 md:py-16 px-24 bg-gray-50">
+      <section className="py-12 md:py-16 md:px-24 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
             <div className="lg:w-1/2 order-2 lg:order-1">
@@ -254,7 +254,7 @@ const TravelSoftware = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-16 px-24 bg-[#ab6545] text-black"   style={{backgroundImage:"url(/image/28381.jpg)",   backgroundRepeat:"no-repeat",  backgroundPosition:"bottom", backgroundSize:"cover", backgroundAttachment:"fixed"}}>
+      <section className="py-12 md:py-16 md:px-24 bg-[#ab6545] text-black"   style={{backgroundImage:"url(/image/28381.jpg)",   backgroundRepeat:"no-repeat",  backgroundPosition:"bottom", backgroundSize:"cover", backgroundAttachment:"fixed"}}>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Transform Your Travel Business?

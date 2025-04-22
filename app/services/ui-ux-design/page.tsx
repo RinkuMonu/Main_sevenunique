@@ -19,7 +19,7 @@ export default function UIUXDesignPage() {
       <Banner slides={bannerSlides}  />
       
 
-      <section className="py-16 md:py-24 px-24 md:px-24">
+      <section className="py-16 md:py-24 md:px-24 md:md:px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
@@ -67,7 +67,7 @@ export default function UIUXDesignPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
@@ -82,7 +82,7 @@ export default function UIUXDesignPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
+            <div className=" flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
               <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545] font-bold text-xl">
                 01
               </div>
@@ -91,7 +91,7 @@ export default function UIUXDesignPage() {
               We begin by comprehending your project needs, target audience, and business objectives.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
+            <div className=" flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
               <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545] font-bold text-xl">
                 02
               </div>
@@ -100,7 +100,7 @@ export default function UIUXDesignPage() {
               In order to find chances for innovation, we study our competitors and perform user research.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
+            <div className=" flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
               <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545] font-bold text-xl">
                 03
               </div>
@@ -109,7 +109,7 @@ export default function UIUXDesignPage() {
               We produce graphic designs, wireframes, and prototypes that complement your brand and user requirements.
               </p>
             </div>
-            <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
+            <div className=" flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
               <div className="mb-4 rounded-full bg-[#AB6545]/10 p-4 text-[#ab6545] font-bold text-xl">
                 04
               </div>
@@ -122,7 +122,7 @@ export default function UIUXDesignPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 md:px-24">
+      <section className="py-16 md:py-24 md:px-24 md:md:px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="relative aspect-video overflow-hidden rounded-xl lg:aspect-square order-2 lg:order-1">
@@ -183,7 +183,7 @@ export default function UIUXDesignPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 px-24 text-white bg-gray-50"  style={{backgroundImage:"url(/image/430575.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
+      <section className="py-16 md:py-24 md:px-24 text-white bg-gray-50"  style={{backgroundImage:"url(/image/430575.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">

@@ -52,7 +52,7 @@ export default function PancardVerificationApiPage() {
       <Banner slides={bannerSlides}  />
 
       {/* Overview Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -90,7 +90,7 @@ export default function PancardVerificationApiPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Key Features</h2>
@@ -111,7 +111,7 @@ export default function PancardVerificationApiPage() {
       </section>
 
       {/* How It Works Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">How It Works</h2>
@@ -164,7 +164,7 @@ export default function PancardVerificationApiPage() {
       </section>
 
       {/* API Documentation Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] order-2 md:order-1">
@@ -211,7 +211,7 @@ export default function PancardVerificationApiPage() {
       </section>
 
       {/* Use Cases Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Use Cases</h2>
@@ -256,7 +256,7 @@ export default function PancardVerificationApiPage() {
 
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-24 bg-primary text-white"    style={{backgroundImage:"url(/image/2299.jpg)", backgroundPosition:"cover", backgroundRepeat:"no-repeat", backgroundAttachment:"fixed"}}>
+      <section className="py-16 md:py-24 md:px-24 bg-primary text-white"    style={{backgroundImage:"url(/image/2299.jpg)", backgroundPosition:"cover", backgroundRepeat:"no-repeat", backgroundAttachment:"fixed"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Verify PAN Cards Instantly?</h2>
           <p className="max-w-2xl mx-auto mb-8">

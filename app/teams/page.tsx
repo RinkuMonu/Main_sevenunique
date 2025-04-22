@@ -6,13 +6,13 @@ const teamMembers = [
   {
     name: "Dinesh Kumar",
     role: "Founder & Promoter (MD)",
-    image: "/image/team/SEVNOO01.jpg",
+    image: "/image/team/SEVNOO01.webp",
     team: "Owner",
   },
   {
     name: "Amit Balotiya",
     role: "Founder & Promoter (CEO)",
-    image: "/image/team/SEVNOO02.png",
+    image: "/image/team/SEVNOO02.webp",
     team: "Owner",
   },
   {
@@ -47,6 +47,12 @@ const teamMembers = [
     team: "Dedicated",
   },
   {
+    name: "Parveen Gupta",
+    role: "Sales Manager",
+    image: "/image/team/photo-100.jpg",
+    team: "Other",
+  },
+  {
     name: "Mohit Balotiya",
     role: "Sr. Relationship Manager",
     image: "/image/team/SEVNOO10.webp",
@@ -54,7 +60,7 @@ const teamMembers = [
   },
   {
     name: "Krishan Parjapat",
-    role: "Relationship Manager",
+    role: "Sr. Relationship Manager",
     image: "/image/team/SEVNOO09.webp",
     team: "Other",
   },

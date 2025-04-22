@@ -52,7 +52,7 @@ export default function FintechSoftwarePage() {
       <Banner slides={bannerSlides}/>
  
       {/* Overview Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-slide-in-left">
@@ -89,7 +89,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* Solutions Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Fintech Solutions</h2>
@@ -110,7 +110,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* Features Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[800px]">
@@ -186,7 +186,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* Use Cases Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Use Cases</h2>
@@ -229,7 +229,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* Implementation Process Section */}
-      <section className="py-16 md:py-24 px-24">
+      <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Implementation Process</h2>
@@ -279,7 +279,7 @@ export default function FintechSoftwarePage() {
       </section>
  
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-24 text-white"  style={{backgroundImage:"url(/image/8268.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
+      <section className="py-16 md:py-24 md:px-24 text-white"  style={{backgroundImage:"url(/image/8268.jpg)",  backgroundRepeat:"no-repeat", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Financial Services?</h2>
           <p className="max-w-2xl mx-auto mb-8">

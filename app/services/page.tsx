@@ -115,7 +115,7 @@ export default function ServicesPage() {
       <Banner slides={bannerSlides} />
 
       {/* Services Overview Section */}
-      <section className="py-16 md:py-24 px-24 md:px-24">
+      <section className="py-16 md:py-24 md:px-24 md:md:px-24">
         <div className="container mx-auto px-4">
           <SectionHeading
             title="Our Services"
@@ -142,7 +142,7 @@ export default function ServicesPage() {
         <section
           key={index}
           id={service.href.split("/").pop()}
-          className={`py-16 md:py-24 px-24 ${index % 2 === 0 ? "bg-gray-50 dark:bg-gray-900" : ""}`}
+          className={`py-16 md:py-24 md:px-24 ${index % 2 === 0 ? "bg-gray-50 dark:bg-gray-900" : ""}`}
         >
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -194,7 +194,7 @@ export default function ServicesPage() {
       ))}
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 px-24 bg-gray-50 text-black">
+      <section className="py-16 md:py-24 md:px-24 bg-gray-50 text-black">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
