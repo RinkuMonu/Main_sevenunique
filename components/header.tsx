@@ -126,9 +126,9 @@ export default function Header() {
             <img
               src="/image/logo.png"
               alt="Logo"
-              width={70}
-              height={70}
-              className="h-auto"
+              // width={70}
+              // height={70}
+              className=" w-28 h-24"
             />
           </Link>
 
