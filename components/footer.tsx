@@ -5,7 +5,6 @@ import {
   Instagram,
   Linkedin,
   Mail,
-  Phone,
   MapPin,
 } from "lucide-react";
 
@@ -25,32 +24,36 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                target="blank"
                 href="https://www.facebook.com/profile.php?id=61556669918427"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
               >
                 <Facebook className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link
-                target="blank"
                 href="https://x.com/Sevenuniqu42041"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
               >
                 <Twitter className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
-                target="blank"
                 href="https://www.instagram.com/sevenuniquetech/?hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
               >
                 <Instagram className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
-                target="blank"
                 href="https://www.linkedin.com/in/sevenuniquetechsolution/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
               >
                 <Linkedin className="h-8 w-8" aria-hidden="true" />
@@ -117,6 +120,7 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Contact Us */}
           <div>
             <h3 className="text-xl font-bold mb-4 text-white">Contact Us</h3>
             <ul className="space-y-4">
@@ -149,6 +153,7 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Footer Bottom */}
         <div className="mt-12 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400 text-sm">
             &copy; {new Date().getFullYear()} Seven Unique Private Limited. All
@@ -156,21 +161,21 @@ export default function Footer() {
           </p>
           <div className="mt-2 flex justify-center space-x-4 text-sm">
             <Link
-              href="/privacypolicy"
+              href="/privacy-policy"
               className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300"
             >
-              Privacy & Policy
+              Privacy Policy
             </Link>
             <span className="text-gray-600">|</span>
             <Link
-              href="/cancellationrefund"
+              href="/cancellation-refund"
               className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300"
             >
               Cancellation & Refund Policy
             </Link>
             <span className="text-gray-600">|</span>
             <Link
-              href="/terms_of_use"
+              href="/terms-of-use"
               className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300"
             >
               Terms of Use
