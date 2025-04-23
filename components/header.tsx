@@ -15,7 +15,6 @@ import {
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
-import { FaS } from "react-icons/fa6";
 
 const services = [
   { name: "UI/UX Design", href: "/services/ui-ux-design" },
@@ -442,14 +441,16 @@ export default function Header() {
                   Log Out
                 </button>
               ) : (
-                <NavigationMenuItem style={{ listStyleType: "none" }}>
-                  <Link
-                    href="/login"
-                    className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}
-                  >
-                    Login
-                  </Link>
-                </NavigationMenuItem>
+                <NavigationMenuItem>
+  <Link href="/login" passHref>
+    <NavigationMenuLink
+      className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}
+      active={pathname === "/login"}
+    >
+      Login
+    </NavigationMenuLink>
+  </Link>
+</NavigationMenuItem>
               )}
             </div>
           </div>
