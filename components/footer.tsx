@@ -29,7 +29,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
               >
-                <Facebook className="h-8 w-8" aria-hidden="true" />
+                <Facebook color="#e8ab8f" className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link
@@ -38,7 +38,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
               >
-                <Twitter className="h-8 w-8" aria-hidden="true" />
+                <Twitter color="#e8ab8f" className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
@@ -47,7 +47,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
               >
-                <Instagram className="h-8 w-8" aria-hidden="true" />
+                <Instagram color="#e8ab8f" className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
@@ -56,7 +56,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
               >
-                <Linkedin className="h-8 w-8" aria-hidden="true" />
+                <Linkedin color="#e8ab8f" className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
             </div>
