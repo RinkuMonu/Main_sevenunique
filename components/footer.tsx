@@ -1,5 +1,13 @@
-import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react"
+import Link from "next/link";
+import {
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+  Mail,
+  Phone,
+  MapPin,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -10,22 +18,41 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-white">Seven Unique</h3>
             <p className="text-gray-400 leading-relaxed">
-              SevenUnique has been a dynamic startup IT agency dedicated to delivering innovative digital solutions. Specializing in website development, mobile application creation, and SEO services, we cater to a diverse range of clients.
+              At SevenUnique, innovation meets impact we design digital
+              experiences that stand out. From intuitive websites to powerful
+              mobile apps, we build with precision and passion. Our smart SEO
+              and marketing strategies turn clicks into loyal customers.
             </p>
             <div className="flex space-x-4">
-              <Link target="blank" href="https://www.facebook.com/profile.php?id=61556669918427" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
-                <Facebook className="h-8 w-8" aria-hidden="true"  />
+              <Link
+                target="blank"
+                href="https://www.facebook.com/profile.php?id=61556669918427"
+                className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
+              >
+                <Facebook className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link target="blank" href="https://x.com/Sevenuniqu42041" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
+              <Link
+                target="blank"
+                href="https://x.com/Sevenuniqu42041"
+                className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
+              >
                 <Twitter className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link target="blank" href="https://www.instagram.com/sevenuniquetech/?hl=en" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
+              <Link
+                target="blank"
+                href="https://www.instagram.com/sevenuniquetech/?hl=en"
+                className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
+              >
                 <Instagram className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link target="blank" href="https://www.linkedin.com/in/sevenuniquetechsolution/" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
+              <Link
+                target="blank"
+                href="https://www.linkedin.com/in/sevenuniquetechsolution/"
+                className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
+              >
                 <Linkedin className="h-8 w-8" aria-hidden="true" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
@@ -46,8 +73,8 @@ export default function Footer() {
                 { href: "/gallery", text: "Gallery" },
               ].map((link) => (
                 <li key={link.href}>
-                  <Link 
-                    href={link.href} 
+                  <Link
+                    href={link.href}
                     className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300 flex items-start"
                   >
                     <span className="hover:underline">{link.text}</span>
@@ -65,13 +92,22 @@ export default function Footer() {
                 { href: "/services/ui-ux-design", text: "UI/UX Design" },
                 { href: "/services/app-development", text: "App Development" },
                 { href: "/services/web-development", text: "Web Development" },
-                { href: "/services/game-development", text: "Game Development" },
-                { href: "/services/software-development", text: "Software Development" },
-                { href: "/services/digital-marketing", text: "Digital Marketing" }
+                {
+                  href: "/services/game-development",
+                  text: "Game Development",
+                },
+                {
+                  href: "/services/software-development",
+                  text: "Software Development",
+                },
+                {
+                  href: "/services/digital-marketing",
+                  text: "Digital Marketing",
+                },
               ].map((service) => (
                 <li key={service.href}>
-                  <Link 
-                    href={service.href} 
+                  <Link
+                    href={service.href}
                     className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300 flex items-start"
                   >
                     <span className="hover:underline">{service.text}</span>
@@ -81,25 +117,31 @@ export default function Footer() {
             </ul>
           </div>
 
-       
           <div>
             <h3 className="text-xl font-bold mb-4 text-white">Contact Us</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-[#e8ab8f] flex-shrink-0 mt-0.5" />
                 <span className="text-gray-400">
-                  Plot No 97, Dakshinpuri - I, Shrikishan, Sanganer, Jagatpura, Jaipur Rajasthan, India, 302017
+                  Plot No 97, Dakshinpuri - I, Shrikishan, Sanganer, Jagatpura,
+                  Jaipur Rajasthan, India, 302017
                 </span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-[#e8ab8f] flex-shrink-0" />
-                <Link href="mailto:support@7unique.in" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
+                <Link
+                  href="mailto:support@7unique.in"
+                  className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
+                >
                   support@7unique.in
                 </Link>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-[#e8ab8f] flex-shrink-0" />
-                <Link href="mailto:info@7unique.in" className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300">
+                <Link
+                  href="mailto:info@7unique.in"
+                  className="text-gray-400 hover:text-[#e8ab8f] transition-colors duration-300"
+                >
                   info@7unique.in
                 </Link>
               </li>
@@ -107,26 +149,35 @@ export default function Footer() {
           </div>
         </div>
 
-       
         <div className="mt-12 pt-8 border-t border-gray-800 text-center">
-  <p className="text-gray-400 text-sm">
-    &copy; {new Date().getFullYear()} Seven Unique. All rights reserved.
-  </p>
-  <div className="mt-2 flex justify-center space-x-4 text-sm">
-    <Link href="/privacypolicy" className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300">
-      Privacy & Policy
-    </Link>
-    <span className="text-gray-600">|</span>
-    <Link href="/cancellationrefund" className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300">
-      Cancellation & Refund Policy
-    </Link>
-    <span className="text-gray-600">|</span>
-    <Link href="/terms_of_use" className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300">
-      Terms of Use
-    </Link>
-  </div>
-</div>
+          <p className="text-gray-400 text-sm">
+            &copy; {new Date().getFullYear()} Seven Unique Private Limited. All
+            rights reserved.
+          </p>
+          <div className="mt-2 flex justify-center space-x-4 text-sm">
+            <Link
+              href="/privacypolicy"
+              className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300"
+            >
+              Privacy & Policy
+            </Link>
+            <span className="text-gray-600">|</span>
+            <Link
+              href="/cancellationrefund"
+              className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300"
+            >
+              Cancellation & Refund Policy
+            </Link>
+            <span className="text-gray-600">|</span>
+            <Link
+              href="/terms_of_use"
+              className="text-gray-400 hover:text-[#e8ab8f] hover:underline transition-colors duration-300"
+            >
+              Terms of Use
+            </Link>
+          </div>
+        </div>
       </div>
     </footer>
-  )
+  );
 }
