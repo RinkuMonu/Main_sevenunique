@@ -38,7 +38,7 @@ export default function PancardVerificationApiPage() {
 
   const bannerSlides = [
     {
-      image: "/image/banner/PAN Card Verification API’s-01.jpg",
+      image: "/image/banner/PAN.jpg",
       title: "PAN Card Verification API",
       description: "Fast and reliable PAN card verification for your business needs",
       
