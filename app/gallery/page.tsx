@@ -15,32 +15,32 @@ export default function gallery() {
     // all posts part start
     const allPosts = [
         {
-            image: "./image/gallary/1.webp",
+            image: "/image/gallary/1.webp",
             title: "image1",
             description: "To give you an inside look at our work environment, we've opened a window for you to catch a glimpse. Scroll down for a chance to explore how we live and thrive on campus.",
         },
         {
-            image: "./image/gallary/2.webp",
+            image: "/image/gallary/2.webp",
             title: "image2",
             description: "To give you an inside look at our work environment, we've opened a window for you to catch a glimpse. Scroll down for a chance to explore how we live and thrive on campus.",
         },
         {
-            image: "./image/gallary/3.webp",
+            image: "/image/gallary/3.webp",
             title: "image3",
             description: "To give you an inside look at our work environment, we've opened a window for you to catch a glimpse. Scroll down for a chance to explore how we live and thrive on campus.",
         },
         {
-            image: "./image/gallary/4.webp",
+            image: "/image/gallary/4.webp",
             title: "image4",
             description: "To give you an inside look at our work environment, we've opened a window for you to catch a glimpse. Scroll down for a chance to explore how we live and thrive on campus.",
         },
         {
-            image: "./image/gallary/5.webp",
+            image: "/image/gallary/5.webp",
             title: "image5",
             description: "To give you an inside look at our work environment, we've opened a window for you to catch a glimpse. Scroll down for a chance to explore how we live and thrive on campus.",
         },
         {
-            image: "./image/gallary/6.webp",
+            image: "/image/gallary/6.webp",
             title: "image6",
             description: "To give you an inside look at our work environment, we've opened a window for you to catch a glimpse. Scroll down for a chance to explore how we live and thrive on campus.",
         },

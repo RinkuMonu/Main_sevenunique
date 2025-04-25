@@ -8,7 +8,7 @@ import { CheckCircle, Target, Lightbulb, Users, Award } from "lucide-react";
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "./image/banner/About.jpg",
+    image: "/image/banner/About.jpg",
     title: "About Our Company",
     description:
       "Learn more about our journey, mission, and the team behind our success.",

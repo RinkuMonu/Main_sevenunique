@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "./image/banner/Services.jpg",
+    image: "/image/banner/Services.jpg",
     title: "Our Services",
     description: "Comprehensive digital solutions tailored to your business needs",
   },

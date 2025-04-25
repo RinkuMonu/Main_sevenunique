@@ -15,7 +15,7 @@ import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react"
 // Sample data for the banner
 const bannerSlides = [
   {
-    image: "./image/banner/Contact.jpg",
+    image: "/image/banner/Contact.jpg",
     title: "Contact Us",
     description: "Get in touch with our team for any inquiries or support",
   },

@@ -62,7 +62,7 @@ const teamMembers = [
   {
     name: "Parveen Gupta",
     role: "Sales Manager",
-    image: "/image/team/photo-100.jpg",
+    image: "/image/team/photo.webp",
     team: "Other",
   },
   {
