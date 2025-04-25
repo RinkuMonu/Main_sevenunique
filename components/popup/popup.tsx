@@ -1,6 +1,5 @@
 "use client";
 
-import type React from "react";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Select from "react-select";
@@ -31,7 +30,7 @@ interface FormData {
 
 const Popup = ({ isOpen, onClose }: PopupProps) => {
   const [isMounted, setIsMounted] = useState(false);
-  const [isLoader, setLoader] = useState(false);
+  const [isLoader, setLoader] = useState(false); 
   const router = useRouter();
 
   // Combine all services
@@ -51,42 +50,36 @@ const Popup = ({ isOpen, onClose }: PopupProps) => {
     label: service.name,
   }));
 
-  // State for Form Data with proper typing
   const [formData, setFormData] = useState<FormData>({
     fullName: "",
     email: "",
     number: "",
     message: null,
-    
   });
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsMounted(true);
-
     }, 3000);
-    return () => setIsMounted(false);
+    return () => clearTimeout(timer);
   }, []);
 
-  // Handle input change
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  // Handle dropdown selection with proper typing
   const handleDropdownChange = (
     selectedOption: { value: string; label: string } | null
   ) => {
     setFormData((prev) => ({ ...prev, message: selectedOption }));
   };
 
-  // Handle form submission
   const handleSubmit = async () => {
     // Email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(formData.email)) {
-      Swal.fire({
+      await Swal.fire({
         icon: "error",
         title: "Invalid Email",
         text: "Please enter a valid email address",
@@ -97,7 +90,7 @@ const Popup = ({ isOpen, onClose }: PopupProps) => {
     // Phone number validation
     const phoneRegex = /^\d{10}$/;
     if (!phoneRegex.test(formData.number)) {
-      Swal.fire({
+      await Swal.fire({
         icon: "error",
         title: "Invalid Phone Number",
         text: "Please enter a 10-digit phone number",
@@ -107,7 +100,7 @@ const Popup = ({ isOpen, onClose }: PopupProps) => {
 
     // Name validation
     if (!formData.fullName.trim()) {
-      Swal.fire({
+      await Swal.fire({
         icon: "error",
         title: "Missing Information",
         text: "Please enter your full name",
@@ -125,27 +118,29 @@ const Popup = ({ isOpen, onClose }: PopupProps) => {
       };
 
       const response = await axios.post(
-        "https://admin-backend-dm97.onrender.com/api/submit-form",
+        "https://admin-backend-dm97.onrender.com/api/submit-form", 
         finalData
       );
 
-      Swal.fire({
+      await Swal.fire({
         title: "Thank You!",
         text: "We will contact you soon",
         icon: "success",
         confirmButtonText: "OK",
-      }).then(() => {
-        setFormData({
-          fullName: "",
-          email: "",
-          number: "",
-          message: null,
-        });
-        onClose();
       });
+
+      // Reset form
+      setFormData({
+        fullName: "",
+        email: "",
+        number: "",
+        message: null,
+      });
+      onClose();
+
     } catch (error) {
       console.error("Error submitting form:", error);
-      Swal.fire({
+      await Swal.fire({
         icon: "error",
         title: "Submission Error",
         text: "Something went wrong. Please try again.",
@@ -158,7 +153,7 @@ const Popup = ({ isOpen, onClose }: PopupProps) => {
   if (!isOpen || !isMounted) return null;
 
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50 p-4">
+    <div className="fixed inset-0 z-[99] flex items-center justify-center bg-black bg-opacity-50 p-4">
       <div className="w-full max-w-5xl bg-white rounded-lg shadow-xl overflow-hidden">
         <div className="flex flex-col lg:flex-row">
           {/* Left side background - hidden on mobile */}
@@ -203,7 +198,6 @@ const Popup = ({ isOpen, onClose }: PopupProps) => {
                   />
                 </div>
 
-                {/* Mobile Number */}
                 <div className="w-full">
                   <label className="block text-sm font-medium text-gray-700 mb-1">
                     Mobile Number <span className="text-red-500">*</span>
@@ -283,3 +277,6 @@ const Popup = ({ isOpen, onClose }: PopupProps) => {
 };
 
 export default Popup;
+
+
+ "https://admin-backend-dm97.onrender.com/api/submit-form"
