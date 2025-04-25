@@ -50,16 +50,7 @@ const services = [
   { name: "Fintech Software", href: "/services/fintech-software" },
 ];
 
-// const softwareItems = [
-//   { name: "Recharge Software", href: "/services/recharge-software" },
-//   { name: "BBPS Software", href: "/services/bbps-software" },
-//   { name: "UTI (Pancard) Software", href: "/services/uti-pancard-software" },
-//   { name: "Travel Software", href: "/services/travel-booking-software" },
-// ]
-
 const apiItems = [
-  // { name: "Recharge", href: "/services/api-recharge" },
-  // { name: "BBPS", href: "/services/api-bbps" },
   { name: "AEPS", href: "/services/api-aeps" },
   { name: "DMT", href: "/services/api-dmt" },
   { name: "Pancard Verification", href: "/services/api-pancard-verification" },
@@ -73,10 +64,6 @@ const apiItems = [
 const navItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  // Services, Software, and APIs will be added as dropdowns in the NavigationMenu
-  // { name: "Gallery", href: "/gallery" },
-  // { name: "Blog", href: "/blog" },
-  // { name: "Career", href: "/career" },
   { name: "Contact", href: "/contact" },
   { name: "Pricing", href: "/pricing" },
 ];
@@ -109,6 +96,7 @@ export default function Header() {
     localStorage.removeItem("token");
     setLoggedIn(false);
   };
+
   return (
     <header
       className={cn(
@@ -125,7 +113,7 @@ export default function Header() {
             <img
               src="/image/logo.png"
               alt="Logo"
-              style={{width:"4.8rem", height:"3.9rem"}}
+              style={{ width: "4.8rem", height: "3.9rem" }}
               className=""
             />
           </Link>
@@ -134,31 +122,21 @@ export default function Header() {
           <nav className="hidden lg:flex mx-auto">
             <NavigationMenu>
               <NavigationMenuList>
-                {/* Home */}
-                <NavigationMenuItem>
-                  <Link href="/" legacyBehavior passHref>
-                    <NavigationMenuLink
-                      className={navigationMenuTriggerStyle()}
-                      active={pathname === "/"}
-                    >
-                      Home
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-
-                {/* About */}
-                <NavigationMenuItem>
-                  <Link href="/about" legacyBehavior passHref>
-                    <NavigationMenuLink
-                      className={navigationMenuTriggerStyle()}
-                      active={
-                        pathname === "/about" || pathname.startsWith("/about")
-                      }
-                    >
-                      About
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
+                {navItems.map((item) => (
+                  <NavigationMenuItem key={item.name}>
+                    <Link href={item.href} legacyBehavior passHref>
+                      <NavigationMenuLink
+                        className={navigationMenuTriggerStyle()}
+                        active={
+                          pathname === item.href ||
+                          (item.href !== "/" && pathname.startsWith(item.href))
+                        }
+                      >
+                        {item.name}
+                      </NavigationMenuLink>
+                    </Link>
+                  </NavigationMenuItem>
+                ))}
 
                 {/* Services Dropdown */}
                 <NavigationMenuItem>
@@ -183,29 +161,6 @@ export default function Header() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
 
-                {/* Software Dropdown */}
-                {/* <NavigationMenuItem>
-                  <NavigationMenuTrigger>Software</NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                      {softwareItems.map((item) => (
-                        <li key={item.href}>
-                          <NavigationMenuLink asChild>
-                            <Link
-                              href={item.href}
-                              className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-[#AB6545]/10 hover:text-[#ab6545] focus:bg-accent focus:text-accent-foreground"
-                            >
-                              <div className="text-sm font-medium leading-none hover:text-[#ab6545] transition-all duration-200 hover:underline">
-                                {item.name}
-                              </div>
-                            </Link>
-                          </NavigationMenuLink>
-                        </li>
-                      ))}
-                    </ul>
-                  </NavigationMenuContent>
-                </NavigationMenuItem> */}
-
                 {/* API's Dropdown */}
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>API's</NavigationMenuTrigger>
@@ -229,32 +184,16 @@ export default function Header() {
                   </NavigationMenuContent>
                 </NavigationMenuItem>
 
-                {/* Gallery, Blog, Career, Contact */}
-                {navItems.slice(2).map((item) => (
-                  <NavigationMenuItem key={item.name}>
-                    <Link href={item.href} legacyBehavior passHref>
-                      <NavigationMenuLink
-                        className={navigationMenuTriggerStyle()}
-                        active={
-                          pathname === item.href ||
-                          (item.href !== "/" && pathname.startsWith(item.href))
-                        }
-                      >
-                        {item.name}
-                      </NavigationMenuLink>
-                    </Link>
-                  </NavigationMenuItem>
-                ))}
                 {isLoggedIn ? (
                   <button
                     onClick={handleLogout}
-                    className="text-red-600 font-semibold hover:underline"
+                    className="text-red-600 font-semibold hover:underline ml-4"
                   >
                     Log Out
                   </button>
                 ) : (
                   <NavigationMenuItem>
-                    <Link href="/login" passHref>
+                    <Link href="/login" legacyBehavior passHref>
                       <NavigationMenuLink
                         className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}
                         active={pathname === "/login"}
@@ -277,11 +216,7 @@ export default function Header() {
               aria-label="Toggle Menu"
               className="focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
             >
-              {isOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
           </div>
         </div>
@@ -290,33 +225,23 @@ export default function Header() {
         {isOpen && (
           <div className="mt-4 lg:hidden sm:overflow-auto sm:h-[900px]">
             <div className="flex flex-col space-y-2 pb-4">
-              {/* Home */}
-              <Link
-                href="/"
-                className={cn(
-                  "px-4 py-3 text-base font-medium rounded-md transition-colors",
-                  pathname === "/"
-                    ? "bg-[#AB6545] text-white"
-                    : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
-                )}
-              >
-                Home
-              </Link>
+              {navItems.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={cn(
+                    "px-4 py-3 text-base font-medium rounded-md transition-colors",
+                    pathname === item.href ||
+                      (item.href !== "/" && pathname.startsWith(item.href))
+                      ? "bg-[#AB6545] text-white"
+                      : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
+                  )}
+                >
+                  {item.name}
+                </Link>
+              ))}
 
-              {/* About */}
-              <Link
-                href="/about"
-                className={cn(
-                  "px-4 py-3 text-base font-medium rounded-md transition-colors",
-                  pathname === "/about" || pathname.startsWith("/about")
-                    ? "bg-[#AB6545] text-white"
-                    : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
-                )}
-              >
-                About
-              </Link>
-
-              {/* Services Dropdown */}
+              {/* Services Dropdown (Mobile) */}
               <div className="border-t border-gray-200 pt-2">
                 <details className="group">
                   <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
@@ -352,35 +277,7 @@ export default function Header() {
                 </details>
               </div>
 
-              {/* Software Dropdown */}
-              {/* <div className="border-t border-gray-200 pt-2">
-                <details className="group">
-                  <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
-                    <span>Software</span>
-                    <svg className="h-5 w-5 transition-transform group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                    </svg>
-                  </summary>
-                  <div className="pl-4 pt-1 space-y-1">
-                    {softwareItems.map((item) => (
-                      <Link
-                        key={item.href}
-                        href={item.href}
-                        className={cn(
-                          "block px-4 py-2 text-sm rounded-md transition-colors",
-                          pathname === item.href
-                            ? "bg-[#AB6545] text-white"
-                            : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]",
-                        )}
-                      >
-                        {item.name}
-                      </Link>
-                    ))}
-                  </div>
-                </details>
-              </div> */}
-
-              {/* API's Dropdown */}
+              {/* API's Dropdown (Mobile) */}
               <div className="border-t border-gray-200 pt-2">
                 <details className="group">
                   <summary className="flex items-center justify-between px-4 py-3 text-base font-medium cursor-pointer list-none">
@@ -416,40 +313,26 @@ export default function Header() {
                 </details>
               </div>
 
-              {/* Gallery, Blog, Career, Contact */}
-              {navItems.slice(2).map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={cn(
-                    "px-4 py-3 text-base font-medium rounded-md transition-colors",
-                    pathname === item.href ||
-                      (item.href !== "/" && pathname.startsWith(item.href))
-                      ? "bg-[#AB6545] text-white"
-                      : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
-                  )}
-                >
-                  {item.name}
-                </Link>
-              ))}
+              {/* Login/Logout (Mobile) */}
               {isLoggedIn ? (
                 <button
                   onClick={handleLogout}
-                  className="text-red-600 font-semibold hover:underline"
+                  className="px-4 py-3 text-base font-medium text-red-600 hover:underline text-left"
                 >
                   Log Out
                 </button>
               ) : (
-                <NavigationMenuItem>
-  <Link href="/login" passHref>
-    <NavigationMenuLink
-      className={`${navigationMenuTriggerStyle()} bg-[#fda780] py-1 px-10`}
-      active={pathname === "/login"}
-    >
-      Login
-    </NavigationMenuLink>
-  </Link>
-</NavigationMenuItem>
+                <Link
+                  href="/login"
+                  className={cn(
+                    "px-4 py-3 text-base font-medium rounded-md transition-colors",
+                    pathname === "/login"
+                      ? "bg-[#AB6545] text-white"
+                      : "hover:bg-[#AB6545]/10 hover:text-[#ab6545]"
+                  )}
+                >
+                  Login
+                </Link>
               )}
             </div>
           </div>
