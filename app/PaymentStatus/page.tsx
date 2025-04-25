@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 
-const PaymentStatus = () => {
+// The inner component that uses useSearchParams()
+const PaymentStatusContent = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [status, setStatus] = useState("Checking payment status...");
@@ -90,4 +91,23 @@ const PaymentStatus = () => {
   );
 };
 
+// The outer component that provides Suspense boundary
+const PaymentStatus = () => {
+  return (
+    <Suspense fallback={
+      <div className="container mx-auto p-4 text-center">
+        <div className="flex flex-col items-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500 mb-4"></div>
+          <p>Loading payment status...</p>
+        </div>
+      </div>
+    }>
+      <PaymentStatusContent />
+    </Suspense>
+  );
+};
+
 export default PaymentStatus;
+
+
+
