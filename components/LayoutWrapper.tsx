@@ -8,7 +8,7 @@ import Popup from './popup/popup';
 
 export default function LayoutWrapper({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const hideLayoutRoutes = ['/login', '/signup'];
+  const hideLayoutRoutes = ['/login/', '/signup'];
 
   const shouldHideLayout = hideLayoutRoutes.includes(pathname);
   const [isPopupOpen, setIsPopupOpen] = useState(true)
