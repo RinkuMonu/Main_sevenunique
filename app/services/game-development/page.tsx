@@ -10,6 +10,8 @@ import {
   Globe,
 } from "lucide-react";
 import Banner from "@/components/banner";
+import seoConfig from "@/app/seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 export default function GameDevelopmentPage() {
   const benefits = [
@@ -66,6 +68,7 @@ export default function GameDevelopmentPage() {
   return (
     <div className="">
       {/* Banner Section */}
+      <SEO seo={seoConfig["/services/game-development"]} />
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}

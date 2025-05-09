@@ -3,6 +3,8 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, ArrowRight, Globe, Code, Database, BarChart4 } from "lucide-react"
 import Banner from "@/components/banner"
+import seoConfig from "@/app/seoConfig";
+import SEO from "@/components/SEO/SEO";
  
 export default function WebDevelopmentPage() {
   const benefits = [
@@ -38,6 +40,7 @@ export default function WebDevelopmentPage() {
     ]
   return (
     <div className="">
+         <SEO seo={seoConfig["/services/web-development"]} />
       {/* Banner Section */}
       <Banner slides={bannerSlides}   />
  

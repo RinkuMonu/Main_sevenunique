@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import SectionHeading from "@/components/section-heading";
 import Banner from "@/components/banner";
 import { CheckCircle, Target, Lightbulb, Users, Award } from "lucide-react";
+import seoConfig from "../seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 // Sample data for the banner
 const bannerSlides = [
@@ -28,9 +30,10 @@ const partners = [
 export default function AboutPage() {
   return (
     <>
+    <SEO seo={seoConfig["/about"]} />
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
-
+      
       {/* About Content Section */}
       <section className="py-16 md:py-5 lg:py-24 md:px-24 ">
         <div className="container mx-auto md:px-24">

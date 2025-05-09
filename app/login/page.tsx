@@ -7,6 +7,8 @@ import Image from "next/image";
 import { IoHome } from "react-icons/io5";
 import Link from "next/link";
 import axios from "axios";
+import seoConfig from "../seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 const Login = () => {
   const [otp, setOtp] = useState("");
@@ -128,6 +130,7 @@ const Login = () => {
 
   return (
     <div className="container-fluid p-0 h-screen bg-gray-100">
+        <SEO seo={seoConfig["/login"]} />
       <div className="h-full">
         <div className="flex flex-row h-full">
           <div className="hidden md:block md:w-1/2">

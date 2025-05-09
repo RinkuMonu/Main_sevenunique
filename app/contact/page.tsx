@@ -11,6 +11,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import Banner from "@/components/banner"
 import SectionHeading from "@/components/section-heading"
 import { Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react"
+import seoConfig from "../seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 // Sample data for the banner
 const bannerSlides = [
@@ -100,6 +102,7 @@ export default function ContactPage() {
 
   return (
     <>
+     <SEO seo={seoConfig["/contact"]} />
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
 

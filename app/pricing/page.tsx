@@ -11,6 +11,9 @@ import { webDevPricingPlans } from "@/components/data/web-pricing-data";
 import { appDevPricingPlans } from "@/components/data/app-dev-data";
 import PayoutSection from "@/components/data/payout-section";
 import PayinSection from "@/components/data/payin-section";
+import seoConfig from "../seoConfig";
+import SEO from "@/components/SEO/SEO";
+
 
 const PricingPage = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -64,6 +67,7 @@ const PricingPage = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
+       <SEO seo={seoConfig["/pricing"]} />
       <HeroSection />
 
       <div className="container mx-auto px-4 my-5">

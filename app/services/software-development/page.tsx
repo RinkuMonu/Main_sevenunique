@@ -2,7 +2,8 @@
 
 import Banner from "@/components/banner"
 import Link from "next/link"
-
+import seoConfig from "@/app/seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 const SoftwareDevelopment = () => {
   const services = [
@@ -46,6 +47,7 @@ const SoftwareDevelopment = () => {
   ]
   return (
     <div className="">
+       <SEO seo={seoConfig["/services/software-development"]} />
       <Banner  slides={bannerSlides}  />
 
       {/* Overview */}

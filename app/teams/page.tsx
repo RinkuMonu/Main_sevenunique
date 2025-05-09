@@ -1,5 +1,7 @@
 import Banner from "@/components/banner"
 import TeamSection from "@/components/TeamSection"
+import seoConfig from "../seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 
 const teamMembers = [
@@ -178,9 +180,9 @@ const bannerSlides = [
 const Team = () => {
   return (
     <div className="">
+          <SEO seo={seoConfig["/teams"]} />
       {/* Banner Section */}
       <Banner slides={bannerSlides}   />
-
       {/* Team Section */}
       <TeamSection teamMembers={teamMembers} />
 

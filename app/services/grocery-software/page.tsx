@@ -3,6 +3,8 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle } from "lucide-react"
 import Banner from "@/components/banner"
+import seoConfig from "@/app/seoConfig";
+import SEO from "@/components/SEO/SEO";
 export default function GrocerySoftwarePage() {
 
   const bannerSlides = [
@@ -10,12 +12,12 @@ export default function GrocerySoftwarePage() {
       image: "/image/banner/Grocery.jpg",
       title: "Grocery Software Solutions",
       description: "Streamline your grocery business with our comprehensive management and delivery platform",
-
     },
   ]
 
   return (
     <div className="flex flex-col">
+       <SEO seo={seoConfig["/services/grocery-software"]}/>
       <Banner slides={bannerSlides} />
 
       <section className="py-16 md:py-24 md:px-24">

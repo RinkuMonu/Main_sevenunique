@@ -66,6 +66,7 @@ const navItems = [
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
   { name: "Pricing", href: "/pricing" },
+  {name: "Blog", href: "/blog"  }
 ];
 
 export default function Header() {

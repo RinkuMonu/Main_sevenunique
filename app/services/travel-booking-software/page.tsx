@@ -3,6 +3,8 @@ import Link from "next/link";
 import {BiBox,BiCreditCard,BiGroup,BiBarChartAlt2,BiCodeAlt} from 'react-icons/bi';
 
 import { CheckCircle } from "lucide-react"
+import seoConfig from "@/app/seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 
   import { FaCalendarAlt } from "react-icons/fa";
@@ -74,6 +76,7 @@ const TravelSoftware = () => {
 
   return (
     <div className="">
+             <SEO seo={seoConfig["/services/travel-booking-software"]} />
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}

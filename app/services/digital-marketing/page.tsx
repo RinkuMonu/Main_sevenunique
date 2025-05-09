@@ -2,6 +2,8 @@
 
 import Link from 'next/link'
 import Banner from '@/components/banner'
+import seoConfig from "@/app/seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 const DigitalMarketing = () => {
   const services = [
@@ -54,6 +56,7 @@ const DigitalMarketing = () => {
 
   return (
     <div className="bg-white">
+          <SEO seo={seoConfig["/services/digital-marketing"]} />
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}

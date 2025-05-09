@@ -1,29 +1,38 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { CheckCircle } from "lucide-react"
-import Banner from "@/components/banner"
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { CheckCircle } from "lucide-react";
+import Banner from "@/components/banner";
+import seoConfig from "@/app/seoConfig";
+import SEO from "@/components/SEO/SEO";
 export default function FoodDeliverySoftwarePage() {
-
-    const bannerSlides = [
-        {
-          image: "/image/banner/food.jpg",
-          title: "Food Delivery Software",
-          description: "Empower your food business with our comprehensive delivery management solution",
-          
-        },
-      ]
+  const bannerSlides = [
+    {
+      image: "/image/banner/food.jpg",
+      title: "Food Delivery Software",
+      description:
+        "Empower your food business with our comprehensive delivery management solution",
+    },
+  ];
   return (
     <div className="flex flex-col">
+      <SEO seo={seoConfig["/services/food-delivery-software"]} />
       <Banner slides={bannerSlides} />
 
       <section className="py-16 md:py-24 md:px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Revolutionize Food Delivery with SevenUnique </h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Revolutionize Food Delivery with SevenUnique{" "}
+              </h2>
               <p className="text-muted-foreground md:text-lg">
-              In today’s fast-paced food service industry, speed, convenience, and accuracy are key to customer satisfaction. At SevenUnique Tech Solutions Pvt. Ltd., we offer a robust and intelligent food delivery software solution that simplifies your operations, reduces delays, and enhances customer loyalty — whether you're running a restaurant, cloud kitchen, or food delivery startup.
+                In today’s fast-paced food service industry, speed, convenience,
+                and accuracy are key to customer satisfaction. At SevenUnique
+                Tech Solutions Pvt. Ltd., we offer a robust and intelligent food
+                delivery software solution that simplifies your operations,
+                reduces delays, and enhances customer loyalty — whether you're
+                running a restaurant, cloud kitchen, or food delivery startup.
               </p>
               <ul className="grid gap-2">
                 <li className="flex items-center gap-2">
@@ -64,9 +73,15 @@ export default function FoodDeliverySoftwarePage() {
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Comprehensive Features of Our Food Delivery Software</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Comprehensive Features of Our Food Delivery Software
+              </h2>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-              At SevenUnique Tech Solutions Pvt. Ltd., our food delivery software is engineered to simplify operations, improve efficiency, and enhance customer satisfaction. Packed with industry-leading features, it empowers restaurants, cloud kitchens, and food businesses to scale seamlessly.
+                At SevenUnique Tech Solutions Pvt. Ltd., our food delivery
+                software is engineered to simplify operations, improve
+                efficiency, and enhance customer satisfaction. Packed with
+                industry-leading features, it empowers restaurants, cloud
+                kitchens, and food businesses to scale seamlessly.
               </p>
             </div>
           </div>
@@ -91,7 +106,9 @@ export default function FoodDeliverySoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Order Management</h3>
               <p className="text-muted-foreground">
-              Manage orders effortlessly across all channels—website, mobile app, and third-party aggregators—with real-time updates and centralized control.
+                Manage orders effortlessly across all channels—website, mobile
+                app, and third-party aggregators—with real-time updates and
+                centralized control.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -113,7 +130,9 @@ export default function FoodDeliverySoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Delivery Tracking</h3>
               <p className="text-muted-foreground">
-              Enable customers and managers to track orders in real time through GPS-enabled driver tracking and accurate delivery time estimates.
+                Enable customers and managers to track orders in real time
+                through GPS-enabled driver tracking and accurate delivery time
+                estimates.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -136,7 +155,9 @@ export default function FoodDeliverySoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Route Optimization</h3>
               <p className="text-muted-foreground">
-              Leverage intelligent algorithms for smart route planning that minimizes delays, reduces fuel costs, and enhances delivery speed.
+                Leverage intelligent algorithms for smart route planning that
+                minimizes delays, reduces fuel costs, and enhances delivery
+                speed.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -159,7 +180,9 @@ export default function FoodDeliverySoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Payment Processing</h3>
               <p className="text-muted-foreground">
-              Accept payments securely through various methods—credit/debit cards, digital wallets, UPI, and cash on delivery—with robust backend tracking.
+                Accept payments securely through various methods—credit/debit
+                cards, digital wallets, UPI, and cash on delivery—with robust
+                backend tracking.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -185,7 +208,9 @@ export default function FoodDeliverySoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Menu Management</h3>
               <p className="text-muted-foreground">
-              Control your digital menu with ease. Add categories, manage item variants, highlight daily specials, and run promotional offers effortlessly.
+                Control your digital menu with ease. Add categories, manage item
+                variants, highlight daily specials, and run promotional offers
+                effortlessly.
               </p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg border bg-background shadow-sm">
@@ -207,7 +232,9 @@ export default function FoodDeliverySoftwarePage() {
               </div>
               <h3 className="text-xl font-bold mb-2">Analytics & Reporting</h3>
               <p className="text-muted-foreground">
-              Gain actionable insights with detailed reports on sales, delivery times, customer behavior, and operational performance—helping you make smarter business decisions.
+                Gain actionable insights with detailed reports on sales,
+                delivery times, customer behavior, and operational
+                performance—helping you make smarter business decisions.
               </p>
             </div>
           </div>
@@ -226,10 +253,14 @@ export default function FoodDeliverySoftwarePage() {
               />
             </div>
             <div className="space-y-4 order-1 lg:order-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Why Choose Our Food Delivery Software</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Why Choose Our Food Delivery Software
+              </h2>
               <p className="text-muted-foreground md:text-lg">
-              Our food delivery software is purpose-built to empower restaurants, cloud kitchens, and food aggregators with cutting-edge tools for growth, efficiency, and customer satisfaction. Here’s what sets us apart:
-
+                Our food delivery software is purpose-built to empower
+                restaurants, cloud kitchens, and food aggregators with
+                cutting-edge tools for growth, efficiency, and customer
+                satisfaction. Here’s what sets us apart:
               </p>
               <ul className="grid gap-4">
                 <li className="flex items-start gap-2">
@@ -237,8 +268,9 @@ export default function FoodDeliverySoftwarePage() {
                   <div>
                     <h3 className="font-bold">Scalable Architecture</h3>
                     <p className="text-muted-foreground">
-                    Whether you’re running a single outlet or managing a nationwide chain, our platform scales effortlessly with your business needs.
-
+                      Whether you’re running a single outlet or managing a
+                      nationwide chain, our platform scales effortlessly with
+                      your business needs.
                     </p>
                   </div>
                 </li>
@@ -247,7 +279,9 @@ export default function FoodDeliverySoftwarePage() {
                   <div>
                     <h3 className="font-bold"> Brand-Ready Customization</h3>
                     <p className="text-muted-foreground">
-                    Stand out in a crowded market. Fully customize the interface, features, and user flow to align perfectly with your brand and service style.
+                      Stand out in a crowded market. Fully customize the
+                      interface, features, and user flow to align perfectly with
+                      your brand and service style.
                     </p>
                   </div>
                 </li>
@@ -256,16 +290,22 @@ export default function FoodDeliverySoftwarePage() {
                   <div>
                     <h3 className="font-bold">Seamless System Integration</h3>
                     <p className="text-muted-foreground">
-                    Connect effortlessly with POS systems, inventory tools, payment gateways, and third-party delivery networks for a unified ecosystem.
+                      Connect effortlessly with POS systems, inventory tools,
+                      payment gateways, and third-party delivery networks for a
+                      unified ecosystem.
                     </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-[#ab6545] mt-1" />
                   <div>
-                    <h3 className="font-bold">Real-Time Performance & Monitoring</h3>
+                    <h3 className="font-bold">
+                      Real-Time Performance & Monitoring
+                    </h3>
                     <p className="text-muted-foreground">
-                    Track orders, deliveries, payments, and customer feedback through a centralized dashboard designed for real-time business control.
+                      Track orders, deliveries, payments, and customer feedback
+                      through a centralized dashboard designed for real-time
+                      business control.
                     </p>
                   </div>
                 </li>
@@ -275,7 +315,14 @@ export default function FoodDeliverySoftwarePage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 md:px-24 bg-primary text-[#ab6545]-foreground"  style={{backgroundImage:"url(/image/17997.jpg)", backgroundAttachment:"fixed", backgroundPosition:"center"}}>
+      <section
+        className="py-16 md:py-24 md:px-24 bg-primary text-[#ab6545]-foreground"
+        style={{
+          backgroundImage: "url(/image/17997.jpg)",
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+        }}
+      >
         <div className="px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
@@ -283,15 +330,20 @@ export default function FoodDeliverySoftwarePage() {
                 Ready to Transform Your Food Delivery Business?
               </h2>
               <p className="mx-auto max-w-[700px] md:text-xl">
-                Contact us today to discuss how our food delivery software can help you streamline operations and
-                enhance customer experience.
+                Contact us today to discuss how our food delivery software can
+                help you streamline operations and enhance customer experience.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button asChild size="lg" variant="secondary">
                 <Link href="/contact">Get in Touch</Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="bg-transparent border-white hover:bg-white/10">
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="bg-transparent border-white hover:bg-white/10"
+              >
                 <Link href="/services">Explore Other Services</Link>
               </Button>
             </div>
@@ -299,5 +351,5 @@ export default function FoodDeliverySoftwarePage() {
         </div>
       </section>
     </div>
-  )
+  );
 }

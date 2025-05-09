@@ -10,6 +10,8 @@ import {
   ArrowRight,
 } from "lucide-react";
 import Banner2 from "@/components/banner2";
+import seoConfig from "@/app/seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 export default function AppDevelopmentPage() {
   const benefits = [
@@ -74,7 +76,9 @@ export default function AppDevelopmentPage() {
     },
   ];
   return (
+    
     <div className="">
+       <SEO seo={seoConfig["/services/app-development"]} />
       <div className="w-full md:px-24 bg-gray-50">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>

@@ -11,6 +11,8 @@ import {
   DollarSign,
   IndianRupee,
 } from "lucide-react";
+import seoConfig from "../seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 // Sample data for the banner
 const bannerSlides = [
@@ -134,6 +136,7 @@ const benefits = [
 export default function CareerPage() {
   return (
     <>
+    <SEO seo={seoConfig["/career"]} />
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
 

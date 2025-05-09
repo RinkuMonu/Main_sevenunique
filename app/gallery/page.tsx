@@ -3,6 +3,8 @@ import Banner from "@/components/banner"
 import Image from "next/image"
 import type React from "react"
 import { useState } from "react"
+import seoConfig from "../seoConfig";
+import SEO from "@/components/SEO/SEO";
 export default function gallery() {
     // Sample data for the banner
     const bannerSlides = [
@@ -74,7 +76,9 @@ export default function gallery() {
     }
     return (
         <>
+        <SEO seo={seoConfig["/gallery"]} />
             <Banner slides={bannerSlides} />
+
             <div className={`bg-black bg-opacity-50 min-w-full min-h-screen fixed top-10 left-0 z-10 flex justify-center items-center ${img ? '' : 'hidden'}`}>
                 <div className="w-4/5 md:w-3/4 lg:w-1/2 mx-auto bg-white rounded-lg shadow-lg p-4 relative z-30 transform transition-all">
                     <Image

@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
 import Banner from "@/components/banner";
+import seoConfig from "@/app/seoConfig";
+import SEO from "@/components/SEO/SEO";
 
 export default function UIUXDesignPage() {
   const bannerSlides = [
@@ -16,9 +18,8 @@ export default function UIUXDesignPage() {
 
   return (
     <div className="flex flex-col">
+       <SEO seo={seoConfig["/services/ui-ux"]} />
       <Banner slides={bannerSlides}  />
-      
-
       <section className="py-16 md:py-24 md:px-24 md:md:px-24">
         <div className="px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
