@@ -10,9 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "SevenUnique Tech Solution pvt. ltd",
-  description:"Your trusted partner for digital solutions and services",
+  description: "Your trusted partner for digital solutions and services",
   icons: {
-    icon: "/favicon.ico", 
+    icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
@@ -26,6 +26,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+     
+
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"

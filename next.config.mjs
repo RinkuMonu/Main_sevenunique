@@ -30,17 +30,25 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
   async redirects() {
+    // return [
+    //   {
+    //     // Non-www ko www par redirect karega
+    //     source: '/(.*)',
+    //     has: [
+    //       {
+    //         type: 'host',
+    //         value: 'sevenunique.com',
+    //       },
+    //     ],
+    //     destination: 'https://www.sevenunique.com/:1',
+    //     permanent: true,
+    //   },
+    // ];
     return [
       {
-        // Non-www ko www par redirect karega
-        source: '/(.*)',
-        has: [
-          {
-            type: 'host',
-            value: 'sevenunique.com',
-          },
-        ],
-        destination: 'https://www.sevenunique.com/:1',
+        source: '/:path*',
+        has: [{ type: 'host', value: 'sevenunique.com' }],
+        destination: 'https://www.sevenunique.com/:path*',
         permanent: true,
       },
     ];
