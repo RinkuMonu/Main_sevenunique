@@ -24,7 +24,8 @@ export default function BlogCard({ title, excerpt, image, date, author, slug, in
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden group"
     >
-      <Link href={`/blog/${slug}`} className="block">
+      {/* <Link href={`/blog/${slug}`} className="block"> */}
+      <div className="block">
         <div className="relative h-48 sm:h-64 overflow-hidden">
           <Image
             src={image || "/placeholder.svg"}
@@ -49,7 +50,8 @@ export default function BlogCard({ title, excerpt, image, date, author, slug, in
           </h3>
           <p className="text-gray-600 dark:text-gray-400 line-clamp-3">{excerpt}</p>
         </div>
-      </Link>
+      </div>
+      {/* </Link> */}
     </motion.article>
   )
 }

@@ -346,9 +346,9 @@ const AadharVerification = () => {
             <Link href="/contact" className="bg-white text-[#b0552b] px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
               Get API Access
             </Link>
-            <Link href="/services/apis" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">
+            <div className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">
               Explore Other APIs
-            </Link>
+            </div>
           </div>
         </div>
       </section>

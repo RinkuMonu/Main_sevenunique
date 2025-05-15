@@ -332,7 +332,7 @@ const CivilScore = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20 md:px-24 bg-primary text-white" style={{backgroundImage:"url(/image/60665.jpg)", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
+      <section className="py-12 md:py-20 md:px-24 bg-primary text-white" style={{ backgroundImage: "url(/image/60665.jpg)", backgroundAttachment: "fixed", backgroundPosition: "bottom", backgroundSize: "cover" }}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Integrate Civil Score?</h2>
           <p className="max-w-2xl mx-auto mb-8">
@@ -342,9 +342,9 @@ const CivilScore = () => {
             <Link href="/contact" className="bg-white text-[#ab6545] px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
               Get API Access
             </Link>
-            <Link href="/services/apis" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">
+            <div className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">
               Explore Other APIs
-            </Link>
+            </div>
           </div>
         </div>
       </section>

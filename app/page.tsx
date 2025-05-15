@@ -44,7 +44,7 @@ const services = [
     title: "UI/UX Design",
     description:
       "Our UI/UX Design team crafts seamless, intuitive, and engaging user experiences that drive customer satisfaction and improve overall usability. We focus on creating user-friendly designs that captivate and deliver high engagement.",
-    href: "/services/ui-ux",
+    href: "/services/ui-ux-design",
   },
   {
     icon: <Smartphone className="h-6 w-6" />,

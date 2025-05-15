@@ -269,9 +269,9 @@ const TravelSoftware = () => {
             <Link href="/contact" className="inline-block px-6 font-[12px] py-2 bg-white text-[#ab6545] rounded-lg hover:bg-gray-100 transition duration-300">
               Get in Touch
             </Link>
-            <Link href="/services/software" className="inline-block px-6 font-[12px] py-2 border-2 border-white text-white rounded-lg hover:bg-blue-700 transition duration-300">
+            <div className="inline-block px-6 font-[12px] py-2 border-2 border-white text-white rounded-lg hover:bg-blue-700 transition duration-300">
               Explore Other Software
-            </Link>
+            </div>
           </div>
         </div>
       </section>

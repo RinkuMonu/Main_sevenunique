@@ -147,11 +147,11 @@ const FlightBooking = () => {
             <div className="lg:w-1/2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Flight Booking API</h2>
               <p className="text-gray-600 mb-4">
-              Elevate your travel platform with our robust Flight Booking API, giving you seamless access to a global network of airlines and flight data. Designed for performance, accuracy, and ease of integration, our API allows you to deliver real-time flight search, booking, and management capabilities directly within your application.
+                Elevate your travel platform with our robust Flight Booking API, giving you seamless access to a global network of airlines and flight data. Designed for performance, accuracy, and ease of integration, our API allows you to deliver real-time flight search, booking, and management capabilities directly within your application.
 
               </p>
               <p className="text-gray-600 mb-8">
-              Whether you're developing a full-fledged travel portal, a business travel management tool, or simply expanding your service offering, our API empowers you to provide users with a smooth, feature-rich flight booking experience.
+                Whether you're developing a full-fledged travel portal, a business travel management tool, or simply expanding your service offering, our API empowers you to provide users with a smooth, feature-rich flight booking experience.
 
               </p>
               <div className="flex flex-col gap-4 mb-8">
@@ -213,7 +213,7 @@ const FlightBooking = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Key Features</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-            Our Flight Booking API is designed to deliver a seamless, scalable, and secure booking experience for your users.
+              Our Flight Booking API is designed to deliver a seamless, scalable, and secure booking experience for your users.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -236,7 +236,7 @@ const FlightBooking = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Use Cases</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-            Our Flight Booking API supports a wide range of applications across industries, enabling businesses to deliver seamless flight booking experiences tailored to their audience.
+              Our Flight Booking API supports a wide range of applications across industries, enabling businesses to deliver seamless flight booking experiences tailored to their audience.
 
             </p>
           </div>
@@ -268,11 +268,10 @@ const FlightBooking = () => {
               <div key={index} className="bg-white rounded-lg shadow-md p-6 h-full">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="text-xl font-bold">{endpoint.name}</h3>
-                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                    endpoint.method.includes("GET") ? "bg-green-100 text-green-800" : 
-                    endpoint.method.includes("POST") ? "bg-blue-100 text-blue-800" : 
-                    "bg-yellow-100 text-yellow-800"
-                  }`}>
+                  <span className={`px-3 py-1 rounded-full text-sm font-medium ${endpoint.method.includes("GET") ? "bg-green-100 text-green-800" :
+                      endpoint.method.includes("POST") ? "bg-blue-100 text-blue-800" :
+                        "bg-yellow-100 text-yellow-800"
+                    }`}>
                     {endpoint.method}
                   </span>
                 </div>
@@ -292,7 +291,7 @@ const FlightBooking = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Business Benefits</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-            Integrating our Flight Booking API can unlock new opportunities and elevate your travel-related offerings.
+              Integrating our Flight Booking API can unlock new opportunities and elevate your travel-related offerings.
 
             </p>
           </div>
@@ -327,7 +326,7 @@ const FlightBooking = () => {
             <div className="lg:w-1/2 order-1 lg:order-2 animate-slide-in-left">
               <h2 className="text-4xl font-bold mb-6">Simple Integration</h2>
               <p className="text-gray-600 mb-8">
-              Our Flight Booking API is built to integrate seamlessly with your applications, helping you launch quickly and confidently.
+                Our Flight Booking API is built to integrate seamlessly with your applications, helping you launch quickly and confidently.
 
               </p>
               <div className="flex flex-col gap-4">
@@ -338,7 +337,7 @@ const FlightBooking = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Clear Documentation</h3>
                     <p className="text-gray-600">
-                    Access step-by-step API guides with real-world examples for every endpoint and use case.
+                      Access step-by-step API guides with real-world examples for every endpoint and use case.
                     </p>
                   </div>
                 </div>
@@ -349,7 +348,7 @@ const FlightBooking = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">SDKs & Libraries</h3>
                     <p className="text-gray-600">
-                    Use ready-to-go SDKs in popular programming languages and frameworks to accelerate development.
+                      Use ready-to-go SDKs in popular programming languages and frameworks to accelerate development.
 
                     </p>
                   </div>
@@ -361,7 +360,7 @@ const FlightBooking = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Test Environment</h3>
                     <p className="text-gray-600">
-                    Safely test your integration in a fully-featured sandbox before switching to production.
+                      Safely test your integration in a fully-featured sandbox before switching to production.
 
                     </p>
                   </div>
@@ -373,7 +372,7 @@ const FlightBooking = () => {
                   <div>
                     <h3 className="text-xl font-bold mb-1">Technical Support</h3>
                     <p className="text-gray-600">
-                    Get expert assistance from our dedicated engineering team throughout your integration journey.
+                      Get expert assistance from our dedicated engineering team throughout your integration journey.
                     </p>
                   </div>
                 </div>
@@ -384,7 +383,7 @@ const FlightBooking = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20 md:px-24 bg-primary text-white" style={{backgroundImage:"url(/image/2151662924.jpg)", backgroundAttachment:"fixed", backgroundPosition:"bottom", backgroundSize:"cover"}}>
+      <section className="py-12 md:py-20 md:px-24 bg-primary text-white" style={{ backgroundImage: "url(/image/2151662924.jpg)", backgroundAttachment: "fixed", backgroundPosition: "bottom", backgroundSize: "cover" }}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">Ready to Add Flight Booking?</h2>
           <p className="max-w-2xl mx-auto mb-8">
@@ -394,9 +393,11 @@ const FlightBooking = () => {
             <Link href="/contact" className="bg-white text-[#ab6545] px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors font-medium">
               Get API Access
             </Link>
-            <Link href="/services/apis" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">
+            {/* <Link href="/services/apis" className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium"> */}
+            <div className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors font-medium">
               Explore Other APIs
-            </Link>
+            </div>
+            {/* </Link> */}
           </div>
         </div>
       </section>

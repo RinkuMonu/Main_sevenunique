@@ -29,7 +29,7 @@ const services = [
       "Responsive Design",
       "Design Systems",
     ],
-    href: "/services/ui-ux",
+    href: "/services/ui-ux-design",
   },
   {
     icon: <Smartphone className="h-6 w-6" />,
@@ -206,11 +206,11 @@ export default function ServicesPage() {
                 Contact Us
               </Button>
             </Link>
-            <Link href="/projects">
+            {/* <Link href="/projects"> */}
               <Button size="lg" variant="outline" className="border-white text-black hover:bg-gray-100">
                 View Our Projects
               </Button>
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
       </section>

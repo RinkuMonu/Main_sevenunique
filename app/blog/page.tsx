@@ -28,7 +28,7 @@ const allBlogPosts = [
   {
     title: "10 UI/UX Design Trends to Watch in 2023",
     excerpt: "Explore the latest trends in UI/UX design that are shaping the digital landscape in 2023 and beyond.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/ui-ux-representations-with-laptop.jpg",
     date: "June 15, 2023",
     author: "Jessica Chen",
     slug: "ui-ux-design-trends-2023",
@@ -39,7 +39,7 @@ const allBlogPosts = [
     title: "The Future of Mobile App Development",
     excerpt:
       "Discover the emerging technologies and methodologies that are transforming the mobile app development landscape.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/mobile-application-design-illustrator-creativity-concept.jpg",
     date: "May 28, 2023",
     author: "David Wilson",
     slug: "future-of-mobile-app-development",
@@ -49,7 +49,7 @@ const allBlogPosts = [
   {
     title: "How to Optimize Your Website for Speed",
     excerpt: "Learn practical tips and techniques to improve your website's loading speed and enhance user experience.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/website-hosting-concept-with-search-bar.jpg",
     date: "May 12, 2023",
     author: "Michael Brown",
     slug: "optimize-website-speed",
@@ -59,7 +59,7 @@ const allBlogPosts = [
   {
     title: "The Role of AI in Modern Software Development",
     excerpt: "Explore how artificial intelligence is revolutionizing software development processes and outcomes.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/softwere.avif",
     date: "April 30, 2023",
     author: "Alex Morgan",
     slug: "ai-in-software-development",
@@ -69,7 +69,7 @@ const allBlogPosts = [
   {
     title: "Building Accessible Web Applications",
     excerpt: "Discover best practices for creating web applications that are accessible to users with disabilities.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/accessbility.avif",
     date: "April 18, 2023",
     author: "Emma Thompson",
     slug: "building-accessible-web-applications",
@@ -79,7 +79,7 @@ const allBlogPosts = [
   {
     title: "The Power of Content Marketing for Tech Companies",
     excerpt: "Learn how content marketing can help tech companies build brand awareness and generate leads.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/marketing.avif",
     date: "April 5, 2023",
     author: "Sarah Johnson",
     slug: "content-marketing-for-tech-companies",
@@ -89,7 +89,7 @@ const allBlogPosts = [
   {
     title: "Introduction to Game Development with Unity",
     excerpt: "A beginner's guide to getting started with game development using the Unity engine.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/game development.avif",
     date: "March 22, 2023",
     author: "David Wilson",
     slug: "introduction-to-game-development-unity",
@@ -99,7 +99,7 @@ const allBlogPosts = [
   {
     title: "The Importance of Cybersecurity in Modern Applications",
     excerpt: "Understand why cybersecurity should be a priority in your application development process.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/Cybersecurity.avif",
     date: "March 10, 2023",
     author: "Alex Morgan",
     slug: "importance-of-cybersecurity",
@@ -109,7 +109,7 @@ const allBlogPosts = [
   {
     title: "Responsive Design Best Practices",
     excerpt: "Learn the essential principles and techniques for creating responsive websites that work on all devices.",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/responsive.avif",
     date: "February 28, 2023",
     author: "Jessica Chen",
     slug: "responsive-design-best-practices",

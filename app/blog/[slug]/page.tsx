@@ -5,7 +5,7 @@ import { Calendar, User, Tag, ArrowLeft, Share2, Facebook, Twitter, Linkedin } f
 
 // Sample blog post data (in a real app, this would come from a database or CMS)
 const blogPosts = [
-  {
+  { 
     title: "10 UI/UX Design Trends to Watch in 2023",
     content: `
       <p>The field of UI/UX design is constantly evolving, with new trends and techniques emerging each year. As we move through 2023, several key trends are shaping the way designers approach their work and how users interact with digital products.</p>
