@@ -16,6 +16,7 @@ import {
 } from "react-icons/fa";
 import { FaListCheck } from "react-icons/fa6";
 import Banner from "@/components/banner";
+import SEO from "@/components/SEO/SEO";
 
 const AadharVerification = () => {
   const features = [
@@ -117,6 +118,7 @@ const AadharVerification = () => {
 
   return (
     <div className="">
+      <SEO/>
       <Banner  slides={bannerSlides}/>
 
       {/* Overview Section */}

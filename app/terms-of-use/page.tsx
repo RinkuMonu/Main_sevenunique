@@ -15,7 +15,7 @@ function Terms() {
 
   return (
     <div className="px-5">
-       <SEO seo={seoConfig["/terms-of-use"]} />
+       <SEO  />
       <Banner slides={bannerSlides} />
 
       <div className="container mx-auto mt-10 space-y-8 text-gray-800">

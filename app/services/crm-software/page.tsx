@@ -18,7 +18,7 @@ export default function CRMSoftwarePage() {
       ]
   return (
     <div className="flex flex-col">
-        <SEO seo={seoConfig["/services/crm-software"]}/>
+        <SEO />
       <Banner slides={bannerSlides} />
 
       <section className="py-16 md:py-24 md:px-24">

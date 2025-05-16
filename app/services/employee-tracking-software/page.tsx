@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle } from "lucide-react"
 import Banner from "@/components/banner"
+import SEO from "@/components/SEO/SEO"
 
 export default function EmployTrackingSoftwarePage() {
     const bannerSlides = [
@@ -16,6 +17,7 @@ export default function EmployTrackingSoftwarePage() {
 
   return (
     <div className="flex flex-col">
+      <SEO/>
       <Banner slides={bannerSlides} />
 
       <section className="py-16 md:py-24 md:px-24">

@@ -68,7 +68,7 @@ export default function GameDevelopmentPage() {
   return (
     <div className="">
       {/* Banner Section */}
-      <SEO seo={seoConfig["/services/game-development"]} />
+      <SEO  />
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}

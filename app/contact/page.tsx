@@ -102,7 +102,7 @@ export default function ContactPage() {
 
   return (
     <>
-     <SEO seo={seoConfig["/contact"]} />
+     <SEO  />
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
 

@@ -56,7 +56,7 @@ const DigitalMarketing = () => {
 
   return (
     <div className="bg-white">
-          <SEO seo={seoConfig["/services/digital-marketing"]} />
+          <SEO />
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}

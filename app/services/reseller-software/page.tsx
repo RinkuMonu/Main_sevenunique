@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, Users, BarChart4, Shield, Settings } from "lucide-react"
 import Banner from "@/components/banner"
 import BannerImg from './Reseller.jpg'
+import SEO from "@/components/SEO/SEO"
 
 export default function ResellerSoftwarePage() {
   const benefits = [
@@ -49,6 +50,7 @@ export default function ResellerSoftwarePage() {
 
   return (
     <div className="">
+      <SEO/>
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
 

@@ -2,10 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
+import SEO from "@/components/SEO/SEO";
 
 export default function DMTAPIPage() {
   return (
     <div className="flex flex-col">
+      <SEO/>
       <section className="relative h-[400px] md:h-[500px] overflow-hidden">
         <Image
           src="/image/banner/DMT.jpg"

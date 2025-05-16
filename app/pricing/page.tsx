@@ -67,7 +67,7 @@ const PricingPage = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-       <SEO seo={seoConfig["/pricing"]} />
+       <SEO  />
       <HeroSection />
 
       <div className="container mx-auto px-4 my-5">

@@ -180,7 +180,7 @@ const bannerSlides = [
 const Team = () => {
   return (
     <div className="">
-          <SEO seo={seoConfig["/teams"]} />
+          <SEO  />
       {/* Banner Section */}
       <Banner slides={bannerSlides}   />
       {/* Team Section */}

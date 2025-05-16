@@ -6,9 +6,11 @@ export default function Custom404() {
       
      <iframe
      style={{ 
+      
         width: "900px",
         height: "900px",
       }}
+       title="404 animation"
      src="https://lottie.host/embed/ca5b9605-1a03-4e36-8240-0c23d900b09c/jZDlDW4Pjy.lottie"></iframe>
     </div>
   );

@@ -76,7 +76,7 @@ const TravelSoftware = () => {
 
   return (
     <div className="">
-             <SEO seo={seoConfig["/services/travel-booking-software"]} />
+             <SEO />
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}

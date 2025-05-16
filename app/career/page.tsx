@@ -136,7 +136,7 @@ const benefits = [
 export default function CareerPage() {
   return (
     <>
-    <SEO seo={seoConfig["/career"]} />
+    <SEO  />
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
 

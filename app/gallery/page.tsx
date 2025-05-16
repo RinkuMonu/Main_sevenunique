@@ -76,7 +76,7 @@ export default function gallery() {
     }
     return (
         <>
-        <SEO seo={seoConfig["/gallery"]} />
+        <SEO  />
             <Banner slides={bannerSlides} />
 
             <div className={`bg-black bg-opacity-50 min-w-full min-h-screen fixed top-10 left-0 z-10 flex justify-center items-center ${img ? '' : 'hidden'}`}>

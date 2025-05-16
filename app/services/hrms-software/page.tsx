@@ -17,7 +17,7 @@ export default function HRMSSoftwarePage() {
       ]
   return (
     <div className="flex flex-col">
-       <SEO seo={seoConfig["/services/bbps"]}/>
+       <SEO />
       <Banner slides={bannerSlides}  />
 
       <section className="py-16 md:py-24 md:px-24">

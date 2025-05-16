@@ -13,6 +13,7 @@ import {
   DropdownMenuCheckboxItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
+import SEO from "@/components/SEO/SEO"
 
 // Sample data for the banner
 const bannerSlides = [
@@ -143,6 +144,7 @@ export default function BlogPage() {
 
   return (
     <>
+    <SEO/>
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
 

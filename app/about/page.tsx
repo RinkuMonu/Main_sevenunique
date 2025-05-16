@@ -30,7 +30,7 @@ const partners = [
 export default function AboutPage() {
   return (
     <>
-    <SEO seo={seoConfig["/about"]} />
+    <SEO  />
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
       

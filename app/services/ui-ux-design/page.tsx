@@ -18,7 +18,7 @@ export default function UIUXDesignPage() {
 
   return (
     <div className="flex flex-col">
-       <SEO seo={seoConfig["/services/ui-ux"]} />
+       <SEO  />
       <Banner slides={bannerSlides}  />
       <section className="py-16 md:py-24 md:px-24 md:md:px-24">
         <div className="px-4 md:px-6">

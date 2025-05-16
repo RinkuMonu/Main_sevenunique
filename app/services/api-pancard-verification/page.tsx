@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle, Shield, Zap, FileSearch, Server } from "lucide-react"
 import Banner from "@/components/banner"
+import SEO from "@/components/SEO/SEO"
 
 export default function PancardVerificationApiPage() {
   const benefits = [
@@ -48,6 +49,7 @@ export default function PancardVerificationApiPage() {
 
   return (
     <div className="">
+      <SEO/>
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
 

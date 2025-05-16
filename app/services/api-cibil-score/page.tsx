@@ -18,6 +18,7 @@ import {
   FaHeadset
 } from "react-icons/fa";
 import Banner from "@/components/banner";
+import SEO from "@/components/SEO/SEO";
 
 const CivilScore = () => {
   const features = [
@@ -119,6 +120,7 @@ const CivilScore = () => {
 
   return (
     <div className="">
+      <SEO/>
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}

@@ -18,8 +18,8 @@ export default function CabBookingSoftwarePage() {
         },
       ]
   return (
-    <div className="flex flex-col">
-      <SEO seo={seoConfig["/services/cab-booking-software"]} />
+    <div className="flex flex-col"> 
+      <SEO />
       <Banner slides={bannerSlides} />
 
       <section className="py-16 md:py-24 md:px-24">

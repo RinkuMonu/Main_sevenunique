@@ -40,7 +40,7 @@ export default function WebDevelopmentPage() {
     ]
   return (
     <div className="">
-         <SEO seo={seoConfig["/services/web-development"]} />
+         <SEO  />
       {/* Banner Section */}
       <Banner slides={bannerSlides}   />
  

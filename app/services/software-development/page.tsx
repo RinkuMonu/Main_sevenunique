@@ -47,7 +47,7 @@ const SoftwareDevelopment = () => {
   ]
   return (
     <div className="">
-       <SEO seo={seoConfig["/services/software-development"]} />
+       <SEO  />
       <Banner  slides={bannerSlides}  />
 
       {/* Overview */}

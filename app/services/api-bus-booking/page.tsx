@@ -14,6 +14,7 @@ import {
   FaTrophy,
   FaBolt,
 } from "react-icons/fa";
+import SEO from "@/components/SEO/SEO";
 
 const BusBooking = () => {
   const features = [
@@ -115,6 +116,7 @@ const BusBooking = () => {
 
   return (
     <div className="">
+      <SEO/>
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}

@@ -17,7 +17,7 @@ export default function SchoolManagementSoftwarePage() {
       
   return (
     <div className="flex flex-col">
-             <SEO seo={seoConfig["/services/school-management-software"]} />
+             <SEO  />
       <Banner slides={bannerSlides} />
 
       <section className="py-16 md:py-24 md:px-24">

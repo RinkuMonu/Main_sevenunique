@@ -78,7 +78,7 @@ export default function AppDevelopmentPage() {
   return (
     
     <div className="">
-       <SEO seo={seoConfig["/services/app-development"]} />
+       <SEO />
       <div className="w-full md:px-24 bg-gray-50">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>

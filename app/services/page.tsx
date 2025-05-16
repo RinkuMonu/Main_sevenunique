@@ -4,6 +4,7 @@ import SectionHeading from "@/components/section-heading"
 import ServiceCard from "@/components/service-card"
 import { Smartphone, Globe, Code, Palette, Gamepad2, BarChart3, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import SEO from "@/components/SEO/SEO"
 
 // Sample data for the banner
 const bannerSlides = [
@@ -112,6 +113,7 @@ export default function ServicesPage() {
   return (
     <>
       {/* Banner Section */}
+      <SEO/>
       <Banner slides={bannerSlides} />
 
       {/* Services Overview Section */}

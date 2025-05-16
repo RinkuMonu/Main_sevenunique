@@ -9,6 +9,7 @@ import {
   FaChartLine,
   FaCheckCircle} from "react-icons/fa";
 import Banner from "@/components/banner";
+import SEO from "@/components/SEO/SEO";
 
 const HotelManagement = () => {
   const features = [
@@ -87,6 +88,7 @@ const HotelManagement = () => {
 
   return (
     <div>
+      <SEO />
       <Banner slides={bannerSlides} />
 
       {/* Overview Section */}
