@@ -3,7 +3,7 @@ import Banner from "@/components/banner";
 import seoConfig from "../seoConfig";
 import SEO from "@/components/SEO/SEO";
 
-function Terms() {
+function Terms() { 
   const bannerSlides = [
     {
       image: "/image/banner/Terms.jpg",
