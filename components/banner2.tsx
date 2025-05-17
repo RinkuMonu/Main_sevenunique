@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 interface BannerProps {
   slides: {
     image: string
-    // title: string
+    title: string
     // description: string
   }[]
   autoplay?: boolean
@@ -63,9 +63,9 @@ export default function Banner2({ slides, autoplay = true, interval = 5000 }: Ba
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
-                className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4"
+                className="font-bold mb-4"
               >
-                {/* {slides[current].title} */}
+               <h1 style={{fontSize: "35px", width: "50%", marginTop: "60px",}}> {slides[current].title} </h1>
               </motion.h1>
               <motion.p
                 initial={{ y: 20, opacity: 0 }}

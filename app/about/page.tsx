@@ -11,7 +11,7 @@ import SEO from "@/components/SEO/SEO";
 const bannerSlides = [
   {
     image: "/image/banner/About.jpg",
-    title: "About Our Company",
+    title: "Crafting Next-gen Digital Solutions That Empower Businesses To Grow, Scale, And Lead.",
     description:
       "Learn more about our journey, mission, and the team behind our success.",
   },

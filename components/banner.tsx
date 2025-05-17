@@ -5,11 +5,11 @@ import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-
+ 
 interface BannerProps {
-  slides: {
+  slides: { 
     image: string
-    // title: string
+    title: string
     // description: string
   }[]
   autoplay?: boolean
@@ -58,14 +58,14 @@ export default function Banner({ slides, autoplay = true, interval = 5000 }: Ban
           <div className="absolute inset-0 " />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="container mx-auto px-4 text-center text-white">
+            <div className="container mx-auto px-4 mt-3">
               <motion.h1
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
-                className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4"
+                className="font-bold mb-4"
               >
-                {/* {slides[current].title} */}
+               <h1 style={{fontSize: "26px", width: "50%", marginTop: "74px",}}>{slides[current].title}</h1> 
               </motion.h1>
               <motion.p
                 initial={{ y: 20, opacity: 0 }}

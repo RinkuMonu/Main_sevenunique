@@ -18,7 +18,7 @@ import SEO from "@/components/SEO/SEO";
 const bannerSlides = [
   {
     image: "/image/banner/Contact.jpg",
-    title: "Contact Us",
+    title: "We’d Love To Hear From You! Contact Us And Let’s Start Building Your Digital Future.",
     description: "Get in touch with our team for any inquiries or support",
   },
 ]
@@ -105,7 +105,7 @@ export default function ContactPage() {
      <SEO  />
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
-
+        
       {/* Contact Form Section */}
       <section className="py-16 md:py-24 md:px-24">
         <div className="container mx-auto px-4">
