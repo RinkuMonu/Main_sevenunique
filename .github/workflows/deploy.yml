@@ -17,6 +17,6 @@ jobs:
         run: |
           echo "$SSH_PRIVATE_KEY" > private_key
           chmod 600 private_key
-          scp -i private_key -r ./build/ svnuniq@101.53.144.53:/home/svnuniq/public_html/
+          scp -i private_key -r ./out/ svnuniq@101.53.144.53:/home/svnuniq/public_html/
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
