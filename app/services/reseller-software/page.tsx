@@ -42,7 +42,7 @@ export default function ResellerSoftwarePage() {
   const bannerSlides = [
     {
       image: BannerImg,
-      title: "Reseller Software Solutions",
+      title: "Grow Your Reselling Business With Automated Inventory, Pricing, And Order Management.",
       description: "Expand your business through a network of resellers with our comprehensive management platform",
 
     },

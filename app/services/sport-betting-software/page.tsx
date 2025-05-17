@@ -9,7 +9,7 @@ export default function SportBettingSoftwarePage() {
   const bannerSlides = [
     {
       image: "/image/banner/Sport.jpg",
-      title: "Sports Betting Software",
+      title: "Transform Your Sports Betting Business With A Dynamic, User-friendly Software Solution Designed For Maximum Engagement",
       description: "Build a powerful sports betting platform with our comprehensive software solutions",
 
     },

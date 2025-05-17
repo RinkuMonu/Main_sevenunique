@@ -21,18 +21,18 @@ import {
 const bannerSlides = [
   {
     image: "/image/banner/E-COMMERCE-DEVELOPMENT.jpg",
-    title: "Innovative Digital Solutions",
+    title: "Premium Mobile App Development Solutions",
     // description:
     //   "We help businesses transform their ideas into reality with cutting-edge technology and creative design.",
   },
   {
     image: "/image/banner/Digital-Marketing.jpg",
-    title: "Expert Development Team",
+    title: "Cutting-Edge IT-Powered Digital Marketing Services",
     // description: "Our team of experienced developers and designers are ready to bring your vision to life.",
   },
   {
     image: "/image/banner/Mobile App.jpg",
-    title: "Comprehensive Digital Services",
+    title: "Smart & Scalable E-commerce Solutions For The Future",
     // description: "From web development to digital marketing, we offer end-to-end solutions for your business needs.",
   },
 ];

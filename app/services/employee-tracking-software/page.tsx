@@ -9,7 +9,7 @@ export default function EmployTrackingSoftwarePage() {
     const bannerSlides = [
         {
           image: "/image/banner/employe.jpg",
-          title: "Employee Tracking Software",
+          title: "Track Attendance, Productivity, And Performance With Precision Using Our Smart Employee Tracking Solution.",
           description: "Monitor productivity and optimize workforce management with our comprehensive tracking solution",
           
         },

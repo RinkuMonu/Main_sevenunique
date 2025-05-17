@@ -34,7 +34,7 @@ export default function WebDevelopmentPage() {
     const bannerSlides = [
       {
         image: "/image/banner/WebDev.jpg",
-        title: "Web Development Services",
+        title: "Elite Web Development Services Tailored For Your Business",
         description: "Create responsive and dynamic websites that drive results",
       },
     ]

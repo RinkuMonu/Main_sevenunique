@@ -65,7 +65,7 @@ export default function Banner({ slides, autoplay = true, interval = 5000 }: Ban
                 transition={{ delay: 0.2, duration: 0.5 }}
                 className="font-bold mb-4"
               >
-               <h1 style={{fontSize: "26px", width: "50%", marginTop: "74px",}}>{slides[current].title}</h1> 
+               <h1 style={{fontSize: "40px", width: "50%", marginTop: "76px", lineHeight:"50px"}}>{slides[current].title}</h1> 
               </motion.h1>
               <motion.p
                 initial={{ y: 20, opacity: 0 }}

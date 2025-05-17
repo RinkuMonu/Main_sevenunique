@@ -19,7 +19,7 @@ import SEO from "@/components/SEO/SEO"
 const bannerSlides = [
   {
     image: "/image/banner/Blog.jpg",
-    title: "Our Blog",
+    title: "Explore Our Blog For Fresh Ideas, In-depth Analysis, And All Things Digital.",
     description: "Insights, news, and updates from our team",
   },
 ]

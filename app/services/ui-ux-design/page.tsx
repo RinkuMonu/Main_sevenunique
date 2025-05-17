@@ -10,7 +10,7 @@ export default function UIUXDesignPage() {
   const bannerSlides = [
     {
       image: "/image/banner/ui-ux.jpg",
-      title: "UI/UX Design Services",
+      title: "Seamless, Smart, And Stunning UI/UX That Keeps Users Coming Back.",
       description:
         "Work with our talented design team to create user experiences that are interesting and easy to use.",
     },

@@ -9,7 +9,7 @@ export default function FoodDeliverySoftwarePage() {
   const bannerSlides = [
     {
       image: "/image/banner/food.jpg",
-      title: "Food Delivery Software",
+      title: "Effortless Food Ordering And Delivery Powered By Smart Technology And Real-time Tracking",
       description:
         "Empower your food business with our comprehensive delivery management solution",
     },

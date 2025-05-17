@@ -3,19 +3,29 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
 import SEO from "@/components/SEO/SEO";
+import Banner from "@/components/banner";
 
 export default function DMTAPIPage() {
+  const bannerSlides = [
+    {
+      image: "/image/banner/DMT.jpg",
+      title: "Ast And Secure DMT APIs For Seamless Money Transfers And Integrations.",
+      description: "Comprehensive travel management solution for travel agencies and tour operators",
+      
+    },
+  ]
   return (
     <div className="flex flex-col">
       <SEO/>
       <section className="relative h-[400px] md:h-[500px] overflow-hidden">
-        <Image
+        <Banner slides={bannerSlides}/>
+        {/* <Image
           src="/image/banner/DMT.jpg"
           alt="DMT API"
           fill
           priority
           className="object-cover"
-        />
+        /> */}
       </section>
 
       <section className="py-16 md:py-24 md:px-24">

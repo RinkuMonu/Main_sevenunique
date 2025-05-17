@@ -11,7 +11,7 @@ export default function CRMSoftwarePage() {
     const bannerSlides = [
         {
           image: "/image/banner/CRM.jpg",
-          title: "CRM Software",
+          title: "Transform Your Customer Interactions With A Powerful CRM Solution That Enhances Engagement And Drives Results",
           description: "Streamline customer relationships with our comprehensive CRM solution",
           
         },

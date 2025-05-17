@@ -113,7 +113,7 @@ const CivilScore = () => {
   const bannerSlides = [
     {
       image: "/image/banner/CIBILScore.jpg",
-      title: "Civil Score API",
+      title: "Secure Cibil Score API’s For Real-time Credit Insights And Risk Assessment.",
       description: "Comprehensive credit assessment and identity verification API",
     },
   ];

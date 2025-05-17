@@ -34,7 +34,7 @@ export default function GameDevelopmentPage() {
   const bannerSlides = [
     {
       image: "/image/banner/Game.jpg",
-      title: "Game Development Services",
+      title: "From Concept To Controller We Create Games That Captivate And Connect.",
       description:
         "From concept to launch, we create engaging, high-quality games tailored to your vision",
     },

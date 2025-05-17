@@ -41,7 +41,7 @@ const SoftwareDevelopment = () => {
   const bannerSlides = [
     {
       image: "/image/banner/software.jpg",
-      title: "Software Development",
+      title: "From Idea To Execution We Build Smart, Secure, And Scalable Software That Delivers.",
       description: "Custom software solutions tailored to your business needs",
     },
   ]

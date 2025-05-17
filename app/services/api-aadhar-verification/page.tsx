@@ -111,7 +111,7 @@ const AadharVerification = () => {
   const bannerSlides = [
     {
       image: "/image/banner/Aadhaar.jpg",
-      title: "Aadhar Verification API",
+      title: "Secure Aadhaar Verification API's For Fast, Reliable, And Compliant Identity Authentication.",
       description: "Secure and reliable Aadhar verification API for identity verification",
     },
   ];

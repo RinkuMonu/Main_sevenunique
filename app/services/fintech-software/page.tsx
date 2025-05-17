@@ -41,7 +41,7 @@ export default function FintechSoftwarePage() {
   const bannerSlides = [
     {
       image: "/image/banner/Fintech.jpg",
-      title: "Fintech Software Solutions",
+      title: "Smart Fintech Software For Managing Accounts, Payments, And Financial Analytics.",
       description: "Innovative financial technology solutions for modern businesses",
       
     },

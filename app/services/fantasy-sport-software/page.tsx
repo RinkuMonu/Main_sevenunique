@@ -13,7 +13,7 @@ export default function FantasySportSoftwarePage() {
 
       image: "/image/banner/Fantasy.jpg",
 
-      title: "Fantasy Sport Software",
+      title: "Build And Manage Fantasy Teams With Secure, Scalable Gaming Software",
       description: "Build engaging fantasy sports platforms with our comprehensive software solutions",
 
     },

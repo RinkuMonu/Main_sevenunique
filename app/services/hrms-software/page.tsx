@@ -10,7 +10,7 @@ export default function HRMSSoftwarePage() {
     const bannerSlides = [
         {
           image: "/image/banner/HRMS.jpg",
-          title: "HRMS Software",
+          title: "Smart HRMS Software For Payroll, Attendance, Leave, And Employee Management",
           description: "Streamline your human resources operations with our comprehensive HRMS solution",
           
         },

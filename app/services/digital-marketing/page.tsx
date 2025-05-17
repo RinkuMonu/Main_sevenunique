@@ -48,7 +48,7 @@ const DigitalMarketing = () => {
   const bannerSlides = [
     {
       image: "/image/banner/Digital-Marketing.jpg",
-      title: "Digital Marketing Solutions",
+      title: "Cutting-Edge IT-Powered Digital Marketing Services",
       description: "Data-driven strategies to grow your online presence and convert more customers",
       cta: "Get Your Free Audit"
     },

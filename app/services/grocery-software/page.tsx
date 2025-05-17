@@ -10,7 +10,7 @@ export default function GrocerySoftwarePage() {
   const bannerSlides = [
     {
       image: "/image/banner/Grocery.jpg",
-      title: "Grocery Software Solutions",
+      title: "Smart Grocery Software For Managing Orders, Inventory, And Doorstep Deliveries",
       description: "Streamline your grocery business with our comprehensive management and delivery platform",
     },
   ]

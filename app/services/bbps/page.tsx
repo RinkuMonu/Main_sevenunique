@@ -10,7 +10,7 @@ export default function BBPSSoftwarePage() {
     const bannerSlides = [
         {
           image: "/image/banner/BBPS.jpg",
-          title: "BBPS Software",
+          title: "Simplify Utility Payments With Our Reliable And Real-time BBPS-enabled Platform.",
           description: "Comprehensive Bharat Bill Payment System solution for businesses",
           
         },

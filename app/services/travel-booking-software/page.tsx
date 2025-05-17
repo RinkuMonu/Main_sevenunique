@@ -67,7 +67,7 @@ const TravelSoftware = () => {
   const bannerSlides = [
     {
       image: "/image/banner/Travel.jpg",
-      title: "Travel Booking Software",
+      title: "Streamline Your Travel Business With Smart, User-friendly Software For Seamless Bookings And Real-time Updates.",
       description: "Comprehensive travel management solution for travel agencies and tour operators",
       
     },

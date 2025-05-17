@@ -9,7 +9,7 @@ export default function LoanModuleSoftwarePage() {
     const bannerSlides = [
         {
           image: "/image/banner/Loan.jpg",
-          title: "Loan Module Software",
+          title: "From Application To Repayment Manage Loans With Ease Using Our End-to-end Loan Module Software.",
           description: "Simplify loan administration and processing with our all-inclusive financial solution.",
           
         },

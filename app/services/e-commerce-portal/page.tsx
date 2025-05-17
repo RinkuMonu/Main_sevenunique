@@ -10,7 +10,7 @@ export default function ECommercePortalPage() {
   const bannerSlides = [
     {
       image: "/image/banner/E-commerce Portal.jpg",
-      title: "E-Commerce Portal",
+      title: "Smart E-commerce Portal With Inventory Orders, And Secure Payment Integration.",
       description: "Build a powerful online store with our comprehensive e-commerce solutions",
 
     },

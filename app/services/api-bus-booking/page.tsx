@@ -109,7 +109,7 @@ const BusBooking = () => {
   const bannerSlides = [
     {
       image: "/image/banner/BusBooking.jpg",
-      title: "Bus Booking API",
+      title: "Seamless Bus Booking API's With Live Schedules, Booking, And Digital Ticketing.",
       description: "Comprehensive bus booking API for travel applications and websites",
     },
   ];

@@ -3,15 +3,25 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CheckCircle } from "lucide-react"
 import SEO from "@/components/SEO/SEO"
+import Banner from "@/components/banner"
 
 export default function AEPSAPIPage() {
+  const bannerSlides = [
+    {
+      image: "/image/banner/AePS.jpg",
+      title: "Secure AePS API's For Cash Withdrawal Balance Inquiry, And Mini Statements.",
+      description: "Comprehensive travel management solution for travel agencies and tour operators",
+      
+    },
+  ]
   return (
     <div className="flex flex-col">
       <SEO />
       <section className="relative h-[400px] md:h-[500px] overflow-hidden">
-        <Image src="/image/banner/AePS.jpg" alt="AEPS API" fill priority className="object-cover" />
+           <Banner slides={bannerSlides} />
+        {/* <Image src="/image/banner/AePS.jpg" alt="AEPS API" fill priority className="object-cover" /> */}
         
-      </section>
+      </section> 
 
       <section className="py-16 md:py-24 md:px-24">
         <div className="px-4 md:px-6">

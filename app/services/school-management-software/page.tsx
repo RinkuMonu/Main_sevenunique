@@ -9,7 +9,7 @@ export default function SchoolManagementSoftwarePage() {
     const bannerSlides = [
         {
           image: "/image/banner/School.jpg",
-          title: "School Management Software",
+          title: "Smart School Management With Attendance, Grading, Scheduling, And Parent Communication",
           description: "Use our all-inclusive school management solution to streamline educational administration.",
           
         },

@@ -132,7 +132,7 @@ const FlightBooking = () => {
   const bannerSlides = [
     {
       image: "/image/banner/FlightBooking.jpg",
-      title: "Flight Booking API",
+      title: "Robust Flight Booking API’s For Real-time Availability, Pricing, And Reservations.",
       description: "Powerful flight booking and management API for travel applications",
     },
   ];

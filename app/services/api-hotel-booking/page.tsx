@@ -81,7 +81,7 @@ const HotelManagement = () => {
   const bannerSlides = [
     {
       image: "/image/banner/Hotel-Booking.jpg",
-      title: "Hotel Management API",
+      title: "Seamless Hotel Booking API Delivering Real-time Availability, Pricing, And Confirmations.",
       description: "Comprehensive hotel booking and management API for travel applications",
     },
   ];

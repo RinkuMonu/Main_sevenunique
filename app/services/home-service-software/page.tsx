@@ -10,7 +10,7 @@ export default function HomeServiceSoftwarePage() {
     const bannerSlides = [
         {
           image: "/image/banner/Home.jpg",
-          title: "Home Service Software",
+          title: "Revolutionize Your Home Services With Seamless Scheduling, Real-time Tracking, And Hassle-free Payments",
           description: "Streamline your home service business with our comprehensive management solution",
           
         },

@@ -12,7 +12,7 @@ export default function CabBookingSoftwarePage() {
     const bannerSlides = [
         {
           image: "/image/banner/Cab.jpg",
-          title: "Cab Booking Software",
+          title: "Smart Cab Booking Software With Real-time Tracking And Automated Dispatch System.",
           description: "Streamline transportation services with our advanced cab booking solutions",
           
         },
