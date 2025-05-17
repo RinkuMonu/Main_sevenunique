@@ -13,6 +13,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build and Export Project
+        run: |
+          npm run build
+          npm run export
+        # Ensure this creates the `out/` directory
+
       - name: Test SSH Connection (Debug)
         run: |
           echo "$SSH_PRIVATE_KEY" > private_key
@@ -26,5 +35,6 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > private_key
           chmod 600 private_key
           scp -P 22527 -i private_key -o StrictHostKeyChecking=no -r ./out/ svnuniq@101.53.144.53:/home/svnuniq/public_html/
+          rm -f private_key
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
