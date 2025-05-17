@@ -13,6 +13,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Install Dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Build Static Project
+        run: npm run build
+
       - name: Test SSH Connection (Debug)
         run: |
           echo "$SSH_PRIVATE_KEY" > private_key
@@ -25,6 +31,8 @@ jobs:
         run: |
           echo "$SSH_PRIVATE_KEY" > private_key
           chmod 600 private_key
-          scp -P 22527 -i private_key -o StrictHostKeyChecking=no -r ./out/ svnuniq@101.53.144.53:/home/svnuniq/public_html/
+          ssh -p 22527 -i private_key -o StrictHostKeyChecking=no svnuniq@101.53.144.53 "rm -rf /home/svnuniq/public_html/*"
+          scp -P 22527 -i private_key -o StrictHostKeyChecking=no -r ./out/* svnuniq@101.53.144.53:/home/svnuniq/public_html/
+          rm -f private_key
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
