@@ -9,11 +9,13 @@ import LayoutWrapper from "@/components/LayoutWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "SevenUnique Tech Solution pvt. ltd",
-  description: "Your trusted partner for digital solutions and services",
+  title: "Best Web & App Development Company in Jaipur | Sevenunique Tech",
+  description: "Sevenunique Tech Solution is a Jaipur-based software company offering custom web apps, mobile apps, ERP, and scalable tech solutions for your business growth",
+  // title: "SevenUnique Tech Solution pvt. ltd",
+  // description: "Your trusted partner for digital solutions and services",
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    shortcut: "/favicon.ico", 
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
