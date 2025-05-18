@@ -27,12 +27,22 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Deploy via SCP
+      - name: Deploy with Zero Downtime (Atomic Swap)
         run: |
           echo "$SSH_PRIVATE_KEY" > private_key
           chmod 600 private_key
-          ssh -p 22527 -i private_key -o StrictHostKeyChecking=no svnuniq@101.53.144.53 "rm -rf /home/svnuniq/public_html/*"
-          scp -P 22527 -i private_key -o StrictHostKeyChecking=no -r ./out/* svnuniq@101.53.144.53:/home/svnuniq/public_html/
+
+          # Upload new build to a temp directory
+          ssh -p 22527 -i private_key -o StrictHostKeyChecking=no svnuniq@101.53.144.53 "rm -rf /home/svnuniq/_deploy_tmp && mkdir /home/svnuniq/_deploy_tmp"
+          scp -P 22527 -i private_key -o StrictHostKeyChecking=no -r ./out/* svnuniq@101.53.144.53:/home/svnuniq/_deploy_tmp/
+
+          # Atomic swap: backup old, swap new, never down
+          ssh -p 22527 -i private_key -o StrictHostKeyChecking=no svnuniq@101.53.144.53 "
+            rm -rf /home/svnuniq/public_html_old &&
+            mv /home/svnuniq/public_html /home/svnuniq/public_html_old &&
+            mv /home/svnuniq/_deploy_tmp /home/svnuniq/public_html
+          "
+
           rm -f private_key
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
