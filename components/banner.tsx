@@ -5,6 +5,7 @@ import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import '@/styles/globals.css'
  
 interface BannerProps {
   slides: { 
@@ -59,21 +60,14 @@ export default function Banner({ slides, autoplay = true, interval = 5000 }: Ban
           <div className="absolute inset-0 " />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="container mx-auto px-4 mt-3">
+            <div className="container px-1 mt-3">
               <motion.h1
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
                 className="font-bold mb-4"
               >
-               <h1 className="font-bold text-2xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 
-                              w-full md:w-3/4 lg:w-2/3 xl:w-1/2 
-                              leading-tight sm:leading-snug md:leading-normal lg:leading-relaxed
-                              mt-2 sm:mt-6 md:mt-10 lg:mt-10"
-                              
-                              // style={{fontSize: "40px", width: "50%", marginTop: "76px", lineHeight:"50px"}}
-                              
-                              >{slides[current].title}</h1> 
+               <h1 className="font-bold main-title">{slides[current].title}</h1> 
               </motion.h1>
               <motion.p
                 initial={{ y: 20, opacity: 0 }}
