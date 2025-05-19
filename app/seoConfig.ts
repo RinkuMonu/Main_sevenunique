@@ -23,8 +23,8 @@ const seoConfig: Record<string, SEOConfigEntry> = {
     url: "https://www.sevenunique.com/",
     ogTitle: "Best Web & App Development Company in Jaipur | Sevenunique Tech",
     ogDescription: "Sevenunique Tech Solution is a Jaipur-based software company offering custom web apps, mobile apps, ERP, and scalable tech solutions for your business growth.",
-    ogImage: "https://sevenunique.com/image/logo.png",
-    twitterCard: "https://sevenunique.com/image/logo.png"
+    ogImage: "https://sevenunique.com/image/logo.png"
+    
   },
   "/about/": {
     title: "About Sevenunique Tech | Leading Software Company in Jaipur",

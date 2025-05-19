@@ -6,7 +6,7 @@ import Banner from "@/components/banner";
 import { CheckCircle, Target, Lightbulb, Users, Award } from "lucide-react";
 import seoConfig from "../seoConfig";
 import SEO from "@/components/SEO/SEO";
-import type { Metadata } from 'next';
+
 // Sample data for the banner
 const bannerSlides = [
   {
@@ -26,38 +26,6 @@ const partners = [
   { name: "Partner 5", logo: "/placeholder-logo.svg" },
   { name: "Partner 6", logo: "/placeholder-logo.svg" },
 ];
-
-export async function generateMetadata(): Promise<Metadata> {
-  const seoData = seoConfig['/about'] || seoConfig['/'];
-  
-  return {
-    title: seoData.title,
-    description: seoData.description,
-    keywords: seoData.keywords,
-    openGraph: {
-      title: seoData.ogTitle || seoData.title,
-      description: seoData.ogDescription || seoData.description,
-      images: [{ 
-        url: seoData.ogImage || 'https://sevenunique.com/image/logo.png',
-        width: 1200,
-        height: 630,
-        alt: 'Sevenunique Tech About Us',
-      }],
-      url: seoData.url || 'https://www.sevenunique.com/about',
-      type: 'website',
-    },
-    twitter: {
-      card: seoData.twitterCard || 'summary_large_image',
-      title: seoData.ogTitle || seoData.title,
-      description: seoData.ogDescription || seoData.description,
-      images: [seoData.ogImage || 'https://sevenunique.com/image/logo.png'],
-    },
-    alternates: {
-      canonical: seoData.url || 'https://www.sevenunique.com/about',
-    },
-  };
-}
-
 
 export default function AboutPage() {
   return (
