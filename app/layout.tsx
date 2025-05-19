@@ -28,6 +28,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="google-site-verification" content="RWZjH7FjpqqzM6JESht_QLhjtJvhW2vvSN3fvgS2gqI" />
+          <link rel="canonical" href={`https://www.sevenunique.com/about`} />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKTPSQ903C"></script>
         <script
           dangerouslySetInnerHTML={{
