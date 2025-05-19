@@ -21,18 +21,18 @@ import {
 const bannerSlides = [
   {
     image: "/image/banner/E-COMMERCE-DEVELOPMENT.jpg",
-    title: "Premium Mobile App Development Solutions",
+    title: "Premium Mobile App Development Solutions for Your Business Success.We help businesses transform their ideas into reality with cutting-edge technology and creative design.",
     // description:
     //   "We help businesses transform their ideas into reality with cutting-edge technology and creative design.",
   },
   {
     image: "/image/banner/Digital-Marketing.jpg",
-    title: "Cutting-Edge IT-Powered Digital Marketing Services",
+    title: "Cutting-Edge IT-Powered Digital Marketing Services for Your Business Success. Our team of experienced developers and designers are ready to bring your vision to life.",  
     // description: "Our team of experienced developers and designers are ready to bring your vision to life.",
   },
   {
     image: "/image/banner/Mobile App.jpg",
-    title: "Smart & Scalable E-commerce Solutions For The Future",
+    title: "Smart & Scalable E-commerce Solutions For The Future Of Business. From web development to digital marketing, we offer end-to-end solutions for your business needs.",
     // description: "From web development to digital marketing, we offer end-to-end solutions for your business needs.",
   },
 ];
@@ -215,8 +215,11 @@ export default function Home() {
   return (
     <>
       {/* Banner Section */}
+      <div className="mainbanner2">
       <Banner slides={bannerSlides} />
-      
+
+      </div>
+
 
       {/* Services Section */}
       <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">

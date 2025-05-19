@@ -143,14 +143,25 @@ body {
   background: linear-gradient(90deg, #f8c6b0 0, #ffbfa2 40%, #fcc2a8 60%, #fb880700);
   width: 50%;
 }
-
+.banner-shadow.banner2 {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: .3s ease-in-out;
+  background: linear-gradient(90deg, #f8c6b0 0, #ffbfa2 40%, #fcc2a8 60%, #fb880700);
+  width: 70%;
+}
+.mainbanner2 .banner-shadow{
+  width: 80%;
+}
 .main-title {
   font-size: 2rem;
   padding-left: 30px;
   color: #09333c;
   font-weight: 700;
   top: 28%;
-  left: 0%;
+  left: 0%; 
   transform: translate(0%, 0%) !important;
   position: relative;
 }
@@ -163,4 +174,26 @@ body {
     transform: translate(0%, 0%) !important;
     position: relative;
   }
+  .mainbanner2 .main-title{
+    font-size: 14px;
+    top: 20%;
+    left: 0%;
+    transform: translate(0%, 0%) !important;
+    position: relative;
+  }
+}
+@media screen and (max-width: 650px) {
+.mainbanner2 .main-title{
+    font-size: 14px;
+    top: 10%;
+    left: 0%;
+    transform: translate(0%, 0%) !important;
+    position: relative;
+  }
+}
+@media screen and (min-width: 768px) {
+    .mainbanner2 .main-title{
+      width: 80%;
+      top: 20%;
+    }
 }
