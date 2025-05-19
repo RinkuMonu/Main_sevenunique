@@ -134,17 +134,33 @@ body {
   justify-content: center;
 }
 
-.main-title {
-    font-size: 2rem;
-    width: 41%;
-    margin-top: 5rem;
-    line-height: 51px;
-    margin-left: 1.33rem;
+.banner-shadow {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: .3s ease-in-out;
+  background: linear-gradient(90deg, #f8c6b0 0, #ffbfa2 40%, #fcc2a8 60%, #fb880700);
+  width: 50%;
 }
-@media (max-width:768px){
-    .main-title {
-        font-size: unset;
-        line-height: normal;
-        margin-top: 2rem;
-    }
+
+.main-title {
+  font-size: 2rem;
+  padding-left: 30px;
+  color: #09333c;
+  font-weight: 700;
+  top: 28%;
+  left: 0%;
+  transform: translate(0%, 0%) !important;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 1rem;
+    top: 31%;
+    left: 0%;
+    transform: translate(0%, 0%) !important;
+    position: relative;
+  }
 }

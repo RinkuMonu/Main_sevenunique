@@ -1,42 +1,46 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import Image from "next/image"
-import { motion, AnimatePresence } from "framer-motion"
-import { ChevronLeft, ChevronRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import '@/styles/globals.css'
- 
+import { useState, useEffect } from "react";
+import Image from "next/image";
+import { motion, AnimatePresence } from "framer-motion";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import "@/styles/globals.css";
+
 interface BannerProps {
-  slides: { 
-    image: string
-    title: string
+  slides: {
+    image: string;
+    title: string;
     // description: string
-  }[]
-  autoplay?: boolean
-  interval?: number
+  }[];
+  autoplay?: boolean;
+  interval?: number;
 }
 
-export default function Banner({ slides, autoplay = true, interval = 5000 }: BannerProps) {
-  const [current, setCurrent] = useState(0)
+export default function Banner({
+  slides,
+  autoplay = true,
+  interval = 5000,
+}: BannerProps) {
+  const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    if (!autoplay) return
+    if (!autoplay) return;
 
     const timer = setInterval(() => {
-      setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1))
-    }, interval)
+      setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+    }, interval);
 
-    return () => clearInterval(timer)
-  }, [autoplay, interval, slides.length])
+    return () => clearInterval(timer);
+  }, [autoplay, interval, slides.length]);
 
   const next = () => {
-    setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1))
-  }
+    setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+  };
 
   const prev = () => {
-    setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1))
-  }
+    setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+  };
 
   return (
     <div className="relative w-full h-[35vh] md:h-[40vh] lg:h-[60vh] overflow-hidden">
@@ -60,15 +64,16 @@ export default function Banner({ slides, autoplay = true, interval = 5000 }: Ban
           <div className="absolute inset-0 " />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="container px-1 mt-3">
-              <motion.h1
-                initial={{ y: 20, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.2, duration: 0.5 }}
-                className="font-bold mb-4"
-              >
-               <h1 className="font-bold main-title">{slides[current].title}</h1> 
-              </motion.h1>
+            <div className="container px-1 banner-shadow">
+                <motion.h1
+                  initial={{ y: 20, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ delay: 0.2, duration: 0.5 }}
+                  className="font-bold mb-4  main-title"
+                >
+                  {slides[current].title}
+                </motion.h1>
+
               <motion.p
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -115,7 +120,9 @@ export default function Banner({ slides, autoplay = true, interval = 5000 }: Ban
         {slides.map((_, index) => (
           <button
             key={index}
-            className={`w-3 h-3 rounded-full transition-colors ${index === current ? "bg-white" : "bg-white/50"}`}
+            className={`w-3 h-3 rounded-full transition-colors ${
+              index === current ? "bg-white" : "bg-white/50"
+            }`}
             onClick={() => setCurrent(index)}
           >
             <span className="sr-only">Go to slide {index + 1}</span>
@@ -123,5 +130,5 @@ export default function Banner({ slides, autoplay = true, interval = 5000 }: Ban
         ))}
       </div>
     </div>
-  )
+  );
 }

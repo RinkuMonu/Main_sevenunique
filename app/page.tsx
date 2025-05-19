@@ -216,6 +216,7 @@ export default function Home() {
     <>
       {/* Banner Section */}
       <Banner slides={bannerSlides} />
+      
 
       {/* Services Section */}
       <section className="py-16 md:py-24 md:px-24 bg-gray-50 dark:bg-gray-900">
