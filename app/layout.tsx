@@ -15,7 +15,7 @@ export const metadata = {
   // description: "Your trusted partner for digital solutions and services",
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon.ico", 
+    shortcut: "/favicon.ico",  
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",

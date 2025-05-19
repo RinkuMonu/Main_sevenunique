@@ -50,7 +50,7 @@ const seoConfig: Record<string, SEOConfigEntry> = {
     url: "https://www.sevenunique.com/pricing/",
     ogTitle: "Affordable Software Pricing | Custom Solutions in Jaipur",
     ogDescription: "Explore competitive pricing for custom software development services by Sevenunique Tech in Jaipur. Get the best value for your web & mobile app solutions.",
-    ogImage: "https://sevenunique.com/image/logo.png"
+    ogImage: "https://sevenunique.com/image/logo.png" 
   },
   "/ui-ux-design/": {
     title: "UI/UX Design Services | Custom Designs in Jaipur",

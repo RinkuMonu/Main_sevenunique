@@ -7,16 +7,7 @@ import ServiceCard from "@/components/service-card";
 import TestimonialCard from "@/components/testimonial-card";
 import TeamMember from "./team/page";
 import ProjectCard from "@/components/project-card";
-import {
-  Smartphone,
-  Globe,
-  Code,
-  Palette,
-  Gamepad2,
-  BarChart3,
-  CheckCircle,
-  Zap,
-} from "lucide-react";
+import {Smartphone,Globe,Code,Palette,Gamepad2,BarChart3,CheckCircle,Zap,} from "lucide-react";
 
 const bannerSlides = [
   {
@@ -119,7 +110,7 @@ const testimonials = [
     avatar: "./image/avatar.jpg",
     rating: 5,
   },
-  {
+  { 
     content:
       "The attention to detail and technical expertise demonstrated by the team was impressive. Our app has received great feedback from users.",
     author: "Sarah Johnson",
@@ -139,49 +130,7 @@ const testimonials = [
   },
 ];
 
-// Sample data for team members
-const teamMembers = [
-  {
-    name: "Dinesh Kumar",
-    position: "Founder & Promoter (MD)",
-    image: "./image/team/SEVNOO01.jpg",
-    socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-    },
-  },
-  {
-    name: "Amit Balotiya",
-    position: "Founder & Promoter (CEO)",
-    image: "./image/team/SEVNOO02.webp",
-    socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-    },
-  },
-  {
-    name: "Vimal Verma",
-    position: "Vice President",
-    image: "./image/team/SEVNOO04.jpg",
-    socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-    },
-  },
-  {
-    name: "Kamlesh Meena",
-    position: "Sr. business development manager",
-    image: "./image/team/SEVNOO05.webp",
-    socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#",
-    },
-  },
-];
+
 
 // Sample data for strategy steps
 const strategies = [
@@ -340,24 +289,7 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      {/* <section className="py-16 md:py-16 bg-gray-50 dark:bg-gray-900">
-        <div className="container mx-auto px-4">
-          <SectionHeading
-            title="Founder & Promoter"
-            subtitle="Our talented team of professionals is dedicated to delivering exceptional results for our clients."
-          />
-
-          <div className="">
-            <TeamMember limit={2} />
-            {/* <Link
-              href="/team-member"
-              className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
-            >
-              More Team
-            </Link>
-          </div>
-        </div>
-      </section> */}
+      
 
       {/* Strategy Section */}
       <section className="py-16 md:py-24 md:px-24">
