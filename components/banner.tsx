@@ -71,7 +71,7 @@ export default function Banner({
                   transition={{ delay: 0.2, duration: 0.5 }}
                   className="font-bold mb-4  main-title"
                 >
-                  {slides[current].title}
+                  {slides[current].title} 
                 </motion.h1>
 
               <motion.p
