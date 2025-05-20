@@ -12,18 +12,18 @@ import {Smartphone,Globe,Code,Palette,Gamepad2,BarChart3,CheckCircle,Zap,} from 
 const bannerSlides = [
   {
     image: "/image/banner/E-COMMERCE-DEVELOPMENT.jpg",
-    title: "Premium Mobile App Development Solutions for Your Business Success.We help businesses transform their ideas into reality with cutting-edge technology and creative design.",
+    title: "Premium mobile apps to grow your business We turn your ideas into real, smart solutions.",
     // description:
     //   "We help businesses transform their ideas into reality with cutting-edge technology and creative design.",
   },
   {
     image: "/image/banner/Digital-Marketing.jpg",
-    title: "Cutting-Edge IT-Powered Digital Marketing Services for Your Business Success. Our team of experienced developers and designers are ready to bring your vision to life.",  
+    title: "IT-powered digital marketing to boost your business Experts ready to bring your vision to life.",  
     // description: "Our team of experienced developers and designers are ready to bring your vision to life.",
   },
   {
     image: "/image/banner/Mobile App.jpg",
-    title: "Smart & Scalable E-commerce Solutions For The Future Of Business. From web development to digital marketing, we offer end-to-end solutions for your business needs.",
+    title: "Smart, scalable e-commerce solutions for your business From web to marketing, we handle it all.",
     // description: "From web development to digital marketing, we offer end-to-end solutions for your business needs.",
   },
 ];
