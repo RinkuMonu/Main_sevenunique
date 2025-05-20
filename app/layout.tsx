@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import LayoutWrapper from "@/components/LayoutWrapper";
+import SEO from "@/components/SEO/SEO";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +15,7 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico", 
-    apple: "/apple-touch-icon.png",
+    // apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
 };
@@ -53,6 +54,7 @@ export default function RootLayout({
             <main className="flex-1">{children}</main>
             <Footer />
           </div> */}
+          <SEO/>
           <LayoutWrapper>{children}</LayoutWrapper>
         </ThemeProvider>
       </body>

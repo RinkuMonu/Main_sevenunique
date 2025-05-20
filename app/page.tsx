@@ -8,6 +8,7 @@ import TestimonialCard from "@/components/testimonial-card";
 import TeamMember from "./team/page";
 import ProjectCard from "@/components/project-card";
 import {Smartphone,Globe,Code,Palette,Gamepad2,BarChart3,CheckCircle,Zap,} from "lucide-react";
+import SEO from "@/components/SEO/SEO";
 
 const bannerSlides = [
   {
@@ -163,6 +164,7 @@ const strategies = [
 export default function Home() {
   return (
     <>
+    <SEO/>
       {/* Banner Section */}
       <div className="mainbanner2">
       <Banner slides={bannerSlides} />

@@ -149,7 +149,7 @@ body {
   position: absolute;
   top: 0;
   transition: .3s ease-in-out;
-  background: linear-gradient(90deg, #f8c6b0 0, #ffbfa2 40%, #fcc2a8 60%, #fb880700);
+  background: linear-gradient(90deg, #ffcdb7, #ffe2d5 40%, #f9d2c0 60%, #fb880700);
   width: 70%;
 }
 .mainbanner2 .banner-shadow{
