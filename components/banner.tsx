@@ -69,7 +69,7 @@ export default function Banner({
                   initial={{ y: 20, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.2, duration: 0.5 }}
-                  className="text-xs sm:text-xs md:text-xl lg:text-3xl font-bold mb-4 drop-shadow-md mt-10 w-1/2  ml-10 md:mt-20"
+                  className="text-[#09333c] text-xs sm:text-xs md:text-xl lg:text-3xl font-bold mb-4 drop-shadow-md mt-10 w-2/3 sm:w-full md:w-full lg:w-full ml-5 md:mt-20"
                 >
                   {slides[current].title} 
                 </motion.h1>
