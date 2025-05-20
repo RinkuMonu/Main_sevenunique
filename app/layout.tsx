@@ -7,8 +7,8 @@ import LayoutWrapper from "@/components/LayoutWrapper";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Best Web & App Development Company in Jaipur | Sevenunique Tech",
-  description: "Sevenunique Tech Solution is a Jaipur-based software company offering custom web apps, mobile apps, ERP, and scalable tech solutions for your business growth",
+  // title: "Best Web & App Development Company in Jaipur | Sevenunique Tech",
+  // description: "Sevenunique Tech Solution is a Jaipur-based software company offering custom web apps, mobile apps, ERP, and scalable tech solutions for your business growth",
   // title: "SevenUnique Tech Solution pvt. ltd",
   // description: "Your trusted partner for digital solutions and services",
   icons: {
@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="google-site-verification" content="RWZjH7FjpqqzM6JESht_QLhjtJvhW2vvSN3fvgS2gqI" />
-          <link rel="canonical" href={`https://www.sevenunique.com/about`} />
+          {/* <link rel="canonical" href={`https://www.sevenunique.com/about`} /> */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKTPSQ903C"></script>
         <script
           dangerouslySetInnerHTML={{
