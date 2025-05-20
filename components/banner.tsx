@@ -55,21 +55,21 @@ export default function Banner({
         >
           <Image
             src={slides[current].image || "/placeholder.svg"}
-            alt=""
+             alt={slides[current].title || "Banner image"}
             fill
             priority
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 100vw"
+            className="object-fit"
+            sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 100vw"
           />
           <div className="absolute inset-0 " />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="container px-1 banner-shadow">
+            <div className="container px-1 banner-shadow ">
                 <motion.h1
                   initial={{ y: 20, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.2, duration: 0.5 }}
-                  className="font-bold mb-4  main-title"
+                  className="text-xs sm:text-xs md:text-xl lg:text-3xl font-bold mb-4 drop-shadow-md mt-10 w-1/2 ml-10 md:mt-20"
                 >
                   {slides[current].title} 
                 </motion.h1>
